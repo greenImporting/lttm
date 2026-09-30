@@ -12,4 +12,11 @@ filter and format data,  store for calling later
 
 ## config + extra fun
 zoom of map (mayb), accent colors, map update, request rate, api keys??a
-entry point can be easy python main.py
+
+
+usage is limited to 50 without an api key, 500 with one. must write detailed how 2 2 make an account and get api key ( if you want to have this program be super duper useful to yourself), or use less per min
+
+~5m for full refresh of data w/ no api key
+~1m with api key
+
+.gitignore has .env, user must use .env for app.
