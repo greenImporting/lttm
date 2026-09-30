@@ -22,3 +22,4 @@ htmlcov/
 test.py
 .dataharvesting 
 # ^ getting info from api XD
+static_data/
