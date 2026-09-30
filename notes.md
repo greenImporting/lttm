@@ -20,3 +20,6 @@ usage is limited to 50 without an api key, 500 with one. must write detailed how
 ~1m with api key
 
 .gitignore has .env, user must use .env for app.
+
+## api info for self. 
+oh my god there is so much data
