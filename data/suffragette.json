@@ -1,0 +1,539 @@
+{
+  "line_id": "suffragette",
+  "line_name": "",
+  "stop_points": [
+    {
+      "naptanId": "910GBARKING",
+      "modes": [
+        "overground",
+        "national-rail"
+      ],
+      "icsCode": "1000015",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GBARKING",
+      "commonName": "Barking Rail Station",
+      "lat": 51.539495,
+      "lon": 0.080903
+    },
+    {
+      "naptanId": "910GBARKRIV",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1002272",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GBARKRIV",
+      "commonName": "Barking Riverside",
+      "lat": 51.51953,
+      "lon": 0.11596
+    },
+    {
+      "naptanId": "910GBLCHSRD",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000024",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GBLCHSRD",
+      "commonName": "Blackhorse Road Rail Station",
+      "lat": 51.586605,
+      "lon": -0.041236
+    },
+    {
+      "naptanId": "910GCROUCHH",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001077",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GCROUCHH",
+      "commonName": "Crouch Hill Rail Station",
+      "lat": 51.571302,
+      "lon": -0.117149
+    },
+    {
+      "naptanId": "910GGOSPLOK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001119",
+      "lines": [
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GGOSPLOK",
+      "commonName": "Gospel Oak Rail Station",
+      "lat": 51.555335,
+      "lon": -0.15077
+    },
+    {
+      "naptanId": "910GHRGYGL",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001139",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GHRGYGL",
+      "commonName": "Harringay Green Lanes Rail Station",
+      "lat": 51.577182,
+      "lon": -0.098144
+    },
+    {
+      "naptanId": "910GLEYTNMR",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001178",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GLEYTNMR",
+      "commonName": "Leyton Midland Road Rail Station",
+      "lat": 51.569725,
+      "lon": -0.008051
+    },
+    {
+      "naptanId": "910GLYTNSHR",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001179",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GLYTNSHR",
+      "commonName": "Leytonstone High Road Rail Station",
+      "lat": 51.563554,
+      "lon": 0.008416
+    },
+    {
+      "naptanId": "910GSTOTNHM",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001264",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GSTOTNHM",
+      "commonName": "South Tottenham Rail Station",
+      "lat": 51.580372,
+      "lon": -0.072103
+    },
+    {
+      "naptanId": "910GUPRHLWY",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001302",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GUPRHLWY",
+      "commonName": "Upper Holloway Rail Station",
+      "lat": 51.563631,
+      "lon": -0.129513
+    },
+    {
+      "naptanId": "910GWDGRNPK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001341",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GWDGRNPK",
+      "commonName": "Woodgrange Park Rail Station",
+      "lat": 51.549264,
+      "lon": 0.044423
+    },
+    {
+      "naptanId": "910GWLTHQRD",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001308",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GWLTHQRD",
+      "commonName": "Walthamstow Queens Road Rail Station",
+      "lat": 51.581503,
+      "lon": -0.023846
+    },
+    {
+      "naptanId": "910GWNSTDPK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001312",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GWNSTDPK",
+      "commonName": "Wanstead Park Rail Station",
+      "lat": 51.551693,
+      "lon": 0.026213
+    }
+  ],
+  "stoppoints": [
+    {
+      "naptanId": "HUBBKG",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000015",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "HUBBKG",
+      "commonName": "Barking",
+      "lat": 51.539413,
+      "lon": 0.080988
+    },
+    {
+      "naptanId": "910GBARKRIV",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1002272",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GBARKRIV",
+      "commonName": "Barking Riverside",
+      "lat": 51.51953,
+      "lon": 0.11596
+    },
+    {
+      "naptanId": "HUBBHO",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000024",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBBHO",
+      "commonName": "Blackhorse Road",
+      "lat": 51.586768,
+      "lon": -0.041185
+    },
+    {
+      "naptanId": "910GCROUCHH",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001077",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GCROUCHH",
+      "commonName": "Crouch Hill Rail Station",
+      "lat": 51.571302,
+      "lon": -0.117149
+    },
+    {
+      "naptanId": "910GGOSPLOK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001119",
+      "lines": [
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GGOSPLOK",
+      "commonName": "Gospel Oak Rail Station",
+      "lat": 51.555335,
+      "lon": -0.15077
+    },
+    {
+      "naptanId": "910GHRGYGL",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001139",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GHRGYGL",
+      "commonName": "Harringay Green Lanes Rail Station",
+      "lat": 51.577182,
+      "lon": -0.098144
+    },
+    {
+      "naptanId": "910GLEYTNMR",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001178",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GLEYTNMR",
+      "commonName": "Leyton Midland Road Rail Station",
+      "lat": 51.569725,
+      "lon": -0.008051
+    },
+    {
+      "naptanId": "910GLYTNSHR",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001179",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GLYTNSHR",
+      "commonName": "Leytonstone High Road Rail Station",
+      "lat": 51.563554,
+      "lon": 0.008416
+    },
+    {
+      "naptanId": "910GSTOTNHM",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001264",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GSTOTNHM",
+      "commonName": "South Tottenham Rail Station",
+      "lat": 51.580372,
+      "lon": -0.072103
+    },
+    {
+      "naptanId": "910GUPRHLWY",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001302",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GUPRHLWY",
+      "commonName": "Upper Holloway Rail Station",
+      "lat": 51.563631,
+      "lon": -0.129513
+    },
+    {
+      "naptanId": "910GWDGRNPK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001341",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GWDGRNPK",
+      "commonName": "Woodgrange Park Rail Station",
+      "lat": 51.549264,
+      "lon": 0.044423
+    },
+    {
+      "naptanId": "910GWLTHQRD",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001308",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GWLTHQRD",
+      "commonName": "Walthamstow Queens Road Rail Station",
+      "lat": 51.581503,
+      "lon": -0.023846
+    },
+    {
+      "naptanId": "910GWNSTDPK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001312",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "910GWNSTDPK",
+      "commonName": "Wanstead Park Rail Station",
+      "lat": 51.551693,
+      "lon": 0.026213
+    },
+    {
+      "naptanId": "HUBBKG",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000015",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "HUBBKG",
+      "commonName": "Barking",
+      "lat": 51.539413,
+      "lon": 0.080988
+    },
+    {
+      "naptanId": "HUBBHO",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000024",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBBHO",
+      "commonName": "Blackhorse Road",
+      "lat": 51.586768,
+      "lon": -0.041185
+    }
+  ]
+}

@@ -1,0 +1,2279 @@
+{
+  "line_id": "hammersmith-city",
+  "line_name": "",
+  "stop_points": [
+    {
+      "naptanId": "940GZZLUADE",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000004",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUADE",
+      "commonName": "Aldgate East Underground Station",
+      "lat": 51.515037,
+      "lon": -0.072384
+    },
+    {
+      "naptanId": "940GZZLUBBB",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000032",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUBBB",
+      "commonName": "Bromley-by-Bow Underground Station",
+      "lat": 51.524839,
+      "lon": -0.011538
+    },
+    {
+      "naptanId": "940GZZLUBBN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000014",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUBBN",
+      "commonName": "Barbican Underground Station",
+      "lat": 51.520275,
+      "lon": -0.097993
+    },
+    {
+      "naptanId": "940GZZLUBKG",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000015",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUBKG",
+      "commonName": "Barking Underground Station",
+      "lat": 51.539321,
+      "lon": 0.081053
+    },
+    {
+      "naptanId": "940GZZLUBST",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000011",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUBST",
+      "commonName": "Baker Street Underground Station",
+      "lat": 51.522883,
+      "lon": -0.15713
+    },
+    {
+      "naptanId": "940GZZLUBWR",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000029",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUBWR",
+      "commonName": "Bow Road Underground Station",
+      "lat": 51.52694,
+      "lon": -0.025128
+    },
+    {
+      "naptanId": "940GZZLUEHM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000068",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUEHM",
+      "commonName": "East Ham Underground Station",
+      "lat": 51.538948,
+      "lon": 0.051186
+    },
+    {
+      "naptanId": "940GZZLUERC",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000072",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUERC",
+      "commonName": "Edgware Road (Circle Line) Underground Station",
+      "lat": 51.519858,
+      "lon": -0.167832
+    },
+    {
+      "naptanId": "940GZZLUESQ",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000078",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUESQ",
+      "commonName": "Euston Square Underground Station",
+      "lat": 51.525604,
+      "lon": -0.135829
+    },
+    {
+      "naptanId": "940GZZLUFCN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000080",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUFCN",
+      "commonName": "Farringdon Underground Station",
+      "lat": 51.520252,
+      "lon": -0.104913
+    },
+    {
+      "naptanId": "940GZZLUGHK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000088",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUGHK",
+      "commonName": "Goldhawk Road Underground Station",
+      "lat": 51.502005,
+      "lon": -0.226715
+    },
+    {
+      "naptanId": "940GZZLUGPS",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000091",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUGPS",
+      "commonName": "Great Portland Street Underground Station",
+      "lat": 51.52384,
+      "lon": -0.144262
+    },
+    {
+      "naptanId": "940GZZLUHSC",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000097",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUHSC",
+      "commonName": "Hammersmith (H&C Line) Underground Station",
+      "lat": 51.49339,
+      "lon": -0.22503
+    },
+    {
+      "naptanId": "940GZZLUKSX",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000129",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUKSX",
+      "commonName": "King's Cross St. Pancras Underground Station",
+      "lat": 51.530663,
+      "lon": -0.123194
+    },
+    {
+      "naptanId": "940GZZLULAD",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000131",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLULAD",
+      "commonName": "Ladbroke Grove Underground Station",
+      "lat": 51.517449,
+      "lon": -0.210391
+    },
+    {
+      "naptanId": "940GZZLULRD",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000134",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLULRD",
+      "commonName": "Latimer Road Underground Station",
+      "lat": 51.513389,
+      "lon": -0.217799
+    },
+    {
+      "naptanId": "940GZZLULVT",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000138",
+      "lines": [
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLULVT",
+      "commonName": "Liverpool Street Underground Station",
+      "lat": 51.517372,
+      "lon": -0.083182
+    },
+    {
+      "naptanId": "940GZZLUMED",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000146",
+      "lines": [
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUMED",
+      "commonName": "Mile End Underground Station",
+      "lat": 51.525122,
+      "lon": -0.03364
+    },
+    {
+      "naptanId": "940GZZLUMGT",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000149",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        }
+      ],
+      "id": "940GZZLUMGT",
+      "commonName": "Moorgate Underground Station",
+      "lat": 51.518176,
+      "lon": -0.088322
+    },
+    {
+      "naptanId": "940GZZLUPAH",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000175",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUPAH",
+      "commonName": "Paddington (H&C Line)-Underground",
+      "lat": 51.518187,
+      "lon": -0.178306
+    },
+    {
+      "naptanId": "940GZZLUPLW",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000182",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUPLW",
+      "commonName": "Plaistow Underground Station",
+      "lat": 51.531341,
+      "lon": 0.017451
+    },
+    {
+      "naptanId": "940GZZLURYO",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000196",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLURYO",
+      "commonName": "Royal Oak Underground Station",
+      "lat": 51.519113,
+      "lon": -0.188748
+    },
+    {
+      "naptanId": "940GZZLUSBM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000204",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUSBM",
+      "commonName": "Shepherd's Bush Market Underground Station",
+      "lat": 51.505579,
+      "lon": -0.226375
+    },
+    {
+      "naptanId": "940GZZLUSGN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000220",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUSGN",
+      "commonName": "Stepney Green Underground Station",
+      "lat": 51.521858,
+      "lon": -0.046596
+    },
+    {
+      "naptanId": "940GZZLUUPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000245",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUUPK",
+      "commonName": "Upton Park Underground Station",
+      "lat": 51.53534,
+      "lon": 0.035263
+    },
+    {
+      "naptanId": "940GZZLUWHM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000262",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUWHM",
+      "commonName": "West Ham Underground Station",
+      "lat": 51.528136,
+      "lon": 0.005055
+    },
+    {
+      "naptanId": "940GZZLUWLA",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000278",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUWLA",
+      "commonName": "Wood Lane Underground Station",
+      "lat": 51.509669,
+      "lon": -0.22453
+    },
+    {
+      "naptanId": "940GZZLUWPL",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000268",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUWPL",
+      "commonName": "Whitechapel Underground Station",
+      "lat": 51.519518,
+      "lon": -0.059971
+    },
+    {
+      "naptanId": "940GZZLUWSP",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000259",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUWSP",
+      "commonName": "Westbourne Park Underground Station",
+      "lat": 51.52111,
+      "lon": -0.201065
+    }
+  ],
+  "stoppoints": [
+    {
+      "naptanId": "HUBBKG",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000015",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "HUBBKG",
+      "commonName": "Barking",
+      "lat": 51.539413,
+      "lon": 0.080988
+    },
+    {
+      "naptanId": "HUBZFD",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000080",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        }
+      ],
+      "id": "HUBZFD",
+      "commonName": "Farringdon",
+      "lat": 51.520214,
+      "lon": -0.105054
+    },
+    {
+      "naptanId": "HUBLST",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000138",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "weaver",
+          "name": "Weaver"
+        }
+      ],
+      "id": "HUBLST",
+      "commonName": "Liverpool Street",
+      "lat": 51.51794,
+      "lon": -0.083162
+    },
+    {
+      "naptanId": "HUBLST",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000138",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "weaver",
+          "name": "Weaver"
+        }
+      ],
+      "id": "HUBLST",
+      "commonName": "Liverpool Street",
+      "lat": 51.51794,
+      "lon": -0.083162
+    },
+    {
+      "naptanId": "HUBPAD",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000174",
+      "lines": [
+        {
+          "id": "16",
+          "name": "16"
+        },
+        {
+          "id": "23",
+          "name": "23"
+        },
+        {
+          "id": "27",
+          "name": "27"
+        },
+        {
+          "id": "36",
+          "name": "36"
+        },
+        {
+          "id": "7",
+          "name": "7"
+        },
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "great-western-railway",
+          "name": "Great Western Railway"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "heathrow-express",
+          "name": "Heathrow Express"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n27",
+          "name": "N27"
+        },
+        {
+          "id": "n7",
+          "name": "N7"
+        }
+      ],
+      "id": "HUBPAD",
+      "commonName": "Paddington",
+      "lat": 51.516981,
+      "lon": -0.17616
+    },
+    {
+      "naptanId": "HUBPAD",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000174",
+      "lines": [
+        {
+          "id": "16",
+          "name": "16"
+        },
+        {
+          "id": "23",
+          "name": "23"
+        },
+        {
+          "id": "27",
+          "name": "27"
+        },
+        {
+          "id": "36",
+          "name": "36"
+        },
+        {
+          "id": "7",
+          "name": "7"
+        },
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "great-western-railway",
+          "name": "Great Western Railway"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "heathrow-express",
+          "name": "Heathrow Express"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n27",
+          "name": "N27"
+        },
+        {
+          "id": "n7",
+          "name": "N7"
+        }
+      ],
+      "id": "HUBPAD",
+      "commonName": "Paddington",
+      "lat": 51.516981,
+      "lon": -0.17616
+    },
+    {
+      "naptanId": "HUBZWL",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000268",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "windrush",
+          "name": "Windrush"
+        }
+      ],
+      "id": "HUBZWL",
+      "commonName": "Whitechapel",
+      "lat": 51.519498,
+      "lon": -0.059858
+    },
+    {
+      "naptanId": "HUBZWL",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000268",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "windrush",
+          "name": "Windrush"
+        }
+      ],
+      "id": "HUBZWL",
+      "commonName": "Whitechapel",
+      "lat": 51.519498,
+      "lon": -0.059858
+    },
+    {
+      "naptanId": "HUBWEH",
+      "modes": [
+        "bus",
+        "dlr",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000262",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "HUBWEH",
+      "commonName": "West Ham",
+      "lat": 51.528178,
+      "lon": 0.004997
+    },
+    {
+      "naptanId": "940GZZLUADE",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000004",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUADE",
+      "commonName": "Aldgate East Underground Station",
+      "lat": 51.515037,
+      "lon": -0.072384
+    },
+    {
+      "naptanId": "940GZZLUBBB",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000032",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUBBB",
+      "commonName": "Bromley-by-Bow Underground Station",
+      "lat": 51.524839,
+      "lon": -0.011538
+    },
+    {
+      "naptanId": "940GZZLUBBN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000014",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUBBN",
+      "commonName": "Barbican Underground Station",
+      "lat": 51.520275,
+      "lon": -0.097993
+    },
+    {
+      "naptanId": "HUBBKG",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000015",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        }
+      ],
+      "id": "HUBBKG",
+      "commonName": "Barking",
+      "lat": 51.539413,
+      "lon": 0.080988
+    },
+    {
+      "naptanId": "940GZZLUBST",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000011",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUBST",
+      "commonName": "Baker Street Underground Station",
+      "lat": 51.522883,
+      "lon": -0.15713
+    },
+    {
+      "naptanId": "940GZZLUBWR",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000029",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUBWR",
+      "commonName": "Bow Road Underground Station",
+      "lat": 51.52694,
+      "lon": -0.025128
+    },
+    {
+      "naptanId": "940GZZLUEHM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000068",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUEHM",
+      "commonName": "East Ham Underground Station",
+      "lat": 51.538948,
+      "lon": 0.051186
+    },
+    {
+      "naptanId": "940GZZLUERC",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000072",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUERC",
+      "commonName": "Edgware Road (Circle Line) Underground Station",
+      "lat": 51.519858,
+      "lon": -0.167832
+    },
+    {
+      "naptanId": "940GZZLUESQ",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000078",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUESQ",
+      "commonName": "Euston Square Underground Station",
+      "lat": 51.525604,
+      "lon": -0.135829
+    },
+    {
+      "naptanId": "HUBZFD",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000080",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        }
+      ],
+      "id": "HUBZFD",
+      "commonName": "Farringdon",
+      "lat": 51.520214,
+      "lon": -0.105054
+    },
+    {
+      "naptanId": "940GZZLUGHK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000088",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUGHK",
+      "commonName": "Goldhawk Road Underground Station",
+      "lat": 51.502005,
+      "lon": -0.226715
+    },
+    {
+      "naptanId": "940GZZLUGPS",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000091",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUGPS",
+      "commonName": "Great Portland Street Underground Station",
+      "lat": 51.52384,
+      "lon": -0.144262
+    },
+    {
+      "naptanId": "HUBHMS",
+      "modes": [
+        "bus",
+        "tube"
+      ],
+      "icsCode": "1000096",
+      "lines": [
+        {
+          "id": "110",
+          "name": "110"
+        },
+        {
+          "id": "190",
+          "name": "190"
+        },
+        {
+          "id": "209",
+          "name": "209"
+        },
+        {
+          "id": "211",
+          "name": "211"
+        },
+        {
+          "id": "218",
+          "name": "218"
+        },
+        {
+          "id": "220",
+          "name": "220"
+        },
+        {
+          "id": "267",
+          "name": "267"
+        },
+        {
+          "id": "27",
+          "name": "27"
+        },
+        {
+          "id": "295",
+          "name": "295"
+        },
+        {
+          "id": "306",
+          "name": "306"
+        },
+        {
+          "id": "72",
+          "name": "72"
+        },
+        {
+          "id": "9",
+          "name": "9"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "h91",
+          "name": "H91"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "n11",
+          "name": "N11"
+        },
+        {
+          "id": "n266",
+          "name": "N266"
+        },
+        {
+          "id": "n27",
+          "name": "N27"
+        },
+        {
+          "id": "n33",
+          "name": "N33"
+        },
+        {
+          "id": "n72",
+          "name": "N72"
+        },
+        {
+          "id": "n9",
+          "name": "N9"
+        },
+        {
+          "id": "n97",
+          "name": "N97"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        }
+      ],
+      "id": "HUBHMS",
+      "commonName": "Hammersmith",
+      "lat": 51.492304,
+      "lon": -0.223619
+    },
+    {
+      "naptanId": "HUBHMS",
+      "modes": [
+        "bus",
+        "tube"
+      ],
+      "icsCode": "1000096",
+      "lines": [
+        {
+          "id": "110",
+          "name": "110"
+        },
+        {
+          "id": "190",
+          "name": "190"
+        },
+        {
+          "id": "209",
+          "name": "209"
+        },
+        {
+          "id": "211",
+          "name": "211"
+        },
+        {
+          "id": "218",
+          "name": "218"
+        },
+        {
+          "id": "220",
+          "name": "220"
+        },
+        {
+          "id": "267",
+          "name": "267"
+        },
+        {
+          "id": "27",
+          "name": "27"
+        },
+        {
+          "id": "295",
+          "name": "295"
+        },
+        {
+          "id": "306",
+          "name": "306"
+        },
+        {
+          "id": "72",
+          "name": "72"
+        },
+        {
+          "id": "9",
+          "name": "9"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "h91",
+          "name": "H91"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "n11",
+          "name": "N11"
+        },
+        {
+          "id": "n266",
+          "name": "N266"
+        },
+        {
+          "id": "n27",
+          "name": "N27"
+        },
+        {
+          "id": "n33",
+          "name": "N33"
+        },
+        {
+          "id": "n72",
+          "name": "N72"
+        },
+        {
+          "id": "n9",
+          "name": "N9"
+        },
+        {
+          "id": "n97",
+          "name": "N97"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        }
+      ],
+      "id": "HUBHMS",
+      "commonName": "Hammersmith",
+      "lat": 51.492304,
+      "lon": -0.223619
+    },
+    {
+      "naptanId": "HUBKGX",
+      "modes": [
+        "bus",
+        "international-rail",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000129",
+      "lines": [
+        {
+          "id": "17",
+          "name": "17"
+        },
+        {
+          "id": "205",
+          "name": "205"
+        },
+        {
+          "id": "214",
+          "name": "214"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "390",
+          "name": "390"
+        },
+        {
+          "id": "46",
+          "name": "46"
+        },
+        {
+          "id": "476",
+          "name": "476"
+        },
+        {
+          "id": "63",
+          "name": "63"
+        },
+        {
+          "id": "73",
+          "name": "73"
+        },
+        {
+          "id": "91",
+          "name": "91"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "east-midlands-railway",
+          "name": "East Midlands Railway"
+        },
+        {
+          "id": "grand-central",
+          "name": "Grand Central"
+        },
+        {
+          "id": "great-northern",
+          "name": "Great Northern"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "hull-trains",
+          "name": "Hull Trains"
+        },
+        {
+          "id": "london-north-eastern-railway",
+          "name": "London North Eastern Railway"
+        },
+        {
+          "id": "lumo",
+          "name": "Lumo"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n63",
+          "name": "N63"
+        },
+        {
+          "id": "n73",
+          "name": "N73"
+        },
+        {
+          "id": "n91",
+          "name": "N91"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBKGX",
+      "commonName": "King's Cross & St Pancras International",
+      "lat": 51.531683,
+      "lon": -0.123538
+    },
+    {
+      "naptanId": "940GZZLULAD",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000131",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLULAD",
+      "commonName": "Ladbroke Grove Underground Station",
+      "lat": 51.517449,
+      "lon": -0.210391
+    },
+    {
+      "naptanId": "940GZZLULRD",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000134",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLULRD",
+      "commonName": "Latimer Road Underground Station",
+      "lat": 51.513389,
+      "lon": -0.217799
+    },
+    {
+      "naptanId": "HUBLST",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000138",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "weaver",
+          "name": "Weaver"
+        }
+      ],
+      "id": "HUBLST",
+      "commonName": "Liverpool Street",
+      "lat": 51.51794,
+      "lon": -0.083162
+    },
+    {
+      "naptanId": "940GZZLUMED",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000146",
+      "lines": [
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUMED",
+      "commonName": "Mile End Underground Station",
+      "lat": 51.525122,
+      "lon": -0.03364
+    },
+    {
+      "naptanId": "HUBZMG",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000149",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "great-northern",
+          "name": "Great Northern"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        }
+      ],
+      "id": "HUBZMG",
+      "commonName": "Moorgate",
+      "lat": 51.518338,
+      "lon": -0.088627
+    },
+    {
+      "naptanId": "HUBPAD",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000174",
+      "lines": [
+        {
+          "id": "16",
+          "name": "16"
+        },
+        {
+          "id": "23",
+          "name": "23"
+        },
+        {
+          "id": "27",
+          "name": "27"
+        },
+        {
+          "id": "36",
+          "name": "36"
+        },
+        {
+          "id": "7",
+          "name": "7"
+        },
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "great-western-railway",
+          "name": "Great Western Railway"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "heathrow-express",
+          "name": "Heathrow Express"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n27",
+          "name": "N27"
+        },
+        {
+          "id": "n7",
+          "name": "N7"
+        }
+      ],
+      "id": "HUBPAD",
+      "commonName": "Paddington",
+      "lat": 51.516981,
+      "lon": -0.17616
+    },
+    {
+      "naptanId": "HUBPAD",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000174",
+      "lines": [
+        {
+          "id": "16",
+          "name": "16"
+        },
+        {
+          "id": "23",
+          "name": "23"
+        },
+        {
+          "id": "27",
+          "name": "27"
+        },
+        {
+          "id": "36",
+          "name": "36"
+        },
+        {
+          "id": "7",
+          "name": "7"
+        },
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "great-western-railway",
+          "name": "Great Western Railway"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "heathrow-express",
+          "name": "Heathrow Express"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n27",
+          "name": "N27"
+        },
+        {
+          "id": "n7",
+          "name": "N7"
+        }
+      ],
+      "id": "HUBPAD",
+      "commonName": "Paddington",
+      "lat": 51.516981,
+      "lon": -0.17616
+    },
+    {
+      "naptanId": "940GZZLUPLW",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000182",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUPLW",
+      "commonName": "Plaistow Underground Station",
+      "lat": 51.531341,
+      "lon": 0.017451
+    },
+    {
+      "naptanId": "940GZZLURYO",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000196",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLURYO",
+      "commonName": "Royal Oak Underground Station",
+      "lat": 51.519113,
+      "lon": -0.188748
+    },
+    {
+      "naptanId": "940GZZLUSBM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000204",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUSBM",
+      "commonName": "Shepherd's Bush Market Underground Station",
+      "lat": 51.505579,
+      "lon": -0.226375
+    },
+    {
+      "naptanId": "940GZZLUSGN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000220",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUSGN",
+      "commonName": "Stepney Green Underground Station",
+      "lat": 51.521858,
+      "lon": -0.046596
+    },
+    {
+      "naptanId": "940GZZLUUPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000245",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUUPK",
+      "commonName": "Upton Park Underground Station",
+      "lat": 51.53534,
+      "lon": 0.035263
+    },
+    {
+      "naptanId": "HUBWEH",
+      "modes": [
+        "bus",
+        "dlr",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000262",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "HUBWEH",
+      "commonName": "West Ham",
+      "lat": 51.528178,
+      "lon": 0.004997
+    },
+    {
+      "naptanId": "940GZZLUWLA",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000278",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUWLA",
+      "commonName": "Wood Lane Underground Station",
+      "lat": 51.509669,
+      "lon": -0.22453
+    },
+    {
+      "naptanId": "HUBZWL",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000268",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "windrush",
+          "name": "Windrush"
+        }
+      ],
+      "id": "HUBZWL",
+      "commonName": "Whitechapel",
+      "lat": 51.519498,
+      "lon": -0.059858
+    },
+    {
+      "naptanId": "940GZZLUWSP",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000259",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        }
+      ],
+      "id": "940GZZLUWSP",
+      "commonName": "Westbourne Park Underground Station",
+      "lat": 51.52111,
+      "lon": -0.201065
+    }
+  ]
+}

@@ -1,0 +1,1200 @@
+{
+  "line_id": "victoria",
+  "line_name": "",
+  "stop_points": [
+    {
+      "naptanId": "940GZZLUBLR",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000024",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUBLR",
+      "commonName": "Blackhorse Road Underground Station",
+      "lat": 51.586919,
+      "lon": -0.04115
+    },
+    {
+      "naptanId": "940GZZLUBXN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000031",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUBXN",
+      "commonName": "Brixton Underground Station",
+      "lat": 51.462618,
+      "lon": -0.114888
+    },
+    {
+      "naptanId": "940GZZLUEUS",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000077",
+      "lines": [
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUEUS",
+      "commonName": "Euston Underground Station",
+      "lat": 51.527999,
+      "lon": -0.133785
+    },
+    {
+      "naptanId": "940GZZLUFPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000083",
+      "lines": [
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUFPK",
+      "commonName": "Finsbury Park Underground Station",
+      "lat": 51.564158,
+      "lon": -0.106825
+    },
+    {
+      "naptanId": "940GZZLUGPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000093",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUGPK",
+      "commonName": "Green Park Underground Station",
+      "lat": 51.506947,
+      "lon": -0.142787
+    },
+    {
+      "naptanId": "940GZZLUHAI",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000108",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUHAI",
+      "commonName": "Highbury & Islington Underground Station",
+      "lat": 51.54635,
+      "lon": -0.103324
+    },
+    {
+      "naptanId": "940GZZLUKSX",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000129",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUKSX",
+      "commonName": "King's Cross St. Pancras Underground Station",
+      "lat": 51.530663,
+      "lon": -0.123194
+    },
+    {
+      "naptanId": "940GZZLUOXC",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000173",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUOXC",
+      "commonName": "Oxford Circus Underground Station",
+      "lat": 51.515224,
+      "lon": -0.141903
+    },
+    {
+      "naptanId": "940GZZLUPCO",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000180",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUPCO",
+      "commonName": "Pimlico Underground Station",
+      "lat": 51.489097,
+      "lon": -0.133761
+    },
+    {
+      "naptanId": "940GZZLUSKW",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000223",
+      "lines": [
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUSKW",
+      "commonName": "Stockwell Underground Station",
+      "lat": 51.472184,
+      "lon": -0.122644
+    },
+    {
+      "naptanId": "940GZZLUSVS",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000201",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUSVS",
+      "commonName": "Seven Sisters Underground Station",
+      "lat": 51.58333,
+      "lon": -0.072584
+    },
+    {
+      "naptanId": "940GZZLUTMH",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000236",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUTMH",
+      "commonName": "Tottenham Hale Underground Station",
+      "lat": 51.588108,
+      "lon": -0.060241
+    },
+    {
+      "naptanId": "940GZZLUVIC",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000248",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUVIC",
+      "commonName": "Victoria Underground Station",
+      "lat": 51.496359,
+      "lon": -0.143102
+    },
+    {
+      "naptanId": "940GZZLUVXL",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000247",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUVXL",
+      "commonName": "Vauxhall Underground Station",
+      "lat": 51.485743,
+      "lon": -0.124204
+    },
+    {
+      "naptanId": "940GZZLUWRR",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000252",
+      "lines": [
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUWRR",
+      "commonName": "Warren Street Underground Station",
+      "lat": 51.524951,
+      "lon": -0.138321
+    },
+    {
+      "naptanId": "940GZZLUWWL",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000249",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUWWL",
+      "commonName": "Walthamstow Central Underground Station",
+      "lat": 51.582965,
+      "lon": -0.019885
+    }
+  ],
+  "stoppoints": [
+    {
+      "naptanId": "HUBBHO",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000024",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBBHO",
+      "commonName": "Blackhorse Road",
+      "lat": 51.586768,
+      "lon": -0.041185
+    },
+    {
+      "naptanId": "HUBEUS",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000077",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "68",
+          "name": "68"
+        },
+        {
+          "id": "91",
+          "name": "91"
+        },
+        {
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "n20",
+          "name": "N20"
+        },
+        {
+          "id": "n253",
+          "name": "N253"
+        },
+        {
+          "id": "n5",
+          "name": "N5"
+        },
+        {
+          "id": "n91",
+          "name": "N91"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "HUBEUS",
+      "commonName": "Euston",
+      "lat": 51.527365,
+      "lon": -0.132754
+    },
+    {
+      "naptanId": "HUBHHY",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000108",
+      "lines": [
+        {
+          "id": "great-northern",
+          "name": "Great Northern"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "windrush",
+          "name": "Windrush"
+        }
+      ],
+      "id": "HUBHHY",
+      "commonName": "Highbury & Islington",
+      "lat": 51.546269,
+      "lon": -0.103538
+    },
+    {
+      "naptanId": "HUBSVS",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000201",
+      "lines": [
+        {
+          "id": "149",
+          "name": "149"
+        },
+        {
+          "id": "243",
+          "name": "243"
+        },
+        {
+          "id": "279",
+          "name": "279"
+        },
+        {
+          "id": "318",
+          "name": "318"
+        },
+        {
+          "id": "476",
+          "name": "476"
+        },
+        {
+          "id": "76",
+          "name": "76"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "n73",
+          "name": "N73"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "weaver",
+          "name": "Weaver"
+        }
+      ],
+      "id": "HUBSVS",
+      "commonName": "Seven Sisters",
+      "lat": 51.582931,
+      "lon": -0.073306
+    },
+    {
+      "naptanId": "HUBWHC",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000249",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "weaver",
+          "name": "Weaver"
+        }
+      ],
+      "id": "HUBWHC",
+      "commonName": "Walthamstow Central",
+      "lat": 51.582948,
+      "lon": -0.019842
+    },
+    {
+      "naptanId": "HUBBHO",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000024",
+      "lines": [
+        {
+          "id": "suffragette",
+          "name": "Suffragette"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBBHO",
+      "commonName": "Blackhorse Road",
+      "lat": 51.586768,
+      "lon": -0.041185
+    },
+    {
+      "naptanId": "HUBBRX",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000031",
+      "lines": [
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBBRX",
+      "commonName": "Brixton",
+      "lat": 51.462961,
+      "lon": -0.114531
+    },
+    {
+      "naptanId": "HUBEUS",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000077",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "68",
+          "name": "68"
+        },
+        {
+          "id": "91",
+          "name": "91"
+        },
+        {
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "n20",
+          "name": "N20"
+        },
+        {
+          "id": "n253",
+          "name": "N253"
+        },
+        {
+          "id": "n5",
+          "name": "N5"
+        },
+        {
+          "id": "n91",
+          "name": "N91"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "HUBEUS",
+      "commonName": "Euston",
+      "lat": 51.527365,
+      "lon": -0.132754
+    },
+    {
+      "naptanId": "HUBFPK",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000083",
+      "lines": [
+        {
+          "id": "106",
+          "name": "106"
+        },
+        {
+          "id": "153",
+          "name": "153"
+        },
+        {
+          "id": "19",
+          "name": "19"
+        },
+        {
+          "id": "236",
+          "name": "236"
+        },
+        {
+          "id": "253",
+          "name": "253"
+        },
+        {
+          "id": "254",
+          "name": "254"
+        },
+        {
+          "id": "259",
+          "name": "259"
+        },
+        {
+          "id": "29",
+          "name": "29"
+        },
+        {
+          "id": "310",
+          "name": "310"
+        },
+        {
+          "id": "4",
+          "name": "4"
+        },
+        {
+          "id": "great-northern",
+          "name": "Great Northern"
+        },
+        {
+          "id": "n19",
+          "name": "N19"
+        },
+        {
+          "id": "n253",
+          "name": "N253"
+        },
+        {
+          "id": "n279",
+          "name": "N279"
+        },
+        {
+          "id": "n29",
+          "name": "N29"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBFPK",
+      "commonName": "Finsbury Park",
+      "lat": 51.564778,
+      "lon": -0.105876
+    },
+    {
+      "naptanId": "940GZZLUGPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000093",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUGPK",
+      "commonName": "Green Park Underground Station",
+      "lat": 51.506947,
+      "lon": -0.142787
+    },
+    {
+      "naptanId": "HUBHHY",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000108",
+      "lines": [
+        {
+          "id": "great-northern",
+          "name": "Great Northern"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "windrush",
+          "name": "Windrush"
+        }
+      ],
+      "id": "HUBHHY",
+      "commonName": "Highbury & Islington",
+      "lat": 51.546269,
+      "lon": -0.103538
+    },
+    {
+      "naptanId": "HUBKGX",
+      "modes": [
+        "bus",
+        "international-rail",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000129",
+      "lines": [
+        {
+          "id": "17",
+          "name": "17"
+        },
+        {
+          "id": "205",
+          "name": "205"
+        },
+        {
+          "id": "214",
+          "name": "214"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "390",
+          "name": "390"
+        },
+        {
+          "id": "46",
+          "name": "46"
+        },
+        {
+          "id": "476",
+          "name": "476"
+        },
+        {
+          "id": "63",
+          "name": "63"
+        },
+        {
+          "id": "73",
+          "name": "73"
+        },
+        {
+          "id": "91",
+          "name": "91"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "east-midlands-railway",
+          "name": "East Midlands Railway"
+        },
+        {
+          "id": "grand-central",
+          "name": "Grand Central"
+        },
+        {
+          "id": "great-northern",
+          "name": "Great Northern"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "hull-trains",
+          "name": "Hull Trains"
+        },
+        {
+          "id": "london-north-eastern-railway",
+          "name": "London North Eastern Railway"
+        },
+        {
+          "id": "lumo",
+          "name": "Lumo"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n63",
+          "name": "N63"
+        },
+        {
+          "id": "n73",
+          "name": "N73"
+        },
+        {
+          "id": "n91",
+          "name": "N91"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBKGX",
+      "commonName": "King's Cross & St Pancras International",
+      "lat": 51.531683,
+      "lon": -0.123538
+    },
+    {
+      "naptanId": "940GZZLUOXC",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000173",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUOXC",
+      "commonName": "Oxford Circus Underground Station",
+      "lat": 51.515224,
+      "lon": -0.141903
+    },
+    {
+      "naptanId": "940GZZLUPCO",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000180",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUPCO",
+      "commonName": "Pimlico Underground Station",
+      "lat": 51.489097,
+      "lon": -0.133761
+    },
+    {
+      "naptanId": "940GZZLUSKW",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000223",
+      "lines": [
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUSKW",
+      "commonName": "Stockwell Underground Station",
+      "lat": 51.472184,
+      "lon": -0.122644
+    },
+    {
+      "naptanId": "HUBSVS",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000201",
+      "lines": [
+        {
+          "id": "149",
+          "name": "149"
+        },
+        {
+          "id": "243",
+          "name": "243"
+        },
+        {
+          "id": "279",
+          "name": "279"
+        },
+        {
+          "id": "318",
+          "name": "318"
+        },
+        {
+          "id": "476",
+          "name": "476"
+        },
+        {
+          "id": "76",
+          "name": "76"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "n73",
+          "name": "N73"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "weaver",
+          "name": "Weaver"
+        }
+      ],
+      "id": "HUBSVS",
+      "commonName": "Seven Sisters",
+      "lat": 51.582931,
+      "lon": -0.073306
+    },
+    {
+      "naptanId": "HUBTOM",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000236",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBTOM",
+      "commonName": "Tottenham Hale",
+      "lat": 51.588315,
+      "lon": -0.06024
+    },
+    {
+      "naptanId": "HUBVIC",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000248",
+      "lines": [
+        {
+          "id": "3",
+          "name": "3"
+        },
+        {
+          "id": "38",
+          "name": "38"
+        },
+        {
+          "id": "390",
+          "name": "390"
+        },
+        {
+          "id": "52",
+          "name": "52"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "gatwick-express",
+          "name": "Gatwick Express"
+        },
+        {
+          "id": "n38",
+          "name": "N38"
+        },
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBVIC",
+      "commonName": "Victoria",
+      "lat": 51.495812,
+      "lon": -0.143826
+    },
+    {
+      "naptanId": "HUBVXH",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000247",
+      "lines": [
+        {
+          "id": "south-western-railway",
+          "name": "South Western Railway"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "HUBVXH",
+      "commonName": "Vauxhall",
+      "lat": 51.485739,
+      "lon": -0.123303
+    },
+    {
+      "naptanId": "940GZZLUWRR",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000252",
+      "lines": [
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUWRR",
+      "commonName": "Warren Street Underground Station",
+      "lat": 51.524951,
+      "lon": -0.138321
+    },
+    {
+      "naptanId": "HUBWHC",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000249",
+      "lines": [
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "weaver",
+          "name": "Weaver"
+        }
+      ],
+      "id": "HUBWHC",
+      "commonName": "Walthamstow Central",
+      "lat": 51.582948,
+      "lon": -0.019842
+    }
+  ]
+}

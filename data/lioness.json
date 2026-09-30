@@ -1,0 +1,1164 @@
+{
+  "line_id": "lioness",
+  "line_name": "",
+  "stop_points": [
+    {
+      "naptanId": "910GBUSHYDC",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001041",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GBUSHYDC",
+      "commonName": "Bushey Rail Station",
+      "lat": 51.645691,
+      "lon": -0.385612
+    },
+    {
+      "naptanId": "910GCRPNDPK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001049",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GCRPNDPK",
+      "commonName": "Carpenders Park Rail Station",
+      "lat": 51.628351,
+      "lon": -0.385939
+    },
+    {
+      "naptanId": "910GEUSTON",
+      "modes": [
+        "overground",
+        "national-rail"
+      ],
+      "icsCode": "1000077",
+      "lines": [
+        {
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "910GEUSTON",
+      "commonName": "London Euston Rail Station",
+      "lat": 51.528136,
+      "lon": -0.133924
+    },
+    {
+      "naptanId": "910GHARLSDN",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000100",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GHARLSDN",
+      "commonName": "Harlesden Rail Station",
+      "lat": 51.536289,
+      "lon": -0.257667
+    },
+    {
+      "naptanId": "910GHEDSTNL",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001146",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GHEDSTNL",
+      "commonName": "Headstone Lane Rail Station",
+      "lat": 51.602649,
+      "lon": -0.35722
+    },
+    {
+      "naptanId": "910GHROW",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "icsCode": "1000101",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "910GHROW",
+      "commonName": "Harrow & Wealdstone Rail Station",
+      "lat": 51.592169,
+      "lon": -0.334571
+    },
+    {
+      "naptanId": "910GHTCHEND",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001142",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GHTCHEND",
+      "commonName": "Hatch End Rail Station",
+      "lat": 51.609417,
+      "lon": -0.368601
+    },
+    {
+      "naptanId": "910GKENSLG",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000122",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GKENSLG",
+      "commonName": "Kensal Green Rail Station",
+      "lat": 51.53054,
+      "lon": -0.225088
+    },
+    {
+      "naptanId": "910GKLBRNHR",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001170",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GKLBRNHR",
+      "commonName": "Kilburn High Road Rail Station",
+      "lat": 51.537277,
+      "lon": -0.192237
+    },
+    {
+      "naptanId": "910GKTON",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000124",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GKTON",
+      "commonName": "Kenton Rail Station",
+      "lat": 51.581802,
+      "lon": -0.316981
+    },
+    {
+      "naptanId": "910GNWEMBLY",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000163",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GNWEMBLY",
+      "commonName": "North Wembley Rail Station",
+      "lat": 51.562596,
+      "lon": -0.303984
+    },
+    {
+      "naptanId": "910GQPRK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000186",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GQPRK",
+      "commonName": "Queens Park (London) Rail Station",
+      "lat": 51.533966,
+      "lon": -0.204985
+    },
+    {
+      "naptanId": "910GSHMPSTD",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001260",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GSHMPSTD",
+      "commonName": "South Hampstead Rail Station",
+      "lat": 51.541432,
+      "lon": -0.178878
+    },
+    {
+      "naptanId": "910GSKENTON",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000213",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GSKENTON",
+      "commonName": "South Kenton Rail Station",
+      "lat": 51.570214,
+      "lon": -0.308462
+    },
+    {
+      "naptanId": "910GSTNBGPK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000224",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GSTNBGPK",
+      "commonName": "Stonebridge Park Rail Station",
+      "lat": 51.544111,
+      "lon": -0.275828
+    },
+    {
+      "naptanId": "910GWATFDHS",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001316",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GWATFDHS",
+      "commonName": "Watford High Street Rail Station",
+      "lat": 51.652655,
+      "lon": -0.391711
+    },
+    {
+      "naptanId": "910GWATFJDC",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001317",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GWATFJDC",
+      "commonName": "Watford Junction Rail Station",
+      "lat": 51.663529,
+      "lon": -0.396517
+    },
+    {
+      "naptanId": "910GWLSDJHL",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1000271",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        }
+      ],
+      "id": "910GWLSDJHL",
+      "commonName": "Willesden Junction Rail Station",
+      "lat": 51.532497,
+      "lon": -0.244548
+    },
+    {
+      "naptanId": "910GWMBY",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "icsCode": "1000256",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ],
+      "id": "910GWMBY",
+      "commonName": "Wembley Central Rail Station",
+      "lat": 51.552325,
+      "lon": -0.296433
+    }
+  ],
+  "stoppoints": [
+    {
+      "naptanId": "HUBBSH",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground"
+      ],
+      "icsCode": "1001041",
+      "lines": [
+        {
+          "id": "142",
+          "name": "142"
+        },
+        {
+          "id": "258",
+          "name": "258"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "HUBBSH",
+      "commonName": "Bushey",
+      "lat": 51.645582,
+      "lon": -0.384752
+    },
+    {
+      "naptanId": "910GCRPNDPK",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001049",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GCRPNDPK",
+      "commonName": "Carpenders Park Rail Station",
+      "lat": 51.628351,
+      "lon": -0.385939
+    },
+    {
+      "naptanId": "HUBEUS",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000077",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "68",
+          "name": "68"
+        },
+        {
+          "id": "91",
+          "name": "91"
+        },
+        {
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "n20",
+          "name": "N20"
+        },
+        {
+          "id": "n253",
+          "name": "N253"
+        },
+        {
+          "id": "n5",
+          "name": "N5"
+        },
+        {
+          "id": "n91",
+          "name": "N91"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "HUBEUS",
+      "commonName": "Euston",
+      "lat": 51.527365,
+      "lon": -0.132754
+    },
+    {
+      "naptanId": "HUBHDN",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000100",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBHDN",
+      "commonName": "Harlesden",
+      "lat": 51.536305,
+      "lon": -0.257774
+    },
+    {
+      "naptanId": "910GHEDSTNL",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001146",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GHEDSTNL",
+      "commonName": "Headstone Lane Rail Station",
+      "lat": 51.602649,
+      "lon": -0.35722
+    },
+    {
+      "naptanId": "HUBHRW",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000101",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "HUBHRW",
+      "commonName": "Harrow & Wealdstone",
+      "lat": 51.592216,
+      "lon": -0.334896
+    },
+    {
+      "naptanId": "910GHTCHEND",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001142",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GHTCHEND",
+      "commonName": "Hatch End Rail Station",
+      "lat": 51.609417,
+      "lon": -0.368601
+    },
+    {
+      "naptanId": "HUBKNL",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000122",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBKNL",
+      "commonName": "Kensal Green",
+      "lat": 51.530545,
+      "lon": -0.22505
+    },
+    {
+      "naptanId": "910GKLBRNHR",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001170",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GKLBRNHR",
+      "commonName": "Kilburn High Road Rail Station",
+      "lat": 51.537277,
+      "lon": -0.192237
+    },
+    {
+      "naptanId": "HUBKNT",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000124",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBKNT",
+      "commonName": "Kenton",
+      "lat": 51.581786,
+      "lon": -0.316946
+    },
+    {
+      "naptanId": "HUBNWB",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000163",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBNWB",
+      "commonName": "North Wembley",
+      "lat": 51.56258,
+      "lon": -0.303992
+    },
+    {
+      "naptanId": "HUBQPW",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000186",
+      "lines": [
+        {
+          "id": "206",
+          "name": "206"
+        },
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBQPW",
+      "commonName": "Queen's Park",
+      "lat": 51.534443,
+      "lon": -0.204882
+    },
+    {
+      "naptanId": "910GSHMPSTD",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001260",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GSHMPSTD",
+      "commonName": "South Hampstead Rail Station",
+      "lat": 51.541432,
+      "lon": -0.178878
+    },
+    {
+      "naptanId": "HUBSOK",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000213",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBSOK",
+      "commonName": "South Kenton",
+      "lat": 51.570229,
+      "lon": -0.308448
+    },
+    {
+      "naptanId": "HUBSBP",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000224",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBSBP",
+      "commonName": "Stonebridge Park",
+      "lat": 51.544041,
+      "lon": -0.275859
+    },
+    {
+      "naptanId": "910GWATFDHS",
+      "modes": [
+        "overground"
+      ],
+      "icsCode": "1001316",
+      "lines": [
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "910GWATFDHS",
+      "commonName": "Watford High Street Rail Station",
+      "lat": 51.652655,
+      "lon": -0.391711
+    },
+    {
+      "naptanId": "HUBWFJ",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground"
+      ],
+      "icsCode": "1001317",
+      "lines": [
+        {
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "HUBWFJ",
+      "commonName": "Watford Junction",
+      "lat": 51.663908,
+      "lon": -0.395928
+    },
+    {
+      "naptanId": "HUBWIJ",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000271",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        }
+      ],
+      "id": "HUBWIJ",
+      "commonName": "Willesden Junction",
+      "lat": 51.532556,
+      "lon": -0.243006
+    },
+    {
+      "naptanId": "HUBWMB",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000256",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ],
+      "id": "HUBWMB",
+      "commonName": "Wembley Central",
+      "lat": 51.55232,
+      "lon": -0.296642
+    },
+    {
+      "naptanId": "HUBEUS",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000077",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "68",
+          "name": "68"
+        },
+        {
+          "id": "91",
+          "name": "91"
+        },
+        {
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "n20",
+          "name": "N20"
+        },
+        {
+          "id": "n253",
+          "name": "N253"
+        },
+        {
+          "id": "n5",
+          "name": "N5"
+        },
+        {
+          "id": "n91",
+          "name": "N91"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "HUBEUS",
+      "commonName": "Euston",
+      "lat": 51.527365,
+      "lon": -0.132754
+    },
+    {
+      "naptanId": "HUBHRW",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000101",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ],
+      "id": "HUBHRW",
+      "commonName": "Harrow & Wealdstone",
+      "lat": 51.592216,
+      "lon": -0.334896
+    },
+    {
+      "naptanId": "HUBHDN",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000100",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBHDN",
+      "commonName": "Harlesden",
+      "lat": 51.536305,
+      "lon": -0.257774
+    },
+    {
+      "naptanId": "HUBKNT",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000124",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBKNT",
+      "commonName": "Kenton",
+      "lat": 51.581786,
+      "lon": -0.316946
+    },
+    {
+      "naptanId": "HUBKNL",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000122",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBKNL",
+      "commonName": "Kensal Green",
+      "lat": 51.530545,
+      "lon": -0.22505
+    },
+    {
+      "naptanId": "HUBNWB",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000163",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBNWB",
+      "commonName": "North Wembley",
+      "lat": 51.56258,
+      "lon": -0.303992
+    },
+    {
+      "naptanId": "HUBQPW",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000186",
+      "lines": [
+        {
+          "id": "206",
+          "name": "206"
+        },
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBQPW",
+      "commonName": "Queen's Park",
+      "lat": 51.534443,
+      "lon": -0.204882
+    },
+    {
+      "naptanId": "HUBSBP",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000224",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBSBP",
+      "commonName": "Stonebridge Park",
+      "lat": 51.544041,
+      "lon": -0.275859
+    },
+    {
+      "naptanId": "HUBSOK",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000213",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        }
+      ],
+      "id": "HUBSOK",
+      "commonName": "South Kenton",
+      "lat": 51.570229,
+      "lon": -0.308448
+    },
+    {
+      "naptanId": "HUBWIJ",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000271",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        }
+      ],
+      "id": "HUBWIJ",
+      "commonName": "Willesden Junction",
+      "lat": 51.532556,
+      "lon": -0.243006
+    },
+    {
+      "naptanId": "HUBWMB",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000256",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "lioness",
+          "name": "Lioness"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ],
+      "id": "HUBWMB",
+      "commonName": "Wembley Central",
+      "lat": 51.55232,
+      "lon": -0.296642
+    }
+  ]
+}

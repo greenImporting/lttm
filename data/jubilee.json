@@ -1,0 +1,2131 @@
+{
+  "line_id": "jubilee",
+  "line_name": "",
+  "stop_points": [
+    {
+      "naptanId": "940GZZLUBMY",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000021",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUBMY",
+      "commonName": "Bermondsey Underground Station",
+      "lat": 51.49775,
+      "lon": -0.063993
+    },
+    {
+      "naptanId": "940GZZLUBND",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000025",
+      "lines": [
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUBND",
+      "commonName": "Bond Street Underground Station",
+      "lat": 51.514304,
+      "lon": -0.149723
+    },
+    {
+      "naptanId": "940GZZLUBST",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000011",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUBST",
+      "commonName": "Baker Street Underground Station",
+      "lat": 51.522883,
+      "lon": -0.15713
+    },
+    {
+      "naptanId": "940GZZLUCGT",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000039",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUCGT",
+      "commonName": "Canning Town Underground Station",
+      "lat": 51.513584,
+      "lon": 0.008322
+    },
+    {
+      "naptanId": "940GZZLUCPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000041",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUCPK",
+      "commonName": "Canons Park Underground Station",
+      "lat": 51.607701,
+      "lon": -0.294693
+    },
+    {
+      "naptanId": "940GZZLUCWR",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000037",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUCWR",
+      "commonName": "Canada Water Underground Station",
+      "lat": 51.497931,
+      "lon": -0.049405
+    },
+    {
+      "naptanId": "940GZZLUCYF",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000038",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUCYF",
+      "commonName": "Canary Wharf Underground Station",
+      "lat": 51.503488,
+      "lon": -0.018246
+    },
+    {
+      "naptanId": "940GZZLUDOH",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000061",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUDOH",
+      "commonName": "Dollis Hill Underground Station",
+      "lat": 51.551955,
+      "lon": -0.239068
+    },
+    {
+      "naptanId": "940GZZLUFYR",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000082",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUFYR",
+      "commonName": "Finchley Road Underground Station",
+      "lat": 51.546825,
+      "lon": -0.179845
+    },
+    {
+      "naptanId": "940GZZLUGPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000093",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUGPK",
+      "commonName": "Green Park Underground Station",
+      "lat": 51.506947,
+      "lon": -0.142787
+    },
+    {
+      "naptanId": "940GZZLUKBN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000126",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUKBN",
+      "commonName": "Kilburn Underground Station",
+      "lat": 51.547183,
+      "lon": -0.204248
+    },
+    {
+      "naptanId": "940GZZLUKBY",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000128",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUKBY",
+      "commonName": "Kingsbury Underground Station",
+      "lat": 51.584845,
+      "lon": -0.27879
+    },
+    {
+      "naptanId": "940GZZLULNB",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000139",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        }
+      ],
+      "id": "940GZZLULNB",
+      "commonName": "London Bridge Underground Station",
+      "lat": 51.505721,
+      "lon": -0.088873
+    },
+    {
+      "naptanId": "940GZZLUNDN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000153",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUNDN",
+      "commonName": "Neasden Underground Station",
+      "lat": 51.553986,
+      "lon": -0.249837
+    },
+    {
+      "naptanId": "940GZZLUNGW",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000160",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUNGW",
+      "commonName": "North Greenwich Underground Station",
+      "lat": 51.50047,
+      "lon": 0.004287
+    },
+    {
+      "naptanId": "940GZZLUQBY",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000185",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUQBY",
+      "commonName": "Queensbury Underground Station",
+      "lat": 51.594188,
+      "lon": -0.286219
+    },
+    {
+      "naptanId": "940GZZLUSJW",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000222",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSJW",
+      "commonName": "St. John's Wood Underground Station",
+      "lat": 51.534521,
+      "lon": -0.173948
+    },
+    {
+      "naptanId": "940GZZLUSTD",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000226",
+      "lines": [
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSTD",
+      "commonName": "Stratford Underground Station",
+      "lat": 51.541806,
+      "lon": -0.003458
+    },
+    {
+      "naptanId": "940GZZLUSTM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000219",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSTM",
+      "commonName": "Stanmore Underground Station",
+      "lat": 51.619839,
+      "lon": -0.303266
+    },
+    {
+      "naptanId": "940GZZLUSWC",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000230",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSWC",
+      "commonName": "Swiss Cottage Underground Station",
+      "lat": 51.543681,
+      "lon": -0.174894
+    },
+    {
+      "naptanId": "940GZZLUSWK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000215",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSWK",
+      "commonName": "Southwark Underground Station",
+      "lat": 51.50427,
+      "lon": -0.105331
+    },
+    {
+      "naptanId": "940GZZLUWHM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000262",
+      "lines": [
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUWHM",
+      "commonName": "West Ham Underground Station",
+      "lat": 51.528136,
+      "lon": 0.005055
+    },
+    {
+      "naptanId": "940GZZLUWHP",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000263",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUWHP",
+      "commonName": "West Hampstead Underground Station",
+      "lat": 51.546638,
+      "lon": -0.191059
+    },
+    {
+      "naptanId": "940GZZLUWIG",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000270",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUWIG",
+      "commonName": "Willesden Green Underground Station",
+      "lat": 51.549146,
+      "lon": -0.221537
+    },
+    {
+      "naptanId": "940GZZLUWLO",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000254",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "waterloo-city",
+          "name": "Waterloo & City"
+        }
+      ],
+      "id": "940GZZLUWLO",
+      "commonName": "Waterloo Underground Station",
+      "lat": 51.503299,
+      "lon": -0.11478
+    },
+    {
+      "naptanId": "940GZZLUWSM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000266",
+      "lines": [
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUWSM",
+      "commonName": "Westminster Underground Station",
+      "lat": 51.50132,
+      "lon": -0.124861
+    },
+    {
+      "naptanId": "940GZZLUWYP",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000257",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUWYP",
+      "commonName": "Wembley Park Underground Station",
+      "lat": 51.563198,
+      "lon": -0.279262
+    }
+  ],
+  "stoppoints": [
+    {
+      "naptanId": "HUBBDS",
+      "modes": [
+        "elizabeth-line",
+        "tube"
+      ],
+      "icsCode": "1000025",
+      "lines": [
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "HUBBDS",
+      "commonName": "Bond Street",
+      "lat": 51.513362,
+      "lon": -0.148795
+    },
+    {
+      "naptanId": "HUBCAW",
+      "modes": [
+        "bus",
+        "dlr",
+        "elizabeth-line",
+        "tube"
+      ],
+      "icsCode": "1000038",
+      "lines": [
+        {
+          "id": "135",
+          "name": "135"
+        },
+        {
+          "id": "277",
+          "name": "277"
+        },
+        {
+          "id": "d7",
+          "name": "D7"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "n277",
+          "name": "N277"
+        },
+        {
+          "id": "n550",
+          "name": "N550"
+        }
+      ],
+      "id": "HUBCAW",
+      "commonName": "Canary Wharf",
+      "lat": 51.503734,
+      "lon": -0.019121
+    },
+    {
+      "naptanId": "HUBZCW",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000037",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "188",
+          "name": "188"
+        },
+        {
+          "id": "199",
+          "name": "199"
+        },
+        {
+          "id": "225",
+          "name": "225"
+        },
+        {
+          "id": "381",
+          "name": "381"
+        },
+        {
+          "id": "47",
+          "name": "47"
+        },
+        {
+          "id": "c10",
+          "name": "C10"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "n199",
+          "name": "N199"
+        },
+        {
+          "id": "n381",
+          "name": "N381"
+        },
+        {
+          "id": "p12",
+          "name": "P12"
+        },
+        {
+          "id": "windrush",
+          "name": "Windrush"
+        }
+      ],
+      "id": "HUBZCW",
+      "commonName": "Canada Water",
+      "lat": 51.498053,
+      "lon": -0.049667
+    },
+    {
+      "naptanId": "HUBSRA",
+      "modes": [
+        "bus",
+        "dlr",
+        "elizabeth-line",
+        "international-rail",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000226",
+      "lines": [
+        {
+          "id": "104",
+          "name": "104"
+        },
+        {
+          "id": "108",
+          "name": "108"
+        },
+        {
+          "id": "158",
+          "name": "158"
+        },
+        {
+          "id": "238",
+          "name": "238"
+        },
+        {
+          "id": "241",
+          "name": "241"
+        },
+        {
+          "id": "25",
+          "name": "25"
+        },
+        {
+          "id": "257",
+          "name": "257"
+        },
+        {
+          "id": "262",
+          "name": "262"
+        },
+        {
+          "id": "276",
+          "name": "276"
+        },
+        {
+          "id": "308",
+          "name": "308"
+        },
+        {
+          "id": "339",
+          "name": "339"
+        },
+        {
+          "id": "388",
+          "name": "388"
+        },
+        {
+          "id": "425",
+          "name": "425"
+        },
+        {
+          "id": "473",
+          "name": "473"
+        },
+        {
+          "id": "678",
+          "name": "678"
+        },
+        {
+          "id": "69",
+          "name": "69"
+        },
+        {
+          "id": "86",
+          "name": "86"
+        },
+        {
+          "id": "97",
+          "name": "97"
+        },
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "d8",
+          "name": "D8"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n25",
+          "name": "N25"
+        },
+        {
+          "id": "n8",
+          "name": "N8"
+        },
+        {
+          "id": "n86",
+          "name": "N86"
+        }
+      ],
+      "id": "HUBSRA",
+      "commonName": "Stratford",
+      "lat": 51.541508,
+      "lon": -0.00241
+    },
+    {
+      "naptanId": "HUBWHD",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000263",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        }
+      ],
+      "id": "HUBWHD",
+      "commonName": "West Hampstead",
+      "lat": 51.547533,
+      "lon": -0.191357
+    },
+    {
+      "naptanId": "HUBCAW",
+      "modes": [
+        "bus",
+        "dlr",
+        "elizabeth-line",
+        "tube"
+      ],
+      "icsCode": "1000038",
+      "lines": [
+        {
+          "id": "135",
+          "name": "135"
+        },
+        {
+          "id": "277",
+          "name": "277"
+        },
+        {
+          "id": "d7",
+          "name": "D7"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "n277",
+          "name": "N277"
+        },
+        {
+          "id": "n550",
+          "name": "N550"
+        }
+      ],
+      "id": "HUBCAW",
+      "commonName": "Canary Wharf",
+      "lat": 51.503734,
+      "lon": -0.019121
+    },
+    {
+      "naptanId": "HUBCAN",
+      "modes": [
+        "bus",
+        "dlr",
+        "tube"
+      ],
+      "icsCode": "1000039",
+      "lines": [
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "HUBCAN",
+      "commonName": "Canning Town",
+      "lat": 51.514029,
+      "lon": 0.008025
+    },
+    {
+      "naptanId": "HUBSRA",
+      "modes": [
+        "bus",
+        "dlr",
+        "elizabeth-line",
+        "international-rail",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000226",
+      "lines": [
+        {
+          "id": "104",
+          "name": "104"
+        },
+        {
+          "id": "108",
+          "name": "108"
+        },
+        {
+          "id": "158",
+          "name": "158"
+        },
+        {
+          "id": "238",
+          "name": "238"
+        },
+        {
+          "id": "241",
+          "name": "241"
+        },
+        {
+          "id": "25",
+          "name": "25"
+        },
+        {
+          "id": "257",
+          "name": "257"
+        },
+        {
+          "id": "262",
+          "name": "262"
+        },
+        {
+          "id": "276",
+          "name": "276"
+        },
+        {
+          "id": "308",
+          "name": "308"
+        },
+        {
+          "id": "339",
+          "name": "339"
+        },
+        {
+          "id": "388",
+          "name": "388"
+        },
+        {
+          "id": "425",
+          "name": "425"
+        },
+        {
+          "id": "473",
+          "name": "473"
+        },
+        {
+          "id": "678",
+          "name": "678"
+        },
+        {
+          "id": "69",
+          "name": "69"
+        },
+        {
+          "id": "86",
+          "name": "86"
+        },
+        {
+          "id": "97",
+          "name": "97"
+        },
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "d8",
+          "name": "D8"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n25",
+          "name": "N25"
+        },
+        {
+          "id": "n8",
+          "name": "N8"
+        },
+        {
+          "id": "n86",
+          "name": "N86"
+        }
+      ],
+      "id": "HUBSRA",
+      "commonName": "Stratford",
+      "lat": 51.541508,
+      "lon": -0.00241
+    },
+    {
+      "naptanId": "HUBWEH",
+      "modes": [
+        "bus",
+        "dlr",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000262",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "HUBWEH",
+      "commonName": "West Ham",
+      "lat": 51.528178,
+      "lon": 0.004997
+    },
+    {
+      "naptanId": "940GZZLUBMY",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000021",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUBMY",
+      "commonName": "Bermondsey Underground Station",
+      "lat": 51.49775,
+      "lon": -0.063993
+    },
+    {
+      "naptanId": "HUBBDS",
+      "modes": [
+        "elizabeth-line",
+        "tube"
+      ],
+      "icsCode": "1000025",
+      "lines": [
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "HUBBDS",
+      "commonName": "Bond Street",
+      "lat": 51.513362,
+      "lon": -0.148795
+    },
+    {
+      "naptanId": "940GZZLUBST",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000011",
+      "lines": [
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUBST",
+      "commonName": "Baker Street Underground Station",
+      "lat": 51.522883,
+      "lon": -0.15713
+    },
+    {
+      "naptanId": "HUBCAN",
+      "modes": [
+        "bus",
+        "dlr",
+        "tube"
+      ],
+      "icsCode": "1000039",
+      "lines": [
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "HUBCAN",
+      "commonName": "Canning Town",
+      "lat": 51.514029,
+      "lon": 0.008025
+    },
+    {
+      "naptanId": "940GZZLUCPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000041",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUCPK",
+      "commonName": "Canons Park Underground Station",
+      "lat": 51.607701,
+      "lon": -0.294693
+    },
+    {
+      "naptanId": "HUBZCW",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000037",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "188",
+          "name": "188"
+        },
+        {
+          "id": "199",
+          "name": "199"
+        },
+        {
+          "id": "225",
+          "name": "225"
+        },
+        {
+          "id": "381",
+          "name": "381"
+        },
+        {
+          "id": "47",
+          "name": "47"
+        },
+        {
+          "id": "c10",
+          "name": "C10"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "n199",
+          "name": "N199"
+        },
+        {
+          "id": "n381",
+          "name": "N381"
+        },
+        {
+          "id": "p12",
+          "name": "P12"
+        },
+        {
+          "id": "windrush",
+          "name": "Windrush"
+        }
+      ],
+      "id": "HUBZCW",
+      "commonName": "Canada Water",
+      "lat": 51.498053,
+      "lon": -0.049667
+    },
+    {
+      "naptanId": "HUBCAW",
+      "modes": [
+        "bus",
+        "dlr",
+        "elizabeth-line",
+        "tube"
+      ],
+      "icsCode": "1000038",
+      "lines": [
+        {
+          "id": "135",
+          "name": "135"
+        },
+        {
+          "id": "277",
+          "name": "277"
+        },
+        {
+          "id": "d7",
+          "name": "D7"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "n277",
+          "name": "N277"
+        },
+        {
+          "id": "n550",
+          "name": "N550"
+        }
+      ],
+      "id": "HUBCAW",
+      "commonName": "Canary Wharf",
+      "lat": 51.503734,
+      "lon": -0.019121
+    },
+    {
+      "naptanId": "940GZZLUDOH",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000061",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUDOH",
+      "commonName": "Dollis Hill Underground Station",
+      "lat": 51.551955,
+      "lon": -0.239068
+    },
+    {
+      "naptanId": "940GZZLUFYR",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000082",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUFYR",
+      "commonName": "Finchley Road Underground Station",
+      "lat": 51.546825,
+      "lon": -0.179845
+    },
+    {
+      "naptanId": "940GZZLUGPK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000093",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "piccadilly",
+          "name": "Piccadilly"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria"
+        }
+      ],
+      "id": "940GZZLUGPK",
+      "commonName": "Green Park Underground Station",
+      "lat": 51.506947,
+      "lon": -0.142787
+    },
+    {
+      "naptanId": "940GZZLUKBN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000126",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUKBN",
+      "commonName": "Kilburn Underground Station",
+      "lat": 51.547183,
+      "lon": -0.204248
+    },
+    {
+      "naptanId": "940GZZLUKBY",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000128",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUKBY",
+      "commonName": "Kingsbury Underground Station",
+      "lat": 51.584845,
+      "lon": -0.27879
+    },
+    {
+      "naptanId": "HUBLBG",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000139",
+      "lines": [
+        {
+          "id": "133",
+          "name": "133"
+        },
+        {
+          "id": "141",
+          "name": "141"
+        },
+        {
+          "id": "149",
+          "name": "149"
+        },
+        {
+          "id": "17",
+          "name": "17"
+        },
+        {
+          "id": "21",
+          "name": "21"
+        },
+        {
+          "id": "344",
+          "name": "344"
+        },
+        {
+          "id": "35",
+          "name": "35"
+        },
+        {
+          "id": "388",
+          "name": "388"
+        },
+        {
+          "id": "43",
+          "name": "43"
+        },
+        {
+          "id": "47",
+          "name": "47"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "n133",
+          "name": "N133"
+        },
+        {
+          "id": "n199",
+          "name": "N199"
+        },
+        {
+          "id": "n21",
+          "name": "N21"
+        },
+        {
+          "id": "n343",
+          "name": "N343"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        }
+      ],
+      "id": "HUBLBG",
+      "commonName": "London Bridge",
+      "lat": 51.505881,
+      "lon": -0.086807
+    },
+    {
+      "naptanId": "940GZZLUNDN",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000153",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUNDN",
+      "commonName": "Neasden Underground Station",
+      "lat": 51.553986,
+      "lon": -0.249837
+    },
+    {
+      "naptanId": "HUBNGW",
+      "modes": [
+        "bus",
+        "cable-car",
+        "tube"
+      ],
+      "icsCode": "1000160",
+      "lines": [
+        {
+          "id": "108",
+          "name": "108"
+        },
+        {
+          "id": "129",
+          "name": "129"
+        },
+        {
+          "id": "132",
+          "name": "132"
+        },
+        {
+          "id": "161",
+          "name": "161"
+        },
+        {
+          "id": "180",
+          "name": "180"
+        },
+        {
+          "id": "188",
+          "name": "188"
+        },
+        {
+          "id": "335",
+          "name": "335"
+        },
+        {
+          "id": "422",
+          "name": "422"
+        },
+        {
+          "id": "486",
+          "name": "486"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "london-cable-car",
+          "name": "London Cable Car"
+        },
+        {
+          "id": "n472",
+          "name": "N472"
+        },
+        {
+          "id": "sl11",
+          "name": "SL11"
+        }
+      ],
+      "id": "HUBNGW",
+      "commonName": "North Greenwich",
+      "lat": 51.500474,
+      "lon": 0.004295
+    },
+    {
+      "naptanId": "940GZZLUQBY",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000185",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUQBY",
+      "commonName": "Queensbury Underground Station",
+      "lat": 51.594188,
+      "lon": -0.286219
+    },
+    {
+      "naptanId": "940GZZLUSJW",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000222",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSJW",
+      "commonName": "St. John's Wood Underground Station",
+      "lat": 51.534521,
+      "lon": -0.173948
+    },
+    {
+      "naptanId": "HUBSRA",
+      "modes": [
+        "bus",
+        "dlr",
+        "elizabeth-line",
+        "international-rail",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000226",
+      "lines": [
+        {
+          "id": "104",
+          "name": "104"
+        },
+        {
+          "id": "108",
+          "name": "108"
+        },
+        {
+          "id": "158",
+          "name": "158"
+        },
+        {
+          "id": "238",
+          "name": "238"
+        },
+        {
+          "id": "241",
+          "name": "241"
+        },
+        {
+          "id": "25",
+          "name": "25"
+        },
+        {
+          "id": "257",
+          "name": "257"
+        },
+        {
+          "id": "262",
+          "name": "262"
+        },
+        {
+          "id": "276",
+          "name": "276"
+        },
+        {
+          "id": "308",
+          "name": "308"
+        },
+        {
+          "id": "339",
+          "name": "339"
+        },
+        {
+          "id": "388",
+          "name": "388"
+        },
+        {
+          "id": "425",
+          "name": "425"
+        },
+        {
+          "id": "473",
+          "name": "473"
+        },
+        {
+          "id": "678",
+          "name": "678"
+        },
+        {
+          "id": "69",
+          "name": "69"
+        },
+        {
+          "id": "86",
+          "name": "86"
+        },
+        {
+          "id": "97",
+          "name": "97"
+        },
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "central",
+          "name": "Central"
+        },
+        {
+          "id": "d8",
+          "name": "D8"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "n205",
+          "name": "N205"
+        },
+        {
+          "id": "n25",
+          "name": "N25"
+        },
+        {
+          "id": "n8",
+          "name": "N8"
+        },
+        {
+          "id": "n86",
+          "name": "N86"
+        }
+      ],
+      "id": "HUBSRA",
+      "commonName": "Stratford",
+      "lat": 51.541508,
+      "lon": -0.00241
+    },
+    {
+      "naptanId": "940GZZLUSTM",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000219",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSTM",
+      "commonName": "Stanmore Underground Station",
+      "lat": 51.619839,
+      "lon": -0.303266
+    },
+    {
+      "naptanId": "940GZZLUSWC",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000230",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSWC",
+      "commonName": "Swiss Cottage Underground Station",
+      "lat": 51.543681,
+      "lon": -0.174894
+    },
+    {
+      "naptanId": "940GZZLUSWK",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000215",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "940GZZLUSWK",
+      "commonName": "Southwark Underground Station",
+      "lat": 51.50427,
+      "lon": -0.105331
+    },
+    {
+      "naptanId": "HUBWEH",
+      "modes": [
+        "bus",
+        "dlr",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000262",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "dlr",
+          "name": "DLR"
+        },
+        {
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        }
+      ],
+      "id": "HUBWEH",
+      "commonName": "West Ham",
+      "lat": 51.528178,
+      "lon": 0.004997
+    },
+    {
+      "naptanId": "HUBWHD",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "icsCode": "1000263",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "mildmay",
+          "name": "Mildmay"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        }
+      ],
+      "id": "HUBWHD",
+      "commonName": "West Hampstead",
+      "lat": 51.547533,
+      "lon": -0.191357
+    },
+    {
+      "naptanId": "940GZZLUWIG",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000270",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUWIG",
+      "commonName": "Willesden Green Underground Station",
+      "lat": 51.549146,
+      "lon": -0.221537
+    },
+    {
+      "naptanId": "HUBWAT",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "icsCode": "1000254",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "11",
+          "name": "11"
+        },
+        {
+          "id": "139",
+          "name": "139"
+        },
+        {
+          "id": "172",
+          "name": "172"
+        },
+        {
+          "id": "176",
+          "name": "176"
+        },
+        {
+          "id": "188",
+          "name": "188"
+        },
+        {
+          "id": "243",
+          "name": "243"
+        },
+        {
+          "id": "341",
+          "name": "341"
+        },
+        {
+          "id": "381",
+          "name": "381"
+        },
+        {
+          "id": "59",
+          "name": "59"
+        },
+        {
+          "id": "68",
+          "name": "68"
+        },
+        {
+          "id": "76",
+          "name": "76"
+        },
+        {
+          "id": "77",
+          "name": "77"
+        },
+        {
+          "id": "bakerloo",
+          "name": "Bakerloo"
+        },
+        {
+          "id": "bl1",
+          "name": "BL1"
+        },
+        {
+          "id": "c10",
+          "name": "C10"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "n1",
+          "name": "N1"
+        },
+        {
+          "id": "n171",
+          "name": "N171"
+        },
+        {
+          "id": "n381",
+          "name": "N381"
+        },
+        {
+          "id": "n68",
+          "name": "N68"
+        },
+        {
+          "id": "northern",
+          "name": "Northern"
+        },
+        {
+          "id": "sl6",
+          "name": "SL6"
+        },
+        {
+          "id": "south-western-railway",
+          "name": "South Western Railway"
+        },
+        {
+          "id": "waterloo-city",
+          "name": "Waterloo & City"
+        }
+      ],
+      "id": "HUBWAT",
+      "commonName": "Waterloo",
+      "lat": 51.504269,
+      "lon": -0.113356
+    },
+    {
+      "naptanId": "HUBWSM",
+      "modes": [
+        "bus",
+        "tube"
+      ],
+      "icsCode": "1000266",
+      "lines": [
+        {
+          "id": "12",
+          "name": "12"
+        },
+        {
+          "id": "159",
+          "name": "159"
+        },
+        {
+          "id": "24",
+          "name": "24"
+        },
+        {
+          "id": "26",
+          "name": "26"
+        },
+        {
+          "id": "453",
+          "name": "453"
+        },
+        {
+          "id": "87",
+          "name": "87"
+        },
+        {
+          "id": "88",
+          "name": "88"
+        },
+        {
+          "id": "circle",
+          "name": "Circle"
+        },
+        {
+          "id": "district",
+          "name": "District"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "n109",
+          "name": "N109"
+        },
+        {
+          "id": "n11",
+          "name": "N11"
+        },
+        {
+          "id": "n136",
+          "name": "N136"
+        },
+        {
+          "id": "n155",
+          "name": "N155"
+        },
+        {
+          "id": "n26",
+          "name": "N26"
+        },
+        {
+          "id": "n3",
+          "name": "N3"
+        },
+        {
+          "id": "n381",
+          "name": "N381"
+        },
+        {
+          "id": "n44",
+          "name": "N44"
+        },
+        {
+          "id": "n53",
+          "name": "N53"
+        },
+        {
+          "id": "n87",
+          "name": "N87"
+        }
+      ],
+      "id": "HUBWSM",
+      "commonName": "Westminster",
+      "lat": 51.501603,
+      "lon": -0.125984
+    },
+    {
+      "naptanId": "940GZZLUWYP",
+      "modes": [
+        "tube"
+      ],
+      "icsCode": "1000257",
+      "lines": [
+        {
+          "id": "jubilee",
+          "name": "Jubilee"
+        },
+        {
+          "id": "metropolitan",
+          "name": "Metropolitan"
+        }
+      ],
+      "id": "940GZZLUWYP",
+      "commonName": "Wembley Park Underground Station",
+      "lat": 51.563198,
+      "lon": -0.279262
+    }
+  ]
+}
