@@ -1,14 +1,47 @@
 {
   "line_id": "windrush",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "windrush",
+  "station_order": [
+    "910GANERLEY",
+    "910GBROCKLY",
+    "910GCLPHHS",
+    "910GCLPHMJ1",
+    "910GCNDAW",
+    "910GCNNB",
+    "910GCRYSTLP",
+    "910GDALS",
+    "910GDENMRKH",
+    "910GFORESTH",
+    "910GHAGGERS",
+    "910GHGHI",
+    "910GHONROPK",
+    "910GHOXTON",
+    "910GNEWXGTE",
+    "910GNORWDJ",
+    "910GNWCRELL",
+    "910GPCKHMQD",
+    "910GPCKHMRY",
+    "910GPENEW",
+    "910GRTHERHI",
+    "910GSHADWEL",
+    "910GSHRDHST",
+    "910GSURREYQ",
+    "910GSYDENHM",
+    "910GWAPPING",
+    "910GWCHAPEL",
+    "910GWCROYDN",
+    "910GWNDSWRD"
+  ],
+  "stations": [
     {
-      "naptanId": "910GANERLEY",
+      "station_id": "910GANERLEY",
+      "naptan_id": "910GANERLEY",
+      "ics_code": "1001007",
+      "common_name": "Anerley Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001007",
       "lines": [
         {
           "id": "southern",
@@ -19,18 +52,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GANERLEY",
-      "commonName": "Anerley Rail Station",
       "lat": 51.412153,
       "lon": -0.065886
     },
     {
-      "naptanId": "910GBROCKLY",
+      "station_id": "910GBROCKLY",
+      "naptan_id": "910GBROCKLY",
+      "ics_code": "1001035",
+      "common_name": "Brockley Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001035",
       "lines": [
         {
           "id": "southern",
@@ -41,35 +74,35 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GBROCKLY",
-      "commonName": "Brockley Rail Station",
       "lat": 51.464649,
       "lon": -0.037537
     },
     {
-      "naptanId": "910GCLPHHS",
+      "station_id": "910GCLPHHS",
+      "naptan_id": "910GCLPHHS",
+      "ics_code": "1001068",
+      "common_name": "Clapham High Street Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001068",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GCLPHHS",
-      "commonName": "Clapham High Street Rail Station",
       "lat": 51.465481,
       "lon": -0.132522
     },
     {
-      "naptanId": "910GCLPHMJ1",
+      "station_id": "910GCLPHMJ1",
+      "naptan_id": "910GCLPHMJ1",
+      "ics_code": "1001069",
+      "common_name": "Clapham Junction Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001069",
       "lines": [
         {
           "id": "mildmay",
@@ -84,34 +117,34 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GCLPHMJ1",
-      "commonName": "Clapham Junction Rail Station",
       "lat": 51.464187,
       "lon": -0.170221
     },
     {
-      "naptanId": "910GCNDAW",
+      "station_id": "910GCNDAW",
+      "naptan_id": "910GCNDAW",
+      "ics_code": "1000037",
+      "common_name": "Canada Water Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000037",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GCNDAW",
-      "commonName": "Canada Water Rail Station",
       "lat": 51.49799,
       "lon": -0.04972
     },
     {
-      "naptanId": "910GCNNB",
+      "station_id": "910GCNNB",
+      "naptan_id": "910GCNNB",
+      "ics_code": "1001048",
+      "common_name": "Canonbury Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001048",
       "lines": [
         {
           "id": "mildmay",
@@ -122,18 +155,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GCNNB",
-      "commonName": "Canonbury Rail Station",
       "lat": 51.548732,
       "lon": -0.092191
     },
     {
-      "naptanId": "910GCRYSTLP",
+      "station_id": "910GCRYSTLP",
+      "naptan_id": "910GCRYSTLP",
+      "ics_code": "1001078",
+      "common_name": "Crystal Palace Rail Station",
       "modes": [
-        "overground",
-        "national-rail"
+        "national-rail",
+        "overground"
       ],
-      "icsCode": "1001078",
       "lines": [
         {
           "id": "southern",
@@ -144,18 +177,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GCRYSTLP",
-      "commonName": "Crystal Palace Rail Station",
       "lat": 51.418109,
       "lon": -0.07261
     },
     {
-      "naptanId": "910GDALS",
+      "station_id": "910GDALS",
+      "naptan_id": "910GDALS",
+      "ics_code": "1001568",
+      "common_name": "Dalston Junction Rail Station",
       "modes": [
         "bus",
         "overground"
       ],
-      "icsCode": "1001568",
       "lines": [
         {
           "id": "149",
@@ -194,18 +227,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GDALS",
-      "commonName": "Dalston Junction Rail Station",
       "lat": 51.546116,
       "lon": -0.075137
     },
     {
-      "naptanId": "910GDENMRKH",
+      "station_id": "910GDENMRKH",
+      "naptan_id": "910GDENMRKH",
+      "ics_code": "1001083",
+      "common_name": "Denmark Hill Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001083",
       "lines": [
         {
           "id": "southeastern",
@@ -220,18 +253,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GDENMRKH",
-      "commonName": "Denmark Hill Rail Station",
       "lat": 51.468203,
       "lon": -0.089361
     },
     {
-      "naptanId": "910GFORESTH",
+      "station_id": "910GFORESTH",
+      "naptan_id": "910GFORESTH",
+      "ics_code": "1001112",
+      "common_name": "Forest Hill Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001112",
       "lines": [
         {
           "id": "southern",
@@ -242,35 +275,35 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GFORESTH",
-      "commonName": "Forest Hill Rail Station",
       "lat": 51.43928,
       "lon": -0.053157
     },
     {
-      "naptanId": "910GHAGGERS",
+      "station_id": "910GHAGGERS",
+      "naptan_id": "910GHAGGERS",
+      "ics_code": "1001569",
+      "common_name": "Haggerston Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001569",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GHAGGERS",
-      "commonName": "Haggerston Rail Station",
       "lat": 51.538705,
       "lon": -0.075666
     },
     {
-      "naptanId": "910GHGHI",
+      "station_id": "910GHGHI",
+      "naptan_id": "910GHGHI",
+      "ics_code": "1000108",
+      "common_name": "Highbury & Islington Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000108",
       "lines": [
         {
           "id": "great-northern",
@@ -285,18 +318,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GHGHI",
-      "commonName": "Highbury & Islington Rail Station",
       "lat": 51.546177,
       "lon": -0.103764
     },
     {
-      "naptanId": "910GHONROPK",
+      "station_id": "910GHONROPK",
+      "naptan_id": "910GHONROPK",
+      "ics_code": "1001154",
+      "common_name": "Honor Oak Park Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001154",
       "lines": [
         {
           "id": "southern",
@@ -307,35 +340,35 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GHONROPK",
-      "commonName": "Honor Oak Park Rail Station",
       "lat": 51.449989,
       "lon": -0.045505
     },
     {
-      "naptanId": "910GHOXTON",
+      "station_id": "910GHOXTON",
+      "naptan_id": "910GHOXTON",
+      "ics_code": "1001570",
+      "common_name": "Hoxton Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001570",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GHOXTON",
-      "commonName": "Hoxton Rail Station",
       "lat": 51.531512,
       "lon": -0.075681
     },
     {
-      "naptanId": "910GNEWXGTE",
+      "station_id": "910GNEWXGTE",
+      "naptan_id": "910GNEWXGTE",
+      "ics_code": "1000156",
+      "common_name": "New Cross Gate Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000156",
       "lines": [
         {
           "id": "southern",
@@ -346,18 +379,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GNEWXGTE",
-      "commonName": "New Cross Gate Rail Station",
       "lat": 51.475128,
       "lon": -0.040399
     },
     {
-      "naptanId": "910GNORWDJ",
+      "station_id": "910GNORWDJ",
+      "naptan_id": "910GNORWDJ",
+      "ics_code": "1001216",
+      "common_name": "Norwood Junction Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001216",
       "lines": [
         {
           "id": "southeastern",
@@ -376,18 +409,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GNORWDJ",
-      "commonName": "Norwood Junction Rail Station",
       "lat": 51.397019,
       "lon": -0.075221
     },
     {
-      "naptanId": "910GNWCRELL",
+      "station_id": "910GNWCRELL",
+      "naptan_id": "910GNWCRELL",
+      "ics_code": "1000155",
+      "common_name": "New Cross ELL Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000155",
       "lines": [
         {
           "id": "southeastern",
@@ -398,18 +431,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GNWCRELL",
-      "commonName": "New Cross ELL Rail Station",
       "lat": 51.476344,
       "lon": -0.032441
     },
     {
-      "naptanId": "910GPCKHMQD",
+      "station_id": "910GPCKHMQD",
+      "naptan_id": "910GPCKHMQD",
+      "ics_code": "1001233",
+      "common_name": "Queens Road Peckham Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001233",
       "lines": [
         {
           "id": "southern",
@@ -420,18 +453,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GPCKHMQD",
-      "commonName": "Queens Road Peckham Rail Station",
       "lat": 51.473566,
       "lon": -0.057313
     },
     {
-      "naptanId": "910GPCKHMRY",
+      "station_id": "910GPCKHMRY",
+      "naptan_id": "910GPCKHMRY",
+      "ics_code": "1001223",
+      "common_name": "Peckham Rye Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001223",
       "lines": [
         {
           "id": "southeastern",
@@ -450,18 +483,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GPCKHMRY",
-      "commonName": "Peckham Rye Rail Station",
       "lat": 51.470034,
       "lon": -0.069414
     },
     {
-      "naptanId": "910GPENEW",
+      "station_id": "910GPENEW",
+      "naptan_id": "910GPENEW",
+      "ics_code": "1001225",
+      "common_name": "Penge West Rail Station",
       "modes": [
-        "overground",
-        "national-rail"
+        "national-rail",
+        "overground"
       ],
-      "icsCode": "1001225",
       "lines": [
         {
           "id": "southern",
@@ -472,86 +505,86 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GPENEW",
-      "commonName": "Penge West Rail Station",
       "lat": 51.417555,
       "lon": -0.06084
     },
     {
-      "naptanId": "910GRTHERHI",
+      "station_id": "910GRTHERHI",
+      "naptan_id": "910GRTHERHI",
+      "ics_code": "1000195",
+      "common_name": "Rotherhithe Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000195",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GRTHERHI",
-      "commonName": "Rotherhithe Rail Station",
       "lat": 51.500817,
       "lon": -0.052048
     },
     {
-      "naptanId": "910GSHADWEL",
+      "station_id": "910GSHADWEL",
+      "naptan_id": "910GSHADWEL",
+      "ics_code": "1000329",
+      "common_name": "Shadwell Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000329",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GSHADWEL",
-      "commonName": "Shadwell Rail Station",
       "lat": 51.511284,
       "lon": -0.056934
     },
     {
-      "naptanId": "910GSHRDHST",
+      "station_id": "910GSHRDHST",
+      "naptan_id": "910GSHRDHST",
+      "ics_code": "1001571",
+      "common_name": "Shoreditch High Street Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001571",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GSHRDHST",
-      "commonName": "Shoreditch High Street Rail Station",
       "lat": 51.523375,
       "lon": -0.075246
     },
     {
-      "naptanId": "910GSURREYQ",
+      "station_id": "910GSURREYQ",
+      "naptan_id": "910GSURREYQ",
+      "ics_code": "1000229",
+      "common_name": "Surrey Quays Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000229",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GSURREYQ",
-      "commonName": "Surrey Quays Rail Station",
       "lat": 51.493196,
       "lon": -0.047519
     },
     {
-      "naptanId": "910GSYDENHM",
+      "station_id": "910GSYDENHM",
+      "naptan_id": "910GSYDENHM",
+      "ics_code": "1001289",
+      "common_name": "Sydenham Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001289",
       "lines": [
         {
           "id": "southern",
@@ -562,52 +595,52 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GSYDENHM",
-      "commonName": "Sydenham Rail Station",
       "lat": 51.427248,
       "lon": -0.054244
     },
     {
-      "naptanId": "910GWAPPING",
+      "station_id": "910GWAPPING",
+      "naptan_id": "910GWAPPING",
+      "ics_code": "1000251",
+      "common_name": "Wapping Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000251",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GWAPPING",
-      "commonName": "Wapping Rail Station",
       "lat": 51.504388,
       "lon": -0.055931
     },
     {
-      "naptanId": "910GWCHAPEL",
+      "station_id": "910GWCHAPEL",
+      "naptan_id": "910GWCHAPEL",
+      "ics_code": "1000268",
+      "common_name": "Whitechapel Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000268",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GWCHAPEL",
-      "commonName": "Whitechapel Rail Station",
       "lat": 51.519469,
       "lon": -0.059757
     },
     {
-      "naptanId": "910GWCROYDN",
+      "station_id": "910GWCROYDN",
+      "naptan_id": "910GWCROYDN",
+      "ics_code": "1001324",
+      "common_name": "West Croydon Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001324",
       "lines": [
         {
           "id": "southern",
@@ -618,1461 +651,25 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GWCROYDN",
-      "commonName": "West Croydon Rail Station",
       "lat": 51.378428,
       "lon": -0.102585
     },
     {
-      "naptanId": "910GWNDSWRD",
+      "station_id": "910GWNDSWRD",
+      "naptan_id": "910GWNDSWRD",
+      "ics_code": "1001310",
+      "common_name": "Wandsworth Road Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001310",
       "lines": [
         {
           "id": "windrush",
           "name": "Windrush"
         }
       ],
-      "id": "910GWNDSWRD",
-      "commonName": "Wandsworth Road Rail Station",
       "lat": 51.470216,
       "lon": -0.13852
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "910GANERLEY",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001007",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GANERLEY",
-      "commonName": "Anerley Rail Station",
-      "lat": 51.412153,
-      "lon": -0.065886
-    },
-    {
-      "naptanId": "910GBROCKLY",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001035",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GBROCKLY",
-      "commonName": "Brockley Rail Station",
-      "lat": 51.464649,
-      "lon": -0.037537
-    },
-    {
-      "naptanId": "910GCLPHHS",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001068",
-      "lines": [
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GCLPHHS",
-      "commonName": "Clapham High Street Rail Station",
-      "lat": 51.465481,
-      "lon": -0.132522
-    },
-    {
-      "naptanId": "HUBCLJ",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001069",
-      "lines": [
-        {
-          "id": "170",
-          "name": "170"
-        },
-        {
-          "id": "219",
-          "name": "219"
-        },
-        {
-          "id": "295",
-          "name": "295"
-        },
-        {
-          "id": "319",
-          "name": "319"
-        },
-        {
-          "id": "337",
-          "name": "337"
-        },
-        {
-          "id": "344",
-          "name": "344"
-        },
-        {
-          "id": "345",
-          "name": "345"
-        },
-        {
-          "id": "35",
-          "name": "35"
-        },
-        {
-          "id": "37",
-          "name": "37"
-        },
-        {
-          "id": "39",
-          "name": "39"
-        },
-        {
-          "id": "49",
-          "name": "49"
-        },
-        {
-          "id": "639",
-          "name": "639"
-        },
-        {
-          "id": "670",
-          "name": "670"
-        },
-        {
-          "id": "77",
-          "name": "77"
-        },
-        {
-          "id": "c3",
-          "name": "C3"
-        },
-        {
-          "id": "g1",
-          "name": "G1"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n19",
-          "name": "N19"
-        },
-        {
-          "id": "n31",
-          "name": "N31"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBCLJ",
-      "commonName": "Clapham Junction",
-      "lat": 51.463724,
-      "lon": -0.168997
-    },
-    {
-      "naptanId": "HUBCLJ",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001069",
-      "lines": [
-        {
-          "id": "170",
-          "name": "170"
-        },
-        {
-          "id": "219",
-          "name": "219"
-        },
-        {
-          "id": "295",
-          "name": "295"
-        },
-        {
-          "id": "319",
-          "name": "319"
-        },
-        {
-          "id": "337",
-          "name": "337"
-        },
-        {
-          "id": "344",
-          "name": "344"
-        },
-        {
-          "id": "345",
-          "name": "345"
-        },
-        {
-          "id": "35",
-          "name": "35"
-        },
-        {
-          "id": "37",
-          "name": "37"
-        },
-        {
-          "id": "39",
-          "name": "39"
-        },
-        {
-          "id": "49",
-          "name": "49"
-        },
-        {
-          "id": "639",
-          "name": "639"
-        },
-        {
-          "id": "670",
-          "name": "670"
-        },
-        {
-          "id": "77",
-          "name": "77"
-        },
-        {
-          "id": "c3",
-          "name": "C3"
-        },
-        {
-          "id": "g1",
-          "name": "G1"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n19",
-          "name": "N19"
-        },
-        {
-          "id": "n31",
-          "name": "N31"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBCLJ",
-      "commonName": "Clapham Junction",
-      "lat": 51.463724,
-      "lon": -0.168997
-    },
-    {
-      "naptanId": "HUBZCW",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000037",
-      "lines": [
-        {
-          "id": "1",
-          "name": "1"
-        },
-        {
-          "id": "188",
-          "name": "188"
-        },
-        {
-          "id": "199",
-          "name": "199"
-        },
-        {
-          "id": "225",
-          "name": "225"
-        },
-        {
-          "id": "381",
-          "name": "381"
-        },
-        {
-          "id": "47",
-          "name": "47"
-        },
-        {
-          "id": "c10",
-          "name": "C10"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "n199",
-          "name": "N199"
-        },
-        {
-          "id": "n381",
-          "name": "N381"
-        },
-        {
-          "id": "p12",
-          "name": "P12"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBZCW",
-      "commonName": "Canada Water",
-      "lat": 51.498053,
-      "lon": -0.049667
-    },
-    {
-      "naptanId": "910GCNNB",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001048",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GCNNB",
-      "commonName": "Canonbury Rail Station",
-      "lat": 51.548732,
-      "lon": -0.092191
-    },
-    {
-      "naptanId": "HUBCYP",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001078",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBCYP",
-      "commonName": "Crystal Palace",
-      "lat": 51.418111,
-      "lon": -0.072605
-    },
-    {
-      "naptanId": "910GDALS",
-      "modes": [
-        "bus",
-        "overground"
-      ],
-      "icsCode": "1001568",
-      "lines": [
-        {
-          "id": "149",
-          "name": "149"
-        },
-        {
-          "id": "242",
-          "name": "242"
-        },
-        {
-          "id": "243",
-          "name": "243"
-        },
-        {
-          "id": "277",
-          "name": "277"
-        },
-        {
-          "id": "488",
-          "name": "488"
-        },
-        {
-          "id": "67",
-          "name": "67"
-        },
-        {
-          "id": "76",
-          "name": "76"
-        },
-        {
-          "id": "n242",
-          "name": "N242"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GDALS",
-      "commonName": "Dalston Junction Rail Station",
-      "lat": 51.546116,
-      "lon": -0.075137
-    },
-    {
-      "naptanId": "910GDENMRKH",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001083",
-      "lines": [
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GDENMRKH",
-      "commonName": "Denmark Hill Rail Station",
-      "lat": 51.468203,
-      "lon": -0.089361
-    },
-    {
-      "naptanId": "910GFORESTH",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001112",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GFORESTH",
-      "commonName": "Forest Hill Rail Station",
-      "lat": 51.43928,
-      "lon": -0.053157
-    },
-    {
-      "naptanId": "910GHAGGERS",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001569",
-      "lines": [
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GHAGGERS",
-      "commonName": "Haggerston Rail Station",
-      "lat": 51.538705,
-      "lon": -0.075666
-    },
-    {
-      "naptanId": "HUBHHY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000108",
-      "lines": [
-        {
-          "id": "great-northern",
-          "name": "Great Northern"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBHHY",
-      "commonName": "Highbury & Islington",
-      "lat": 51.546269,
-      "lon": -0.103538
-    },
-    {
-      "naptanId": "910GHONROPK",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001154",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GHONROPK",
-      "commonName": "Honor Oak Park Rail Station",
-      "lat": 51.449989,
-      "lon": -0.045505
-    },
-    {
-      "naptanId": "910GHOXTON",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001570",
-      "lines": [
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GHOXTON",
-      "commonName": "Hoxton Rail Station",
-      "lat": 51.531512,
-      "lon": -0.075681
-    },
-    {
-      "naptanId": "HUBNXG",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1000156",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBNXG",
-      "commonName": "New Cross Gate",
-      "lat": 51.475132,
-      "lon": -0.040399
-    },
-    {
-      "naptanId": "HUBNWD",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001216",
-      "lines": [
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBNWD",
-      "commonName": "Norwood Junction",
-      "lat": 51.39702,
-      "lon": -0.075216
-    },
-    {
-      "naptanId": "HUBNWX",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1000155",
-      "lines": [
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBNWX",
-      "commonName": "New Cross",
-      "lat": 51.476347,
-      "lon": -0.032427
-    },
-    {
-      "naptanId": "910GPCKHMQD",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001233",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GPCKHMQD",
-      "commonName": "Queens Road Peckham Rail Station",
-      "lat": 51.473566,
-      "lon": -0.057313
-    },
-    {
-      "naptanId": "910GPCKHMRY",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001223",
-      "lines": [
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GPCKHMRY",
-      "commonName": "Peckham Rye Rail Station",
-      "lat": 51.470034,
-      "lon": -0.069414
-    },
-    {
-      "naptanId": "910GPENEW",
-      "modes": [
-        "overground",
-        "national-rail"
-      ],
-      "icsCode": "1001225",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GPENEW",
-      "commonName": "Penge West Rail Station",
-      "lat": 51.417555,
-      "lon": -0.06084
-    },
-    {
-      "naptanId": "910GRTHERHI",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1000195",
-      "lines": [
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GRTHERHI",
-      "commonName": "Rotherhithe Rail Station",
-      "lat": 51.500817,
-      "lon": -0.052048
-    },
-    {
-      "naptanId": "HUBSDE",
-      "modes": [
-        "bus",
-        "dlr",
-        "overground"
-      ],
-      "icsCode": "1000202",
-      "lines": [
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBSDE",
-      "commonName": "Shadwell",
-      "lat": 51.511492,
-      "lon": -0.056782
-    },
-    {
-      "naptanId": "910GSHRDHST",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001571",
-      "lines": [
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GSHRDHST",
-      "commonName": "Shoreditch High Street Rail Station",
-      "lat": 51.523375,
-      "lon": -0.075246
-    },
-    {
-      "naptanId": "910GSURREYQ",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1000229",
-      "lines": [
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GSURREYQ",
-      "commonName": "Surrey Quays Rail Station",
-      "lat": 51.493196,
-      "lon": -0.047519
-    },
-    {
-      "naptanId": "HUBSYD",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001289",
-      "lines": [
-        {
-          "id": "122",
-          "name": "122"
-        },
-        {
-          "id": "176",
-          "name": "176"
-        },
-        {
-          "id": "197",
-          "name": "197"
-        },
-        {
-          "id": "202",
-          "name": "202"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBSYD",
-      "commonName": "Sydenham",
-      "lat": 51.427375,
-      "lon": -0.055268
-    },
-    {
-      "naptanId": "910GWAPPING",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1000251",
-      "lines": [
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GWAPPING",
-      "commonName": "Wapping Rail Station",
-      "lat": 51.504388,
-      "lon": -0.055931
-    },
-    {
-      "naptanId": "HUBZWL",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000268",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBZWL",
-      "commonName": "Whitechapel",
-      "lat": 51.519498,
-      "lon": -0.059858
-    },
-    {
-      "naptanId": "HUBZWL",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000268",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBZWL",
-      "commonName": "Whitechapel",
-      "lat": 51.519498,
-      "lon": -0.059858
-    },
-    {
-      "naptanId": "HUBWCY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tram"
-      ],
-      "icsCode": "1001324",
-      "lines": [
-        {
-          "id": "109",
-          "name": "109"
-        },
-        {
-          "id": "154",
-          "name": "154"
-        },
-        {
-          "id": "157",
-          "name": "157"
-        },
-        {
-          "id": "166",
-          "name": "166"
-        },
-        {
-          "id": "194",
-          "name": "194"
-        },
-        {
-          "id": "198",
-          "name": "198"
-        },
-        {
-          "id": "250",
-          "name": "250"
-        },
-        {
-          "id": "264",
-          "name": "264"
-        },
-        {
-          "id": "289",
-          "name": "289"
-        },
-        {
-          "id": "367",
-          "name": "367"
-        },
-        {
-          "id": "403",
-          "name": "403"
-        },
-        {
-          "id": "407",
-          "name": "407"
-        },
-        {
-          "id": "410",
-          "name": "410"
-        },
-        {
-          "id": "450",
-          "name": "450"
-        },
-        {
-          "id": "60",
-          "name": "60"
-        },
-        {
-          "id": "64",
-          "name": "64"
-        },
-        {
-          "id": "645",
-          "name": "645"
-        },
-        {
-          "id": "689",
-          "name": "689"
-        },
-        {
-          "id": "75",
-          "name": "75"
-        },
-        {
-          "id": "n109",
-          "name": "N109"
-        },
-        {
-          "id": "n250",
-          "name": "N250"
-        },
-        {
-          "id": "sl6",
-          "name": "SL6"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBWCY",
-      "commonName": "West Croydon",
-      "lat": 51.378786,
-      "lon": -0.101939
-    },
-    {
-      "naptanId": "910GWNDSWRD",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001310",
-      "lines": [
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GWNDSWRD",
-      "commonName": "Wandsworth Road Rail Station",
-      "lat": 51.470216,
-      "lon": -0.13852
-    },
-    {
-      "naptanId": "HUBWCY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tram"
-      ],
-      "icsCode": "1001324",
-      "lines": [
-        {
-          "id": "109",
-          "name": "109"
-        },
-        {
-          "id": "154",
-          "name": "154"
-        },
-        {
-          "id": "157",
-          "name": "157"
-        },
-        {
-          "id": "166",
-          "name": "166"
-        },
-        {
-          "id": "194",
-          "name": "194"
-        },
-        {
-          "id": "198",
-          "name": "198"
-        },
-        {
-          "id": "250",
-          "name": "250"
-        },
-        {
-          "id": "264",
-          "name": "264"
-        },
-        {
-          "id": "289",
-          "name": "289"
-        },
-        {
-          "id": "367",
-          "name": "367"
-        },
-        {
-          "id": "403",
-          "name": "403"
-        },
-        {
-          "id": "407",
-          "name": "407"
-        },
-        {
-          "id": "410",
-          "name": "410"
-        },
-        {
-          "id": "450",
-          "name": "450"
-        },
-        {
-          "id": "60",
-          "name": "60"
-        },
-        {
-          "id": "64",
-          "name": "64"
-        },
-        {
-          "id": "645",
-          "name": "645"
-        },
-        {
-          "id": "689",
-          "name": "689"
-        },
-        {
-          "id": "75",
-          "name": "75"
-        },
-        {
-          "id": "n109",
-          "name": "N109"
-        },
-        {
-          "id": "n250",
-          "name": "N250"
-        },
-        {
-          "id": "sl6",
-          "name": "SL6"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBWCY",
-      "commonName": "West Croydon",
-      "lat": 51.378786,
-      "lon": -0.101939
-    },
-    {
-      "naptanId": "HUBWCY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tram"
-      ],
-      "icsCode": "1001324",
-      "lines": [
-        {
-          "id": "109",
-          "name": "109"
-        },
-        {
-          "id": "154",
-          "name": "154"
-        },
-        {
-          "id": "157",
-          "name": "157"
-        },
-        {
-          "id": "166",
-          "name": "166"
-        },
-        {
-          "id": "194",
-          "name": "194"
-        },
-        {
-          "id": "198",
-          "name": "198"
-        },
-        {
-          "id": "250",
-          "name": "250"
-        },
-        {
-          "id": "264",
-          "name": "264"
-        },
-        {
-          "id": "289",
-          "name": "289"
-        },
-        {
-          "id": "367",
-          "name": "367"
-        },
-        {
-          "id": "403",
-          "name": "403"
-        },
-        {
-          "id": "407",
-          "name": "407"
-        },
-        {
-          "id": "410",
-          "name": "410"
-        },
-        {
-          "id": "450",
-          "name": "450"
-        },
-        {
-          "id": "60",
-          "name": "60"
-        },
-        {
-          "id": "64",
-          "name": "64"
-        },
-        {
-          "id": "645",
-          "name": "645"
-        },
-        {
-          "id": "689",
-          "name": "689"
-        },
-        {
-          "id": "75",
-          "name": "75"
-        },
-        {
-          "id": "n109",
-          "name": "N109"
-        },
-        {
-          "id": "n250",
-          "name": "N250"
-        },
-        {
-          "id": "sl6",
-          "name": "SL6"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBWCY",
-      "commonName": "West Croydon",
-      "lat": 51.378786,
-      "lon": -0.101939
-    },
-    {
-      "naptanId": "HUBSDE",
-      "modes": [
-        "bus",
-        "dlr",
-        "overground"
-      ],
-      "icsCode": "1000202",
-      "lines": [
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBSDE",
-      "commonName": "Shadwell",
-      "lat": 51.511492,
-      "lon": -0.056782
-    },
-    {
-      "naptanId": "HUBZCW",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000037",
-      "lines": [
-        {
-          "id": "1",
-          "name": "1"
-        },
-        {
-          "id": "188",
-          "name": "188"
-        },
-        {
-          "id": "199",
-          "name": "199"
-        },
-        {
-          "id": "225",
-          "name": "225"
-        },
-        {
-          "id": "381",
-          "name": "381"
-        },
-        {
-          "id": "47",
-          "name": "47"
-        },
-        {
-          "id": "c10",
-          "name": "C10"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "n199",
-          "name": "N199"
-        },
-        {
-          "id": "n381",
-          "name": "N381"
-        },
-        {
-          "id": "p12",
-          "name": "P12"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBZCW",
-      "commonName": "Canada Water",
-      "lat": 51.498053,
-      "lon": -0.049667
-    },
-    {
-      "naptanId": "HUBHHY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000108",
-      "lines": [
-        {
-          "id": "great-northern",
-          "name": "Great Northern"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBHHY",
-      "commonName": "Highbury & Islington",
-      "lat": 51.546269,
-      "lon": -0.103538
-    },
-    {
-      "naptanId": "HUBZWL",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000268",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBZWL",
-      "commonName": "Whitechapel",
-      "lat": 51.519498,
-      "lon": -0.059858
     }
   ]
 }

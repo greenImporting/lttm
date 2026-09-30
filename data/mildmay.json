@@ -1,82 +1,115 @@
 {
   "line_id": "mildmay",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "mildmay",
+  "station_order": [
+    "910GACTNCTL",
+    "910GBRBY",
+    "910GBRBYPK",
+    "910GCLDNNRB",
+    "910GCLPHMJ1",
+    "910GCLPHMJC",
+    "910GCMDNRD",
+    "910GCNNB",
+    "910GCSEAH",
+    "910GDALSKLD",
+    "910GFNCHLYR",
+    "910GGNRSBRY",
+    "910GGOSPLOK",
+    "910GHACKNYC",
+    "910GHACKNYW",
+    "910GHGHI",
+    "910GHMPSTDH",
+    "910GHOMRTON",
+    "910GKENOLYM",
+    "910GKENR",
+    "910GKEWGRDN",
+    "910GKNTSHTW",
+    "910GRICHMND",
+    "910GSACTON",
+    "910GSHPDSB",
+    "910GSTFD",
+    "910GWBRMPTN",
+    "910GWHMDSTD",
+    "910GWLSDJHL"
+  ],
+  "stations": [
     {
-      "naptanId": "910GACTNCTL",
+      "station_id": "910GACTNCTL",
+      "naptan_id": "910GACTNCTL",
+      "ics_code": "1001002",
+      "common_name": "Acton Central Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001002",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GACTNCTL",
-      "commonName": "Acton Central Rail Station",
       "lat": 51.508716,
       "lon": -0.262971
     },
     {
-      "naptanId": "910GBRBY",
+      "station_id": "910GBRBY",
+      "naptan_id": "910GBRBY",
+      "ics_code": "1001038",
+      "common_name": "Brondesbury Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001038",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GBRBY",
-      "commonName": "Brondesbury Rail Station",
       "lat": 51.545166,
       "lon": -0.202309
     },
     {
-      "naptanId": "910GBRBYPK",
+      "station_id": "910GBRBYPK",
+      "naptan_id": "910GBRBYPK",
+      "ics_code": "1001039",
+      "common_name": "Brondesbury Park Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001039",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GBRBYPK",
-      "commonName": "Brondesbury Park Rail Station",
       "lat": 51.540734,
       "lon": -0.210054
     },
     {
-      "naptanId": "910GCLDNNRB",
+      "station_id": "910GCLDNNRB",
+      "naptan_id": "910GCLDNNRB",
+      "ics_code": "1001043",
+      "common_name": "Caledonian Road & Barnsbury Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001043",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GCLDNNRB",
-      "commonName": "Caledonian Road & Barnsbury Rail Station",
       "lat": 51.543041,
       "lon": -0.116729
     },
     {
-      "naptanId": "910GCLPHMJ1",
+      "station_id": "910GCLPHMJ1",
+      "naptan_id": "910GCLPHMJ1",
+      "ics_code": "1001069",
+      "common_name": "Clapham Junction Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001069",
       "lines": [
         {
           "id": "mildmay",
@@ -91,60 +124,60 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GCLPHMJ1",
-      "commonName": "Clapham Junction Rail Station",
       "lat": 51.464187,
       "lon": -0.170221
     },
     {
-      "naptanId": "910GCLPHMJC",
+      "station_id": "910GCLPHMJC",
+      "naptan_id": "910GCLPHMJC",
+      "ics_code": "1001069",
+      "common_name": "Clapham Junction Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001069",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         },
         {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
           "id": "south-western-railway",
           "name": "South Western Railway"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
         }
       ],
-      "id": "910GCLPHMJC",
-      "commonName": "Clapham Junction Rail Station",
       "lat": 51.464188,
       "lon": -0.170293
     },
     {
-      "naptanId": "910GCMDNRD",
+      "station_id": "910GCMDNRD",
+      "naptan_id": "910GCMDNRD",
+      "ics_code": "1001045",
+      "common_name": "Camden Road Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001045",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GCMDNRD",
-      "commonName": "Camden Road Rail Station",
       "lat": 51.541791,
       "lon": -0.138701
     },
     {
-      "naptanId": "910GCNNB",
+      "station_id": "910GCNNB",
+      "naptan_id": "910GCNNB",
+      "ics_code": "1001048",
+      "common_name": "Canonbury Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001048",
       "lines": [
         {
           "id": "mildmay",
@@ -155,18 +188,18 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GCNNB",
-      "commonName": "Canonbury Rail Station",
       "lat": 51.548732,
       "lon": -0.092191
     },
     {
-      "naptanId": "910GCSEAH",
+      "station_id": "910GCSEAH",
+      "naptan_id": "910GCSEAH",
+      "ics_code": "1001347",
+      "common_name": "Imperial Wharf Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001347",
       "lines": [
         {
           "id": "mildmay",
@@ -177,68 +210,68 @@
           "name": "Southern"
         }
       ],
-      "id": "910GCSEAH",
-      "commonName": "Imperial Wharf Rail Station",
       "lat": 51.474949,
       "lon": -0.182823
     },
     {
-      "naptanId": "910GDALSKLD",
+      "station_id": "910GDALSKLD",
+      "naptan_id": "910GDALSKLD",
+      "ics_code": "1001081",
+      "common_name": "Dalston Kingsland Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001081",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GDALSKLD",
-      "commonName": "Dalston Kingsland Rail Station",
       "lat": 51.548148,
       "lon": -0.075701
     },
     {
-      "naptanId": "910GFNCHLYR",
+      "station_id": "910GFNCHLYR",
+      "naptan_id": "910GFNCHLYR",
+      "ics_code": "1001109",
+      "common_name": "Finchley Road & Frognal Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001109",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GFNCHLYR",
-      "commonName": "Finchley Road & Frognal Rail Station",
       "lat": 51.550266,
       "lon": -0.183141
     },
     {
-      "naptanId": "910GGNRSBRY",
+      "station_id": "910GGNRSBRY",
+      "naptan_id": "910GGNRSBRY",
+      "ics_code": "1000094",
+      "common_name": "Gunnersbury Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000094",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GGNRSBRY",
-      "commonName": "Gunnersbury Rail Station",
       "lat": 51.491678,
       "lon": -0.275286
     },
     {
-      "naptanId": "910GGOSPLOK",
+      "station_id": "910GGOSPLOK",
+      "naptan_id": "910GGOSPLOK",
+      "ics_code": "1001119",
+      "common_name": "Gospel Oak Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001119",
       "lines": [
         {
           "id": "mildmay",
@@ -249,52 +282,52 @@
           "name": "Suffragette"
         }
       ],
-      "id": "910GGOSPLOK",
-      "commonName": "Gospel Oak Rail Station",
       "lat": 51.555335,
       "lon": -0.15077
     },
     {
-      "naptanId": "910GHACKNYC",
+      "station_id": "910GHACKNYC",
+      "naptan_id": "910GHACKNYC",
+      "ics_code": "1001127",
+      "common_name": "Hackney Central Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001127",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GHACKNYC",
-      "commonName": "Hackney Central Rail Station",
       "lat": 51.547105,
       "lon": -0.056058
     },
     {
-      "naptanId": "910GHACKNYW",
+      "station_id": "910GHACKNYW",
+      "naptan_id": "910GHACKNYW",
+      "ics_code": "1001129",
+      "common_name": "Hackney Wick Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001129",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GHACKNYW",
-      "commonName": "Hackney Wick Rail Station",
       "lat": 51.54341,
       "lon": -0.02492
     },
     {
-      "naptanId": "910GHGHI",
+      "station_id": "910GHGHI",
+      "naptan_id": "910GHGHI",
+      "ics_code": "1000108",
+      "common_name": "Highbury & Islington Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000108",
       "lines": [
         {
           "id": "great-northern",
@@ -309,52 +342,52 @@
           "name": "Windrush"
         }
       ],
-      "id": "910GHGHI",
-      "commonName": "Highbury & Islington Rail Station",
       "lat": 51.546177,
       "lon": -0.103764
     },
     {
-      "naptanId": "910GHMPSTDH",
+      "station_id": "910GHMPSTDH",
+      "naptan_id": "910GHMPSTDH",
+      "ics_code": "1001131",
+      "common_name": "Hampstead Heath Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001131",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GHMPSTDH",
-      "commonName": "Hampstead Heath Rail Station",
       "lat": 51.55521,
       "lon": -0.165705
     },
     {
-      "naptanId": "910GHOMRTON",
+      "station_id": "910GHOMRTON",
+      "naptan_id": "910GHOMRTON",
+      "ics_code": "1001153",
+      "common_name": "Homerton Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001153",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GHOMRTON",
-      "commonName": "Homerton Rail Station",
       "lat": 51.547012,
       "lon": -0.04236
     },
     {
-      "naptanId": "910GKENOLYM",
+      "station_id": "910GKENOLYM",
+      "naptan_id": "910GKENOLYM",
+      "ics_code": "1000170",
+      "common_name": "Kensington (Olympia) Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000170",
       "lines": [
         {
           "id": "mildmay",
@@ -365,69 +398,69 @@
           "name": "Southern"
         }
       ],
-      "id": "910GKENOLYM",
-      "commonName": "Kensington (Olympia) Rail Station",
       "lat": 51.497899,
       "lon": -0.210364
     },
     {
-      "naptanId": "910GKENR",
+      "station_id": "910GKENR",
+      "naptan_id": "910GKENR",
+      "ics_code": "1001161",
+      "common_name": "Kensal Rise Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001161",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GKENR",
-      "commonName": "Kensal Rise Rail Station",
       "lat": 51.534554,
       "lon": -0.219957
     },
     {
-      "naptanId": "910GKEWGRDN",
+      "station_id": "910GKEWGRDN",
+      "naptan_id": "910GKEWGRDN",
+      "ics_code": "1000125",
+      "common_name": "Kew Gardens Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000125",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GKEWGRDN",
-      "commonName": "Kew Gardens Rail Station",
       "lat": 51.477073,
       "lon": -0.285054
     },
     {
-      "naptanId": "910GKNTSHTW",
+      "station_id": "910GKNTSHTW",
+      "naptan_id": "910GKNTSHTW",
+      "ics_code": "1001165",
+      "common_name": "Kentish Town West Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001165",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GKNTSHTW",
-      "commonName": "Kentish Town West Rail Station",
       "lat": 51.546548,
       "lon": -0.146655
     },
     {
-      "naptanId": "910GRICHMND",
+      "station_id": "910GRICHMND",
+      "naptan_id": "910GRICHMND",
+      "ics_code": "1000192",
+      "common_name": "Richmond (London) Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000192",
       "lines": [
         {
           "id": "mildmay",
@@ -438,35 +471,35 @@
           "name": "South Western Railway"
         }
       ],
-      "id": "910GRICHMND",
-      "commonName": "Richmond (London) Rail Station",
       "lat": 51.463061,
       "lon": -0.301558
     },
     {
-      "naptanId": "910GSACTON",
+      "station_id": "910GSACTON",
+      "naptan_id": "910GSACTON",
+      "ics_code": "1001254",
+      "common_name": "South Acton Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001254",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GSACTON",
-      "commonName": "South Acton Rail Station",
       "lat": 51.499695,
       "lon": -0.270157
     },
     {
-      "naptanId": "910GSHPDSB",
+      "station_id": "910GSHPDSB",
+      "naptan_id": "910GSHPDSB",
+      "ics_code": "1001348",
+      "common_name": "Shepherds Bush Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001348",
       "lines": [
         {
           "id": "mildmay",
@@ -477,19 +510,19 @@
           "name": "Southern"
         }
       ],
-      "id": "910GSHPDSB",
-      "commonName": "Shepherds Bush Rail Station",
       "lat": 51.505285,
       "lon": -0.217654
     },
     {
-      "naptanId": "910GSTFD",
+      "station_id": "910GSTFD",
+      "naptan_id": "910GSTFD",
+      "ics_code": "1000226",
+      "common_name": "Stratford (London) Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000226",
       "lines": [
         {
           "id": "c2c",
@@ -508,18 +541,18 @@
           "name": "Mildmay"
         }
       ],
-      "id": "910GSTFD",
-      "commonName": "Stratford (London) Rail Station",
       "lat": 51.541895,
       "lon": -0.003397
     },
     {
-      "naptanId": "910GWBRMPTN",
+      "station_id": "910GWBRMPTN",
+      "naptan_id": "910GWBRMPTN",
+      "ics_code": "1000260",
+      "common_name": "West Brompton Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000260",
       "lines": [
         {
           "id": "mildmay",
@@ -530,34 +563,34 @@
           "name": "Southern"
         }
       ],
-      "id": "910GWBRMPTN",
-      "commonName": "West Brompton Rail Station",
       "lat": 51.487061,
       "lon": -0.195593
     },
     {
-      "naptanId": "910GWHMDSTD",
+      "station_id": "910GWHMDSTD",
+      "naptan_id": "910GWHMDSTD",
+      "ics_code": "1000321",
+      "common_name": "West Hampstead Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000321",
       "lines": [
         {
           "id": "mildmay",
           "name": "Mildmay"
         }
       ],
-      "id": "910GWHMDSTD",
-      "commonName": "West Hampstead Rail Station",
       "lat": 51.547468,
       "lon": -0.191185
     },
     {
-      "naptanId": "910GWLSDJHL",
+      "station_id": "910GWLSDJHL",
+      "naptan_id": "910GWLSDJHL",
+      "ics_code": "1000271",
+      "common_name": "Willesden Junction Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000271",
       "lines": [
         {
           "id": "lioness",
@@ -568,1452 +601,8 @@
           "name": "Mildmay"
         }
       ],
-      "id": "910GWLSDJHL",
-      "commonName": "Willesden Junction Rail Station",
       "lat": 51.532497,
       "lon": -0.244548
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "910GACTNCTL",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001002",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GACTNCTL",
-      "commonName": "Acton Central Rail Station",
-      "lat": 51.508716,
-      "lon": -0.262971
-    },
-    {
-      "naptanId": "910GBRBY",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001038",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GBRBY",
-      "commonName": "Brondesbury Rail Station",
-      "lat": 51.545166,
-      "lon": -0.202309
-    },
-    {
-      "naptanId": "910GBRBYPK",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001039",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GBRBYPK",
-      "commonName": "Brondesbury Park Rail Station",
-      "lat": 51.540734,
-      "lon": -0.210054
-    },
-    {
-      "naptanId": "910GCLDNNRB",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001043",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GCLDNNRB",
-      "commonName": "Caledonian Road & Barnsbury Rail Station",
-      "lat": 51.543041,
-      "lon": -0.116729
-    },
-    {
-      "naptanId": "HUBCLJ",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001069",
-      "lines": [
-        {
-          "id": "170",
-          "name": "170"
-        },
-        {
-          "id": "219",
-          "name": "219"
-        },
-        {
-          "id": "295",
-          "name": "295"
-        },
-        {
-          "id": "319",
-          "name": "319"
-        },
-        {
-          "id": "337",
-          "name": "337"
-        },
-        {
-          "id": "344",
-          "name": "344"
-        },
-        {
-          "id": "345",
-          "name": "345"
-        },
-        {
-          "id": "35",
-          "name": "35"
-        },
-        {
-          "id": "37",
-          "name": "37"
-        },
-        {
-          "id": "39",
-          "name": "39"
-        },
-        {
-          "id": "49",
-          "name": "49"
-        },
-        {
-          "id": "639",
-          "name": "639"
-        },
-        {
-          "id": "670",
-          "name": "670"
-        },
-        {
-          "id": "77",
-          "name": "77"
-        },
-        {
-          "id": "c3",
-          "name": "C3"
-        },
-        {
-          "id": "g1",
-          "name": "G1"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n19",
-          "name": "N19"
-        },
-        {
-          "id": "n31",
-          "name": "N31"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBCLJ",
-      "commonName": "Clapham Junction",
-      "lat": 51.463724,
-      "lon": -0.168997
-    },
-    {
-      "naptanId": "HUBCLJ",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001069",
-      "lines": [
-        {
-          "id": "170",
-          "name": "170"
-        },
-        {
-          "id": "219",
-          "name": "219"
-        },
-        {
-          "id": "295",
-          "name": "295"
-        },
-        {
-          "id": "319",
-          "name": "319"
-        },
-        {
-          "id": "337",
-          "name": "337"
-        },
-        {
-          "id": "344",
-          "name": "344"
-        },
-        {
-          "id": "345",
-          "name": "345"
-        },
-        {
-          "id": "35",
-          "name": "35"
-        },
-        {
-          "id": "37",
-          "name": "37"
-        },
-        {
-          "id": "39",
-          "name": "39"
-        },
-        {
-          "id": "49",
-          "name": "49"
-        },
-        {
-          "id": "639",
-          "name": "639"
-        },
-        {
-          "id": "670",
-          "name": "670"
-        },
-        {
-          "id": "77",
-          "name": "77"
-        },
-        {
-          "id": "c3",
-          "name": "C3"
-        },
-        {
-          "id": "g1",
-          "name": "G1"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n19",
-          "name": "N19"
-        },
-        {
-          "id": "n31",
-          "name": "N31"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBCLJ",
-      "commonName": "Clapham Junction",
-      "lat": 51.463724,
-      "lon": -0.168997
-    },
-    {
-      "naptanId": "910GCMDNRD",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001045",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GCMDNRD",
-      "commonName": "Camden Road Rail Station",
-      "lat": 51.541791,
-      "lon": -0.138701
-    },
-    {
-      "naptanId": "910GCNNB",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001048",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "910GCNNB",
-      "commonName": "Canonbury Rail Station",
-      "lat": 51.548732,
-      "lon": -0.092191
-    },
-    {
-      "naptanId": "HUBIMP",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001347",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBIMP",
-      "commonName": "Imperial Wharf",
-      "lat": 51.47555,
-      "lon": -0.183084
-    },
-    {
-      "naptanId": "910GDALSKLD",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001081",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GDALSKLD",
-      "commonName": "Dalston Kingsland Rail Station",
-      "lat": 51.548148,
-      "lon": -0.075701
-    },
-    {
-      "naptanId": "910GFNCHLYR",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001109",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GFNCHLYR",
-      "commonName": "Finchley Road & Frognal Rail Station",
-      "lat": 51.550266,
-      "lon": -0.183141
-    },
-    {
-      "naptanId": "HUBGUN",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000094",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "HUBGUN",
-      "commonName": "Gunnersbury",
-      "lat": 51.491745,
-      "lon": -0.275276
-    },
-    {
-      "naptanId": "910GGOSPLOK",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001119",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "suffragette",
-          "name": "Suffragette"
-        }
-      ],
-      "id": "910GGOSPLOK",
-      "commonName": "Gospel Oak Rail Station",
-      "lat": 51.555335,
-      "lon": -0.15077
-    },
-    {
-      "naptanId": "910GHACKNYC",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001127",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GHACKNYC",
-      "commonName": "Hackney Central Rail Station",
-      "lat": 51.547105,
-      "lon": -0.056058
-    },
-    {
-      "naptanId": "910GHACKNYW",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001129",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GHACKNYW",
-      "commonName": "Hackney Wick Rail Station",
-      "lat": 51.54341,
-      "lon": -0.02492
-    },
-    {
-      "naptanId": "HUBHHY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000108",
-      "lines": [
-        {
-          "id": "great-northern",
-          "name": "Great Northern"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBHHY",
-      "commonName": "Highbury & Islington",
-      "lat": 51.546269,
-      "lon": -0.103538
-    },
-    {
-      "naptanId": "910GHMPSTDH",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001131",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GHMPSTDH",
-      "commonName": "Hampstead Heath Rail Station",
-      "lat": 51.55521,
-      "lon": -0.165705
-    },
-    {
-      "naptanId": "910GHOMRTON",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001153",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GHOMRTON",
-      "commonName": "Homerton Rail Station",
-      "lat": 51.547012,
-      "lon": -0.04236
-    },
-    {
-      "naptanId": "HUBKPA",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000170",
-      "lines": [
-        {
-          "id": "28",
-          "name": "28"
-        },
-        {
-          "id": "306",
-          "name": "306"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n28",
-          "name": "N28"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBKPA",
-      "commonName": "Kensington (Olympia)",
-      "lat": 51.496156,
-      "lon": -0.210502
-    },
-    {
-      "naptanId": "910GKENR",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001161",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GKENR",
-      "commonName": "Kensal Rise Rail Station",
-      "lat": 51.534554,
-      "lon": -0.219957
-    },
-    {
-      "naptanId": "HUBKWG",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000125",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "HUBKWG",
-      "commonName": "Kew Gardens",
-      "lat": 51.477069,
-      "lon": -0.285148
-    },
-    {
-      "naptanId": "910GKNTSHTW",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001165",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GKNTSHTW",
-      "commonName": "Kentish Town West Rail Station",
-      "lat": 51.546548,
-      "lon": -0.146655
-    },
-    {
-      "naptanId": "HUBRMD",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000192",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        }
-      ],
-      "id": "HUBRMD",
-      "commonName": "Richmond",
-      "lat": 51.463152,
-      "lon": -0.301448
-    },
-    {
-      "naptanId": "910GSACTON",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001254",
-      "lines": [
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "910GSACTON",
-      "commonName": "South Acton Rail Station",
-      "lat": 51.499695,
-      "lon": -0.270157
-    },
-    {
-      "naptanId": "HUBSPB",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000203",
-      "lines": [
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBSPB",
-      "commonName": "Shepherd's Bush",
-      "lat": 51.504791,
-      "lon": -0.219213
-    },
-    {
-      "naptanId": "HUBSRA",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "international-rail",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000226",
-      "lines": [
-        {
-          "id": "104",
-          "name": "104"
-        },
-        {
-          "id": "108",
-          "name": "108"
-        },
-        {
-          "id": "158",
-          "name": "158"
-        },
-        {
-          "id": "238",
-          "name": "238"
-        },
-        {
-          "id": "241",
-          "name": "241"
-        },
-        {
-          "id": "25",
-          "name": "25"
-        },
-        {
-          "id": "257",
-          "name": "257"
-        },
-        {
-          "id": "262",
-          "name": "262"
-        },
-        {
-          "id": "276",
-          "name": "276"
-        },
-        {
-          "id": "308",
-          "name": "308"
-        },
-        {
-          "id": "339",
-          "name": "339"
-        },
-        {
-          "id": "388",
-          "name": "388"
-        },
-        {
-          "id": "425",
-          "name": "425"
-        },
-        {
-          "id": "473",
-          "name": "473"
-        },
-        {
-          "id": "678",
-          "name": "678"
-        },
-        {
-          "id": "69",
-          "name": "69"
-        },
-        {
-          "id": "86",
-          "name": "86"
-        },
-        {
-          "id": "97",
-          "name": "97"
-        },
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "d8",
-          "name": "D8"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n25",
-          "name": "N25"
-        },
-        {
-          "id": "n8",
-          "name": "N8"
-        },
-        {
-          "id": "n86",
-          "name": "N86"
-        }
-      ],
-      "id": "HUBSRA",
-      "commonName": "Stratford",
-      "lat": 51.541508,
-      "lon": -0.00241
-    },
-    {
-      "naptanId": "HUBWBP",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000260",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBWBP",
-      "commonName": "West Brompton",
-      "lat": 51.487168,
-      "lon": -0.195593
-    },
-    {
-      "naptanId": "HUBWHD",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000263",
-      "lines": [
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        }
-      ],
-      "id": "HUBWHD",
-      "commonName": "West Hampstead",
-      "lat": 51.547533,
-      "lon": -0.191357
-    },
-    {
-      "naptanId": "HUBWIJ",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000271",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "HUBWIJ",
-      "commonName": "Willesden Junction",
-      "lat": 51.532556,
-      "lon": -0.243006
-    },
-    {
-      "naptanId": "HUBSRA",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "international-rail",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000226",
-      "lines": [
-        {
-          "id": "104",
-          "name": "104"
-        },
-        {
-          "id": "108",
-          "name": "108"
-        },
-        {
-          "id": "158",
-          "name": "158"
-        },
-        {
-          "id": "238",
-          "name": "238"
-        },
-        {
-          "id": "241",
-          "name": "241"
-        },
-        {
-          "id": "25",
-          "name": "25"
-        },
-        {
-          "id": "257",
-          "name": "257"
-        },
-        {
-          "id": "262",
-          "name": "262"
-        },
-        {
-          "id": "276",
-          "name": "276"
-        },
-        {
-          "id": "308",
-          "name": "308"
-        },
-        {
-          "id": "339",
-          "name": "339"
-        },
-        {
-          "id": "388",
-          "name": "388"
-        },
-        {
-          "id": "425",
-          "name": "425"
-        },
-        {
-          "id": "473",
-          "name": "473"
-        },
-        {
-          "id": "678",
-          "name": "678"
-        },
-        {
-          "id": "69",
-          "name": "69"
-        },
-        {
-          "id": "86",
-          "name": "86"
-        },
-        {
-          "id": "97",
-          "name": "97"
-        },
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "d8",
-          "name": "D8"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n25",
-          "name": "N25"
-        },
-        {
-          "id": "n8",
-          "name": "N8"
-        },
-        {
-          "id": "n86",
-          "name": "N86"
-        }
-      ],
-      "id": "HUBSRA",
-      "commonName": "Stratford",
-      "lat": 51.541508,
-      "lon": -0.00241
-    },
-    {
-      "naptanId": "HUBGUN",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000094",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "HUBGUN",
-      "commonName": "Gunnersbury",
-      "lat": 51.491745,
-      "lon": -0.275276
-    },
-    {
-      "naptanId": "HUBHHY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000108",
-      "lines": [
-        {
-          "id": "great-northern",
-          "name": "Great Northern"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBHHY",
-      "commonName": "Highbury & Islington",
-      "lat": 51.546269,
-      "lon": -0.103538
-    },
-    {
-      "naptanId": "HUBKPA",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000170",
-      "lines": [
-        {
-          "id": "28",
-          "name": "28"
-        },
-        {
-          "id": "306",
-          "name": "306"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n28",
-          "name": "N28"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBKPA",
-      "commonName": "Kensington (Olympia)",
-      "lat": 51.496156,
-      "lon": -0.210502
-    },
-    {
-      "naptanId": "HUBKWG",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000125",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "HUBKWG",
-      "commonName": "Kew Gardens",
-      "lat": 51.477069,
-      "lon": -0.285148
-    },
-    {
-      "naptanId": "HUBRMD",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000192",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        }
-      ],
-      "id": "HUBRMD",
-      "commonName": "Richmond",
-      "lat": 51.463152,
-      "lon": -0.301448
-    },
-    {
-      "naptanId": "HUBSPB",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000203",
-      "lines": [
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBSPB",
-      "commonName": "Shepherd's Bush",
-      "lat": 51.504791,
-      "lon": -0.219213
-    },
-    {
-      "naptanId": "HUBSRA",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "international-rail",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000226",
-      "lines": [
-        {
-          "id": "104",
-          "name": "104"
-        },
-        {
-          "id": "108",
-          "name": "108"
-        },
-        {
-          "id": "158",
-          "name": "158"
-        },
-        {
-          "id": "238",
-          "name": "238"
-        },
-        {
-          "id": "241",
-          "name": "241"
-        },
-        {
-          "id": "25",
-          "name": "25"
-        },
-        {
-          "id": "257",
-          "name": "257"
-        },
-        {
-          "id": "262",
-          "name": "262"
-        },
-        {
-          "id": "276",
-          "name": "276"
-        },
-        {
-          "id": "308",
-          "name": "308"
-        },
-        {
-          "id": "339",
-          "name": "339"
-        },
-        {
-          "id": "388",
-          "name": "388"
-        },
-        {
-          "id": "425",
-          "name": "425"
-        },
-        {
-          "id": "473",
-          "name": "473"
-        },
-        {
-          "id": "678",
-          "name": "678"
-        },
-        {
-          "id": "69",
-          "name": "69"
-        },
-        {
-          "id": "86",
-          "name": "86"
-        },
-        {
-          "id": "97",
-          "name": "97"
-        },
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "d8",
-          "name": "D8"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n25",
-          "name": "N25"
-        },
-        {
-          "id": "n8",
-          "name": "N8"
-        },
-        {
-          "id": "n86",
-          "name": "N86"
-        }
-      ],
-      "id": "HUBSRA",
-      "commonName": "Stratford",
-      "lat": 51.541508,
-      "lon": -0.00241
-    },
-    {
-      "naptanId": "HUBWBP",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000260",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBWBP",
-      "commonName": "West Brompton",
-      "lat": 51.487168,
-      "lon": -0.195593
-    },
-    {
-      "naptanId": "HUBWHD",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000263",
-      "lines": [
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        }
-      ],
-      "id": "HUBWHD",
-      "commonName": "West Hampstead",
-      "lat": 51.547533,
-      "lon": -0.191357
-    },
-    {
-      "naptanId": "HUBWIJ",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000271",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "HUBWIJ",
-      "commonName": "Willesden Junction",
-      "lat": 51.532556,
-      "lon": -0.243006
     }
   ]
 }

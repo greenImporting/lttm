@@ -1,13 +1,42 @@
 {
   "line_id": "bakerloo",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "bakerloo",
+  "station_order": [
+    "940GZZLUBST",
+    "940GZZLUCHX",
+    "940GZZLUEAC",
+    "940GZZLUEMB",
+    "940GZZLUERB",
+    "940GZZLUHAW",
+    "940GZZLUHSN",
+    "940GZZLUKEN",
+    "940GZZLUKPK",
+    "940GZZLUKSL",
+    "940GZZLULBN",
+    "940GZZLUMVL",
+    "940GZZLUMYB",
+    "940GZZLUNWY",
+    "940GZZLUOXC",
+    "940GZZLUPAC",
+    "940GZZLUPCC",
+    "940GZZLUQPS",
+    "940GZZLURGP",
+    "940GZZLUSGP",
+    "940GZZLUSKT",
+    "940GZZLUWJN",
+    "940GZZLUWKA",
+    "940GZZLUWLO",
+    "940GZZLUWYC"
+  ],
+  "stations": [
     {
-      "naptanId": "940GZZLUBST",
+      "station_id": "940GZZLUBST",
+      "naptan_id": "940GZZLUBST",
+      "ics_code": "1000011",
+      "common_name": "Baker Street Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000011",
       "lines": [
         {
           "id": "bakerloo",
@@ -30,17 +59,17 @@
           "name": "Metropolitan"
         }
       ],
-      "id": "940GZZLUBST",
-      "commonName": "Baker Street Underground Station",
       "lat": 51.522883,
       "lon": -0.15713
     },
     {
-      "naptanId": "940GZZLUCHX",
+      "station_id": "940GZZLUCHX",
+      "naptan_id": "940GZZLUCHX",
+      "ics_code": "1000045",
+      "common_name": "Charing Cross Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000045",
       "lines": [
         {
           "id": "bakerloo",
@@ -51,17 +80,17 @@
           "name": "Northern"
         }
       ],
-      "id": "940GZZLUCHX",
-      "commonName": "Charing Cross Underground Station",
       "lat": 51.50741,
       "lon": -0.127277
     },
     {
-      "naptanId": "940GZZLUEAC",
+      "station_id": "940GZZLUEAC",
+      "naptan_id": "940GZZLUEAC",
+      "ics_code": "1000073",
+      "common_name": "Elephant & Castle Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000073",
       "lines": [
         {
           "id": "bakerloo",
@@ -72,17 +101,17 @@
           "name": "Northern"
         }
       ],
-      "id": "940GZZLUEAC",
-      "commonName": "Elephant & Castle Underground Station",
       "lat": 51.494536,
       "lon": -0.100606
     },
     {
-      "naptanId": "940GZZLUEMB",
+      "station_id": "940GZZLUEMB",
+      "naptan_id": "940GZZLUEMB",
+      "ics_code": "1000075",
+      "common_name": "Embankment Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000075",
       "lines": [
         {
           "id": "bakerloo",
@@ -101,187 +130,187 @@
           "name": "Northern"
         }
       ],
-      "id": "940GZZLUEMB",
-      "commonName": "Embankment Underground Station",
       "lat": 51.507058,
       "lon": -0.122666
     },
     {
-      "naptanId": "940GZZLUERB",
+      "station_id": "940GZZLUERB",
+      "naptan_id": "940GZZLUERB",
+      "ics_code": "1000071",
+      "common_name": "Edgware Road (Bakerloo) Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000071",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUERB",
-      "commonName": "Edgware Road (Bakerloo) Underground Station",
       "lat": 51.520299,
       "lon": -0.17015
     },
     {
-      "naptanId": "940GZZLUHAW",
+      "station_id": "940GZZLUHAW",
+      "naptan_id": "940GZZLUHAW",
+      "ics_code": "1000101",
+      "common_name": "Harrow & Wealdstone Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000101",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUHAW",
-      "commonName": "Harrow & Wealdstone Underground Station",
       "lat": 51.592268,
       "lon": -0.335217
     },
     {
-      "naptanId": "940GZZLUHSN",
+      "station_id": "940GZZLUHSN",
+      "naptan_id": "940GZZLUHSN",
+      "ics_code": "1000100",
+      "common_name": "Harlesden Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000100",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUHSN",
-      "commonName": "Harlesden Underground Station",
       "lat": 51.53631,
       "lon": -0.257883
     },
     {
-      "naptanId": "940GZZLUKEN",
+      "station_id": "940GZZLUKEN",
+      "naptan_id": "940GZZLUKEN",
+      "ics_code": "1000124",
+      "common_name": "Kenton Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000124",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUKEN",
-      "commonName": "Kenton Underground Station",
       "lat": 51.581756,
       "lon": -0.31691
     },
     {
-      "naptanId": "940GZZLUKPK",
+      "station_id": "940GZZLUKPK",
+      "naptan_id": "940GZZLUKPK",
+      "ics_code": "1000127",
+      "common_name": "Kilburn Park Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000127",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUKPK",
-      "commonName": "Kilburn Park Underground Station",
       "lat": 51.534979,
       "lon": -0.194232
     },
     {
-      "naptanId": "940GZZLUKSL",
+      "station_id": "940GZZLUKSL",
+      "naptan_id": "940GZZLUKSL",
+      "ics_code": "1000122",
+      "common_name": "Kensal Green Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000122",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUKSL",
-      "commonName": "Kensal Green Underground Station",
       "lat": 51.530539,
       "lon": -0.225016
     },
     {
-      "naptanId": "940GZZLULBN",
+      "station_id": "940GZZLULBN",
+      "naptan_id": "940GZZLULBN",
+      "ics_code": "1000132",
+      "common_name": "Lambeth North Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000132",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLULBN",
-      "commonName": "Lambeth North Underground Station",
       "lat": 51.498808,
       "lon": -0.112315
     },
     {
-      "naptanId": "940GZZLUMVL",
+      "station_id": "940GZZLUMVL",
+      "naptan_id": "940GZZLUMVL",
+      "ics_code": "1000141",
+      "common_name": "Maida Vale Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000141",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUMVL",
-      "commonName": "Maida Vale Underground Station",
       "lat": 51.529777,
       "lon": -0.185758
     },
     {
-      "naptanId": "940GZZLUMYB",
+      "station_id": "940GZZLUMYB",
+      "naptan_id": "940GZZLUMYB",
+      "ics_code": "1000145",
+      "common_name": "Marylebone Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000145",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUMYB",
-      "commonName": "Marylebone Underground Station",
       "lat": 51.522322,
       "lon": -0.163207
     },
     {
-      "naptanId": "940GZZLUNWY",
+      "station_id": "940GZZLUNWY",
+      "naptan_id": "940GZZLUNWY",
+      "ics_code": "1000163",
+      "common_name": "North Wembley Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000163",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUNWY",
-      "commonName": "North Wembley Underground Station",
       "lat": 51.562551,
       "lon": -0.304
     },
     {
-      "naptanId": "940GZZLUOXC",
+      "station_id": "940GZZLUOXC",
+      "naptan_id": "940GZZLUOXC",
+      "ics_code": "1000173",
+      "common_name": "Oxford Circus Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000173",
       "lines": [
         {
           "id": "bakerloo",
@@ -296,17 +325,17 @@
           "name": "Victoria"
         }
       ],
-      "id": "940GZZLUOXC",
-      "commonName": "Oxford Circus Underground Station",
       "lat": 51.515224,
       "lon": -0.141903
     },
     {
-      "naptanId": "940GZZLUPAC",
+      "station_id": "940GZZLUPAC",
+      "naptan_id": "940GZZLUPAC",
+      "ics_code": "1000174",
+      "common_name": "Paddington Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000174",
       "lines": [
         {
           "id": "bakerloo",
@@ -321,17 +350,17 @@
           "name": "District"
         }
       ],
-      "id": "940GZZLUPAC",
-      "commonName": "Paddington Underground Station",
       "lat": 51.516581,
       "lon": -0.175689
     },
     {
-      "naptanId": "940GZZLUPCC",
+      "station_id": "940GZZLUPCC",
+      "naptan_id": "940GZZLUPCC",
+      "ics_code": "1000179",
+      "common_name": "Piccadilly Circus Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000179",
       "lines": [
         {
           "id": "bakerloo",
@@ -342,119 +371,119 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUPCC",
-      "commonName": "Piccadilly Circus Underground Station",
       "lat": 51.51005,
       "lon": -0.133798
     },
     {
-      "naptanId": "940GZZLUQPS",
+      "station_id": "940GZZLUQPS",
+      "naptan_id": "940GZZLUQPS",
+      "ics_code": "1000186",
+      "common_name": "Queen's Park Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000186",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUQPS",
-      "commonName": "Queen's Park Underground Station",
       "lat": 51.534158,
       "lon": -0.204574
     },
     {
-      "naptanId": "940GZZLURGP",
+      "station_id": "940GZZLURGP",
+      "naptan_id": "940GZZLURGP",
+      "ics_code": "1000191",
+      "common_name": "Regent's Park Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000191",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLURGP",
-      "commonName": "Regent's Park Underground Station",
       "lat": 51.523344,
       "lon": -0.146444
     },
     {
-      "naptanId": "940GZZLUSGP",
+      "station_id": "940GZZLUSGP",
+      "naptan_id": "940GZZLUSGP",
+      "ics_code": "1000224",
+      "common_name": "Stonebridge Park Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000224",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUSGP",
-      "commonName": "Stonebridge Park Underground Station",
       "lat": 51.543959,
       "lon": -0.275892
     },
     {
-      "naptanId": "940GZZLUSKT",
+      "station_id": "940GZZLUSKT",
+      "naptan_id": "940GZZLUSKT",
+      "ics_code": "1000213",
+      "common_name": "South Kenton Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000213",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUSKT",
-      "commonName": "South Kenton Underground Station",
       "lat": 51.570232,
       "lon": -0.308433
     },
     {
-      "naptanId": "940GZZLUWJN",
+      "station_id": "940GZZLUWJN",
+      "naptan_id": "940GZZLUWJN",
+      "ics_code": "1000271",
+      "common_name": "Willesden Junction Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000271",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUWJN",
-      "commonName": "Willesden Junction Underground Station",
       "lat": 51.532259,
       "lon": -0.244283
     },
     {
-      "naptanId": "940GZZLUWKA",
+      "station_id": "940GZZLUWKA",
+      "naptan_id": "940GZZLUWKA",
+      "ics_code": "1000253",
+      "common_name": "Warwick Avenue Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000253",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUWKA",
-      "commonName": "Warwick Avenue Underground Station",
       "lat": 51.523263,
       "lon": -0.183783
     },
     {
-      "naptanId": "940GZZLUWLO",
+      "station_id": "940GZZLUWLO",
+      "naptan_id": "940GZZLUWLO",
+      "ics_code": "1000254",
+      "common_name": "Waterloo Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000254",
       "lines": [
         {
           "id": "bakerloo",
@@ -473,1349 +502,25 @@
           "name": "Waterloo & City"
         }
       ],
-      "id": "940GZZLUWLO",
-      "commonName": "Waterloo Underground Station",
       "lat": 51.503299,
       "lon": -0.11478
     },
     {
-      "naptanId": "940GZZLUWYC",
+      "station_id": "940GZZLUWYC",
+      "naptan_id": "940GZZLUWYC",
+      "ics_code": "1000256",
+      "common_name": "Wembley Central Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000256",
       "lines": [
         {
           "id": "bakerloo",
           "name": "Bakerloo"
         }
       ],
-      "id": "940GZZLUWYC",
-      "commonName": "Wembley Central Underground Station",
       "lat": 51.552304,
       "lon": -0.296852
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "HUBHDN",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000100",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBHDN",
-      "commonName": "Harlesden",
-      "lat": 51.536305,
-      "lon": -0.257774
-    },
-    {
-      "naptanId": "HUBHRW",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000101",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "west-midlands-trains",
-          "name": "West Midlands Trains"
-        }
-      ],
-      "id": "HUBHRW",
-      "commonName": "Harrow & Wealdstone",
-      "lat": 51.592216,
-      "lon": -0.334896
-    },
-    {
-      "naptanId": "HUBKNL",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000122",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBKNL",
-      "commonName": "Kensal Green",
-      "lat": 51.530545,
-      "lon": -0.22505
-    },
-    {
-      "naptanId": "HUBKNT",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000124",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBKNT",
-      "commonName": "Kenton",
-      "lat": 51.581786,
-      "lon": -0.316946
-    },
-    {
-      "naptanId": "HUBNWB",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000163",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBNWB",
-      "commonName": "North Wembley",
-      "lat": 51.56258,
-      "lon": -0.303992
-    },
-    {
-      "naptanId": "HUBPAD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000174",
-      "lines": [
-        {
-          "id": "16",
-          "name": "16"
-        },
-        {
-          "id": "23",
-          "name": "23"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "36",
-          "name": "36"
-        },
-        {
-          "id": "7",
-          "name": "7"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n7",
-          "name": "N7"
-        }
-      ],
-      "id": "HUBPAD",
-      "commonName": "Paddington",
-      "lat": 51.516981,
-      "lon": -0.17616
-    },
-    {
-      "naptanId": "HUBPAD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000174",
-      "lines": [
-        {
-          "id": "16",
-          "name": "16"
-        },
-        {
-          "id": "23",
-          "name": "23"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "36",
-          "name": "36"
-        },
-        {
-          "id": "7",
-          "name": "7"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n7",
-          "name": "N7"
-        }
-      ],
-      "id": "HUBPAD",
-      "commonName": "Paddington",
-      "lat": 51.516981,
-      "lon": -0.17616
-    },
-    {
-      "naptanId": "HUBQPW",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000186",
-      "lines": [
-        {
-          "id": "206",
-          "name": "206"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBQPW",
-      "commonName": "Queen's Park",
-      "lat": 51.534443,
-      "lon": -0.204882
-    },
-    {
-      "naptanId": "HUBSOK",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000213",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBSOK",
-      "commonName": "South Kenton",
-      "lat": 51.570229,
-      "lon": -0.308448
-    },
-    {
-      "naptanId": "HUBSBP",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000224",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBSBP",
-      "commonName": "Stonebridge Park",
-      "lat": 51.544041,
-      "lon": -0.275859
-    },
-    {
-      "naptanId": "HUBWIJ",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000271",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "HUBWIJ",
-      "commonName": "Willesden Junction",
-      "lat": 51.532556,
-      "lon": -0.243006
-    },
-    {
-      "naptanId": "HUBWMB",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000256",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBWMB",
-      "commonName": "Wembley Central",
-      "lat": 51.55232,
-      "lon": -0.296642
-    },
-    {
-      "naptanId": "940GZZLUBST",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000011",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        }
-      ],
-      "id": "940GZZLUBST",
-      "commonName": "Baker Street Underground Station",
-      "lat": 51.522883,
-      "lon": -0.15713
-    },
-    {
-      "naptanId": "HUBCHX",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000045",
-      "lines": [
-        {
-          "id": "139",
-          "name": "139"
-        },
-        {
-          "id": "176",
-          "name": "176"
-        },
-        {
-          "id": "26",
-          "name": "26"
-        },
-        {
-          "id": "87",
-          "name": "87"
-        },
-        {
-          "id": "91",
-          "name": "91"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "n155",
-          "name": "N155"
-        },
-        {
-          "id": "n199",
-          "name": "N199"
-        },
-        {
-          "id": "n21",
-          "name": "N21"
-        },
-        {
-          "id": "n26",
-          "name": "N26"
-        },
-        {
-          "id": "n343",
-          "name": "N343"
-        },
-        {
-          "id": "n44",
-          "name": "N44"
-        },
-        {
-          "id": "n87",
-          "name": "N87"
-        },
-        {
-          "id": "n89",
-          "name": "N89"
-        },
-        {
-          "id": "n91",
-          "name": "N91"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        }
-      ],
-      "id": "HUBCHX",
-      "commonName": "Charing Cross",
-      "lat": 51.507819,
-      "lon": -0.126137
-    },
-    {
-      "naptanId": "HUBEPH",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000073",
-      "lines": [
-        {
-          "id": "1",
-          "name": "1"
-        },
-        {
-          "id": "172",
-          "name": "172"
-        },
-        {
-          "id": "188",
-          "name": "188"
-        },
-        {
-          "id": "363",
-          "name": "363"
-        },
-        {
-          "id": "415",
-          "name": "415"
-        },
-        {
-          "id": "453",
-          "name": "453"
-        },
-        {
-          "id": "53",
-          "name": "53"
-        },
-        {
-          "id": "63",
-          "name": "63"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "bl1",
-          "name": "BL1"
-        },
-        {
-          "id": "n1",
-          "name": "N1"
-        },
-        {
-          "id": "n53",
-          "name": "N53"
-        },
-        {
-          "id": "n63",
-          "name": "N63"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        }
-      ],
-      "id": "HUBEPH",
-      "commonName": "Elephant & Castle",
-      "lat": 51.494505,
-      "lon": -0.099185
-    },
-    {
-      "naptanId": "940GZZLUEMB",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000075",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        }
-      ],
-      "id": "940GZZLUEMB",
-      "commonName": "Embankment Underground Station",
-      "lat": 51.507058,
-      "lon": -0.122666
-    },
-    {
-      "naptanId": "940GZZLUERB",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000071",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        }
-      ],
-      "id": "940GZZLUERB",
-      "commonName": "Edgware Road (Bakerloo) Underground Station",
-      "lat": 51.520299,
-      "lon": -0.17015
-    },
-    {
-      "naptanId": "HUBHRW",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000101",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "west-midlands-trains",
-          "name": "West Midlands Trains"
-        }
-      ],
-      "id": "HUBHRW",
-      "commonName": "Harrow & Wealdstone",
-      "lat": 51.592216,
-      "lon": -0.334896
-    },
-    {
-      "naptanId": "HUBHDN",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000100",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBHDN",
-      "commonName": "Harlesden",
-      "lat": 51.536305,
-      "lon": -0.257774
-    },
-    {
-      "naptanId": "HUBKNT",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000124",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBKNT",
-      "commonName": "Kenton",
-      "lat": 51.581786,
-      "lon": -0.316946
-    },
-    {
-      "naptanId": "940GZZLUKPK",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000127",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        }
-      ],
-      "id": "940GZZLUKPK",
-      "commonName": "Kilburn Park Underground Station",
-      "lat": 51.534979,
-      "lon": -0.194232
-    },
-    {
-      "naptanId": "HUBKNL",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000122",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBKNL",
-      "commonName": "Kensal Green",
-      "lat": 51.530545,
-      "lon": -0.22505
-    },
-    {
-      "naptanId": "940GZZLULBN",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000132",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        }
-      ],
-      "id": "940GZZLULBN",
-      "commonName": "Lambeth North Underground Station",
-      "lat": 51.498808,
-      "lon": -0.112315
-    },
-    {
-      "naptanId": "940GZZLUMVL",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000141",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        }
-      ],
-      "id": "940GZZLUMVL",
-      "commonName": "Maida Vale Underground Station",
-      "lat": 51.529777,
-      "lon": -0.185758
-    },
-    {
-      "naptanId": "HUBMYB",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000145",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "chiltern-railways",
-          "name": "Chiltern Railways"
-        }
-      ],
-      "id": "HUBMYB",
-      "commonName": "Marylebone",
-      "lat": 51.521602,
-      "lon": -0.163013
-    },
-    {
-      "naptanId": "HUBNWB",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000163",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBNWB",
-      "commonName": "North Wembley",
-      "lat": 51.56258,
-      "lon": -0.303992
-    },
-    {
-      "naptanId": "940GZZLUOXC",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000173",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        }
-      ],
-      "id": "940GZZLUOXC",
-      "commonName": "Oxford Circus Underground Station",
-      "lat": 51.515224,
-      "lon": -0.141903
-    },
-    {
-      "naptanId": "HUBPAD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000174",
-      "lines": [
-        {
-          "id": "16",
-          "name": "16"
-        },
-        {
-          "id": "23",
-          "name": "23"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "36",
-          "name": "36"
-        },
-        {
-          "id": "7",
-          "name": "7"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n7",
-          "name": "N7"
-        }
-      ],
-      "id": "HUBPAD",
-      "commonName": "Paddington",
-      "lat": 51.516981,
-      "lon": -0.17616
-    },
-    {
-      "naptanId": "HUBPAD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000174",
-      "lines": [
-        {
-          "id": "16",
-          "name": "16"
-        },
-        {
-          "id": "23",
-          "name": "23"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "36",
-          "name": "36"
-        },
-        {
-          "id": "7",
-          "name": "7"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n7",
-          "name": "N7"
-        }
-      ],
-      "id": "HUBPAD",
-      "commonName": "Paddington",
-      "lat": 51.516981,
-      "lon": -0.17616
-    },
-    {
-      "naptanId": "940GZZLUPCC",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000179",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUPCC",
-      "commonName": "Piccadilly Circus Underground Station",
-      "lat": 51.51005,
-      "lon": -0.133798
-    },
-    {
-      "naptanId": "HUBQPW",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000186",
-      "lines": [
-        {
-          "id": "206",
-          "name": "206"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBQPW",
-      "commonName": "Queen's Park",
-      "lat": 51.534443,
-      "lon": -0.204882
-    },
-    {
-      "naptanId": "940GZZLURGP",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000191",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        }
-      ],
-      "id": "940GZZLURGP",
-      "commonName": "Regent's Park Underground Station",
-      "lat": 51.523344,
-      "lon": -0.146444
-    },
-    {
-      "naptanId": "HUBSBP",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000224",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBSBP",
-      "commonName": "Stonebridge Park",
-      "lat": 51.544041,
-      "lon": -0.275859
-    },
-    {
-      "naptanId": "HUBSOK",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000213",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        }
-      ],
-      "id": "HUBSOK",
-      "commonName": "South Kenton",
-      "lat": 51.570229,
-      "lon": -0.308448
-    },
-    {
-      "naptanId": "HUBWIJ",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000271",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        }
-      ],
-      "id": "HUBWIJ",
-      "commonName": "Willesden Junction",
-      "lat": 51.532556,
-      "lon": -0.243006
-    },
-    {
-      "naptanId": "940GZZLUWKA",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000253",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        }
-      ],
-      "id": "940GZZLUWKA",
-      "commonName": "Warwick Avenue Underground Station",
-      "lat": 51.523263,
-      "lon": -0.183783
-    },
-    {
-      "naptanId": "HUBWAT",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000254",
-      "lines": [
-        {
-          "id": "1",
-          "name": "1"
-        },
-        {
-          "id": "11",
-          "name": "11"
-        },
-        {
-          "id": "139",
-          "name": "139"
-        },
-        {
-          "id": "172",
-          "name": "172"
-        },
-        {
-          "id": "176",
-          "name": "176"
-        },
-        {
-          "id": "188",
-          "name": "188"
-        },
-        {
-          "id": "243",
-          "name": "243"
-        },
-        {
-          "id": "341",
-          "name": "341"
-        },
-        {
-          "id": "381",
-          "name": "381"
-        },
-        {
-          "id": "59",
-          "name": "59"
-        },
-        {
-          "id": "68",
-          "name": "68"
-        },
-        {
-          "id": "76",
-          "name": "76"
-        },
-        {
-          "id": "77",
-          "name": "77"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "bl1",
-          "name": "BL1"
-        },
-        {
-          "id": "c10",
-          "name": "C10"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "n1",
-          "name": "N1"
-        },
-        {
-          "id": "n171",
-          "name": "N171"
-        },
-        {
-          "id": "n381",
-          "name": "N381"
-        },
-        {
-          "id": "n68",
-          "name": "N68"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        },
-        {
-          "id": "sl6",
-          "name": "SL6"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "waterloo-city",
-          "name": "Waterloo & City"
-        }
-      ],
-      "id": "HUBWAT",
-      "commonName": "Waterloo",
-      "lat": 51.504269,
-      "lon": -0.113356
-    },
-    {
-      "naptanId": "HUBWMB",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000256",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "lioness",
-          "name": "Lioness"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        }
-      ],
-      "id": "HUBWMB",
-      "commonName": "Wembley Central",
-      "lat": 51.55232,
-      "lon": -0.296642
     }
   ]
 }

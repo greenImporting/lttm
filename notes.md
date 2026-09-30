@@ -6,9 +6,21 @@ very simple map, maybe initially not accurate to london, maybe in future we add 
 
 
 ## application
-grab info from apis about lines and stations
+~~grab info from apis about lines and stations~~
+^ grab status updates about lines and stations from api. persistent data already set up.
 filter and format data,  store for calling later
  send important info off to front end ( status changes of places.)
+
+there are x amount of parts that are necessary ( and are updated )
+status of line (general overview, i think nice to have)
+status of each station
+status of next stop of each train on each line.
+
+will most likely work like this:
+everything will be updated at once, like a sweep of the board (think split-flap display?)
+every 45-60s, queue mass update. iterate through all lines, get status of whole line, each station ( busy or not), and next stop 
+once we have a 200 from all, refresh UI (who knows how ill implement the ui) by returning one big dictionary!
+
 
 ## config + extra fun
 zoom of map (mayb), accent colors, map update, request rate, api keys??a

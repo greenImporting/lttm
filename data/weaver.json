@@ -1,14 +1,43 @@
 {
   "line_id": "weaver",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "weaver",
+  "station_order": [
+    "910GBHILLPK",
+    "910GBRUCGRV",
+    "910GBTHNLGR",
+    "910GCAMHTH",
+    "910GCHESHNT",
+    "910GCHINGFD",
+    "910GCLAPTON",
+    "910GEDMNGRN",
+    "910GENFLDTN",
+    "910GHAKNYNM",
+    "910GHGHMSPK",
+    "910GLIVST",
+    "910GLONFLDS",
+    "910GRCTRYRD",
+    "910GSBURY",
+    "910GSEVNSIS",
+    "910GSIVRST",
+    "910GSTJMSST",
+    "910GSTKNWNG",
+    "910GSTMFDHL",
+    "910GTHBLDSG",
+    "910GTURKYST",
+    "910GWDST",
+    "910GWHHRTLA",
+    "910GWLTWCEN"
+  ],
+  "stations": [
     {
-      "naptanId": "910GBHILLPK",
+      "station_id": "910GBHILLPK",
+      "naptan_id": "910GBHILLPK",
+      "ics_code": "1001042",
+      "common_name": "Bush Hill Park Rail Station",
       "modes": [
         "bus",
         "overground"
       ],
-      "icsCode": "1001042",
       "lines": [
         {
           "id": "377",
@@ -19,18 +48,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GBHILLPK",
-      "commonName": "Bush Hill Park Rail Station",
       "lat": 51.641519,
       "lon": -0.069221
     },
     {
-      "naptanId": "910GBRUCGRV",
+      "station_id": "910GBRUCGRV",
+      "naptan_id": "910GBRUCGRV",
+      "ics_code": "1001040",
+      "common_name": "Bruce Grove Rail Station",
       "modes": [
-        "overground",
-        "national-rail"
+        "national-rail",
+        "overground"
       ],
-      "icsCode": "1001040",
       "lines": [
         {
           "id": "greater-anglia",
@@ -41,18 +70,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GBRUCGRV",
-      "commonName": "Bruce Grove Rail Station",
       "lat": 51.593959,
       "lon": -0.069867
     },
     {
-      "naptanId": "910GBTHNLGR",
+      "station_id": "910GBTHNLGR",
+      "naptan_id": "910GBTHNLGR",
+      "ics_code": "1001023",
+      "common_name": "Bethnal Green Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001023",
       "lines": [
         {
           "id": "greater-anglia",
@@ -63,18 +92,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GBTHNLGR",
-      "commonName": "Bethnal Green Rail Station",
       "lat": 51.523917,
       "lon": -0.059568
     },
     {
-      "naptanId": "910GCAMHTH",
+      "station_id": "910GCAMHTH",
+      "naptan_id": "910GCAMHTH",
+      "ics_code": "1001044",
+      "common_name": "Cambridge Heath (London) Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001044",
       "lines": [
         {
           "id": "greater-anglia",
@@ -85,18 +114,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GCAMHTH",
-      "commonName": "Cambridge Heath (London) Rail Station",
       "lat": 51.531973,
       "lon": -0.057279
     },
     {
-      "naptanId": "910GCHESHNT",
+      "station_id": "910GCHESHNT",
+      "naptan_id": "910GCHESHNT",
+      "ics_code": "1001532",
+      "common_name": "Cheshunt Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001532",
       "lines": [
         {
           "id": "greater-anglia",
@@ -107,35 +136,35 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GCHESHNT",
-      "commonName": "Cheshunt Rail Station",
       "lat": 51.702876,
       "lon": -0.02396
     },
     {
-      "naptanId": "910GCHINGFD",
+      "station_id": "910GCHINGFD",
+      "naptan_id": "910GCHINGFD",
+      "ics_code": "1001063",
+      "common_name": "Chingford Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001063",
       "lines": [
         {
           "id": "weaver",
           "name": "Weaver"
         }
       ],
-      "id": "910GCHINGFD",
-      "commonName": "Chingford Rail Station",
       "lat": 51.633087,
       "lon": 0.009897
     },
     {
-      "naptanId": "910GCLAPTON",
+      "station_id": "910GCLAPTON",
+      "naptan_id": "910GCLAPTON",
+      "ics_code": "1001070",
+      "common_name": "Clapton Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001070",
       "lines": [
         {
           "id": "greater-anglia",
@@ -146,18 +175,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GCLAPTON",
-      "commonName": "Clapton Rail Station",
       "lat": 51.561644,
       "lon": -0.057025
     },
     {
-      "naptanId": "910GEDMNGRN",
+      "station_id": "910GEDMNGRN",
+      "naptan_id": "910GEDMNGRN",
+      "ics_code": "1001092",
+      "common_name": "Edmonton Green Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001092",
       "lines": [
         {
           "id": "greater-anglia",
@@ -168,35 +197,35 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GEDMNGRN",
-      "commonName": "Edmonton Green Rail Station",
       "lat": 51.624929,
       "lon": -0.061112
     },
     {
-      "naptanId": "910GENFLDTN",
+      "station_id": "910GENFLDTN",
+      "naptan_id": "910GENFLDTN",
+      "ics_code": "1001101",
+      "common_name": "Enfield Town Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001101",
       "lines": [
         {
           "id": "weaver",
           "name": "Weaver"
         }
       ],
-      "id": "910GENFLDTN",
-      "commonName": "Enfield Town Rail Station",
       "lat": 51.652026,
       "lon": -0.079328
     },
     {
-      "naptanId": "910GHAKNYNM",
+      "station_id": "910GHAKNYNM",
+      "naptan_id": "910GHAKNYNM",
+      "ics_code": "1001128",
+      "common_name": "Hackney Downs Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001128",
       "lines": [
         {
           "id": "greater-anglia",
@@ -207,36 +236,36 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GHAKNYNM",
-      "commonName": "Hackney Downs Rail Station",
       "lat": 51.548757,
       "lon": -0.060819
     },
     {
-      "naptanId": "910GHGHMSPK",
+      "station_id": "910GHGHMSPK",
+      "naptan_id": "910GHGHMSPK",
+      "ics_code": "1001150",
+      "common_name": "Highams Park Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001150",
       "lines": [
         {
           "id": "weaver",
           "name": "Weaver"
         }
       ],
-      "id": "910GHGHMSPK",
-      "commonName": "Highams Park Rail Station",
       "lat": 51.60835,
       "lon": -0.000222
     },
     {
-      "naptanId": "910GLIVST",
+      "station_id": "910GLIVST",
+      "naptan_id": "910GLIVST",
+      "ics_code": "1000138",
+      "common_name": "London Liverpool Street Rail Station",
       "modes": [
         "elizabeth-line",
-        "overground",
-        "national-rail"
+        "national-rail",
+        "overground"
       ],
-      "icsCode": "1000138",
       "lines": [
         {
           "id": "c2c",
@@ -255,18 +284,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GLIVST",
-      "commonName": "London Liverpool Street Rail Station",
       "lat": 51.517991,
       "lon": -0.081426
     },
     {
-      "naptanId": "910GLONFLDS",
+      "station_id": "910GLONFLDS",
+      "naptan_id": "910GLONFLDS",
+      "ics_code": "1001183",
+      "common_name": "London Fields Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001183",
       "lines": [
         {
           "id": "greater-anglia",
@@ -277,18 +306,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GLONFLDS",
-      "commonName": "London Fields Rail Station",
       "lat": 51.541153,
       "lon": -0.057753
     },
     {
-      "naptanId": "910GRCTRYRD",
+      "station_id": "910GRCTRYRD",
+      "naptan_id": "910GRCTRYRD",
+      "ics_code": "1001238",
+      "common_name": "Rectory Road Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001238",
       "lines": [
         {
           "id": "greater-anglia",
@@ -299,18 +328,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GRCTRYRD",
-      "commonName": "Rectory Road Rail Station",
       "lat": 51.558502,
       "lon": -0.068267
     },
     {
-      "naptanId": "910GSBURY",
+      "station_id": "910GSBURY",
+      "naptan_id": "910GSBURY",
+      "ics_code": "1001257",
+      "common_name": "Southbury Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001257",
       "lines": [
         {
           "id": "greater-anglia",
@@ -321,18 +350,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GSBURY",
-      "commonName": "Southbury Rail Station",
       "lat": 51.648705,
       "lon": -0.052437
     },
     {
-      "naptanId": "910GSEVNSIS",
+      "station_id": "910GSEVNSIS",
+      "naptan_id": "910GSEVNSIS",
+      "ics_code": "1000201",
+      "common_name": "Seven Sisters Rail Station",
       "modes": [
-        "overground",
-        "national-rail"
+        "national-rail",
+        "overground"
       ],
-      "icsCode": "1000201",
       "lines": [
         {
           "id": "greater-anglia",
@@ -343,18 +372,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GSEVNSIS",
-      "commonName": "Seven Sisters Rail Station",
       "lat": 51.582268,
       "lon": -0.07527
     },
     {
-      "naptanId": "910GSIVRST",
+      "station_id": "910GSIVRST",
+      "naptan_id": "910GSIVRST",
+      "ics_code": "1001250",
+      "common_name": "Silver Street Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001250",
       "lines": [
         {
           "id": "greater-anglia",
@@ -365,35 +394,35 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GSIVRST",
-      "commonName": "Silver Street Rail Station",
       "lat": 51.614688,
       "lon": -0.06724
     },
     {
-      "naptanId": "910GSTJMSST",
+      "station_id": "910GSTJMSST",
+      "naptan_id": "910GSTJMSST",
+      "ics_code": "1001268",
+      "common_name": "St James Street (London) Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001268",
       "lines": [
         {
           "id": "weaver",
           "name": "Weaver"
         }
       ],
-      "id": "910GSTJMSST",
-      "commonName": "St James Street (London) Rail Station",
       "lat": 51.580981,
       "lon": -0.032918
     },
     {
-      "naptanId": "910GSTKNWNG",
+      "station_id": "910GSTKNWNG",
+      "naptan_id": "910GSTKNWNG",
+      "ics_code": "1001273",
+      "common_name": "Stoke Newington Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001273",
       "lines": [
         {
           "id": "greater-anglia",
@@ -404,18 +433,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GSTKNWNG",
-      "commonName": "Stoke Newington Rail Station",
       "lat": 51.565233,
       "lon": -0.072887
     },
     {
-      "naptanId": "910GSTMFDHL",
+      "station_id": "910GSTMFDHL",
+      "naptan_id": "910GSTMFDHL",
+      "ics_code": "1001265",
+      "common_name": "Stamford Hill Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001265",
       "lines": [
         {
           "id": "greater-anglia",
@@ -426,18 +455,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GSTMFDHL",
-      "commonName": "Stamford Hill Rail Station",
       "lat": 51.574467,
       "lon": -0.076682
     },
     {
-      "naptanId": "910GTHBLDSG",
+      "station_id": "910GTHBLDSG",
+      "naptan_id": "910GTHBLDSG",
+      "ics_code": "1001533",
+      "common_name": "Theobalds Grove Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001533",
       "lines": [
         {
           "id": "greater-anglia",
@@ -448,18 +477,18 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GTHBLDSG",
-      "commonName": "Theobalds Grove Rail Station",
       "lat": 51.692457,
       "lon": -0.034831
     },
     {
-      "naptanId": "910GTURKYST",
+      "station_id": "910GTURKYST",
+      "naptan_id": "910GTURKYST",
+      "ics_code": "1001299",
+      "common_name": "Turkey Street Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001299",
       "lines": [
         {
           "id": "greater-anglia",
@@ -470,35 +499,35 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GTURKYST",
-      "commonName": "Turkey Street Rail Station",
       "lat": 51.672628,
       "lon": -0.047217
     },
     {
-      "naptanId": "910GWDST",
+      "station_id": "910GWDST",
+      "naptan_id": "910GWDST",
+      "ics_code": "1001343",
+      "common_name": "Wood Street Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001343",
       "lines": [
         {
           "id": "weaver",
           "name": "Weaver"
         }
       ],
-      "id": "910GWDST",
-      "commonName": "Wood Street Rail Station",
       "lat": 51.58658,
       "lon": -0.002405
     },
     {
-      "naptanId": "910GWHHRTLA",
+      "station_id": "910GWHHRTLA",
+      "naptan_id": "910GWHHRTLA",
+      "ics_code": "1001335",
+      "common_name": "White Hart Lane Rail Station",
       "modes": [
-        "overground",
-        "national-rail"
+        "national-rail",
+        "overground"
       ],
-      "icsCode": "1001335",
       "lines": [
         {
           "id": "greater-anglia",
@@ -509,793 +538,25 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GWHHRTLA",
-      "commonName": "White Hart Lane Rail Station",
       "lat": 51.605037,
       "lon": -0.070914
     },
     {
-      "naptanId": "910GWLTWCEN",
+      "station_id": "910GWLTWCEN",
+      "naptan_id": "910GWLTWCEN",
+      "ics_code": "1000249",
+      "common_name": "Walthamstow Central Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1000249",
       "lines": [
         {
           "id": "weaver",
           "name": "Weaver"
         }
       ],
-      "id": "910GWLTWCEN",
-      "commonName": "Walthamstow Central Rail Station",
       "lat": 51.582919,
       "lon": -0.019815
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "910GBHILLPK",
-      "modes": [
-        "bus",
-        "overground"
-      ],
-      "icsCode": "1001042",
-      "lines": [
-        {
-          "id": "377",
-          "name": "377"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GBHILLPK",
-      "commonName": "Bush Hill Park Rail Station",
-      "lat": 51.641519,
-      "lon": -0.069221
-    },
-    {
-      "naptanId": "910GBRUCGRV",
-      "modes": [
-        "overground",
-        "national-rail"
-      ],
-      "icsCode": "1001040",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GBRUCGRV",
-      "commonName": "Bruce Grove Rail Station",
-      "lat": 51.593959,
-      "lon": -0.069867
-    },
-    {
-      "naptanId": "910GBTHNLGR",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001023",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GBTHNLGR",
-      "commonName": "Bethnal Green Rail Station",
-      "lat": 51.523917,
-      "lon": -0.059568
-    },
-    {
-      "naptanId": "910GCAMHTH",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001044",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GCAMHTH",
-      "commonName": "Cambridge Heath (London) Rail Station",
-      "lat": 51.531973,
-      "lon": -0.057279
-    },
-    {
-      "naptanId": "910GCHESHNT",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001532",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GCHESHNT",
-      "commonName": "Cheshunt Rail Station",
-      "lat": 51.702876,
-      "lon": -0.02396
-    },
-    {
-      "naptanId": "910GCHINGFD",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001063",
-      "lines": [
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GCHINGFD",
-      "commonName": "Chingford Rail Station",
-      "lat": 51.633087,
-      "lon": 0.009897
-    },
-    {
-      "naptanId": "910GCLAPTON",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001070",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GCLAPTON",
-      "commonName": "Clapton Rail Station",
-      "lat": 51.561644,
-      "lon": -0.057025
-    },
-    {
-      "naptanId": "910GEDMNGRN",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001092",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GEDMNGRN",
-      "commonName": "Edmonton Green Rail Station",
-      "lat": 51.624929,
-      "lon": -0.061112
-    },
-    {
-      "naptanId": "910GENFLDTN",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001101",
-      "lines": [
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GENFLDTN",
-      "commonName": "Enfield Town Rail Station",
-      "lat": 51.652026,
-      "lon": -0.079328
-    },
-    {
-      "naptanId": "910GHAKNYNM",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001128",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GHAKNYNM",
-      "commonName": "Hackney Downs Rail Station",
-      "lat": 51.548757,
-      "lon": -0.060819
-    },
-    {
-      "naptanId": "910GHGHMSPK",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001150",
-      "lines": [
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GHGHMSPK",
-      "commonName": "Highams Park Rail Station",
-      "lat": 51.60835,
-      "lon": -0.000222
-    },
-    {
-      "naptanId": "HUBLST",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000138",
-      "lines": [
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBLST",
-      "commonName": "Liverpool Street",
-      "lat": 51.51794,
-      "lon": -0.083162
-    },
-    {
-      "naptanId": "HUBLST",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000138",
-      "lines": [
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBLST",
-      "commonName": "Liverpool Street",
-      "lat": 51.51794,
-      "lon": -0.083162
-    },
-    {
-      "naptanId": "910GLONFLDS",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001183",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GLONFLDS",
-      "commonName": "London Fields Rail Station",
-      "lat": 51.541153,
-      "lon": -0.057753
-    },
-    {
-      "naptanId": "910GRCTRYRD",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001238",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GRCTRYRD",
-      "commonName": "Rectory Road Rail Station",
-      "lat": 51.558502,
-      "lon": -0.068267
-    },
-    {
-      "naptanId": "910GSBURY",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001257",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GSBURY",
-      "commonName": "Southbury Rail Station",
-      "lat": 51.648705,
-      "lon": -0.052437
-    },
-    {
-      "naptanId": "HUBSVS",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000201",
-      "lines": [
-        {
-          "id": "149",
-          "name": "149"
-        },
-        {
-          "id": "243",
-          "name": "243"
-        },
-        {
-          "id": "279",
-          "name": "279"
-        },
-        {
-          "id": "318",
-          "name": "318"
-        },
-        {
-          "id": "476",
-          "name": "476"
-        },
-        {
-          "id": "76",
-          "name": "76"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "n73",
-          "name": "N73"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBSVS",
-      "commonName": "Seven Sisters",
-      "lat": 51.582931,
-      "lon": -0.073306
-    },
-    {
-      "naptanId": "910GSIVRST",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001250",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GSIVRST",
-      "commonName": "Silver Street Rail Station",
-      "lat": 51.614688,
-      "lon": -0.06724
-    },
-    {
-      "naptanId": "910GSTJMSST",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001268",
-      "lines": [
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GSTJMSST",
-      "commonName": "St James Street (London) Rail Station",
-      "lat": 51.580981,
-      "lon": -0.032918
-    },
-    {
-      "naptanId": "910GSTKNWNG",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001273",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GSTKNWNG",
-      "commonName": "Stoke Newington Rail Station",
-      "lat": 51.565233,
-      "lon": -0.072887
-    },
-    {
-      "naptanId": "910GSTMFDHL",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001265",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GSTMFDHL",
-      "commonName": "Stamford Hill Rail Station",
-      "lat": 51.574467,
-      "lon": -0.076682
-    },
-    {
-      "naptanId": "910GTHBLDSG",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001533",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GTHBLDSG",
-      "commonName": "Theobalds Grove Rail Station",
-      "lat": 51.692457,
-      "lon": -0.034831
-    },
-    {
-      "naptanId": "910GTURKYST",
-      "modes": [
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001299",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GTURKYST",
-      "commonName": "Turkey Street Rail Station",
-      "lat": 51.672628,
-      "lon": -0.047217
-    },
-    {
-      "naptanId": "910GWDST",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001343",
-      "lines": [
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GWDST",
-      "commonName": "Wood Street Rail Station",
-      "lat": 51.58658,
-      "lon": -0.002405
-    },
-    {
-      "naptanId": "910GWHHRTLA",
-      "modes": [
-        "overground",
-        "national-rail"
-      ],
-      "icsCode": "1001335",
-      "lines": [
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "910GWHHRTLA",
-      "commonName": "White Hart Lane Rail Station",
-      "lat": 51.605037,
-      "lon": -0.070914
-    },
-    {
-      "naptanId": "HUBWHC",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000249",
-      "lines": [
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBWHC",
-      "commonName": "Walthamstow Central",
-      "lat": 51.582948,
-      "lon": -0.019842
-    },
-    {
-      "naptanId": "HUBLST",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000138",
-      "lines": [
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBLST",
-      "commonName": "Liverpool Street",
-      "lat": 51.51794,
-      "lon": -0.083162
-    },
-    {
-      "naptanId": "HUBSVS",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000201",
-      "lines": [
-        {
-          "id": "149",
-          "name": "149"
-        },
-        {
-          "id": "243",
-          "name": "243"
-        },
-        {
-          "id": "279",
-          "name": "279"
-        },
-        {
-          "id": "318",
-          "name": "318"
-        },
-        {
-          "id": "476",
-          "name": "476"
-        },
-        {
-          "id": "76",
-          "name": "76"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "n73",
-          "name": "N73"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBSVS",
-      "commonName": "Seven Sisters",
-      "lat": 51.582931,
-      "lon": -0.073306
-    },
-    {
-      "naptanId": "HUBWHC",
-      "modes": [
-        "bus",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000249",
-      "lines": [
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBWHC",
-      "commonName": "Walthamstow Central",
-      "lat": 51.582948,
-      "lon": -0.019842
     }
   ]
 }

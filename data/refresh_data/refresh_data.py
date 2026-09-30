@@ -1,73 +1,80 @@
+"""
+please please read the README.md in refresh_data/ ,this will explain the sloppy ai usage
+
+"""
 import os
 import json
+import pathlib
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
 
-prim_key = os.getenv("PRIMARY_API_KEY")
-base = "https://api.tfl.gov.uk"
-here = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(here, "data")
+PRIMARY_API_KEY = os.getenv("PRIMARY_API_KEY")
+BASE = "https://api.tfl.gov.uk"
 
-whitelist = {
+HERE = pathlib.Path(__file__).resolve().parent
+DATA = HERE / "data"
+RAW = DATA / "raw"
+NORM = DATA / "normalized"
+
+WHITELIST = {
     "line_id", "line_name", "lineId", "lineName", "direction", "isOutboundOnly", "mode",
     "lineStrings", "stations", "stopPointSequences", "orderedLineRoutes", "stop_points", "stoppoints",
     "id", "name", "lat", "lon", "naptanId", "commonName", "icsId", "icsCode", "modes", "lines",
     "branchId", "nextBranchIds", "prevBranchIds", "stopPoint", "serviceType",
-    "naptanIds"
+    "naptanIds",
 }
 
+
+# ---------- fetch phase ----------
+
 def get(url):
-    params = {"app_key": prim_key} if prim_key else {}
+    params = {"app_key": PRIMARY_API_KEY} if PRIMARY_API_KEY else {}
     return requests.get(url, params=params)
+
 
 def filter_data(data):
     if isinstance(data, dict):
-        return {k: filter_data(v) for k, v in data.items() if k in whitelist}
+        return {k: filter_data(v) for k, v in data.items() if k in WHITELIST}
     if isinstance(data, list):
-        return [filter_data(item) for item in data]
+        return [filter_data(i) for i in data]
     return data
 
+
 def write_json(path, data):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+    path = pathlib.Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
 
 def line_ids():
-    if not os.path.isdir(data_dir):
-        print("missing data dir:", data_dir)
+    if not RAW.is_dir():
+        print("missing raw dir:", RAW)
         return []
-
     skip = {"lines", "stoppoints"}
     ids = [
-        os.path.splitext(fn)[0]
-        for fn in os.listdir(data_dir)
-        if fn.endswith(".json")
-        and not fn.startswith("filtered_")
-        and os.path.splitext(fn)[0] not in skip
+        p.stem for p in RAW.iterdir()
+        if p.suffix == ".json" and not p.name.startswith("filtered_") and p.stem not in skip
     ]
     return sorted(set(ids))
+
 
 def collect_line(lid, stations):
     out = {}
     urls = {
-        "route_sequence_inbound": f"{base}/Line/{lid}/Route/Sequence/inbound",
-        "route_sequence_outbound": f"{base}/Line/{lid}/Route/Sequence/outbound",
-        "stop_points": f"{base}/Line/{lid}/StopPoints",
+        "route_sequence_inbound":  f"{BASE}/Line/{lid}/Route/Sequence/inbound",
+        "route_sequence_outbound": f"{BASE}/Line/{lid}/Route/Sequence/outbound",
+        "stop_points":             f"{BASE}/Line/{lid}/StopPoints",
     }
-
     for name, url in urls.items():
         r = get(url)
         print(lid, name, r.status_code)
-
         if not r.ok:
             out[name] = {"status": r.status_code}
             continue
-
         data = r.json()
         out[name] = data
-
         if isinstance(data, dict):
             for seq in data.get("stopPointSequences", []) or []:
                 for sp in seq.get("stopPoint", []) or []:
@@ -80,50 +87,133 @@ def collect_line(lid, stations):
             for sp in data:
                 if isinstance(sp, dict) and sp.get("id"):
                     stations.add(sp["id"])
-
     return out
 
+
 def filter_all_json_files():
-    for filename in os.listdir(data_dir):
-        if not filename.endswith(".json"):
+    for p in RAW.iterdir():
+        if p.suffix != ".json" or p.name.startswith("filtered_"):
             continue
-        if filename.startswith("filtered_"):
-            continue
-
-        filepath = os.path.join(data_dir, filename)
-        with open(filepath, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
+        data = json.loads(p.read_text(encoding="utf-8"))
         filtered = filter_data(data)
-        outpath = os.path.join(data_dir, f"filtered_{filename}")
+        outpath = RAW / f"filtered_{p.name}"
         write_json(outpath, filtered)
-        print(f"processed {filepath} -> {outpath}")
+        print(f"processed {p} -> {outpath}")
 
-def main():
-    os.makedirs(data_dir, exist_ok=True)
 
+def fetch():
+    RAW.mkdir(parents=True, exist_ok=True)
     ids = line_ids()
     print("line ids:", ids)
 
     stations = set()
     lines = {}
-
     for lid in ids:
         lines[lid] = collect_line(lid, stations)
-
-    write_json(os.path.join(data_dir, "lines.json"), lines)
+    write_json(RAW / "lines.json", lines)
 
     stops = {}
     for sid in sorted(stations):
-        r = get(f"{base}/StopPoint/{sid}")
+        r = get(f"{BASE}/StopPoint/{sid}")
         print("stop", sid, r.status_code)
         stops[sid] = r.json() if r.ok else {"status": r.status_code}
-
-    write_json(os.path.join(data_dir, "stoppoints.json"), stops)
+    write_json(RAW / "stoppoints.json", stops)
 
     filter_all_json_files()
+    print("fetch done", len(ids), "lines", len(stops), "stops")
 
-    print("done", len(ids), "lines", len(stops), "stops")
+
+# ---------- normalise phase ----------
+
+def pick_id(sp):
+    return sp.get("naptanId") or sp.get("id")
+
+
+def merge_station(existing, sp):
+    existing["modes"] = sorted(set(existing["modes"]) | set(sp.get("modes", [])))
+    known = {l["id"] for l in existing["lines"]}
+    for l in sp.get("lines", []):
+        if l.get("id") and l["id"] not in known:
+            existing["lines"].append({"id": l["id"], "name": l.get("name", l["id"])})
+            known.add(l["id"])
+    existing["lines"].sort(key=lambda l: l["id"])
+
+
+def normalize():
+    NORM.mkdir(parents=True, exist_ok=True)
+
+    stations = {}
+    station_lines = {}
+    lines_index = {}
+
+    for path in sorted(RAW.glob("*.json")):
+        if path.name.startswith("filtered_"):
+            continue
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            print(f"skip {path.name}: invalid json")
+            continue
+
+        line_id = raw.get("line_id") or path.stem
+        line_name = raw.get("line_name") or line_id
+        sps = raw.get("stop_points") or raw.get("stoppoints") or []
+
+        order = []
+        for sp in sps:
+            sid = pick_id(sp)
+            if not sid:
+                continue
+            if sid not in stations:
+                stations[sid] = {
+                    "station_id": sid,
+                    "naptan_id": sp.get("naptanId"),
+                    "ics_code": sp.get("icsCode"),
+                    "common_name": sp.get("commonName"),
+                    "modes": sorted(sp.get("modes", [])),
+                    "lines": sorted(
+                        ({"id": l["id"], "name": l.get("name", l["id"])}
+                         for l in sp.get("lines", []) if l.get("id")),
+                        key=lambda l: l["id"],
+                    ),
+                    "lat": sp.get("lat"),
+                    "lon": sp.get("lon"),
+                }
+            else:
+                merge_station(stations[sid], sp)
+
+            station_lines.setdefault(sid, [])
+            if line_id not in station_lines[sid]:
+                station_lines[sid].append(line_id)
+
+            if sid not in order:
+                order.append(sid)
+
+        line_out = {
+            "line_id": line_id,
+            "line_name": line_name,
+            "station_order": order,
+            "stations": [stations[sid] for sid in order],
+        }
+        write_json(NORM / f"{line_id}.json", line_out)
+        lines_index[line_id] = {
+            "line_id": line_id,
+            "line_name": line_name,
+            "station_order": order,
+        }
+
+    write_json(NORM / "_lines.json", lines_index)
+    write_json(NORM / "_stations.json", stations)
+    write_json(NORM / "_station_lines.json", station_lines)
+
+    print(f"normalize done lines={len(lines_index)} stations={len(stations)}")
+
+
+def main():
+    DATA.mkdir(parents=True, exist_ok=True)
+    fetch()
+    normalize()
+
 
 if __name__ == "__main__":
     main()

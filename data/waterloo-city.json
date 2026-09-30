@@ -1,13 +1,19 @@
 {
   "line_id": "waterloo-city",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "waterloo-city",
+  "station_order": [
+    "940GZZLUBNK",
+    "940GZZLUWLO"
+  ],
+  "stations": [
     {
-      "naptanId": "940GZZLUBNK",
+      "station_id": "940GZZLUBNK",
+      "naptan_id": "940GZZLUBNK",
+      "ics_code": "1000013",
+      "common_name": "Bank Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000013",
       "lines": [
         {
           "id": "central",
@@ -22,17 +28,17 @@
           "name": "Waterloo & City"
         }
       ],
-      "id": "940GZZLUBNK",
-      "commonName": "Bank Underground Station",
       "lat": 51.513132,
       "lon": -0.090047
     },
     {
-      "naptanId": "940GZZLUWLO",
+      "station_id": "940GZZLUWLO",
+      "naptan_id": "940GZZLUWLO",
+      "ics_code": "1000254",
+      "common_name": "Waterloo Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000254",
       "lines": [
         {
           "id": "bakerloo",
@@ -51,301 +57,8 @@
           "name": "Waterloo & City"
         }
       ],
-      "id": "940GZZLUWLO",
-      "commonName": "Waterloo Underground Station",
       "lat": 51.503299,
       "lon": -0.11478
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "HUBBAN",
-      "modes": [
-        "bus",
-        "dlr",
-        "tube"
-      ],
-      "icsCode": "1000013",
-      "lines": [
-        {
-          "id": "133",
-          "name": "133"
-        },
-        {
-          "id": "141",
-          "name": "141"
-        },
-        {
-          "id": "21",
-          "name": "21"
-        },
-        {
-          "id": "25",
-          "name": "25"
-        },
-        {
-          "id": "26",
-          "name": "26"
-        },
-        {
-          "id": "43",
-          "name": "43"
-        },
-        {
-          "id": "8",
-          "name": "8"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "n21",
-          "name": "N21"
-        },
-        {
-          "id": "n242",
-          "name": "N242"
-        },
-        {
-          "id": "n25",
-          "name": "N25"
-        },
-        {
-          "id": "n26",
-          "name": "N26"
-        },
-        {
-          "id": "n550",
-          "name": "N550"
-        },
-        {
-          "id": "n551",
-          "name": "N551"
-        },
-        {
-          "id": "n8",
-          "name": "N8"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        },
-        {
-          "id": "waterloo-city",
-          "name": "Waterloo & City"
-        }
-      ],
-      "id": "HUBBAN",
-      "commonName": "Bank",
-      "lat": 51.513395,
-      "lon": -0.089095
-    },
-    {
-      "naptanId": "HUBBAN",
-      "modes": [
-        "bus",
-        "dlr",
-        "tube"
-      ],
-      "icsCode": "1000013",
-      "lines": [
-        {
-          "id": "133",
-          "name": "133"
-        },
-        {
-          "id": "141",
-          "name": "141"
-        },
-        {
-          "id": "21",
-          "name": "21"
-        },
-        {
-          "id": "25",
-          "name": "25"
-        },
-        {
-          "id": "26",
-          "name": "26"
-        },
-        {
-          "id": "43",
-          "name": "43"
-        },
-        {
-          "id": "8",
-          "name": "8"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "n21",
-          "name": "N21"
-        },
-        {
-          "id": "n242",
-          "name": "N242"
-        },
-        {
-          "id": "n25",
-          "name": "N25"
-        },
-        {
-          "id": "n26",
-          "name": "N26"
-        },
-        {
-          "id": "n550",
-          "name": "N550"
-        },
-        {
-          "id": "n551",
-          "name": "N551"
-        },
-        {
-          "id": "n8",
-          "name": "N8"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        },
-        {
-          "id": "waterloo-city",
-          "name": "Waterloo & City"
-        }
-      ],
-      "id": "HUBBAN",
-      "commonName": "Bank",
-      "lat": 51.513395,
-      "lon": -0.089095
-    },
-    {
-      "naptanId": "HUBWAT",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000254",
-      "lines": [
-        {
-          "id": "1",
-          "name": "1"
-        },
-        {
-          "id": "11",
-          "name": "11"
-        },
-        {
-          "id": "139",
-          "name": "139"
-        },
-        {
-          "id": "172",
-          "name": "172"
-        },
-        {
-          "id": "176",
-          "name": "176"
-        },
-        {
-          "id": "188",
-          "name": "188"
-        },
-        {
-          "id": "243",
-          "name": "243"
-        },
-        {
-          "id": "341",
-          "name": "341"
-        },
-        {
-          "id": "381",
-          "name": "381"
-        },
-        {
-          "id": "59",
-          "name": "59"
-        },
-        {
-          "id": "68",
-          "name": "68"
-        },
-        {
-          "id": "76",
-          "name": "76"
-        },
-        {
-          "id": "77",
-          "name": "77"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "bl1",
-          "name": "BL1"
-        },
-        {
-          "id": "c10",
-          "name": "C10"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "n1",
-          "name": "N1"
-        },
-        {
-          "id": "n171",
-          "name": "N171"
-        },
-        {
-          "id": "n381",
-          "name": "N381"
-        },
-        {
-          "id": "n68",
-          "name": "N68"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        },
-        {
-          "id": "sl6",
-          "name": "SL6"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "waterloo-city",
-          "name": "Waterloo & City"
-        }
-      ],
-      "id": "HUBWAT",
-      "commonName": "Waterloo",
-      "lat": 51.504269,
-      "lon": -0.113356
     }
   ]
 }

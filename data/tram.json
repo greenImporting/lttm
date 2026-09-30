@@ -1,4202 +1,1898 @@
 {
   "line_id": "tram",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "tram",
+  "station_order": [
+    "9400ZZCRADD1",
+    "9400ZZCRADD2",
+    "9400ZZCRADV1",
+    "9400ZZCRADV2",
+    "9400ZZCRAMP1",
+    "9400ZZCRAMP2",
+    "9400ZZCRARA1",
+    "9400ZZCRARA2",
+    "9400ZZCRAVE1",
+    "9400ZZCRAVE2",
+    "9400ZZCRBED1",
+    "9400ZZCRBED2",
+    "9400ZZCRBEK1",
+    "9400ZZCRBGV1",
+    "9400ZZCRBGV2",
+    "9400ZZCRBIR1",
+    "9400ZZCRBLA1",
+    "9400ZZCRBLA2",
+    "9400ZZCRBRD1",
+    "9400ZZCRCEN1",
+    "9400ZZCRCHR1",
+    "9400ZZCRCOO1",
+    "9400ZZCRCOO2",
+    "9400ZZCRCTR1",
+    "9400ZZCRDDR1",
+    "9400ZZCRDDR2",
+    "9400ZZCRECR1",
+    "9400ZZCRECR2",
+    "9400ZZCRELM1",
+    "9400ZZCRFLD1",
+    "9400ZZCRFLD2",
+    "9400ZZCRGRA1",
+    "9400ZZCRGRA2",
+    "9400ZZCRHAR1",
+    "9400ZZCRHAR2",
+    "9400ZZCRKGH1",
+    "9400ZZCRKGH2",
+    "9400ZZCRLEB1",
+    "9400ZZCRLEB2",
+    "9400ZZCRLOY1",
+    "9400ZZCRLOY2",
+    "9400ZZCRMCH1",
+    "9400ZZCRMCH2",
+    "9400ZZCRMDN1",
+    "9400ZZCRMDN2",
+    "9400ZZCRMJT1",
+    "9400ZZCRMJT2",
+    "9400ZZCRMTP1",
+    "9400ZZCRMTP2",
+    "9400ZZCRNWA1",
+    "9400ZZCRPHI1",
+    "9400ZZCRPHI2",
+    "9400ZZCRRVC1",
+    "9400ZZCRSAN1",
+    "9400ZZCRSAN2",
+    "9400ZZCRTPA1",
+    "9400ZZCRTPA2",
+    "9400ZZCRWAD1",
+    "9400ZZCRWAD2",
+    "9400ZZCRWAN1",
+    "9400ZZCRWAN2",
+    "9400ZZCRWCR1",
+    "9400ZZCRWEL1",
+    "9400ZZCRWMB1",
+    "9400ZZCRWOD1",
+    "9400ZZCRWOD2",
+    "940GZZCRADD",
+    "940GZZCRADV",
+    "940GZZCRAMP",
+    "940GZZCRARA",
+    "940GZZCRAVE",
+    "940GZZCRBED",
+    "940GZZCRBEK",
+    "940GZZCRBGV",
+    "940GZZCRBIR",
+    "940GZZCRBLA",
+    "940GZZCRBRD",
+    "940GZZCRCEN",
+    "940GZZCRCHR",
+    "940GZZCRCOO",
+    "940GZZCRCTR",
+    "940GZZCRDDR",
+    "940GZZCRECR",
+    "940GZZCRELM",
+    "940GZZCRFLD",
+    "940GZZCRGRA",
+    "940GZZCRHAR",
+    "940GZZCRKGH",
+    "940GZZCRLEB",
+    "940GZZCRLOY",
+    "940GZZCRMCH",
+    "940GZZCRMDN",
+    "940GZZCRMJT",
+    "940GZZCRMTP",
+    "940GZZCRNWA",
+    "940GZZCRPHI",
+    "940GZZCRRVC",
+    "940GZZCRSAN",
+    "940GZZCRTPA",
+    "940GZZCRWAD",
+    "940GZZCRWAN",
+    "940GZZCRWCR",
+    "940GZZCRWEL",
+    "940GZZCRWMB",
+    "940GZZCRWOD"
+  ],
+  "stations": [
     {
-      "naptanId": "9400ZZCRADD1",
+      "station_id": "9400ZZCRADD1",
+      "naptan_id": "9400ZZCRADD1",
+      "ics_code": "1002002",
+      "common_name": "Addiscombe",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002002",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRADD1",
-      "commonName": "Addiscombe",
       "lat": 51.379753,
       "lon": -0.073058
     },
     {
-      "naptanId": "9400ZZCRADD2",
+      "station_id": "9400ZZCRADD2",
+      "naptan_id": "9400ZZCRADD2",
+      "ics_code": "1002002",
+      "common_name": "Addiscombe",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002002",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRADD2",
-      "commonName": "Addiscombe",
       "lat": 51.379753,
       "lon": -0.073014
     },
     {
-      "naptanId": "9400ZZCRADV1",
+      "station_id": "9400ZZCRADV1",
+      "naptan_id": "9400ZZCRADV1",
+      "ics_code": "1002001",
+      "common_name": "Addington Village",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002001",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRADV1",
-      "commonName": "Addington Village",
       "lat": 51.356599,
       "lon": -0.032607
     },
     {
-      "naptanId": "9400ZZCRADV2",
+      "station_id": "9400ZZCRADV2",
+      "naptan_id": "9400ZZCRADV2",
+      "ics_code": "1002001",
+      "common_name": "Addington Village",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002001",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRADV2",
-      "commonName": "Addington Village",
       "lat": 51.356338,
       "lon": -0.032618
     },
     {
-      "naptanId": "9400ZZCRAMP1",
+      "station_id": "9400ZZCRAMP1",
+      "naptan_id": "9400ZZCRAMP1",
+      "ics_code": "1002004",
+      "common_name": "Ampere Way",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002004",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRAMP1",
-      "commonName": "Ampere Way",
       "lat": 51.382238,
       "lon": -0.123654
     },
     {
-      "naptanId": "9400ZZCRAMP2",
+      "station_id": "9400ZZCRAMP2",
+      "naptan_id": "9400ZZCRAMP2",
+      "ics_code": "1002004",
+      "common_name": "Ampere Way",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002004",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRAMP2",
-      "commonName": "Ampere Way",
       "lat": 51.382203,
       "lon": -0.123727
     },
     {
-      "naptanId": "9400ZZCRARA1",
+      "station_id": "9400ZZCRARA1",
+      "naptan_id": "9400ZZCRARA1",
+      "ics_code": "1002005",
+      "common_name": "Arena",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002005",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRARA1",
-      "commonName": "Arena",
       "lat": 51.391362,
       "lon": -0.058297
     },
     {
-      "naptanId": "9400ZZCRARA2",
+      "station_id": "9400ZZCRARA2",
+      "naptan_id": "9400ZZCRARA2",
+      "ics_code": "1002005",
+      "common_name": "Arena",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002005",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRARA2",
-      "commonName": "Arena",
       "lat": 51.391263,
       "lon": -0.058301
     },
     {
-      "naptanId": "9400ZZCRAVE1",
+      "station_id": "9400ZZCRAVE1",
+      "naptan_id": "9400ZZCRAVE1",
+      "ics_code": "1002006",
+      "common_name": "Avenue Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002006",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRAVE1",
-      "commonName": "Avenue Road",
       "lat": 51.407037,
       "lon": -0.049092
     },
     {
-      "naptanId": "9400ZZCRAVE2",
+      "station_id": "9400ZZCRAVE2",
+      "naptan_id": "9400ZZCRAVE2",
+      "ics_code": "1002006",
+      "common_name": "Avenue Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002006",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRAVE2",
-      "commonName": "Avenue Road",
       "lat": 51.406848,
       "lon": -0.0491
     },
     {
-      "naptanId": "9400ZZCRBED1",
+      "station_id": "9400ZZCRBED1",
+      "naptan_id": "9400ZZCRBED1",
+      "ics_code": "1002013",
+      "common_name": "Beddington Lane",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002013",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBED1",
-      "commonName": "Beddington Lane",
       "lat": 51.3893,
       "lon": -0.142409
     },
     {
-      "naptanId": "9400ZZCRBED2",
+      "station_id": "9400ZZCRBED2",
+      "naptan_id": "9400ZZCRBED2",
+      "ics_code": "1002013",
+      "common_name": "Beddington Lane",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002013",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBED2",
-      "commonName": "Beddington Lane",
       "lat": 51.389273,
       "lon": -0.14241
     },
     {
-      "naptanId": "9400ZZCRBEK1",
+      "station_id": "9400ZZCRBEK1",
+      "naptan_id": "9400ZZCRBEK1",
+      "ics_code": "1000327",
+      "common_name": "Beckenham Junction",
       "modes": [
         "tram"
       ],
-      "icsCode": "1000327",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBEK1",
-      "commonName": "Beckenham Junction",
       "lat": 51.410952,
       "lon": -0.02619
     },
     {
-      "naptanId": "9400ZZCRBGV1",
+      "station_id": "9400ZZCRBGV1",
+      "naptan_id": "9400ZZCRBGV1",
+      "ics_code": "1002014",
+      "common_name": "Belgrave Walk",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002014",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBGV1",
-      "commonName": "Belgrave Walk",
       "lat": 51.399722,
       "lon": -0.180256
     },
     {
-      "naptanId": "9400ZZCRBGV2",
+      "station_id": "9400ZZCRBGV2",
+      "naptan_id": "9400ZZCRBGV2",
+      "ics_code": "1002014",
+      "common_name": "Belgrave Walk",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002014",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBGV2",
-      "commonName": "Belgrave Walk",
       "lat": 51.40133,
       "lon": -0.177806
     },
     {
-      "naptanId": "9400ZZCRBIR1",
+      "station_id": "9400ZZCRBIR1",
+      "naptan_id": "9400ZZCRBIR1",
+      "ics_code": "1001027",
+      "common_name": "Birkbeck",
       "modes": [
         "tram"
       ],
-      "icsCode": "1001027",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBIR1",
-      "commonName": "Birkbeck",
       "lat": 51.40405,
       "lon": -0.056063
     },
     {
-      "naptanId": "9400ZZCRBLA1",
+      "station_id": "9400ZZCRBLA1",
+      "naptan_id": "9400ZZCRBLA1",
+      "ics_code": "1002017",
+      "common_name": "Blackhorse Lane",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002017",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBLA1",
-      "commonName": "Blackhorse Lane",
       "lat": 51.384748,
       "lon": -0.070563
     },
     {
-      "naptanId": "9400ZZCRBLA2",
+      "station_id": "9400ZZCRBLA2",
+      "naptan_id": "9400ZZCRBLA2",
+      "ics_code": "1002017",
+      "common_name": "Blackhorse Lane",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002017",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBLA2",
-      "commonName": "Blackhorse Lane",
       "lat": 51.380641,
       "lon": -0.070735
     },
     {
-      "naptanId": "9400ZZCRBRD1",
+      "station_id": "9400ZZCRBRD1",
+      "naptan_id": "9400ZZCRBRD1",
+      "ics_code": "1002010",
+      "common_name": "Beckenham Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002010",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRBRD1",
-      "commonName": "Beckenham Road",
       "lat": 51.409639,
       "lon": -0.042855
     },
     {
-      "naptanId": "9400ZZCRCEN1",
+      "station_id": "9400ZZCRCEN1",
+      "naptan_id": "9400ZZCRCEN1",
+      "ics_code": "1002040",
+      "common_name": "George Street",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002040",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRCEN1",
-      "commonName": "George Street",
       "lat": 51.373815,
       "lon": -0.098753
     },
     {
-      "naptanId": "9400ZZCRCHR1",
+      "station_id": "9400ZZCRCHR1",
+      "naptan_id": "9400ZZCRCHR1",
+      "ics_code": "1002023",
+      "common_name": "Church Street",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002023",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRCHR1",
-      "commonName": "Church Street",
       "lat": 51.373774,
       "lon": -0.103985
     },
     {
-      "naptanId": "9400ZZCRCOO1",
+      "station_id": "9400ZZCRCOO1",
+      "naptan_id": "9400ZZCRCOO1",
+      "ics_code": "1002024",
+      "common_name": "Coombe Lane",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002024",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRCOO1",
-      "commonName": "Coombe Lane",
       "lat": 51.359875,
       "lon": -0.058623
     },
     {
-      "naptanId": "9400ZZCRCOO2",
+      "station_id": "9400ZZCRCOO2",
+      "naptan_id": "9400ZZCRCOO2",
+      "ics_code": "1002024",
+      "common_name": "Coombe Lane",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002024",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRCOO2",
-      "commonName": "Coombe Lane",
       "lat": 51.359552,
       "lon": -0.059226
     },
     {
-      "naptanId": "9400ZZCRCTR1",
+      "station_id": "9400ZZCRCTR1",
+      "naptan_id": "9400ZZCRCTR1",
+      "ics_code": "1002042",
+      "common_name": "Centrale",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002042",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRCTR1",
-      "commonName": "Centrale",
       "lat": 51.376229,
       "lon": -0.103424
     },
     {
-      "naptanId": "9400ZZCRDDR1",
+      "station_id": "9400ZZCRDDR1",
+      "naptan_id": "9400ZZCRDDR1",
+      "ics_code": "1002031",
+      "common_name": "Dundonald Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002031",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRDDR1",
-      "commonName": "Dundonald Road",
       "lat": 51.417608,
       "lon": -0.207648
     },
     {
-      "naptanId": "9400ZZCRDDR2",
+      "station_id": "9400ZZCRDDR2",
+      "naptan_id": "9400ZZCRDDR2",
+      "ics_code": "1002031",
+      "common_name": "Dundonald Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002031",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRDDR2",
-      "commonName": "Dundonald Road",
       "lat": 51.417609,
       "lon": -0.207706
     },
     {
-      "naptanId": "9400ZZCRECR1",
+      "station_id": "9400ZZCRECR1",
+      "naptan_id": "9400ZZCRECR1",
+      "ics_code": "1000336",
+      "common_name": "East Croydon",
       "modes": [
         "tram"
       ],
-      "icsCode": "1000336",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRECR1",
-      "commonName": "East Croydon",
       "lat": 51.374854,
       "lon": -0.092417
     },
     {
-      "naptanId": "9400ZZCRECR2",
+      "station_id": "9400ZZCRECR2",
+      "naptan_id": "9400ZZCRECR2",
+      "ics_code": "1000336",
+      "common_name": "East Croydon",
       "modes": [
         "tram"
       ],
-      "icsCode": "1000336",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRECR2",
-      "commonName": "East Croydon",
       "lat": 51.374809,
       "lon": -0.092418
     },
     {
-      "naptanId": "9400ZZCRELM1",
+      "station_id": "9400ZZCRELM1",
+      "naptan_id": "9400ZZCRELM1",
+      "ics_code": "1001094",
+      "common_name": "Elmers End",
       "modes": [
         "tram"
       ],
-      "icsCode": "1001094",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRELM1",
-      "commonName": "Elmers End",
       "lat": 51.39851,
       "lon": -0.049555
     },
     {
-      "naptanId": "9400ZZCRFLD1",
+      "station_id": "9400ZZCRFLD1",
+      "naptan_id": "9400ZZCRFLD1",
+      "ics_code": "1002038",
+      "common_name": "Fieldway",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002038",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRFLD1",
-      "commonName": "Fieldway",
       "lat": 51.351305,
       "lon": -0.024245
     },
     {
-      "naptanId": "9400ZZCRFLD2",
+      "station_id": "9400ZZCRFLD2",
+      "naptan_id": "9400ZZCRFLD2",
+      "ics_code": "1002038",
+      "common_name": "Fieldway",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002038",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRFLD2",
-      "commonName": "Fieldway",
       "lat": 51.351312,
       "lon": -0.024647
     },
     {
-      "naptanId": "9400ZZCRGRA1",
+      "station_id": "9400ZZCRGRA1",
+      "naptan_id": "9400ZZCRGRA1",
+      "ics_code": "1002041",
+      "common_name": "Gravel Hill",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002041",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRGRA1",
-      "commonName": "Gravel Hill",
       "lat": 51.354676,
       "lon": -0.042355
     },
     {
-      "naptanId": "9400ZZCRGRA2",
+      "station_id": "9400ZZCRGRA2",
+      "naptan_id": "9400ZZCRGRA2",
+      "ics_code": "1002041",
+      "common_name": "Gravel Hill",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002041",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRGRA2",
-      "commonName": "Gravel Hill",
       "lat": 51.35446,
       "lon": -0.042364
     },
     {
-      "naptanId": "9400ZZCRHAR1",
+      "station_id": "9400ZZCRHAR1",
+      "naptan_id": "9400ZZCRHAR1",
+      "ics_code": "1002045",
+      "common_name": "Harrington Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002045",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRHAR1",
-      "commonName": "Harrington Road",
       "lat": 51.399609,
       "lon": -0.060478
     },
     {
-      "naptanId": "9400ZZCRHAR2",
+      "station_id": "9400ZZCRHAR2",
+      "naptan_id": "9400ZZCRHAR2",
+      "ics_code": "1002045",
+      "common_name": "Harrington Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002045",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRHAR2",
-      "commonName": "Harrington Road",
       "lat": 51.399609,
       "lon": -0.060478
     },
     {
-      "naptanId": "9400ZZCRKGH1",
+      "station_id": "9400ZZCRKGH1",
+      "naptan_id": "9400ZZCRKGH1",
+      "ics_code": "1002050",
+      "common_name": "King Henry's Drive",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002050",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRKGH1",
-      "commonName": "King Henry's Drive",
       "lat": 51.34614,
       "lon": -0.020849
     },
     {
-      "naptanId": "9400ZZCRKGH2",
+      "station_id": "9400ZZCRKGH2",
+      "naptan_id": "9400ZZCRKGH2",
+      "ics_code": "1002050",
+      "common_name": "King Henry's Drive",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002050",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRKGH2",
-      "commonName": "King Henry's Drive",
       "lat": 51.345082,
       "lon": -0.019975
     },
     {
-      "naptanId": "9400ZZCRLEB1",
+      "station_id": "9400ZZCRLEB1",
+      "naptan_id": "9400ZZCRLEB1",
+      "ics_code": "1002052",
+      "common_name": "Lebanon Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002052",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRLEB1",
-      "commonName": "Lebanon Road",
       "lat": 51.375075,
       "lon": -0.084418
     },
     {
-      "naptanId": "9400ZZCRLEB2",
+      "station_id": "9400ZZCRLEB2",
+      "naptan_id": "9400ZZCRLEB2",
+      "ics_code": "1002052",
+      "common_name": "Lebanon Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002052",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRLEB2",
-      "commonName": "Lebanon Road",
       "lat": 51.37512,
       "lon": -0.084417
     },
     {
-      "naptanId": "9400ZZCRLOY1",
+      "station_id": "9400ZZCRLOY1",
+      "naptan_id": "9400ZZCRLOY1",
+      "ics_code": "1002055",
+      "common_name": "Lloyd Park",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002055",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRLOY1",
-      "commonName": "Lloyd Park",
       "lat": 51.364193,
       "lon": -0.082229
     },
     {
-      "naptanId": "9400ZZCRLOY2",
+      "station_id": "9400ZZCRLOY2",
+      "naptan_id": "9400ZZCRLOY2",
+      "ics_code": "1002055",
+      "common_name": "Lloyd Park",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002055",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRLOY2",
-      "commonName": "Lloyd Park",
       "lat": 51.364193,
       "lon": -0.082229
     },
     {
-      "naptanId": "9400ZZCRMCH1",
+      "station_id": "9400ZZCRMCH1",
+      "naptan_id": "9400ZZCRMCH1",
+      "ics_code": "1002058",
+      "common_name": "Mitcham",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002058",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRMCH1",
-      "commonName": "Mitcham",
       "lat": 51.397787,
       "lon": -0.172585
     },
     {
-      "naptanId": "9400ZZCRMCH2",
+      "station_id": "9400ZZCRMCH2",
+      "naptan_id": "9400ZZCRMCH2",
+      "ics_code": "1002058",
+      "common_name": "Mitcham",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002058",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRMCH2",
-      "commonName": "Mitcham",
       "lat": 51.397733,
       "lon": -0.172587
     },
     {
-      "naptanId": "9400ZZCRMDN1",
+      "station_id": "9400ZZCRMDN1",
+      "naptan_id": "9400ZZCRMDN1",
+      "ics_code": "1002060",
+      "common_name": "Morden Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002060",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRMDN1",
-      "commonName": "Morden Road",
       "lat": 51.40905,
       "lon": -0.192597
     },
     {
-      "naptanId": "9400ZZCRMDN2",
+      "station_id": "9400ZZCRMDN2",
+      "naptan_id": "9400ZZCRMDN2",
+      "ics_code": "1002060",
+      "common_name": "Morden Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002060",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRMDN2",
-      "commonName": "Morden Road",
       "lat": 51.40878,
       "lon": -0.192608
     },
     {
-      "naptanId": "9400ZZCRMJT1",
+      "station_id": "9400ZZCRMJT1",
+      "naptan_id": "9400ZZCRMJT1",
+      "ics_code": "1001194",
+      "common_name": "Mitcham Junction",
       "modes": [
         "tram"
       ],
-      "icsCode": "1001194",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRMJT1",
-      "commonName": "Mitcham Junction",
       "lat": 51.392859,
       "lon": -0.158795
     },
     {
-      "naptanId": "9400ZZCRMJT2",
+      "station_id": "9400ZZCRMJT2",
+      "naptan_id": "9400ZZCRMJT2",
+      "ics_code": "1001194",
+      "common_name": "Mitcham Junction",
       "modes": [
         "tram"
       ],
-      "icsCode": "1001194",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRMJT2",
-      "commonName": "Mitcham Junction",
       "lat": 51.392823,
       "lon": -0.158797
     },
     {
-      "naptanId": "9400ZZCRMTP1",
+      "station_id": "9400ZZCRMTP1",
+      "naptan_id": "9400ZZCRMTP1",
+      "ics_code": "1002057",
+      "common_name": "Merton Park",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002057",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRMTP1",
-      "commonName": "Merton Park",
       "lat": 51.414797,
       "lon": -0.201431
     },
     {
-      "naptanId": "9400ZZCRMTP2",
+      "station_id": "9400ZZCRMTP2",
+      "naptan_id": "9400ZZCRMTP2",
+      "ics_code": "1002057",
+      "common_name": "Merton Park",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002057",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRMTP2",
-      "commonName": "Merton Park",
       "lat": 51.414799,
       "lon": -0.201517
     },
     {
-      "naptanId": "9400ZZCRNWA1",
+      "station_id": "9400ZZCRNWA1",
+      "naptan_id": "9400ZZCRNWA1",
+      "ics_code": "1002062",
+      "common_name": "New Addington",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002062",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRNWA1",
-      "commonName": "New Addington",
       "lat": 51.34313,
       "lon": -0.017805
     },
     {
-      "naptanId": "9400ZZCRPHI1",
+      "station_id": "9400ZZCRPHI1",
+      "naptan_id": "9400ZZCRPHI1",
+      "ics_code": "1002063",
+      "common_name": "Phipps Bridge",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002063",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRPHI1",
-      "commonName": "Phipps Bridge",
       "lat": 51.403979,
       "lon": -0.18164
     },
     {
-      "naptanId": "9400ZZCRPHI2",
+      "station_id": "9400ZZCRPHI2",
+      "naptan_id": "9400ZZCRPHI2",
+      "ics_code": "1002063",
+      "common_name": "Phipps Bridge",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002063",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRPHI2",
-      "commonName": "Phipps Bridge",
       "lat": 51.403979,
       "lon": -0.18164
     },
     {
-      "naptanId": "9400ZZCRRVC1",
+      "station_id": "9400ZZCRRVC1",
+      "naptan_id": "9400ZZCRRVC1",
+      "ics_code": "1002068",
+      "common_name": "Reeves Corner",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002068",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRRVC1",
-      "commonName": "Reeves Corner",
       "lat": 51.37527,
       "lon": -0.10638
     },
     {
-      "naptanId": "9400ZZCRSAN1",
+      "station_id": "9400ZZCRSAN1",
+      "naptan_id": "9400ZZCRSAN1",
+      "ics_code": "1002072",
+      "common_name": "Sandilands",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002072",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRSAN1",
-      "commonName": "Sandilands",
       "lat": 51.375006,
       "lon": -0.078027
     },
     {
-      "naptanId": "9400ZZCRSAN2",
+      "station_id": "9400ZZCRSAN2",
+      "naptan_id": "9400ZZCRSAN2",
+      "ics_code": "1002072",
+      "common_name": "Sandilands",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002072",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRSAN2",
-      "commonName": "Sandilands",
       "lat": 51.374808,
       "lon": -0.078036
     },
     {
-      "naptanId": "9400ZZCRTPA1",
+      "station_id": "9400ZZCRTPA1",
+      "naptan_id": "9400ZZCRTPA1",
+      "ics_code": "1002075",
+      "common_name": "Therapia Lane",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002075",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRTPA1",
-      "commonName": "Therapia Lane",
       "lat": 51.385296,
       "lon": -0.128702
     },
     {
-      "naptanId": "9400ZZCRTPA2",
+      "station_id": "9400ZZCRTPA2",
+      "naptan_id": "9400ZZCRTPA2",
+      "ics_code": "1002075",
+      "common_name": "Therapia Lane",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002075",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRTPA2",
-      "commonName": "Therapia Lane",
       "lat": 51.385511,
       "lon": -0.128694
     },
     {
-      "naptanId": "9400ZZCRWAD1",
+      "station_id": "9400ZZCRWAD1",
+      "naptan_id": "9400ZZCRWAD1",
+      "ics_code": "1002078",
+      "common_name": "Waddon Marsh",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002078",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWAD1",
-      "commonName": "Waddon Marsh",
       "lat": 51.37711,
       "lon": -0.117886
     },
     {
-      "naptanId": "9400ZZCRWAD2",
+      "station_id": "9400ZZCRWAD2",
+      "naptan_id": "9400ZZCRWAD2",
+      "ics_code": "1002078",
+      "common_name": "Waddon Marsh",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002078",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWAD2",
-      "commonName": "Waddon Marsh",
       "lat": 51.377006,
       "lon": -0.118149
     },
     {
-      "naptanId": "9400ZZCRWAN1",
+      "station_id": "9400ZZCRWAN1",
+      "naptan_id": "9400ZZCRWAN1",
+      "ics_code": "1002079",
+      "common_name": "Wandle Park",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002079",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWAN1",
-      "commonName": "Wandle Park",
       "lat": 51.373022,
       "lon": -0.113082
     },
     {
-      "naptanId": "9400ZZCRWAN2",
+      "station_id": "9400ZZCRWAN2",
+      "naptan_id": "9400ZZCRWAN2",
+      "ics_code": "1002079",
+      "common_name": "Wandle Park",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002079",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWAN2",
-      "commonName": "Wandle Park",
       "lat": 51.373025,
       "lon": -0.113283
     },
     {
-      "naptanId": "9400ZZCRWCR1",
+      "station_id": "9400ZZCRWCR1",
+      "naptan_id": "9400ZZCRWCR1",
+      "ics_code": "1002082",
+      "common_name": "West Croydon",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002082",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWCR1",
-      "commonName": "West Croydon",
       "lat": 51.379083,
       "lon": -0.101984
     },
     {
-      "naptanId": "9400ZZCRWEL1",
+      "station_id": "9400ZZCRWEL1",
+      "naptan_id": "9400ZZCRWEL1",
+      "ics_code": "1002081",
+      "common_name": "Wellesley Road",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002081",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWEL1",
-      "commonName": "Wellesley Road",
       "lat": 51.375369,
       "lon": -0.097539
     },
     {
-      "naptanId": "9400ZZCRWMB1",
+      "station_id": "9400ZZCRWMB1",
+      "naptan_id": "9400ZZCRWMB1",
+      "ics_code": "1000272",
+      "common_name": "Wimbledon",
       "modes": [
         "tram"
       ],
-      "icsCode": "1000272",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWMB1",
-      "commonName": "Wimbledon",
       "lat": 51.421051,
       "lon": -0.205773
     },
     {
-      "naptanId": "9400ZZCRWOD1",
+      "station_id": "9400ZZCRWOD1",
+      "naptan_id": "9400ZZCRWOD1",
+      "ics_code": "1002086",
+      "common_name": "Woodside",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002086",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWOD1",
-      "commonName": "Woodside",
       "lat": 51.38732,
       "lon": -0.064576
     },
     {
-      "naptanId": "9400ZZCRWOD2",
+      "station_id": "9400ZZCRWOD2",
+      "naptan_id": "9400ZZCRWOD2",
+      "ics_code": "1002086",
+      "common_name": "Woodside",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002086",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "9400ZZCRWOD2",
-      "commonName": "Woodside",
       "lat": 51.387033,
       "lon": -0.064588
     },
     {
-      "naptanId": "940GZZCRADD",
+      "station_id": "940GZZCRADD",
+      "naptan_id": "940GZZCRADD",
+      "ics_code": "1002002",
+      "common_name": "Addiscombe Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002002",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRADD",
-      "commonName": "Addiscombe Tram Stop",
       "lat": 51.37981,
       "lon": -0.073242
     },
     {
-      "naptanId": "940GZZCRADV",
+      "station_id": "940GZZCRADV",
+      "naptan_id": "940GZZCRADV",
+      "ics_code": "1002001",
+      "common_name": "Addington Village Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002001",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRADV",
-      "commonName": "Addington Village Tram Stop",
       "lat": 51.356241,
       "lon": -0.032694
     },
     {
-      "naptanId": "940GZZCRAMP",
+      "station_id": "940GZZCRAMP",
+      "naptan_id": "940GZZCRAMP",
+      "ics_code": "1002004",
+      "common_name": "Ampere Way Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002004",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRAMP",
-      "commonName": "Ampere Way Tram Stop",
       "lat": 51.382238,
       "lon": -0.123654
     },
     {
-      "naptanId": "940GZZCRARA",
+      "station_id": "940GZZCRARA",
+      "naptan_id": "940GZZCRARA",
+      "ics_code": "1002005",
+      "common_name": "Arena Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002005",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRARA",
-      "commonName": "Arena Tram Stop",
       "lat": 51.391525,
       "lon": -0.058347
     },
     {
-      "naptanId": "940GZZCRAVE",
+      "station_id": "940GZZCRAVE",
+      "naptan_id": "940GZZCRAVE",
+      "ics_code": "1002006",
+      "common_name": "Avenue Road Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002006",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRAVE",
-      "commonName": "Avenue Road Tram Stop",
       "lat": 51.4068,
       "lon": -0.049476
     },
     {
-      "naptanId": "940GZZCRBED",
+      "station_id": "940GZZCRBED",
+      "naptan_id": "940GZZCRBED",
+      "ics_code": "1002013",
+      "common_name": "Beddington Lane Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002013",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRBED",
-      "commonName": "Beddington Lane Tram Stop",
       "lat": 51.389242,
       "lon": -0.142167
     },
     {
-      "naptanId": "940GZZCRBEK",
+      "station_id": "940GZZCRBEK",
+      "naptan_id": "940GZZCRBEK",
+      "ics_code": "1000327",
+      "common_name": "Beckenham Junction Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1000327",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRBEK",
-      "commonName": "Beckenham Junction Tram Stop",
       "lat": 51.41073,
       "lon": -0.026401
     },
     {
-      "naptanId": "940GZZCRBGV",
+      "station_id": "940GZZCRBGV",
+      "naptan_id": "940GZZCRBGV",
+      "ics_code": "1002014",
+      "common_name": "Belgrave Walk Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002014",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRBGV",
-      "commonName": "Belgrave Walk Tram Stop",
       "lat": 51.4011,
       "lon": -0.17774
     },
     {
-      "naptanId": "940GZZCRBIR",
+      "station_id": "940GZZCRBIR",
+      "naptan_id": "940GZZCRBIR",
+      "ics_code": "1001027",
+      "common_name": "Birkbeck Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1001027",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRBIR",
-      "commonName": "Birkbeck Tram Stop",
       "lat": 51.403767,
       "lon": -0.055787
     },
     {
-      "naptanId": "940GZZCRBLA",
+      "station_id": "940GZZCRBLA",
+      "naptan_id": "940GZZCRBLA",
+      "ics_code": "1002017",
+      "common_name": "Blackhorse Lane Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002017",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRBLA",
-      "commonName": "Blackhorse Lane Tram Stop",
       "lat": 51.384757,
       "lon": -0.070562
     },
     {
-      "naptanId": "940GZZCRBRD",
+      "station_id": "940GZZCRBRD",
+      "naptan_id": "940GZZCRBRD",
+      "ics_code": "1002010",
+      "common_name": "Beckenham Road Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002010",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRBRD",
-      "commonName": "Beckenham Road Tram Stop",
       "lat": 51.409532,
       "lon": -0.043421
     },
     {
-      "naptanId": "940GZZCRCEN",
+      "station_id": "940GZZCRCEN",
+      "naptan_id": "940GZZCRCEN",
+      "ics_code": "1002040",
+      "common_name": "George Street Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002040",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRCEN",
-      "commonName": "George Street Tram Stop",
       "lat": 51.373977,
       "lon": -0.098746
     },
     {
-      "naptanId": "940GZZCRCHR",
+      "station_id": "940GZZCRCHR",
+      "naptan_id": "940GZZCRCHR",
+      "ics_code": "1002023",
+      "common_name": "Church Street Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002023",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRCHR",
-      "commonName": "Church Street Tram Stop",
       "lat": 51.373708,
       "lon": -0.104361
     },
     {
-      "naptanId": "940GZZCRCOO",
+      "station_id": "940GZZCRCOO",
+      "naptan_id": "940GZZCRCOO",
+      "ics_code": "1002024",
+      "common_name": "Coombe Lane Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002024",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRCOO",
-      "commonName": "Coombe Lane Tram Stop",
       "lat": 51.359791,
       "lon": -0.05956
     },
     {
-      "naptanId": "940GZZCRCTR",
+      "station_id": "940GZZCRCTR",
+      "naptan_id": "940GZZCRCTR",
+      "ics_code": "1002042",
+      "common_name": "Centrale Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002042",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRCTR",
-      "commonName": "Centrale Tram Stop",
       "lat": 51.375769,
       "lon": -0.103917
     },
     {
-      "naptanId": "940GZZCRDDR",
+      "station_id": "940GZZCRDDR",
+      "naptan_id": "940GZZCRDDR",
+      "ics_code": "1002031",
+      "common_name": "Dundonald Road Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002031",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRDDR",
-      "commonName": "Dundonald Road Tram Stop",
       "lat": 51.417555,
       "lon": -0.207679
     },
     {
-      "naptanId": "940GZZCRECR",
+      "station_id": "940GZZCRECR",
+      "naptan_id": "940GZZCRECR",
+      "ics_code": "1000336",
+      "common_name": "East Croydon Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1000336",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRECR",
-      "commonName": "East Croydon Tram Stop",
       "lat": 51.374863,
       "lon": -0.092416
     },
     {
-      "naptanId": "940GZZCRELM",
+      "station_id": "940GZZCRELM",
+      "naptan_id": "940GZZCRELM",
+      "ics_code": "1001094",
+      "common_name": "Elmers End Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1001094",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRELM",
-      "commonName": "Elmers End Tram Stop",
       "lat": 51.398474,
       "lon": -0.049557
     },
     {
-      "naptanId": "940GZZCRFLD",
+      "station_id": "940GZZCRFLD",
+      "naptan_id": "940GZZCRFLD",
+      "ics_code": "1002038",
+      "common_name": "Fieldway Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002038",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRFLD",
-      "commonName": "Fieldway Tram Stop",
       "lat": 51.351319,
       "lon": -0.024532
     },
     {
-      "naptanId": "940GZZCRGRA",
+      "station_id": "940GZZCRGRA",
+      "naptan_id": "940GZZCRGRA",
+      "ics_code": "1002041",
+      "common_name": "Gravel Hill Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002041",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRGRA",
-      "commonName": "Gravel Hill Tram Stop",
       "lat": 51.354545,
       "lon": -0.04315
     },
     {
-      "naptanId": "940GZZCRHAR",
+      "station_id": "940GZZCRHAR",
+      "naptan_id": "940GZZCRHAR",
+      "ics_code": "1002045",
+      "common_name": "Harrington Road Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002045",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRHAR",
-      "commonName": "Harrington Road Tram Stop",
       "lat": 51.399793,
       "lon": -0.060729
     },
     {
-      "naptanId": "940GZZCRKGH",
+      "station_id": "940GZZCRKGH",
+      "naptan_id": "940GZZCRKGH",
+      "ics_code": "1002050",
+      "common_name": "King Henry's Drive Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002050",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRKGH",
-      "commonName": "King Henry's Drive Tram Stop",
       "lat": 51.34508,
       "lon": -0.01998
     },
     {
-      "naptanId": "940GZZCRLEB",
+      "station_id": "940GZZCRLEB",
+      "naptan_id": "940GZZCRLEB",
+      "ics_code": "1002052",
+      "common_name": "Lebanon Road Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002052",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRLEB",
-      "commonName": "Lebanon Road Tram Stop",
       "lat": 51.375201,
       "lon": -0.085002
     },
     {
-      "naptanId": "940GZZCRLOY",
+      "station_id": "940GZZCRLOY",
+      "naptan_id": "940GZZCRLOY",
+      "ics_code": "1002055",
+      "common_name": "Lloyd Park Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002055",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRLOY",
-      "commonName": "Lloyd Park Tram Stop",
       "lat": 51.364278,
       "lon": -0.080775
     },
     {
-      "naptanId": "940GZZCRMCH",
+      "station_id": "940GZZCRMCH",
+      "naptan_id": "940GZZCRMCH",
+      "ics_code": "1002058",
+      "common_name": "Mitcham Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002058",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRMCH",
-      "commonName": "Mitcham Tram Stop",
       "lat": 51.39749,
       "lon": -0.1709
     },
     {
-      "naptanId": "940GZZCRMDN",
+      "station_id": "940GZZCRMDN",
+      "naptan_id": "940GZZCRMDN",
+      "ics_code": "1002060",
+      "common_name": "Morden Road Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002060",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRMDN",
-      "commonName": "Morden Road Tram Stop",
       "lat": 51.408874,
       "lon": -0.192834
     },
     {
-      "naptanId": "940GZZCRMJT",
+      "station_id": "940GZZCRMJT",
+      "naptan_id": "940GZZCRMJT",
+      "ics_code": "1001194",
+      "common_name": "Mitcham Junction Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1001194",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRMJT",
-      "commonName": "Mitcham Junction Tram Stop",
       "lat": 51.392868,
       "lon": -0.158263
     },
     {
-      "naptanId": "940GZZCRMTP",
+      "station_id": "940GZZCRMTP",
+      "naptan_id": "940GZZCRMTP",
+      "ics_code": "1002057",
+      "common_name": "Merton Park Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002057",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRMTP",
-      "commonName": "Merton Park Tram Stop",
       "lat": 51.413589,
       "lon": -0.201219
     },
     {
-      "naptanId": "940GZZCRNWA",
+      "station_id": "940GZZCRNWA",
+      "naptan_id": "940GZZCRNWA",
+      "ics_code": "1002062",
+      "common_name": "New Addington Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002062",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRNWA",
-      "commonName": "New Addington Tram Stop",
       "lat": 51.342593,
       "lon": -0.017412
     },
     {
-      "naptanId": "940GZZCRPHI",
+      "station_id": "940GZZCRPHI",
+      "naptan_id": "940GZZCRPHI",
+      "ics_code": "1002063",
+      "common_name": "Phipps Bridge Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002063",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRPHI",
-      "commonName": "Phipps Bridge Tram Stop",
       "lat": 51.403979,
       "lon": -0.18164
     },
     {
-      "naptanId": "940GZZCRRVC",
+      "station_id": "940GZZCRRVC",
+      "naptan_id": "940GZZCRRVC",
+      "ics_code": "1002068",
+      "common_name": "Reeves Corner Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002068",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRRVC",
-      "commonName": "Reeves Corner Tram Stop",
       "lat": 51.375279,
       "lon": -0.106408
     },
     {
-      "naptanId": "940GZZCRSAN",
+      "station_id": "940GZZCRSAN",
+      "naptan_id": "940GZZCRSAN",
+      "ics_code": "1002072",
+      "common_name": "Sandilands Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002072",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRSAN",
-      "commonName": "Sandilands Tram Stop",
       "lat": 51.375024,
       "lon": -0.078041
     },
     {
-      "naptanId": "940GZZCRTPA",
+      "station_id": "940GZZCRTPA",
+      "naptan_id": "940GZZCRTPA",
+      "ics_code": "1002075",
+      "common_name": "Therapia Lane Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002075",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRTPA",
-      "commonName": "Therapia Lane Tram Stop",
       "lat": 51.385697,
       "lon": -0.129045
     },
     {
-      "naptanId": "940GZZCRWAD",
+      "station_id": "940GZZCRWAD",
+      "naptan_id": "940GZZCRWAD",
+      "ics_code": "1002078",
+      "common_name": "Waddon Marsh Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002078",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRWAD",
-      "commonName": "Waddon Marsh Tram Stop",
       "lat": 51.377076,
       "lon": -0.118016
     },
     {
-      "naptanId": "940GZZCRWAN",
+      "station_id": "940GZZCRWAN",
+      "naptan_id": "940GZZCRWAN",
+      "ics_code": "1002079",
+      "common_name": "Wandle Park Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002079",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRWAN",
-      "commonName": "Wandle Park Tram Stop",
       "lat": 51.373403,
       "lon": -0.113282
     },
     {
-      "naptanId": "940GZZCRWCR",
+      "station_id": "940GZZCRWCR",
+      "naptan_id": "940GZZCRWCR",
+      "ics_code": "1002082",
+      "common_name": "West Croydon Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002082",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRWCR",
-      "commonName": "West Croydon Tram Stop",
       "lat": 51.378971,
       "lon": -0.101701
     },
     {
-      "naptanId": "940GZZCRWEL",
+      "station_id": "940GZZCRWEL",
+      "naptan_id": "940GZZCRWEL",
+      "ics_code": "1002081",
+      "common_name": "Wellesley Road Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002081",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRWEL",
-      "commonName": "Wellesley Road Tram Stop",
       "lat": 51.37537,
       "lon": -0.097554
     },
     {
-      "naptanId": "940GZZCRWMB",
+      "station_id": "940GZZCRWMB",
+      "naptan_id": "940GZZCRWMB",
+      "ics_code": "1000272",
+      "common_name": "Wimbledon Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1000272",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRWMB",
-      "commonName": "Wimbledon Tram Stop",
       "lat": 51.421051,
       "lon": -0.205816
     },
     {
-      "naptanId": "940GZZCRWOD",
+      "station_id": "940GZZCRWOD",
+      "naptan_id": "940GZZCRWOD",
+      "ics_code": "1002086",
+      "common_name": "Woodside Tram Stop",
       "modes": [
         "tram"
       ],
-      "icsCode": "1002086",
       "lines": [
         {
           "id": "tram",
           "name": "Tram"
         }
       ],
-      "id": "940GZZCRWOD",
-      "commonName": "Woodside Tram Stop",
       "lat": 51.3871,
       "lon": -0.065361
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "HUBWCY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tram"
-      ],
-      "icsCode": "1001324",
-      "lines": [
-        {
-          "id": "109",
-          "name": "109"
-        },
-        {
-          "id": "154",
-          "name": "154"
-        },
-        {
-          "id": "157",
-          "name": "157"
-        },
-        {
-          "id": "166",
-          "name": "166"
-        },
-        {
-          "id": "194",
-          "name": "194"
-        },
-        {
-          "id": "198",
-          "name": "198"
-        },
-        {
-          "id": "250",
-          "name": "250"
-        },
-        {
-          "id": "264",
-          "name": "264"
-        },
-        {
-          "id": "289",
-          "name": "289"
-        },
-        {
-          "id": "367",
-          "name": "367"
-        },
-        {
-          "id": "403",
-          "name": "403"
-        },
-        {
-          "id": "407",
-          "name": "407"
-        },
-        {
-          "id": "410",
-          "name": "410"
-        },
-        {
-          "id": "450",
-          "name": "450"
-        },
-        {
-          "id": "60",
-          "name": "60"
-        },
-        {
-          "id": "64",
-          "name": "64"
-        },
-        {
-          "id": "645",
-          "name": "645"
-        },
-        {
-          "id": "689",
-          "name": "689"
-        },
-        {
-          "id": "75",
-          "name": "75"
-        },
-        {
-          "id": "n109",
-          "name": "N109"
-        },
-        {
-          "id": "n250",
-          "name": "N250"
-        },
-        {
-          "id": "sl6",
-          "name": "SL6"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBWCY",
-      "commonName": "West Croydon",
-      "lat": 51.378786,
-      "lon": -0.101939
-    },
-    {
-      "naptanId": "940GZZCRADD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002002",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRADD",
-      "commonName": "Addiscombe Tram Stop",
-      "lat": 51.37981,
-      "lon": -0.073242
-    },
-    {
-      "naptanId": "940GZZCRADD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002002",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRADD",
-      "commonName": "Addiscombe Tram Stop",
-      "lat": 51.37981,
-      "lon": -0.073242
-    },
-    {
-      "naptanId": "940GZZCRADV",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002001",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRADV",
-      "commonName": "Addington Village Tram Stop",
-      "lat": 51.356241,
-      "lon": -0.032694
-    },
-    {
-      "naptanId": "940GZZCRADV",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002001",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRADV",
-      "commonName": "Addington Village Tram Stop",
-      "lat": 51.356241,
-      "lon": -0.032694
-    },
-    {
-      "naptanId": "940GZZCRAMP",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002004",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRAMP",
-      "commonName": "Ampere Way Tram Stop",
-      "lat": 51.382238,
-      "lon": -0.123654
-    },
-    {
-      "naptanId": "940GZZCRAMP",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002004",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRAMP",
-      "commonName": "Ampere Way Tram Stop",
-      "lat": 51.382238,
-      "lon": -0.123654
-    },
-    {
-      "naptanId": "940GZZCRARA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002005",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRARA",
-      "commonName": "Arena Tram Stop",
-      "lat": 51.391525,
-      "lon": -0.058347
-    },
-    {
-      "naptanId": "940GZZCRARA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002005",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRARA",
-      "commonName": "Arena Tram Stop",
-      "lat": 51.391525,
-      "lon": -0.058347
-    },
-    {
-      "naptanId": "940GZZCRAVE",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002006",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRAVE",
-      "commonName": "Avenue Road Tram Stop",
-      "lat": 51.4068,
-      "lon": -0.049476
-    },
-    {
-      "naptanId": "940GZZCRAVE",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002006",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRAVE",
-      "commonName": "Avenue Road Tram Stop",
-      "lat": 51.4068,
-      "lon": -0.049476
-    },
-    {
-      "naptanId": "940GZZCRBED",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002013",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBED",
-      "commonName": "Beddington Lane Tram Stop",
-      "lat": 51.389242,
-      "lon": -0.142167
-    },
-    {
-      "naptanId": "940GZZCRBED",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002013",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBED",
-      "commonName": "Beddington Lane Tram Stop",
-      "lat": 51.389242,
-      "lon": -0.142167
-    },
-    {
-      "naptanId": "HUBBEK",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001018",
-      "lines": [
-        {
-          "id": "162",
-          "name": "162"
-        },
-        {
-          "id": "354",
-          "name": "354"
-        },
-        {
-          "id": "54",
-          "name": "54"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBBEK",
-      "commonName": "Beckenham Junction",
-      "lat": 51.411175,
-      "lon": -0.026016
-    },
-    {
-      "naptanId": "940GZZCRBGV",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002014",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBGV",
-      "commonName": "Belgrave Walk Tram Stop",
-      "lat": 51.4011,
-      "lon": -0.17774
-    },
-    {
-      "naptanId": "940GZZCRBGV",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002014",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBGV",
-      "commonName": "Belgrave Walk Tram Stop",
-      "lat": 51.4011,
-      "lon": -0.17774
-    },
-    {
-      "naptanId": "HUBBIR",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001027",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBBIR",
-      "commonName": "Birkbeck",
-      "lat": 51.403893,
-      "lon": -0.055733
-    },
-    {
-      "naptanId": "940GZZCRBLA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002017",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBLA",
-      "commonName": "Blackhorse Lane Tram Stop",
-      "lat": 51.384757,
-      "lon": -0.070562
-    },
-    {
-      "naptanId": "940GZZCRBLA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002017",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBLA",
-      "commonName": "Blackhorse Lane Tram Stop",
-      "lat": 51.384757,
-      "lon": -0.070562
-    },
-    {
-      "naptanId": "940GZZCRBRD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002010",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBRD",
-      "commonName": "Beckenham Road Tram Stop",
-      "lat": 51.409532,
-      "lon": -0.043421
-    },
-    {
-      "naptanId": "940GZZCRCEN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002040",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCEN",
-      "commonName": "George Street Tram Stop",
-      "lat": 51.373977,
-      "lon": -0.098746
-    },
-    {
-      "naptanId": "940GZZCRCHR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002023",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCHR",
-      "commonName": "Church Street Tram Stop",
-      "lat": 51.373708,
-      "lon": -0.104361
-    },
-    {
-      "naptanId": "940GZZCRCOO",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002024",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCOO",
-      "commonName": "Coombe Lane Tram Stop",
-      "lat": 51.359791,
-      "lon": -0.05956
-    },
-    {
-      "naptanId": "940GZZCRCOO",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002024",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCOO",
-      "commonName": "Coombe Lane Tram Stop",
-      "lat": 51.359791,
-      "lon": -0.05956
-    },
-    {
-      "naptanId": "940GZZCRCTR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002042",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCTR",
-      "commonName": "Centrale Tram Stop",
-      "lat": 51.375769,
-      "lon": -0.103917
-    },
-    {
-      "naptanId": "940GZZCRDDR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002031",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRDDR",
-      "commonName": "Dundonald Road Tram Stop",
-      "lat": 51.417555,
-      "lon": -0.207679
-    },
-    {
-      "naptanId": "940GZZCRDDR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002031",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRDDR",
-      "commonName": "Dundonald Road Tram Stop",
-      "lat": 51.417555,
-      "lon": -0.207679
-    },
-    {
-      "naptanId": "HUBECY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001089",
-      "lines": [
-        {
-          "id": "gatwick-express",
-          "name": "Gatwick Express"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBECY",
-      "commonName": "East Croydon",
-      "lat": 51.375995,
-      "lon": -0.091172
-    },
-    {
-      "naptanId": "HUBECY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001089",
-      "lines": [
-        {
-          "id": "gatwick-express",
-          "name": "Gatwick Express"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBECY",
-      "commonName": "East Croydon",
-      "lat": 51.375995,
-      "lon": -0.091172
-    },
-    {
-      "naptanId": "HUBELM",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001094",
-      "lines": [
-        {
-          "id": "289",
-          "name": "289"
-        },
-        {
-          "id": "54",
-          "name": "54"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBELM",
-      "commonName": "Elmers End",
-      "lat": 51.398302,
-      "lon": -0.049429
-    },
-    {
-      "naptanId": "940GZZCRFLD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002038",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRFLD",
-      "commonName": "Fieldway Tram Stop",
-      "lat": 51.351319,
-      "lon": -0.024532
-    },
-    {
-      "naptanId": "940GZZCRFLD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002038",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRFLD",
-      "commonName": "Fieldway Tram Stop",
-      "lat": 51.351319,
-      "lon": -0.024532
-    },
-    {
-      "naptanId": "940GZZCRGRA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002041",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRGRA",
-      "commonName": "Gravel Hill Tram Stop",
-      "lat": 51.354545,
-      "lon": -0.04315
-    },
-    {
-      "naptanId": "940GZZCRGRA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002041",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRGRA",
-      "commonName": "Gravel Hill Tram Stop",
-      "lat": 51.354545,
-      "lon": -0.04315
-    },
-    {
-      "naptanId": "940GZZCRHAR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002045",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRHAR",
-      "commonName": "Harrington Road Tram Stop",
-      "lat": 51.399793,
-      "lon": -0.060729
-    },
-    {
-      "naptanId": "940GZZCRHAR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002045",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRHAR",
-      "commonName": "Harrington Road Tram Stop",
-      "lat": 51.399793,
-      "lon": -0.060729
-    },
-    {
-      "naptanId": "940GZZCRKGH",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002050",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRKGH",
-      "commonName": "King Henry's Drive Tram Stop",
-      "lat": 51.34508,
-      "lon": -0.01998
-    },
-    {
-      "naptanId": "940GZZCRKGH",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002050",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRKGH",
-      "commonName": "King Henry's Drive Tram Stop",
-      "lat": 51.34508,
-      "lon": -0.01998
-    },
-    {
-      "naptanId": "940GZZCRLEB",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002052",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRLEB",
-      "commonName": "Lebanon Road Tram Stop",
-      "lat": 51.375201,
-      "lon": -0.085002
-    },
-    {
-      "naptanId": "940GZZCRLEB",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002052",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRLEB",
-      "commonName": "Lebanon Road Tram Stop",
-      "lat": 51.375201,
-      "lon": -0.085002
-    },
-    {
-      "naptanId": "940GZZCRLOY",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002055",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRLOY",
-      "commonName": "Lloyd Park Tram Stop",
-      "lat": 51.364278,
-      "lon": -0.080775
-    },
-    {
-      "naptanId": "940GZZCRLOY",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002055",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRLOY",
-      "commonName": "Lloyd Park Tram Stop",
-      "lat": 51.364278,
-      "lon": -0.080775
-    },
-    {
-      "naptanId": "940GZZCRMCH",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002058",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMCH",
-      "commonName": "Mitcham Tram Stop",
-      "lat": 51.39749,
-      "lon": -0.1709
-    },
-    {
-      "naptanId": "940GZZCRMCH",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002058",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMCH",
-      "commonName": "Mitcham Tram Stop",
-      "lat": 51.39749,
-      "lon": -0.1709
-    },
-    {
-      "naptanId": "940GZZCRMDN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002060",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMDN",
-      "commonName": "Morden Road Tram Stop",
-      "lat": 51.408874,
-      "lon": -0.192834
-    },
-    {
-      "naptanId": "940GZZCRMDN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002060",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMDN",
-      "commonName": "Morden Road Tram Stop",
-      "lat": 51.408874,
-      "lon": -0.192834
-    },
-    {
-      "naptanId": "HUBMJT",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001194",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBMJT",
-      "commonName": "Mitcham Junction",
-      "lat": 51.393147,
-      "lon": -0.158738
-    },
-    {
-      "naptanId": "HUBMJT",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001194",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBMJT",
-      "commonName": "Mitcham Junction",
-      "lat": 51.393147,
-      "lon": -0.158738
-    },
-    {
-      "naptanId": "940GZZCRMTP",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002057",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMTP",
-      "commonName": "Merton Park Tram Stop",
-      "lat": 51.413589,
-      "lon": -0.201219
-    },
-    {
-      "naptanId": "940GZZCRMTP",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002057",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMTP",
-      "commonName": "Merton Park Tram Stop",
-      "lat": 51.413589,
-      "lon": -0.201219
-    },
-    {
-      "naptanId": "940GZZCRNWA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002062",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRNWA",
-      "commonName": "New Addington Tram Stop",
-      "lat": 51.342593,
-      "lon": -0.017412
-    },
-    {
-      "naptanId": "940GZZCRPHI",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002063",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRPHI",
-      "commonName": "Phipps Bridge Tram Stop",
-      "lat": 51.403979,
-      "lon": -0.18164
-    },
-    {
-      "naptanId": "940GZZCRPHI",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002063",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRPHI",
-      "commonName": "Phipps Bridge Tram Stop",
-      "lat": 51.403979,
-      "lon": -0.18164
-    },
-    {
-      "naptanId": "940GZZCRRVC",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002068",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRRVC",
-      "commonName": "Reeves Corner Tram Stop",
-      "lat": 51.375279,
-      "lon": -0.106408
-    },
-    {
-      "naptanId": "940GZZCRSAN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002072",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRSAN",
-      "commonName": "Sandilands Tram Stop",
-      "lat": 51.375024,
-      "lon": -0.078041
-    },
-    {
-      "naptanId": "940GZZCRSAN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002072",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRSAN",
-      "commonName": "Sandilands Tram Stop",
-      "lat": 51.375024,
-      "lon": -0.078041
-    },
-    {
-      "naptanId": "940GZZCRTPA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002075",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRTPA",
-      "commonName": "Therapia Lane Tram Stop",
-      "lat": 51.385697,
-      "lon": -0.129045
-    },
-    {
-      "naptanId": "940GZZCRTPA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002075",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRTPA",
-      "commonName": "Therapia Lane Tram Stop",
-      "lat": 51.385697,
-      "lon": -0.129045
-    },
-    {
-      "naptanId": "940GZZCRWAD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002078",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWAD",
-      "commonName": "Waddon Marsh Tram Stop",
-      "lat": 51.377076,
-      "lon": -0.118016
-    },
-    {
-      "naptanId": "940GZZCRWAD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002078",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWAD",
-      "commonName": "Waddon Marsh Tram Stop",
-      "lat": 51.377076,
-      "lon": -0.118016
-    },
-    {
-      "naptanId": "940GZZCRWAN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002079",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWAN",
-      "commonName": "Wandle Park Tram Stop",
-      "lat": 51.373403,
-      "lon": -0.113282
-    },
-    {
-      "naptanId": "940GZZCRWAN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002079",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWAN",
-      "commonName": "Wandle Park Tram Stop",
-      "lat": 51.373403,
-      "lon": -0.113282
-    },
-    {
-      "naptanId": "HUBWCY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tram"
-      ],
-      "icsCode": "1001324",
-      "lines": [
-        {
-          "id": "109",
-          "name": "109"
-        },
-        {
-          "id": "154",
-          "name": "154"
-        },
-        {
-          "id": "157",
-          "name": "157"
-        },
-        {
-          "id": "166",
-          "name": "166"
-        },
-        {
-          "id": "194",
-          "name": "194"
-        },
-        {
-          "id": "198",
-          "name": "198"
-        },
-        {
-          "id": "250",
-          "name": "250"
-        },
-        {
-          "id": "264",
-          "name": "264"
-        },
-        {
-          "id": "289",
-          "name": "289"
-        },
-        {
-          "id": "367",
-          "name": "367"
-        },
-        {
-          "id": "403",
-          "name": "403"
-        },
-        {
-          "id": "407",
-          "name": "407"
-        },
-        {
-          "id": "410",
-          "name": "410"
-        },
-        {
-          "id": "450",
-          "name": "450"
-        },
-        {
-          "id": "60",
-          "name": "60"
-        },
-        {
-          "id": "64",
-          "name": "64"
-        },
-        {
-          "id": "645",
-          "name": "645"
-        },
-        {
-          "id": "689",
-          "name": "689"
-        },
-        {
-          "id": "75",
-          "name": "75"
-        },
-        {
-          "id": "n109",
-          "name": "N109"
-        },
-        {
-          "id": "n250",
-          "name": "N250"
-        },
-        {
-          "id": "sl6",
-          "name": "SL6"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBWCY",
-      "commonName": "West Croydon",
-      "lat": 51.378786,
-      "lon": -0.101939
-    },
-    {
-      "naptanId": "940GZZCRWEL",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002081",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWEL",
-      "commonName": "Wellesley Road Tram Stop",
-      "lat": 51.37537,
-      "lon": -0.097554
-    },
-    {
-      "naptanId": "HUBWIM",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram",
-        "tube"
-      ],
-      "icsCode": "1000272",
-      "lines": [
-        {
-          "id": "156",
-          "name": "156"
-        },
-        {
-          "id": "200",
-          "name": "200"
-        },
-        {
-          "id": "493",
-          "name": "493"
-        },
-        {
-          "id": "93",
-          "name": "93"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "n87",
-          "name": "N87"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBWIM",
-      "commonName": "Wimbledon",
-      "lat": 51.421505,
-      "lon": -0.206444
-    },
-    {
-      "naptanId": "940GZZCRWOD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002086",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWOD",
-      "commonName": "Woodside Tram Stop",
-      "lat": 51.3871,
-      "lon": -0.065361
-    },
-    {
-      "naptanId": "940GZZCRWOD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002086",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWOD",
-      "commonName": "Woodside Tram Stop",
-      "lat": 51.3871,
-      "lon": -0.065361
-    },
-    {
-      "naptanId": "940GZZCRADD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002002",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRADD",
-      "commonName": "Addiscombe Tram Stop",
-      "lat": 51.37981,
-      "lon": -0.073242
-    },
-    {
-      "naptanId": "940GZZCRADV",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002001",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRADV",
-      "commonName": "Addington Village Tram Stop",
-      "lat": 51.356241,
-      "lon": -0.032694
-    },
-    {
-      "naptanId": "940GZZCRAMP",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002004",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRAMP",
-      "commonName": "Ampere Way Tram Stop",
-      "lat": 51.382238,
-      "lon": -0.123654
-    },
-    {
-      "naptanId": "940GZZCRARA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002005",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRARA",
-      "commonName": "Arena Tram Stop",
-      "lat": 51.391525,
-      "lon": -0.058347
-    },
-    {
-      "naptanId": "940GZZCRAVE",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002006",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRAVE",
-      "commonName": "Avenue Road Tram Stop",
-      "lat": 51.4068,
-      "lon": -0.049476
-    },
-    {
-      "naptanId": "940GZZCRBED",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002013",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBED",
-      "commonName": "Beddington Lane Tram Stop",
-      "lat": 51.389242,
-      "lon": -0.142167
-    },
-    {
-      "naptanId": "HUBBEK",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001018",
-      "lines": [
-        {
-          "id": "162",
-          "name": "162"
-        },
-        {
-          "id": "354",
-          "name": "354"
-        },
-        {
-          "id": "54",
-          "name": "54"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBBEK",
-      "commonName": "Beckenham Junction",
-      "lat": 51.411175,
-      "lon": -0.026016
-    },
-    {
-      "naptanId": "940GZZCRBGV",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002014",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBGV",
-      "commonName": "Belgrave Walk Tram Stop",
-      "lat": 51.4011,
-      "lon": -0.17774
-    },
-    {
-      "naptanId": "HUBBIR",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001027",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBBIR",
-      "commonName": "Birkbeck",
-      "lat": 51.403893,
-      "lon": -0.055733
-    },
-    {
-      "naptanId": "940GZZCRBLA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002017",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBLA",
-      "commonName": "Blackhorse Lane Tram Stop",
-      "lat": 51.384757,
-      "lon": -0.070562
-    },
-    {
-      "naptanId": "940GZZCRBRD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002010",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRBRD",
-      "commonName": "Beckenham Road Tram Stop",
-      "lat": 51.409532,
-      "lon": -0.043421
-    },
-    {
-      "naptanId": "940GZZCRCEN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002040",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCEN",
-      "commonName": "George Street Tram Stop",
-      "lat": 51.373977,
-      "lon": -0.098746
-    },
-    {
-      "naptanId": "940GZZCRCHR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002023",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCHR",
-      "commonName": "Church Street Tram Stop",
-      "lat": 51.373708,
-      "lon": -0.104361
-    },
-    {
-      "naptanId": "940GZZCRCOO",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002024",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCOO",
-      "commonName": "Coombe Lane Tram Stop",
-      "lat": 51.359791,
-      "lon": -0.05956
-    },
-    {
-      "naptanId": "940GZZCRCTR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002042",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRCTR",
-      "commonName": "Centrale Tram Stop",
-      "lat": 51.375769,
-      "lon": -0.103917
-    },
-    {
-      "naptanId": "940GZZCRDDR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002031",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRDDR",
-      "commonName": "Dundonald Road Tram Stop",
-      "lat": 51.417555,
-      "lon": -0.207679
-    },
-    {
-      "naptanId": "HUBECY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001089",
-      "lines": [
-        {
-          "id": "gatwick-express",
-          "name": "Gatwick Express"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBECY",
-      "commonName": "East Croydon",
-      "lat": 51.375995,
-      "lon": -0.091172
-    },
-    {
-      "naptanId": "HUBELM",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001094",
-      "lines": [
-        {
-          "id": "289",
-          "name": "289"
-        },
-        {
-          "id": "54",
-          "name": "54"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBELM",
-      "commonName": "Elmers End",
-      "lat": 51.398302,
-      "lon": -0.049429
-    },
-    {
-      "naptanId": "940GZZCRFLD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002038",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRFLD",
-      "commonName": "Fieldway Tram Stop",
-      "lat": 51.351319,
-      "lon": -0.024532
-    },
-    {
-      "naptanId": "940GZZCRGRA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002041",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRGRA",
-      "commonName": "Gravel Hill Tram Stop",
-      "lat": 51.354545,
-      "lon": -0.04315
-    },
-    {
-      "naptanId": "940GZZCRHAR",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002045",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRHAR",
-      "commonName": "Harrington Road Tram Stop",
-      "lat": 51.399793,
-      "lon": -0.060729
-    },
-    {
-      "naptanId": "940GZZCRKGH",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002050",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRKGH",
-      "commonName": "King Henry's Drive Tram Stop",
-      "lat": 51.34508,
-      "lon": -0.01998
-    },
-    {
-      "naptanId": "940GZZCRLEB",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002052",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRLEB",
-      "commonName": "Lebanon Road Tram Stop",
-      "lat": 51.375201,
-      "lon": -0.085002
-    },
-    {
-      "naptanId": "940GZZCRLOY",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002055",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRLOY",
-      "commonName": "Lloyd Park Tram Stop",
-      "lat": 51.364278,
-      "lon": -0.080775
-    },
-    {
-      "naptanId": "940GZZCRMCH",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002058",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMCH",
-      "commonName": "Mitcham Tram Stop",
-      "lat": 51.39749,
-      "lon": -0.1709
-    },
-    {
-      "naptanId": "940GZZCRMDN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002060",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMDN",
-      "commonName": "Morden Road Tram Stop",
-      "lat": 51.408874,
-      "lon": -0.192834
-    },
-    {
-      "naptanId": "HUBMJT",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram"
-      ],
-      "icsCode": "1001194",
-      "lines": [
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBMJT",
-      "commonName": "Mitcham Junction",
-      "lat": 51.393147,
-      "lon": -0.158738
-    },
-    {
-      "naptanId": "940GZZCRMTP",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002057",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRMTP",
-      "commonName": "Merton Park Tram Stop",
-      "lat": 51.413589,
-      "lon": -0.201219
-    },
-    {
-      "naptanId": "940GZZCRNWA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002062",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRNWA",
-      "commonName": "New Addington Tram Stop",
-      "lat": 51.342593,
-      "lon": -0.017412
-    },
-    {
-      "naptanId": "940GZZCRPHI",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002063",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRPHI",
-      "commonName": "Phipps Bridge Tram Stop",
-      "lat": 51.403979,
-      "lon": -0.18164
-    },
-    {
-      "naptanId": "940GZZCRRVC",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002068",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRRVC",
-      "commonName": "Reeves Corner Tram Stop",
-      "lat": 51.375279,
-      "lon": -0.106408
-    },
-    {
-      "naptanId": "940GZZCRSAN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002072",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRSAN",
-      "commonName": "Sandilands Tram Stop",
-      "lat": 51.375024,
-      "lon": -0.078041
-    },
-    {
-      "naptanId": "940GZZCRTPA",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002075",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRTPA",
-      "commonName": "Therapia Lane Tram Stop",
-      "lat": 51.385697,
-      "lon": -0.129045
-    },
-    {
-      "naptanId": "940GZZCRWAD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002078",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWAD",
-      "commonName": "Waddon Marsh Tram Stop",
-      "lat": 51.377076,
-      "lon": -0.118016
-    },
-    {
-      "naptanId": "940GZZCRWAN",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002079",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWAN",
-      "commonName": "Wandle Park Tram Stop",
-      "lat": 51.373403,
-      "lon": -0.113282
-    },
-    {
-      "naptanId": "HUBWCY",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tram"
-      ],
-      "icsCode": "1001324",
-      "lines": [
-        {
-          "id": "109",
-          "name": "109"
-        },
-        {
-          "id": "154",
-          "name": "154"
-        },
-        {
-          "id": "157",
-          "name": "157"
-        },
-        {
-          "id": "166",
-          "name": "166"
-        },
-        {
-          "id": "194",
-          "name": "194"
-        },
-        {
-          "id": "198",
-          "name": "198"
-        },
-        {
-          "id": "250",
-          "name": "250"
-        },
-        {
-          "id": "264",
-          "name": "264"
-        },
-        {
-          "id": "289",
-          "name": "289"
-        },
-        {
-          "id": "367",
-          "name": "367"
-        },
-        {
-          "id": "403",
-          "name": "403"
-        },
-        {
-          "id": "407",
-          "name": "407"
-        },
-        {
-          "id": "410",
-          "name": "410"
-        },
-        {
-          "id": "450",
-          "name": "450"
-        },
-        {
-          "id": "60",
-          "name": "60"
-        },
-        {
-          "id": "64",
-          "name": "64"
-        },
-        {
-          "id": "645",
-          "name": "645"
-        },
-        {
-          "id": "689",
-          "name": "689"
-        },
-        {
-          "id": "75",
-          "name": "75"
-        },
-        {
-          "id": "n109",
-          "name": "N109"
-        },
-        {
-          "id": "n250",
-          "name": "N250"
-        },
-        {
-          "id": "sl6",
-          "name": "SL6"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "southern",
-          "name": "Southern"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBWCY",
-      "commonName": "West Croydon",
-      "lat": 51.378786,
-      "lon": -0.101939
-    },
-    {
-      "naptanId": "940GZZCRWEL",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002081",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWEL",
-      "commonName": "Wellesley Road Tram Stop",
-      "lat": 51.37537,
-      "lon": -0.097554
-    },
-    {
-      "naptanId": "HUBWIM",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram",
-        "tube"
-      ],
-      "icsCode": "1000272",
-      "lines": [
-        {
-          "id": "156",
-          "name": "156"
-        },
-        {
-          "id": "200",
-          "name": "200"
-        },
-        {
-          "id": "493",
-          "name": "493"
-        },
-        {
-          "id": "93",
-          "name": "93"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "n87",
-          "name": "N87"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBWIM",
-      "commonName": "Wimbledon",
-      "lat": 51.421505,
-      "lon": -0.206444
-    },
-    {
-      "naptanId": "940GZZCRWOD",
-      "modes": [
-        "tram"
-      ],
-      "icsCode": "1002086",
-      "lines": [
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "940GZZCRWOD",
-      "commonName": "Woodside Tram Stop",
-      "lat": 51.3871,
-      "lon": -0.065361
-    },
-    {
-      "naptanId": "HUBWIM",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tram",
-        "tube"
-      ],
-      "icsCode": "1000272",
-      "lines": [
-        {
-          "id": "156",
-          "name": "156"
-        },
-        {
-          "id": "200",
-          "name": "200"
-        },
-        {
-          "id": "493",
-          "name": "493"
-        },
-        {
-          "id": "93",
-          "name": "93"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "n87",
-          "name": "N87"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "tram",
-          "name": "Tram"
-        }
-      ],
-      "id": "HUBWIM",
-      "commonName": "Wimbledon",
-      "lat": 51.421505,
-      "lon": -0.206444
     }
   ]
 }

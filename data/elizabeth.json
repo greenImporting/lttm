@@ -1,31 +1,78 @@
 {
   "line_id": "elizabeth",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "elizabeth",
+  "station_order": [
+    "910GABWDXR",
+    "910GACTONML",
+    "910GBNHAM",
+    "910GBONDST",
+    "910GBRTWOOD",
+    "910GCANWHRF",
+    "910GCHDWLHT",
+    "910GCUSTMHS",
+    "910GEALINGB",
+    "910GFRNDXR",
+    "910GFRSTGT",
+    "910GGIDEAPK",
+    "910GGODMAYS",
+    "910GHANWELL",
+    "910GHAYESAH",
+    "910GHRLDWOD",
+    "910GHTRWAPT",
+    "910GHTRWTM4",
+    "910GHTRWTM5",
+    "910GILFORD",
+    "910GIVER",
+    "910GLANGLEY",
+    "910GLIVST",
+    "910GLIVSTLL",
+    "910GMANRPK",
+    "910GMDNHEAD",
+    "910GMRYLAND",
+    "910GPADTLL",
+    "910GPADTON",
+    "910GRDNGSTN",
+    "910GROMFORD",
+    "910GSHENFLD",
+    "910GSLOUGH",
+    "910GSTFD",
+    "910GSTHALL",
+    "910GSVNKNGS",
+    "910GTAPLOW",
+    "910GTOTCTRD",
+    "910GTWYFORD",
+    "910GWCHAPXR",
+    "910GWDRYTON",
+    "910GWEALING",
+    "910GWOLWXR"
+  ],
+  "stations": [
     {
-      "naptanId": "910GABWDXR",
+      "station_id": "910GABWDXR",
+      "naptan_id": "910GABWDXR",
+      "ics_code": "1001001",
+      "common_name": "Abbey Wood",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001001",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GABWDXR",
-      "commonName": "Abbey Wood",
       "lat": 51.491284,
       "lon": 0.121087
     },
     {
-      "naptanId": "910GACTONML",
+      "station_id": "910GACTONML",
+      "naptan_id": "910GACTONML",
+      "ics_code": "1001003",
+      "common_name": "Acton Main Line Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1001003",
       "lines": [
         {
           "id": "elizabeth",
@@ -36,18 +83,18 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GACTONML",
-      "commonName": "Acton Main Line Rail Station",
       "lat": 51.51718,
       "lon": -0.266756
     },
     {
-      "naptanId": "910GBNHAM",
+      "station_id": "910GBNHAM",
+      "naptan_id": "910GBNHAM",
+      "ics_code": "1000860",
+      "common_name": "Burnham (Berks) Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1000860",
       "lines": [
         {
           "id": "elizabeth",
@@ -58,103 +105,103 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GBNHAM",
-      "commonName": "Burnham (Berks) Rail Station",
       "lat": 51.523506,
       "lon": -0.646374
     },
     {
-      "naptanId": "910GBONDST",
+      "station_id": "910GBONDST",
+      "naptan_id": "910GBONDST",
+      "ics_code": "1000025",
+      "common_name": "Bond Street",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1000025",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GBONDST",
-      "commonName": "Bond Street",
       "lat": 51.51369,
       "lon": -0.149517
     },
     {
-      "naptanId": "910GBRTWOOD",
+      "station_id": "910GBRTWOOD",
+      "naptan_id": "910GBRTWOOD",
+      "ics_code": "1000292",
+      "common_name": "Brentwood Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1000292",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GBRTWOOD",
-      "commonName": "Brentwood Rail Station",
       "lat": 51.613605,
       "lon": 0.299586
     },
     {
-      "naptanId": "910GCANWHRF",
+      "station_id": "910GCANWHRF",
+      "naptan_id": "910GCANWHRF",
+      "ics_code": "1002163",
+      "common_name": "Canary Wharf",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1002163",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GCANWHRF",
-      "commonName": "Canary Wharf",
       "lat": 51.506203,
       "lon": -0.018834
     },
     {
-      "naptanId": "910GCHDWLHT",
+      "station_id": "910GCHDWLHT",
+      "naptan_id": "910GCHDWLHT",
+      "ics_code": "1001055",
+      "common_name": "Chadwell Heath Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001055",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GCHDWLHT",
-      "commonName": "Chadwell Heath Rail Station",
       "lat": 51.568039,
       "lon": 0.128958
     },
     {
-      "naptanId": "910GCUSTMHS",
+      "station_id": "910GCUSTMHS",
+      "naptan_id": "910GCUSTMHS",
+      "ics_code": "1001079",
+      "common_name": "Custom House Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001079",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GCUSTMHS",
-      "commonName": "Custom House Rail Station",
       "lat": 51.509769,
       "lon": 0.02673
     },
     {
-      "naptanId": "910GEALINGB",
+      "station_id": "910GEALINGB",
+      "naptan_id": "910GEALINGB",
+      "ics_code": "1000062",
+      "common_name": "Ealing Broadway Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1000062",
       "lines": [
         {
           "id": "elizabeth",
@@ -165,52 +212,52 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GEALINGB",
-      "commonName": "Ealing Broadway Rail Station",
       "lat": 51.514841,
       "lon": -0.301752
     },
     {
-      "naptanId": "910GFRNDXR",
+      "station_id": "910GFRNDXR",
+      "naptan_id": "910GFRNDXR",
+      "ics_code": "1000080",
+      "common_name": "Farringdon",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1000080",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GFRNDXR",
-      "commonName": "Farringdon",
       "lat": 51.520189,
       "lon": -0.104915
     },
     {
-      "naptanId": "910GFRSTGT",
+      "station_id": "910GFRSTGT",
+      "naptan_id": "910GFRSTGT",
+      "ics_code": "1001111",
+      "common_name": "Forest Gate Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001111",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GFRSTGT",
-      "commonName": "Forest Gate Rail Station",
       "lat": 51.549432,
       "lon": 0.024353
     },
     {
-      "naptanId": "910GGIDEAPK",
+      "station_id": "910GGIDEAPK",
+      "naptan_id": "910GGIDEAPK",
+      "ics_code": "1001115",
+      "common_name": "Gidea Park Rail Station",
       "modes": [
-        "national-rail",
-        "elizabeth-line"
+        "elizabeth-line",
+        "national-rail"
       ],
-      "icsCode": "1001115",
       "lines": [
         {
           "id": "elizabeth",
@@ -221,52 +268,52 @@
           "name": "Greater Anglia"
         }
       ],
-      "id": "910GGIDEAPK",
-      "commonName": "Gidea Park Rail Station",
       "lat": 51.581904,
       "lon": 0.205964
     },
     {
-      "naptanId": "910GGODMAYS",
+      "station_id": "910GGODMAYS",
+      "naptan_id": "910GGODMAYS",
+      "ics_code": "1001117",
+      "common_name": "Goodmayes Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001117",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GGODMAYS",
-      "commonName": "Goodmayes Rail Station",
       "lat": 51.565579,
       "lon": 0.110807
     },
     {
-      "naptanId": "910GHANWELL",
+      "station_id": "910GHANWELL",
+      "naptan_id": "910GHANWELL",
+      "ics_code": "1001135",
+      "common_name": "Hanwell Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001135",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GHANWELL",
-      "commonName": "Hanwell Rail Station",
       "lat": 51.511835,
       "lon": -0.338583
     },
     {
-      "naptanId": "910GHAYESAH",
+      "station_id": "910GHAYESAH",
+      "naptan_id": "910GHAYESAH",
+      "ics_code": "1001144",
+      "common_name": "Hayes & Harlington Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1001144",
       "lines": [
         {
           "id": "elizabeth",
@@ -277,35 +324,35 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GHAYESAH",
-      "commonName": "Hayes & Harlington Rail Station",
       "lat": 51.503096,
       "lon": -0.420683
     },
     {
-      "naptanId": "910GHRLDWOD",
+      "station_id": "910GHRLDWOD",
+      "naptan_id": "910GHRLDWOD",
+      "ics_code": "1001137",
+      "common_name": "Harold Wood Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001137",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GHRLDWOD",
-      "commonName": "Harold Wood Rail Station",
       "lat": 51.592766,
       "lon": 0.233129
     },
     {
-      "naptanId": "910GHTRWAPT",
+      "station_id": "910GHTRWAPT",
+      "naptan_id": "910GHTRWAPT",
+      "ics_code": "1001147",
+      "common_name": "Heathrow Terminals 2 & 3 Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1001147",
       "lines": [
         {
           "id": "elizabeth",
@@ -316,35 +363,35 @@
           "name": "Heathrow Express"
         }
       ],
-      "id": "910GHTRWAPT",
-      "commonName": "Heathrow Terminals 2 & 3 Rail Station",
       "lat": 51.471987,
       "lon": -0.454788
     },
     {
-      "naptanId": "910GHTRWTM4",
+      "station_id": "910GHTRWTM4",
+      "naptan_id": "910GHTRWTM4",
+      "ics_code": "1000104",
+      "common_name": "Heathrow Terminal 4 Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1000104",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GHTRWTM4",
-      "commonName": "Heathrow Terminal 4 Rail Station",
       "lat": 51.458268,
       "lon": -0.445463
     },
     {
-      "naptanId": "910GHTRWTM5",
+      "station_id": "910GHTRWTM5",
+      "naptan_id": "910GHTRWTM5",
+      "ics_code": "1016430",
+      "common_name": "Heathrow Terminal 5 Rail Station",
       "modes": [
-        "national-rail",
-        "elizabeth-line"
+        "elizabeth-line",
+        "national-rail"
       ],
-      "icsCode": "1016430",
       "lines": [
         {
           "id": "elizabeth",
@@ -355,18 +402,18 @@
           "name": "Heathrow Express"
         }
       ],
-      "id": "910GHTRWTM5",
-      "commonName": "Heathrow Terminal 5 Rail Station",
       "lat": 51.470053,
       "lon": -0.490589
     },
     {
-      "naptanId": "910GILFORD",
+      "station_id": "910GILFORD",
+      "naptan_id": "910GILFORD",
+      "ics_code": "1001157",
+      "common_name": "Ilford Rail Station",
       "modes": [
-        "national-rail",
-        "elizabeth-line"
+        "elizabeth-line",
+        "national-rail"
       ],
-      "icsCode": "1001157",
       "lines": [
         {
           "id": "elizabeth",
@@ -377,18 +424,18 @@
           "name": "Greater Anglia"
         }
       ],
-      "id": "910GILFORD",
-      "commonName": "Ilford Rail Station",
       "lat": 51.559118,
       "lon": 0.06968
     },
     {
-      "naptanId": "910GIVER",
+      "station_id": "910GIVER",
+      "naptan_id": "910GIVER",
+      "ics_code": "1000955",
+      "common_name": "Iver Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1000955",
       "lines": [
         {
           "id": "elizabeth",
@@ -399,18 +446,18 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GIVER",
-      "commonName": "Iver Rail Station",
       "lat": 51.508503,
       "lon": -0.506726
     },
     {
-      "naptanId": "910GLANGLEY",
+      "station_id": "910GLANGLEY",
+      "naptan_id": "910GLANGLEY",
+      "ics_code": "1000957",
+      "common_name": "Langley (Berks) Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1000957",
       "lines": [
         {
           "id": "elizabeth",
@@ -421,19 +468,19 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GLANGLEY",
-      "commonName": "Langley (Berks) Rail Station",
       "lat": 51.508062,
       "lon": -0.541756
     },
     {
-      "naptanId": "910GLIVST",
+      "station_id": "910GLIVST",
+      "naptan_id": "910GLIVST",
+      "ics_code": "1000138",
+      "common_name": "London Liverpool Street Rail Station",
       "modes": [
         "elizabeth-line",
-        "overground",
-        "national-rail"
+        "national-rail",
+        "overground"
       ],
-      "icsCode": "1000138",
       "lines": [
         {
           "id": "c2c",
@@ -452,52 +499,52 @@
           "name": "Weaver"
         }
       ],
-      "id": "910GLIVST",
-      "commonName": "London Liverpool Street Rail Station",
       "lat": 51.517991,
       "lon": -0.081426
     },
     {
-      "naptanId": "910GLIVSTLL",
+      "station_id": "910GLIVSTLL",
+      "naptan_id": "910GLIVSTLL",
+      "ics_code": "1000138",
+      "common_name": "Liverpool Street",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1000138",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GLIVSTLL",
-      "commonName": "Liverpool Street",
       "lat": 51.517721,
       "lon": -0.082043
     },
     {
-      "naptanId": "910GMANRPK",
+      "station_id": "910GMANRPK",
+      "naptan_id": "910GMANRPK",
+      "ics_code": "1001189",
+      "common_name": "Manor Park Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001189",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GMANRPK",
-      "commonName": "Manor Park Rail Station",
       "lat": 51.552477,
       "lon": 0.046342
     },
     {
-      "naptanId": "910GMDNHEAD",
+      "station_id": "910GMDNHEAD",
+      "naptan_id": "910GMDNHEAD",
+      "ics_code": "1000964",
+      "common_name": "Maidenhead Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1000964",
       "lines": [
         {
           "id": "elizabeth",
@@ -508,52 +555,52 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GMDNHEAD",
-      "commonName": "Maidenhead Rail Station",
       "lat": 51.518669,
       "lon": -0.72266
     },
     {
-      "naptanId": "910GMRYLAND",
+      "station_id": "910GMRYLAND",
+      "naptan_id": "910GMRYLAND",
+      "ics_code": "1001190",
+      "common_name": "Maryland Rail Station",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001190",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GMRYLAND",
-      "commonName": "Maryland Rail Station",
       "lat": 51.546081,
       "lon": 0.005815
     },
     {
-      "naptanId": "910GPADTLL",
+      "station_id": "910GPADTLL",
+      "naptan_id": "910GPADTLL",
+      "ics_code": "1001221",
+      "common_name": "Paddington",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1001221",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GPADTLL",
-      "commonName": "Paddington",
       "lat": 51.516449,
       "lon": -0.177107
     },
     {
-      "naptanId": "910GPADTON",
+      "station_id": "910GPADTON",
+      "naptan_id": "910GPADTON",
+      "ics_code": "1001221",
+      "common_name": "London Paddington Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1001221",
       "lines": [
         {
           "id": "elizabeth",
@@ -568,18 +615,18 @@
           "name": "Heathrow Express"
         }
       ],
-      "id": "910GPADTON",
-      "commonName": "London Paddington Rail Station",
       "lat": 51.515996,
       "lon": -0.176174
     },
     {
-      "naptanId": "910GRDNGSTN",
+      "station_id": "910GRDNGSTN",
+      "naptan_id": "910GRDNGSTN",
+      "ics_code": "1000972",
+      "common_name": "Reading Rail Station",
       "modes": [
-        "national-rail",
-        "elizabeth-line"
+        "elizabeth-line",
+        "national-rail"
       ],
-      "icsCode": "1000972",
       "lines": [
         {
           "id": "elizabeth",
@@ -594,19 +641,19 @@
           "name": "South Western Railway"
         }
       ],
-      "id": "910GRDNGSTN",
-      "commonName": "Reading Rail Station",
       "lat": 51.458786,
       "lon": -0.971863
     },
     {
-      "naptanId": "910GROMFORD",
+      "station_id": "910GROMFORD",
+      "naptan_id": "910GROMFORD",
+      "ics_code": "1001243",
+      "common_name": "Romford Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001243",
       "lines": [
         {
           "id": "elizabeth",
@@ -621,18 +668,18 @@
           "name": "Liberty"
         }
       ],
-      "id": "910GROMFORD",
-      "commonName": "Romford Rail Station",
       "lat": 51.574829,
       "lon": 0.183237
     },
     {
-      "naptanId": "910GSHENFLD",
+      "station_id": "910GSHENFLD",
+      "naptan_id": "910GSHENFLD",
+      "ics_code": "1006448",
+      "common_name": "Shenfield Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1006448",
       "lines": [
         {
           "id": "elizabeth",
@@ -643,18 +690,18 @@
           "name": "Greater Anglia"
         }
       ],
-      "id": "910GSHENFLD",
-      "commonName": "Shenfield Rail Station",
       "lat": 51.630877,
       "lon": 0.329851
     },
     {
-      "naptanId": "910GSLOUGH",
+      "station_id": "910GSLOUGH",
+      "naptan_id": "910GSLOUGH",
+      "ics_code": "1000951",
+      "common_name": "Slough Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1000951",
       "lines": [
         {
           "id": "elizabeth",
@@ -665,19 +712,19 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GSLOUGH",
-      "commonName": "Slough Rail Station",
       "lat": 51.51188,
       "lon": -0.59151
     },
     {
-      "naptanId": "910GSTFD",
+      "station_id": "910GSTFD",
+      "naptan_id": "910GSTFD",
+      "ics_code": "1000226",
+      "common_name": "Stratford (London) Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000226",
       "lines": [
         {
           "id": "c2c",
@@ -696,18 +743,18 @@
           "name": "Mildmay"
         }
       ],
-      "id": "910GSTFD",
-      "commonName": "Stratford (London) Rail Station",
       "lat": 51.541895,
       "lon": -0.003397
     },
     {
-      "naptanId": "910GSTHALL",
+      "station_id": "910GSTHALL",
+      "naptan_id": "910GSTHALL",
+      "ics_code": "1001255",
+      "common_name": "Southall Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1001255",
       "lines": [
         {
           "id": "elizabeth",
@@ -718,18 +765,18 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GSTHALL",
-      "commonName": "Southall Rail Station",
       "lat": 51.505957,
       "lon": -0.37861
     },
     {
-      "naptanId": "910GSVNKNGS",
+      "station_id": "910GSVNKNGS",
+      "naptan_id": "910GSVNKNGS",
+      "ics_code": "1001246",
+      "common_name": "Seven Kings Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1001246",
       "lines": [
         {
           "id": "elizabeth",
@@ -740,18 +787,18 @@
           "name": "Greater Anglia"
         }
       ],
-      "id": "910GSVNKNGS",
-      "commonName": "Seven Kings Rail Station",
       "lat": 51.564026,
       "lon": 0.0971
     },
     {
-      "naptanId": "910GTAPLOW",
+      "station_id": "910GTAPLOW",
+      "naptan_id": "910GTAPLOW",
+      "ics_code": "1000960",
+      "common_name": "Taplow Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1000960",
       "lines": [
         {
           "id": "elizabeth",
@@ -762,35 +809,35 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GTAPLOW",
-      "commonName": "Taplow Rail Station",
       "lat": 51.523562,
       "lon": -0.68137
     },
     {
-      "naptanId": "910GTOTCTRD",
+      "station_id": "910GTOTCTRD",
+      "naptan_id": "910GTOTCTRD",
+      "ics_code": "1000235",
+      "common_name": "Tottenham Court Road",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1000235",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GTOTCTRD",
-      "commonName": "Tottenham Court Road",
       "lat": 51.515005,
       "lon": -0.130396
     },
     {
-      "naptanId": "910GTWYFORD",
+      "station_id": "910GTWYFORD",
+      "naptan_id": "910GTWYFORD",
+      "ics_code": "1000969",
+      "common_name": "Twyford Rail Station",
       "modes": [
-        "national-rail",
-        "elizabeth-line"
+        "elizabeth-line",
+        "national-rail"
       ],
-      "icsCode": "1000969",
       "lines": [
         {
           "id": "elizabeth",
@@ -801,35 +848,35 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GTWYFORD",
-      "commonName": "Twyford Rail Station",
       "lat": 51.475534,
       "lon": -0.863293
     },
     {
-      "naptanId": "910GWCHAPXR",
+      "station_id": "910GWCHAPXR",
+      "naptan_id": "910GWCHAPXR",
+      "ics_code": "1000268",
+      "common_name": "Whitechapel",
       "modes": [
         "elizabeth-line"
       ],
-      "icsCode": "1000268",
       "lines": [
         {
           "id": "elizabeth",
           "name": "Elizabeth line"
         }
       ],
-      "id": "910GWCHAPXR",
-      "commonName": "Whitechapel",
       "lat": 51.520392,
       "lon": -0.060121
     },
     {
-      "naptanId": "910GWDRYTON",
+      "station_id": "910GWDRYTON",
+      "naptan_id": "910GWDRYTON",
+      "ics_code": "1001325",
+      "common_name": "West Drayton Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1001325",
       "lines": [
         {
           "id": "elizabeth",
@@ -840,18 +887,18 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GWDRYTON",
-      "commonName": "West Drayton Rail Station",
       "lat": 51.510055,
       "lon": -0.472234
     },
     {
-      "naptanId": "910GWEALING",
+      "station_id": "910GWEALING",
+      "naptan_id": "910GWEALING",
+      "ics_code": "1001327",
+      "common_name": "West Ealing Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail"
       ],
-      "icsCode": "1001327",
       "lines": [
         {
           "id": "elizabeth",
@@ -862,18 +909,18 @@
           "name": "Great Western Railway"
         }
       ],
-      "id": "910GWEALING",
-      "commonName": "West Ealing Rail Station",
       "lat": 51.513506,
       "lon": -0.320133
     },
     {
-      "naptanId": "910GWOLWXR",
+      "station_id": "910GWOLWXR",
+      "naptan_id": "910GWOLWXR",
+      "ics_code": "1002162",
+      "common_name": "Woolwich",
       "modes": [
         "bus",
         "elizabeth-line"
       ],
-      "icsCode": "1002162",
       "lines": [
         {
           "id": "122",
@@ -956,2391 +1003,8 @@
           "name": "SL11"
         }
       ],
-      "id": "910GWOLWXR",
-      "commonName": "Woolwich",
       "lat": 51.492168,
       "lon": 0.070593
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "HUBABW",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1001001",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        }
-      ],
-      "id": "HUBABW",
-      "commonName": "Abbey Wood",
-      "lat": 51.491247,
-      "lon": 0.121057
-    },
-    {
-      "naptanId": "910GACTONML",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1001003",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GACTONML",
-      "commonName": "Acton Main Line Rail Station",
-      "lat": 51.51718,
-      "lon": -0.266756
-    },
-    {
-      "naptanId": "910GBNHAM",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1000860",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GBNHAM",
-      "commonName": "Burnham (Berks) Rail Station",
-      "lat": 51.523506,
-      "lon": -0.646374
-    },
-    {
-      "naptanId": "HUBBDS",
-      "modes": [
-        "elizabeth-line",
-        "tube"
-      ],
-      "icsCode": "1000025",
-      "lines": [
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        }
-      ],
-      "id": "HUBBDS",
-      "commonName": "Bond Street",
-      "lat": 51.513362,
-      "lon": -0.148795
-    },
-    {
-      "naptanId": "910GBRTWOOD",
-      "modes": [
-        "elizabeth-line"
-      ],
-      "icsCode": "1000292",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "910GBRTWOOD",
-      "commonName": "Brentwood Rail Station",
-      "lat": 51.613605,
-      "lon": 0.299586
-    },
-    {
-      "naptanId": "HUBCAW",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "tube"
-      ],
-      "icsCode": "1000038",
-      "lines": [
-        {
-          "id": "135",
-          "name": "135"
-        },
-        {
-          "id": "277",
-          "name": "277"
-        },
-        {
-          "id": "d7",
-          "name": "D7"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "n277",
-          "name": "N277"
-        },
-        {
-          "id": "n550",
-          "name": "N550"
-        }
-      ],
-      "id": "HUBCAW",
-      "commonName": "Canary Wharf",
-      "lat": 51.503734,
-      "lon": -0.019121
-    },
-    {
-      "naptanId": "910GCHDWLHT",
-      "modes": [
-        "elizabeth-line"
-      ],
-      "icsCode": "1001055",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "910GCHDWLHT",
-      "commonName": "Chadwell Heath Rail Station",
-      "lat": 51.568039,
-      "lon": 0.128958
-    },
-    {
-      "naptanId": "HUBCUS",
-      "modes": [
-        "dlr",
-        "elizabeth-line"
-      ],
-      "icsCode": "1001079",
-      "lines": [
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "HUBCUS",
-      "commonName": "Custom House",
-      "lat": 51.518757,
-      "lon": 0.027418
-    },
-    {
-      "naptanId": "HUBEAL",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000062",
-      "lines": [
-        {
-          "id": "112",
-          "name": "112"
-        },
-        {
-          "id": "226",
-          "name": "226"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "e1",
-          "name": "E1"
-        },
-        {
-          "id": "e10",
-          "name": "E10"
-        },
-        {
-          "id": "e9",
-          "name": "E9"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "HUBEAL",
-      "commonName": "Ealing Broadway",
-      "lat": 51.514993,
-      "lon": -0.302131
-    },
-    {
-      "naptanId": "HUBZFD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000080",
-      "lines": [
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        }
-      ],
-      "id": "HUBZFD",
-      "commonName": "Farringdon",
-      "lat": 51.520214,
-      "lon": -0.105054
-    },
-    {
-      "naptanId": "910GFRSTGT",
-      "modes": [
-        "elizabeth-line"
-      ],
-      "icsCode": "1001111",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "910GFRSTGT",
-      "commonName": "Forest Gate Rail Station",
-      "lat": 51.549432,
-      "lon": 0.024353
-    },
-    {
-      "naptanId": "910GGIDEAPK",
-      "modes": [
-        "national-rail",
-        "elizabeth-line"
-      ],
-      "icsCode": "1001115",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        }
-      ],
-      "id": "910GGIDEAPK",
-      "commonName": "Gidea Park Rail Station",
-      "lat": 51.581904,
-      "lon": 0.205964
-    },
-    {
-      "naptanId": "910GGODMAYS",
-      "modes": [
-        "elizabeth-line"
-      ],
-      "icsCode": "1001117",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "910GGODMAYS",
-      "commonName": "Goodmayes Rail Station",
-      "lat": 51.565579,
-      "lon": 0.110807
-    },
-    {
-      "naptanId": "910GHANWELL",
-      "modes": [
-        "elizabeth-line"
-      ],
-      "icsCode": "1001135",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "910GHANWELL",
-      "commonName": "Hanwell Rail Station",
-      "lat": 51.511835,
-      "lon": -0.338583
-    },
-    {
-      "naptanId": "910GHAYESAH",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1001144",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GHAYESAH",
-      "commonName": "Hayes & Harlington Rail Station",
-      "lat": 51.503096,
-      "lon": -0.420683
-    },
-    {
-      "naptanId": "910GHRLDWOD",
-      "modes": [
-        "elizabeth-line"
-      ],
-      "icsCode": "1001137",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "910GHRLDWOD",
-      "commonName": "Harold Wood Rail Station",
-      "lat": 51.592766,
-      "lon": 0.233129
-    },
-    {
-      "naptanId": "HUBH13",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "plane",
-        "tube"
-      ],
-      "icsCode": "1000105",
-      "lines": [
-        {
-          "id": "105",
-          "name": "105"
-        },
-        {
-          "id": "111",
-          "name": "111"
-        },
-        {
-          "id": "278",
-          "name": "278"
-        },
-        {
-          "id": "285",
-          "name": "285"
-        },
-        {
-          "id": "a10",
-          "name": "A10"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n140",
-          "name": "N140"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "sl9",
-          "name": "SL9"
-        },
-        {
-          "id": "u3",
-          "name": "U3"
-        }
-      ],
-      "id": "HUBH13",
-      "commonName": "Heathrow Terminals 2 & 3",
-      "lat": 51.471618,
-      "lon": -0.454037
-    },
-    {
-      "naptanId": "HUBHX4",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "plane",
-        "tube"
-      ],
-      "icsCode": "1000104",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHX4",
-      "commonName": "Heathrow Airport Terminal 4",
-      "lat": 51.458837,
-      "lon": -0.446419
-    },
-    {
-      "naptanId": "HUBHX5",
-      "modes": [
-        "bus",
-        "national-rail",
-        "plane",
-        "tube",
-        "elizabeth-line"
-      ],
-      "icsCode": "1016430",
-      "lines": [
-        {
-          "id": "350",
-          "name": "350"
-        },
-        {
-          "id": "423",
-          "name": "423"
-        },
-        {
-          "id": "482",
-          "name": "482"
-        },
-        {
-          "id": "490",
-          "name": "490"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHX5",
-      "commonName": "Heathrow Airport Terminal 5",
-      "lat": 51.471569,
-      "lon": -0.489556
-    },
-    {
-      "naptanId": "910GILFORD",
-      "modes": [
-        "national-rail",
-        "elizabeth-line"
-      ],
-      "icsCode": "1001157",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        }
-      ],
-      "id": "910GILFORD",
-      "commonName": "Ilford Rail Station",
-      "lat": 51.559118,
-      "lon": 0.06968
-    },
-    {
-      "naptanId": "910GIVER",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1000955",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GIVER",
-      "commonName": "Iver Rail Station",
-      "lat": 51.508503,
-      "lon": -0.506726
-    },
-    {
-      "naptanId": "910GLANGLEY",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1000957",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GLANGLEY",
-      "commonName": "Langley (Berks) Rail Station",
-      "lat": 51.508062,
-      "lon": -0.541756
-    },
-    {
-      "naptanId": "HUBLST",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000138",
-      "lines": [
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBLST",
-      "commonName": "Liverpool Street",
-      "lat": 51.51794,
-      "lon": -0.083162
-    },
-    {
-      "naptanId": "HUBLST",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000138",
-      "lines": [
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBLST",
-      "commonName": "Liverpool Street",
-      "lat": 51.51794,
-      "lon": -0.083162
-    },
-    {
-      "naptanId": "910GMANRPK",
-      "modes": [
-        "elizabeth-line"
-      ],
-      "icsCode": "1001189",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "910GMANRPK",
-      "commonName": "Manor Park Rail Station",
-      "lat": 51.552477,
-      "lon": 0.046342
-    },
-    {
-      "naptanId": "910GMDNHEAD",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1000964",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GMDNHEAD",
-      "commonName": "Maidenhead Rail Station",
-      "lat": 51.518669,
-      "lon": -0.72266
-    },
-    {
-      "naptanId": "910GMRYLAND",
-      "modes": [
-        "elizabeth-line"
-      ],
-      "icsCode": "1001190",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "910GMRYLAND",
-      "commonName": "Maryland Rail Station",
-      "lat": 51.546081,
-      "lon": 0.005815
-    },
-    {
-      "naptanId": "HUBPAD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000174",
-      "lines": [
-        {
-          "id": "16",
-          "name": "16"
-        },
-        {
-          "id": "23",
-          "name": "23"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "36",
-          "name": "36"
-        },
-        {
-          "id": "7",
-          "name": "7"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n7",
-          "name": "N7"
-        }
-      ],
-      "id": "HUBPAD",
-      "commonName": "Paddington",
-      "lat": 51.516981,
-      "lon": -0.17616
-    },
-    {
-      "naptanId": "HUBPAD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000174",
-      "lines": [
-        {
-          "id": "16",
-          "name": "16"
-        },
-        {
-          "id": "23",
-          "name": "23"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "36",
-          "name": "36"
-        },
-        {
-          "id": "7",
-          "name": "7"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n7",
-          "name": "N7"
-        }
-      ],
-      "id": "HUBPAD",
-      "commonName": "Paddington",
-      "lat": 51.516981,
-      "lon": -0.17616
-    },
-    {
-      "naptanId": "910GRDNGSTN",
-      "modes": [
-        "national-rail",
-        "elizabeth-line"
-      ],
-      "icsCode": "1000972",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "south-western-railway",
-          "name": "South Western Railway"
-        }
-      ],
-      "id": "910GRDNGSTN",
-      "commonName": "Reading Rail Station",
-      "lat": 51.458786,
-      "lon": -0.971863
-    },
-    {
-      "naptanId": "910GROMFORD",
-      "modes": [
-        "elizabeth-line",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001243",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "liberty",
-          "name": "Liberty"
-        }
-      ],
-      "id": "910GROMFORD",
-      "commonName": "Romford Rail Station",
-      "lat": 51.574829,
-      "lon": 0.183237
-    },
-    {
-      "naptanId": "910GSHENFLD",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1006448",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        }
-      ],
-      "id": "910GSHENFLD",
-      "commonName": "Shenfield Rail Station",
-      "lat": 51.630877,
-      "lon": 0.329851
-    },
-    {
-      "naptanId": "910GSLOUGH",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1000951",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GSLOUGH",
-      "commonName": "Slough Rail Station",
-      "lat": 51.51188,
-      "lon": -0.59151
-    },
-    {
-      "naptanId": "HUBSRA",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "international-rail",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000226",
-      "lines": [
-        {
-          "id": "104",
-          "name": "104"
-        },
-        {
-          "id": "108",
-          "name": "108"
-        },
-        {
-          "id": "158",
-          "name": "158"
-        },
-        {
-          "id": "238",
-          "name": "238"
-        },
-        {
-          "id": "241",
-          "name": "241"
-        },
-        {
-          "id": "25",
-          "name": "25"
-        },
-        {
-          "id": "257",
-          "name": "257"
-        },
-        {
-          "id": "262",
-          "name": "262"
-        },
-        {
-          "id": "276",
-          "name": "276"
-        },
-        {
-          "id": "308",
-          "name": "308"
-        },
-        {
-          "id": "339",
-          "name": "339"
-        },
-        {
-          "id": "388",
-          "name": "388"
-        },
-        {
-          "id": "425",
-          "name": "425"
-        },
-        {
-          "id": "473",
-          "name": "473"
-        },
-        {
-          "id": "678",
-          "name": "678"
-        },
-        {
-          "id": "69",
-          "name": "69"
-        },
-        {
-          "id": "86",
-          "name": "86"
-        },
-        {
-          "id": "97",
-          "name": "97"
-        },
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "d8",
-          "name": "D8"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n25",
-          "name": "N25"
-        },
-        {
-          "id": "n8",
-          "name": "N8"
-        },
-        {
-          "id": "n86",
-          "name": "N86"
-        }
-      ],
-      "id": "HUBSRA",
-      "commonName": "Stratford",
-      "lat": 51.541508,
-      "lon": -0.00241
-    },
-    {
-      "naptanId": "910GSTHALL",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1001255",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GSTHALL",
-      "commonName": "Southall Rail Station",
-      "lat": 51.505957,
-      "lon": -0.37861
-    },
-    {
-      "naptanId": "910GSVNKNGS",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1001246",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        }
-      ],
-      "id": "910GSVNKNGS",
-      "commonName": "Seven Kings Rail Station",
-      "lat": 51.564026,
-      "lon": 0.0971
-    },
-    {
-      "naptanId": "910GTAPLOW",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1000960",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GTAPLOW",
-      "commonName": "Taplow Rail Station",
-      "lat": 51.523562,
-      "lon": -0.68137
-    },
-    {
-      "naptanId": "HUBTCR",
-      "modes": [
-        "elizabeth-line",
-        "tube"
-      ],
-      "icsCode": "1000235",
-      "lines": [
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        }
-      ],
-      "id": "HUBTCR",
-      "commonName": "Tottenham Court Road",
-      "lat": 51.516018,
-      "lon": -0.130888
-    },
-    {
-      "naptanId": "910GTWYFORD",
-      "modes": [
-        "national-rail",
-        "elizabeth-line"
-      ],
-      "icsCode": "1000969",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GTWYFORD",
-      "commonName": "Twyford Rail Station",
-      "lat": 51.475534,
-      "lon": -0.863293
-    },
-    {
-      "naptanId": "HUBZWL",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000268",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBZWL",
-      "commonName": "Whitechapel",
-      "lat": 51.519498,
-      "lon": -0.059858
-    },
-    {
-      "naptanId": "HUBZWL",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000268",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBZWL",
-      "commonName": "Whitechapel",
-      "lat": 51.519498,
-      "lon": -0.059858
-    },
-    {
-      "naptanId": "910GWDRYTON",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1001325",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GWDRYTON",
-      "commonName": "West Drayton Rail Station",
-      "lat": 51.510055,
-      "lon": -0.472234
-    },
-    {
-      "naptanId": "910GWEALING",
-      "modes": [
-        "elizabeth-line",
-        "national-rail"
-      ],
-      "icsCode": "1001327",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "910GWEALING",
-      "commonName": "West Ealing Rail Station",
-      "lat": 51.513506,
-      "lon": -0.320133
-    },
-    {
-      "naptanId": "910GWOLWXR",
-      "modes": [
-        "bus",
-        "elizabeth-line"
-      ],
-      "icsCode": "1002162",
-      "lines": [
-        {
-          "id": "122",
-          "name": "122"
-        },
-        {
-          "id": "161",
-          "name": "161"
-        },
-        {
-          "id": "177",
-          "name": "177"
-        },
-        {
-          "id": "180",
-          "name": "180"
-        },
-        {
-          "id": "244",
-          "name": "244"
-        },
-        {
-          "id": "291",
-          "name": "291"
-        },
-        {
-          "id": "301",
-          "name": "301"
-        },
-        {
-          "id": "380",
-          "name": "380"
-        },
-        {
-          "id": "422",
-          "name": "422"
-        },
-        {
-          "id": "469",
-          "name": "469"
-        },
-        {
-          "id": "53",
-          "name": "53"
-        },
-        {
-          "id": "54",
-          "name": "54"
-        },
-        {
-          "id": "672",
-          "name": "672"
-        },
-        {
-          "id": "96",
-          "name": "96"
-        },
-        {
-          "id": "99",
-          "name": "99"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "n1",
-          "name": "N1"
-        },
-        {
-          "id": "n472",
-          "name": "N472"
-        },
-        {
-          "id": "n53",
-          "name": "N53"
-        },
-        {
-          "id": "sl11",
-          "name": "SL11"
-        }
-      ],
-      "id": "910GWOLWXR",
-      "commonName": "Woolwich",
-      "lat": 51.492168,
-      "lon": 0.070593
-    },
-    {
-      "naptanId": "HUBCAW",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "tube"
-      ],
-      "icsCode": "1000038",
-      "lines": [
-        {
-          "id": "135",
-          "name": "135"
-        },
-        {
-          "id": "277",
-          "name": "277"
-        },
-        {
-          "id": "d7",
-          "name": "D7"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "n277",
-          "name": "N277"
-        },
-        {
-          "id": "n550",
-          "name": "N550"
-        }
-      ],
-      "id": "HUBCAW",
-      "commonName": "Canary Wharf",
-      "lat": 51.503734,
-      "lon": -0.019121
-    },
-    {
-      "naptanId": "HUBCUS",
-      "modes": [
-        "dlr",
-        "elizabeth-line"
-      ],
-      "icsCode": "1001079",
-      "lines": [
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        }
-      ],
-      "id": "HUBCUS",
-      "commonName": "Custom House",
-      "lat": 51.518757,
-      "lon": 0.027418
-    },
-    {
-      "naptanId": "HUBSRA",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "international-rail",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000226",
-      "lines": [
-        {
-          "id": "104",
-          "name": "104"
-        },
-        {
-          "id": "108",
-          "name": "108"
-        },
-        {
-          "id": "158",
-          "name": "158"
-        },
-        {
-          "id": "238",
-          "name": "238"
-        },
-        {
-          "id": "241",
-          "name": "241"
-        },
-        {
-          "id": "25",
-          "name": "25"
-        },
-        {
-          "id": "257",
-          "name": "257"
-        },
-        {
-          "id": "262",
-          "name": "262"
-        },
-        {
-          "id": "276",
-          "name": "276"
-        },
-        {
-          "id": "308",
-          "name": "308"
-        },
-        {
-          "id": "339",
-          "name": "339"
-        },
-        {
-          "id": "388",
-          "name": "388"
-        },
-        {
-          "id": "425",
-          "name": "425"
-        },
-        {
-          "id": "473",
-          "name": "473"
-        },
-        {
-          "id": "678",
-          "name": "678"
-        },
-        {
-          "id": "69",
-          "name": "69"
-        },
-        {
-          "id": "86",
-          "name": "86"
-        },
-        {
-          "id": "97",
-          "name": "97"
-        },
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "d8",
-          "name": "D8"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n25",
-          "name": "N25"
-        },
-        {
-          "id": "n8",
-          "name": "N8"
-        },
-        {
-          "id": "n86",
-          "name": "N86"
-        }
-      ],
-      "id": "HUBSRA",
-      "commonName": "Stratford",
-      "lat": 51.541508,
-      "lon": -0.00241
-    },
-    {
-      "naptanId": "HUBBDS",
-      "modes": [
-        "elizabeth-line",
-        "tube"
-      ],
-      "icsCode": "1000025",
-      "lines": [
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        }
-      ],
-      "id": "HUBBDS",
-      "commonName": "Bond Street",
-      "lat": 51.513362,
-      "lon": -0.148795
-    },
-    {
-      "naptanId": "HUBCAW",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "tube"
-      ],
-      "icsCode": "1000038",
-      "lines": [
-        {
-          "id": "135",
-          "name": "135"
-        },
-        {
-          "id": "277",
-          "name": "277"
-        },
-        {
-          "id": "d7",
-          "name": "D7"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "n277",
-          "name": "N277"
-        },
-        {
-          "id": "n550",
-          "name": "N550"
-        }
-      ],
-      "id": "HUBCAW",
-      "commonName": "Canary Wharf",
-      "lat": 51.503734,
-      "lon": -0.019121
-    },
-    {
-      "naptanId": "HUBEAL",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000062",
-      "lines": [
-        {
-          "id": "112",
-          "name": "112"
-        },
-        {
-          "id": "226",
-          "name": "226"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "e1",
-          "name": "E1"
-        },
-        {
-          "id": "e10",
-          "name": "E10"
-        },
-        {
-          "id": "e9",
-          "name": "E9"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        }
-      ],
-      "id": "HUBEAL",
-      "commonName": "Ealing Broadway",
-      "lat": 51.514993,
-      "lon": -0.302131
-    },
-    {
-      "naptanId": "HUBZFD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000080",
-      "lines": [
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        }
-      ],
-      "id": "HUBZFD",
-      "commonName": "Farringdon",
-      "lat": 51.520214,
-      "lon": -0.105054
-    },
-    {
-      "naptanId": "HUBHX4",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "plane",
-        "tube"
-      ],
-      "icsCode": "1000104",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHX4",
-      "commonName": "Heathrow Airport Terminal 4",
-      "lat": 51.458837,
-      "lon": -0.446419
-    },
-    {
-      "naptanId": "HUBHX5",
-      "modes": [
-        "bus",
-        "national-rail",
-        "plane",
-        "tube",
-        "elizabeth-line"
-      ],
-      "icsCode": "1016430",
-      "lines": [
-        {
-          "id": "350",
-          "name": "350"
-        },
-        {
-          "id": "423",
-          "name": "423"
-        },
-        {
-          "id": "482",
-          "name": "482"
-        },
-        {
-          "id": "490",
-          "name": "490"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHX5",
-      "commonName": "Heathrow Airport Terminal 5",
-      "lat": 51.471569,
-      "lon": -0.489556
-    },
-    {
-      "naptanId": "HUBH13",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "plane",
-        "tube"
-      ],
-      "icsCode": "1000105",
-      "lines": [
-        {
-          "id": "105",
-          "name": "105"
-        },
-        {
-          "id": "111",
-          "name": "111"
-        },
-        {
-          "id": "278",
-          "name": "278"
-        },
-        {
-          "id": "285",
-          "name": "285"
-        },
-        {
-          "id": "a10",
-          "name": "A10"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n140",
-          "name": "N140"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "sl9",
-          "name": "SL9"
-        },
-        {
-          "id": "u3",
-          "name": "U3"
-        }
-      ],
-      "id": "HUBH13",
-      "commonName": "Heathrow Terminals 2 & 3",
-      "lat": 51.471618,
-      "lon": -0.454037
-    },
-    {
-      "naptanId": "HUBLST",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000138",
-      "lines": [
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "weaver",
-          "name": "Weaver"
-        }
-      ],
-      "id": "HUBLST",
-      "commonName": "Liverpool Street",
-      "lat": 51.51794,
-      "lon": -0.083162
-    },
-    {
-      "naptanId": "HUBPAD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000174",
-      "lines": [
-        {
-          "id": "16",
-          "name": "16"
-        },
-        {
-          "id": "23",
-          "name": "23"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "36",
-          "name": "36"
-        },
-        {
-          "id": "7",
-          "name": "7"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n7",
-          "name": "N7"
-        }
-      ],
-      "id": "HUBPAD",
-      "commonName": "Paddington",
-      "lat": 51.516981,
-      "lon": -0.17616
-    },
-    {
-      "naptanId": "HUBPAD",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000174",
-      "lines": [
-        {
-          "id": "16",
-          "name": "16"
-        },
-        {
-          "id": "23",
-          "name": "23"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "36",
-          "name": "36"
-        },
-        {
-          "id": "7",
-          "name": "7"
-        },
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "great-western-railway",
-          "name": "Great Western Railway"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n7",
-          "name": "N7"
-        }
-      ],
-      "id": "HUBPAD",
-      "commonName": "Paddington",
-      "lat": 51.516981,
-      "lon": -0.17616
-    },
-    {
-      "naptanId": "HUBSRA",
-      "modes": [
-        "bus",
-        "dlr",
-        "elizabeth-line",
-        "international-rail",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000226",
-      "lines": [
-        {
-          "id": "104",
-          "name": "104"
-        },
-        {
-          "id": "108",
-          "name": "108"
-        },
-        {
-          "id": "158",
-          "name": "158"
-        },
-        {
-          "id": "238",
-          "name": "238"
-        },
-        {
-          "id": "241",
-          "name": "241"
-        },
-        {
-          "id": "25",
-          "name": "25"
-        },
-        {
-          "id": "257",
-          "name": "257"
-        },
-        {
-          "id": "262",
-          "name": "262"
-        },
-        {
-          "id": "276",
-          "name": "276"
-        },
-        {
-          "id": "308",
-          "name": "308"
-        },
-        {
-          "id": "339",
-          "name": "339"
-        },
-        {
-          "id": "388",
-          "name": "388"
-        },
-        {
-          "id": "425",
-          "name": "425"
-        },
-        {
-          "id": "473",
-          "name": "473"
-        },
-        {
-          "id": "678",
-          "name": "678"
-        },
-        {
-          "id": "69",
-          "name": "69"
-        },
-        {
-          "id": "86",
-          "name": "86"
-        },
-        {
-          "id": "97",
-          "name": "97"
-        },
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "d8",
-          "name": "D8"
-        },
-        {
-          "id": "dlr",
-          "name": "DLR"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "mildmay",
-          "name": "Mildmay"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n25",
-          "name": "N25"
-        },
-        {
-          "id": "n8",
-          "name": "N8"
-        },
-        {
-          "id": "n86",
-          "name": "N86"
-        }
-      ],
-      "id": "HUBSRA",
-      "commonName": "Stratford",
-      "lat": 51.541508,
-      "lon": -0.00241
-    },
-    {
-      "naptanId": "HUBTCR",
-      "modes": [
-        "elizabeth-line",
-        "tube"
-      ],
-      "icsCode": "1000235",
-      "lines": [
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        }
-      ],
-      "id": "HUBTCR",
-      "commonName": "Tottenham Court Road",
-      "lat": 51.516018,
-      "lon": -0.130888
-    },
-    {
-      "naptanId": "HUBZWL",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000268",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "windrush",
-          "name": "Windrush"
-        }
-      ],
-      "id": "HUBZWL",
-      "commonName": "Whitechapel",
-      "lat": 51.519498,
-      "lon": -0.059858
     }
   ]
 }

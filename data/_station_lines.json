@@ -1,0 +1,1847 @@
+{
+  "940GZZLUBST": [
+    "bakerloo",
+    "circle",
+    "hammersmith-city",
+    "jubilee",
+    "metropolitan"
+  ],
+  "940GZZLUCHX": [
+    "bakerloo",
+    "northern"
+  ],
+  "940GZZLUEAC": [
+    "bakerloo",
+    "northern"
+  ],
+  "940GZZLUEMB": [
+    "bakerloo",
+    "circle",
+    "district",
+    "northern"
+  ],
+  "940GZZLUERB": [
+    "bakerloo"
+  ],
+  "940GZZLUHAW": [
+    "bakerloo"
+  ],
+  "940GZZLUHSN": [
+    "bakerloo"
+  ],
+  "940GZZLUKEN": [
+    "bakerloo"
+  ],
+  "940GZZLUKPK": [
+    "bakerloo"
+  ],
+  "940GZZLUKSL": [
+    "bakerloo"
+  ],
+  "940GZZLULBN": [
+    "bakerloo"
+  ],
+  "940GZZLUMVL": [
+    "bakerloo"
+  ],
+  "940GZZLUMYB": [
+    "bakerloo"
+  ],
+  "940GZZLUNWY": [
+    "bakerloo"
+  ],
+  "940GZZLUOXC": [
+    "bakerloo",
+    "central",
+    "victoria"
+  ],
+  "940GZZLUPAC": [
+    "bakerloo",
+    "circle",
+    "district"
+  ],
+  "940GZZLUPCC": [
+    "bakerloo",
+    "piccadilly"
+  ],
+  "940GZZLUQPS": [
+    "bakerloo"
+  ],
+  "940GZZLURGP": [
+    "bakerloo"
+  ],
+  "940GZZLUSGP": [
+    "bakerloo"
+  ],
+  "940GZZLUSKT": [
+    "bakerloo"
+  ],
+  "940GZZLUWJN": [
+    "bakerloo"
+  ],
+  "940GZZLUWKA": [
+    "bakerloo"
+  ],
+  "940GZZLUWLO": [
+    "bakerloo",
+    "jubilee",
+    "northern",
+    "waterloo-city"
+  ],
+  "940GZZLUWYC": [
+    "bakerloo"
+  ],
+  "940GZZLUBKE": [
+    "central"
+  ],
+  "940GZZLUBKH": [
+    "central"
+  ],
+  "940GZZLUBLG": [
+    "central"
+  ],
+  "940GZZLUBND": [
+    "central",
+    "jubilee"
+  ],
+  "940GZZLUBNK": [
+    "central",
+    "northern",
+    "waterloo-city"
+  ],
+  "940GZZLUCHL": [
+    "central"
+  ],
+  "940GZZLUCWL": [
+    "central"
+  ],
+  "940GZZLUDBN": [
+    "central"
+  ],
+  "940GZZLUEAN": [
+    "central"
+  ],
+  "940GZZLUEBY": [
+    "central",
+    "district"
+  ],
+  "940GZZLUEPG": [
+    "central"
+  ],
+  "940GZZLUFLP": [
+    "central"
+  ],
+  "940GZZLUGFD": [
+    "central"
+  ],
+  "940GZZLUGGH": [
+    "central"
+  ],
+  "940GZZLUGTH": [
+    "central"
+  ],
+  "940GZZLUHBN": [
+    "central",
+    "piccadilly"
+  ],
+  "940GZZLUHGR": [
+    "central"
+  ],
+  "940GZZLUHLT": [
+    "central"
+  ],
+  "940GZZLUHPK": [
+    "central"
+  ],
+  "940GZZLULGN": [
+    "central"
+  ],
+  "940GZZLULGT": [
+    "central"
+  ],
+  "940GZZLULVT": [
+    "central",
+    "circle",
+    "hammersmith-city",
+    "metropolitan"
+  ],
+  "940GZZLULYN": [
+    "central"
+  ],
+  "940GZZLULYS": [
+    "central"
+  ],
+  "940GZZLUMBA": [
+    "central"
+  ],
+  "940GZZLUMED": [
+    "central",
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUNAN": [
+    "central"
+  ],
+  "940GZZLUNBP": [
+    "central"
+  ],
+  "940GZZLUNHG": [
+    "central",
+    "circle",
+    "district"
+  ],
+  "940GZZLUNHT": [
+    "central"
+  ],
+  "940GZZLUPVL": [
+    "central"
+  ],
+  "940GZZLUQWY": [
+    "central"
+  ],
+  "940GZZLURBG": [
+    "central"
+  ],
+  "940GZZLURSG": [
+    "central"
+  ],
+  "940GZZLURVY": [
+    "central"
+  ],
+  "940GZZLUSBC": [
+    "central"
+  ],
+  "940GZZLUSNB": [
+    "central"
+  ],
+  "940GZZLUSPU": [
+    "central"
+  ],
+  "940GZZLUSRP": [
+    "central"
+  ],
+  "940GZZLUSTD": [
+    "central",
+    "jubilee"
+  ],
+  "940GZZLUSWF": [
+    "central"
+  ],
+  "940GZZLUTCR": [
+    "central",
+    "northern"
+  ],
+  "940GZZLUTHB": [
+    "central"
+  ],
+  "940GZZLUWCY": [
+    "central"
+  ],
+  "940GZZLUWOF": [
+    "central"
+  ],
+  "940GZZLUWRP": [
+    "central"
+  ],
+  "940GZZLUWSD": [
+    "central"
+  ],
+  "940GZZLUWTA": [
+    "central"
+  ],
+  "940GZZLUALD": [
+    "circle",
+    "metropolitan"
+  ],
+  "940GZZLUBBN": [
+    "circle",
+    "hammersmith-city",
+    "metropolitan"
+  ],
+  "940GZZLUBKF": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUBWT": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUCST": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUERC": [
+    "circle",
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUESQ": [
+    "circle",
+    "hammersmith-city",
+    "metropolitan"
+  ],
+  "940GZZLUFCN": [
+    "circle",
+    "hammersmith-city",
+    "metropolitan"
+  ],
+  "940GZZLUGHK": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLUGPS": [
+    "circle",
+    "hammersmith-city",
+    "metropolitan"
+  ],
+  "940GZZLUGTR": [
+    "circle",
+    "district",
+    "piccadilly"
+  ],
+  "940GZZLUHSC": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLUHSK": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUKSX": [
+    "circle",
+    "hammersmith-city",
+    "metropolitan",
+    "northern",
+    "piccadilly",
+    "victoria"
+  ],
+  "940GZZLULAD": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLULRD": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLUMGT": [
+    "circle",
+    "hammersmith-city",
+    "metropolitan",
+    "northern"
+  ],
+  "940GZZLUMMT": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUMSH": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUPAH": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLURYO": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLUSBM": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLUSJP": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUSKS": [
+    "circle",
+    "district",
+    "piccadilly"
+  ],
+  "940GZZLUSSQ": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUTMP": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUTWH": [
+    "circle",
+    "district"
+  ],
+  "940GZZLUVIC": [
+    "circle",
+    "district",
+    "victoria"
+  ],
+  "940GZZLUWLA": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLUWSM": [
+    "circle",
+    "district",
+    "jubilee"
+  ],
+  "940GZZLUWSP": [
+    "circle",
+    "hammersmith-city"
+  ],
+  "940GZZLUACT": [
+    "district",
+    "piccadilly"
+  ],
+  "940GZZLUADE": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUBBB": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUBEC": [
+    "district"
+  ],
+  "940GZZLUBKG": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUBSC": [
+    "district",
+    "piccadilly"
+  ],
+  "940GZZLUBWR": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUCWP": [
+    "district"
+  ],
+  "940GZZLUDGE": [
+    "district"
+  ],
+  "940GZZLUDGY": [
+    "district"
+  ],
+  "940GZZLUECM": [
+    "district",
+    "piccadilly"
+  ],
+  "940GZZLUECT": [
+    "district",
+    "piccadilly"
+  ],
+  "940GZZLUEHM": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUEPK": [
+    "district"
+  ],
+  "940GZZLUEPY": [
+    "district"
+  ],
+  "940GZZLUFBY": [
+    "district"
+  ],
+  "940GZZLUGBY": [
+    "district"
+  ],
+  "940GZZLUHCH": [
+    "district"
+  ],
+  "940GZZLUHSD": [
+    "district",
+    "piccadilly"
+  ],
+  "940GZZLUKOY": [
+    "district"
+  ],
+  "940GZZLUKWG": [
+    "district"
+  ],
+  "940GZZLUPLW": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUPSG": [
+    "district"
+  ],
+  "940GZZLUPYB": [
+    "district"
+  ],
+  "940GZZLURMD": [
+    "district"
+  ],
+  "940GZZLURVP": [
+    "district"
+  ],
+  "940GZZLUSFB": [
+    "district"
+  ],
+  "940GZZLUSFS": [
+    "district"
+  ],
+  "940GZZLUSGN": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUTNG": [
+    "district",
+    "piccadilly"
+  ],
+  "940GZZLUUPB": [
+    "district"
+  ],
+  "940GZZLUUPK": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZLUUPM": [
+    "district"
+  ],
+  "940GZZLUUPY": [
+    "district"
+  ],
+  "940GZZLUWBN": [
+    "district"
+  ],
+  "940GZZLUWHM": [
+    "district",
+    "hammersmith-city",
+    "jubilee"
+  ],
+  "940GZZLUWIM": [
+    "district"
+  ],
+  "940GZZLUWIP": [
+    "district"
+  ],
+  "940GZZLUWKN": [
+    "district"
+  ],
+  "940GZZLUWPL": [
+    "district",
+    "hammersmith-city"
+  ],
+  "940GZZDLABR": [
+    "dlr"
+  ],
+  "940GZZDLALL": [
+    "dlr"
+  ],
+  "940GZZDLBEC": [
+    "dlr"
+  ],
+  "940GZZDLBLA": [
+    "dlr"
+  ],
+  "940GZZDLBNK": [
+    "dlr"
+  ],
+  "940GZZDLBOW": [
+    "dlr"
+  ],
+  "940GZZDLBPK": [
+    "dlr"
+  ],
+  "940GZZDLCAN": [
+    "dlr"
+  ],
+  "940GZZDLCGT": [
+    "dlr"
+  ],
+  "940GZZDLCLA": [
+    "dlr"
+  ],
+  "940GZZDLCUS": [
+    "dlr"
+  ],
+  "940GZZDLCUT": [
+    "dlr"
+  ],
+  "940GZZDLCYP": [
+    "dlr"
+  ],
+  "940GZZDLDEP": [
+    "dlr"
+  ],
+  "940GZZDLDEV": [
+    "dlr"
+  ],
+  "940GZZDLEIN": [
+    "dlr"
+  ],
+  "940GZZDLELV": [
+    "dlr"
+  ],
+  "940GZZDLGAL": [
+    "dlr"
+  ],
+  "940GZZDLGRE": [
+    "dlr"
+  ],
+  "940GZZDLHEQ": [
+    "dlr"
+  ],
+  "940GZZDLISL": [
+    "dlr"
+  ],
+  "940GZZDLKGV": [
+    "dlr"
+  ],
+  "940GZZDLLCA": [
+    "dlr"
+  ],
+  "940GZZDLLDP": [
+    "dlr"
+  ],
+  "940GZZDLLEW": [
+    "dlr"
+  ],
+  "940GZZDLLIM": [
+    "dlr"
+  ],
+  "940GZZDLMUD": [
+    "dlr"
+  ],
+  "940GZZDLPDK": [
+    "dlr"
+  ],
+  "940GZZDLPOP": [
+    "dlr"
+  ],
+  "940GZZDLPRE": [
+    "dlr"
+  ],
+  "940GZZDLPUD": [
+    "dlr"
+  ],
+  "940GZZDLRAL": [
+    "dlr"
+  ],
+  "940GZZDLRVC": [
+    "dlr"
+  ],
+  "940GZZDLSHA": [
+    "dlr"
+  ],
+  "940GZZDLSHS": [
+    "dlr"
+  ],
+  "940GZZDLSIT": [
+    "dlr"
+  ],
+  "940GZZDLSOQ": [
+    "dlr"
+  ],
+  "940GZZDLSTD": [
+    "dlr"
+  ],
+  "940GZZDLSTL": [
+    "dlr"
+  ],
+  "940GZZDLTWG": [
+    "dlr"
+  ],
+  "940GZZDLWFE": [
+    "dlr"
+  ],
+  "940GZZDLWHM": [
+    "dlr"
+  ],
+  "940GZZDLWIQ": [
+    "dlr"
+  ],
+  "940GZZDLWLA": [
+    "dlr"
+  ],
+  "940GZZDLWSV": [
+    "dlr"
+  ],
+  "910GABWDXR": [
+    "elizabeth"
+  ],
+  "910GACTONML": [
+    "elizabeth"
+  ],
+  "910GBNHAM": [
+    "elizabeth"
+  ],
+  "910GBONDST": [
+    "elizabeth"
+  ],
+  "910GBRTWOOD": [
+    "elizabeth"
+  ],
+  "910GCANWHRF": [
+    "elizabeth"
+  ],
+  "910GCHDWLHT": [
+    "elizabeth"
+  ],
+  "910GCUSTMHS": [
+    "elizabeth"
+  ],
+  "910GEALINGB": [
+    "elizabeth"
+  ],
+  "910GFRNDXR": [
+    "elizabeth"
+  ],
+  "910GFRSTGT": [
+    "elizabeth"
+  ],
+  "910GGIDEAPK": [
+    "elizabeth"
+  ],
+  "910GGODMAYS": [
+    "elizabeth"
+  ],
+  "910GHANWELL": [
+    "elizabeth"
+  ],
+  "910GHAYESAH": [
+    "elizabeth"
+  ],
+  "910GHRLDWOD": [
+    "elizabeth"
+  ],
+  "910GHTRWAPT": [
+    "elizabeth"
+  ],
+  "910GHTRWTM4": [
+    "elizabeth"
+  ],
+  "910GHTRWTM5": [
+    "elizabeth"
+  ],
+  "910GILFORD": [
+    "elizabeth"
+  ],
+  "910GIVER": [
+    "elizabeth"
+  ],
+  "910GLANGLEY": [
+    "elizabeth"
+  ],
+  "910GLIVST": [
+    "elizabeth",
+    "weaver"
+  ],
+  "910GLIVSTLL": [
+    "elizabeth"
+  ],
+  "910GMANRPK": [
+    "elizabeth"
+  ],
+  "910GMDNHEAD": [
+    "elizabeth"
+  ],
+  "910GMRYLAND": [
+    "elizabeth"
+  ],
+  "910GPADTLL": [
+    "elizabeth"
+  ],
+  "910GPADTON": [
+    "elizabeth"
+  ],
+  "910GRDNGSTN": [
+    "elizabeth"
+  ],
+  "910GROMFORD": [
+    "elizabeth",
+    "liberty"
+  ],
+  "910GSHENFLD": [
+    "elizabeth"
+  ],
+  "910GSLOUGH": [
+    "elizabeth"
+  ],
+  "910GSTFD": [
+    "elizabeth",
+    "mildmay"
+  ],
+  "910GSTHALL": [
+    "elizabeth"
+  ],
+  "910GSVNKNGS": [
+    "elizabeth"
+  ],
+  "910GTAPLOW": [
+    "elizabeth"
+  ],
+  "910GTOTCTRD": [
+    "elizabeth"
+  ],
+  "910GTWYFORD": [
+    "elizabeth"
+  ],
+  "910GWCHAPXR": [
+    "elizabeth"
+  ],
+  "910GWDRYTON": [
+    "elizabeth"
+  ],
+  "910GWEALING": [
+    "elizabeth"
+  ],
+  "910GWOLWXR": [
+    "elizabeth"
+  ],
+  "940GZZLUBMY": [
+    "jubilee"
+  ],
+  "940GZZLUCGT": [
+    "jubilee"
+  ],
+  "940GZZLUCPK": [
+    "jubilee"
+  ],
+  "940GZZLUCWR": [
+    "jubilee"
+  ],
+  "940GZZLUCYF": [
+    "jubilee"
+  ],
+  "940GZZLUDOH": [
+    "jubilee"
+  ],
+  "940GZZLUFYR": [
+    "jubilee",
+    "metropolitan"
+  ],
+  "940GZZLUGPK": [
+    "jubilee",
+    "piccadilly",
+    "victoria"
+  ],
+  "940GZZLUKBN": [
+    "jubilee"
+  ],
+  "940GZZLUKBY": [
+    "jubilee"
+  ],
+  "940GZZLULNB": [
+    "jubilee",
+    "northern"
+  ],
+  "940GZZLUNDN": [
+    "jubilee"
+  ],
+  "940GZZLUNGW": [
+    "jubilee"
+  ],
+  "940GZZLUQBY": [
+    "jubilee"
+  ],
+  "940GZZLUSJW": [
+    "jubilee"
+  ],
+  "940GZZLUSTM": [
+    "jubilee"
+  ],
+  "940GZZLUSWC": [
+    "jubilee"
+  ],
+  "940GZZLUSWK": [
+    "jubilee"
+  ],
+  "940GZZLUWHP": [
+    "jubilee"
+  ],
+  "940GZZLUWIG": [
+    "jubilee",
+    "metropolitan"
+  ],
+  "940GZZLUWYP": [
+    "jubilee",
+    "metropolitan"
+  ],
+  "910GEMRSPKH": [
+    "liberty"
+  ],
+  "910GUPMNSTR": [
+    "liberty"
+  ],
+  "910GBUSHYDC": [
+    "lioness"
+  ],
+  "910GCRPNDPK": [
+    "lioness"
+  ],
+  "910GEUSTON": [
+    "lioness"
+  ],
+  "910GHARLSDN": [
+    "lioness"
+  ],
+  "910GHEDSTNL": [
+    "lioness"
+  ],
+  "910GHROW": [
+    "lioness"
+  ],
+  "910GHTCHEND": [
+    "lioness"
+  ],
+  "910GKENSLG": [
+    "lioness"
+  ],
+  "910GKLBRNHR": [
+    "lioness"
+  ],
+  "910GKTON": [
+    "lioness"
+  ],
+  "910GNWEMBLY": [
+    "lioness"
+  ],
+  "910GQPRK": [
+    "lioness"
+  ],
+  "910GSHMPSTD": [
+    "lioness"
+  ],
+  "910GSKENTON": [
+    "lioness"
+  ],
+  "910GSTNBGPK": [
+    "lioness"
+  ],
+  "910GWATFDHS": [
+    "lioness"
+  ],
+  "910GWATFJDC": [
+    "lioness"
+  ],
+  "910GWLSDJHL": [
+    "lioness",
+    "mildmay"
+  ],
+  "910GWMBY": [
+    "lioness"
+  ],
+  "940GZZLUAMS": [
+    "metropolitan"
+  ],
+  "940GZZLUCAL": [
+    "metropolitan"
+  ],
+  "940GZZLUCSM": [
+    "metropolitan"
+  ],
+  "940GZZLUCXY": [
+    "metropolitan"
+  ],
+  "940GZZLUCYD": [
+    "metropolitan"
+  ],
+  "940GZZLUEAE": [
+    "metropolitan",
+    "piccadilly"
+  ],
+  "940GZZLUHGD": [
+    "metropolitan",
+    "piccadilly"
+  ],
+  "940GZZLUHOH": [
+    "metropolitan"
+  ],
+  "940GZZLUICK": [
+    "metropolitan",
+    "piccadilly"
+  ],
+  "940GZZLUMPK": [
+    "metropolitan"
+  ],
+  "940GZZLUNHA": [
+    "metropolitan"
+  ],
+  "940GZZLUNKP": [
+    "metropolitan"
+  ],
+  "940GZZLUNOW": [
+    "metropolitan"
+  ],
+  "940GZZLUNWH": [
+    "metropolitan"
+  ],
+  "940GZZLUPNR": [
+    "metropolitan"
+  ],
+  "940GZZLUPRD": [
+    "metropolitan"
+  ],
+  "940GZZLURKW": [
+    "metropolitan"
+  ],
+  "940GZZLURSM": [
+    "metropolitan",
+    "piccadilly"
+  ],
+  "940GZZLURSP": [
+    "metropolitan",
+    "piccadilly"
+  ],
+  "940GZZLURYL": [
+    "metropolitan",
+    "piccadilly"
+  ],
+  "940GZZLUUXB": [
+    "metropolitan",
+    "piccadilly"
+  ],
+  "940GZZLUWAF": [
+    "metropolitan"
+  ],
+  "940GZZLUWHW": [
+    "metropolitan"
+  ],
+  "910GACTNCTL": [
+    "mildmay"
+  ],
+  "910GBRBY": [
+    "mildmay"
+  ],
+  "910GBRBYPK": [
+    "mildmay"
+  ],
+  "910GCLDNNRB": [
+    "mildmay"
+  ],
+  "910GCLPHMJ1": [
+    "mildmay",
+    "windrush"
+  ],
+  "910GCLPHMJC": [
+    "mildmay"
+  ],
+  "910GCMDNRD": [
+    "mildmay"
+  ],
+  "910GCNNB": [
+    "mildmay",
+    "windrush"
+  ],
+  "910GCSEAH": [
+    "mildmay"
+  ],
+  "910GDALSKLD": [
+    "mildmay"
+  ],
+  "910GFNCHLYR": [
+    "mildmay"
+  ],
+  "910GGNRSBRY": [
+    "mildmay"
+  ],
+  "910GGOSPLOK": [
+    "mildmay",
+    "suffragette"
+  ],
+  "910GHACKNYC": [
+    "mildmay"
+  ],
+  "910GHACKNYW": [
+    "mildmay"
+  ],
+  "910GHGHI": [
+    "mildmay",
+    "windrush"
+  ],
+  "910GHMPSTDH": [
+    "mildmay"
+  ],
+  "910GHOMRTON": [
+    "mildmay"
+  ],
+  "910GKENOLYM": [
+    "mildmay"
+  ],
+  "910GKENR": [
+    "mildmay"
+  ],
+  "910GKEWGRDN": [
+    "mildmay"
+  ],
+  "910GKNTSHTW": [
+    "mildmay"
+  ],
+  "910GRICHMND": [
+    "mildmay"
+  ],
+  "910GSACTON": [
+    "mildmay"
+  ],
+  "910GSHPDSB": [
+    "mildmay"
+  ],
+  "910GWBRMPTN": [
+    "mildmay"
+  ],
+  "910GWHMDSTD": [
+    "mildmay"
+  ],
+  "940GZZBPSUST": [
+    "northern"
+  ],
+  "940GZZLUACY": [
+    "northern"
+  ],
+  "940GZZLUAGL": [
+    "northern"
+  ],
+  "940GZZLUBLM": [
+    "northern"
+  ],
+  "940GZZLUBOR": [
+    "northern"
+  ],
+  "940GZZLUBTK": [
+    "northern"
+  ],
+  "940GZZLUBTX": [
+    "northern"
+  ],
+  "940GZZLUBZP": [
+    "northern"
+  ],
+  "940GZZLUCFM": [
+    "northern"
+  ],
+  "940GZZLUCND": [
+    "northern"
+  ],
+  "940GZZLUCPC": [
+    "northern"
+  ],
+  "940GZZLUCPN": [
+    "northern"
+  ],
+  "940GZZLUCPS": [
+    "northern"
+  ],
+  "940GZZLUCSD": [
+    "northern"
+  ],
+  "940GZZLUCTN": [
+    "northern"
+  ],
+  "940GZZLUEFY": [
+    "northern"
+  ],
+  "940GZZLUEGW": [
+    "northern"
+  ],
+  "940GZZLUEUS": [
+    "northern",
+    "victoria"
+  ],
+  "940GZZLUFYC": [
+    "northern"
+  ],
+  "940GZZLUGDG": [
+    "northern"
+  ],
+  "940GZZLUGGN": [
+    "northern"
+  ],
+  "940GZZLUHBT": [
+    "northern"
+  ],
+  "940GZZLUHCL": [
+    "northern"
+  ],
+  "940GZZLUHGT": [
+    "northern"
+  ],
+  "940GZZLUHTD": [
+    "northern"
+  ],
+  "940GZZLUKNG": [
+    "northern"
+  ],
+  "940GZZLUKSH": [
+    "northern"
+  ],
+  "940GZZLULSQ": [
+    "northern",
+    "piccadilly"
+  ],
+  "940GZZLUMDN": [
+    "northern"
+  ],
+  "940GZZLUMHL": [
+    "northern"
+  ],
+  "940GZZLUMTC": [
+    "northern"
+  ],
+  "940GZZLUODS": [
+    "northern"
+  ],
+  "940GZZLUOVL": [
+    "northern"
+  ],
+  "940GZZLUSKW": [
+    "northern",
+    "victoria"
+  ],
+  "940GZZLUSWN": [
+    "northern"
+  ],
+  "940GZZLUTAW": [
+    "northern"
+  ],
+  "940GZZLUTBC": [
+    "northern"
+  ],
+  "940GZZLUTBY": [
+    "northern"
+  ],
+  "940GZZLUTFP": [
+    "northern"
+  ],
+  "940GZZLUWFN": [
+    "northern"
+  ],
+  "940GZZLUWOP": [
+    "northern"
+  ],
+  "940GZZLUWRR": [
+    "northern",
+    "victoria"
+  ],
+  "940GZZNEUGST": [
+    "northern"
+  ],
+  "940GZZLUALP": [
+    "piccadilly"
+  ],
+  "940GZZLUASG": [
+    "piccadilly"
+  ],
+  "940GZZLUASL": [
+    "piccadilly"
+  ],
+  "940GZZLUBDS": [
+    "piccadilly"
+  ],
+  "940GZZLUBOS": [
+    "piccadilly"
+  ],
+  "940GZZLUCAR": [
+    "piccadilly"
+  ],
+  "940GZZLUCGN": [
+    "piccadilly"
+  ],
+  "940GZZLUCKS": [
+    "piccadilly"
+  ],
+  "940GZZLUFPK": [
+    "piccadilly",
+    "victoria"
+  ],
+  "940GZZLUHNX": [
+    "piccadilly"
+  ],
+  "940GZZLUHPC": [
+    "piccadilly"
+  ],
+  "940GZZLUHR4": [
+    "piccadilly"
+  ],
+  "940GZZLUHR5": [
+    "piccadilly"
+  ],
+  "940GZZLUHRC": [
+    "piccadilly"
+  ],
+  "940GZZLUHWC": [
+    "piccadilly"
+  ],
+  "940GZZLUHWE": [
+    "piccadilly"
+  ],
+  "940GZZLUHWT": [
+    "piccadilly"
+  ],
+  "940GZZLUHWY": [
+    "piccadilly"
+  ],
+  "940GZZLUKNB": [
+    "piccadilly"
+  ],
+  "940GZZLUMRH": [
+    "piccadilly"
+  ],
+  "940GZZLUNEN": [
+    "piccadilly"
+  ],
+  "940GZZLUNFD": [
+    "piccadilly"
+  ],
+  "940GZZLUOAK": [
+    "piccadilly"
+  ],
+  "940GZZLUOSY": [
+    "piccadilly"
+  ],
+  "940GZZLUPKR": [
+    "piccadilly"
+  ],
+  "940GZZLURSQ": [
+    "piccadilly"
+  ],
+  "940GZZLUSEA": [
+    "piccadilly"
+  ],
+  "940GZZLUSGT": [
+    "piccadilly"
+  ],
+  "940GZZLUSHH": [
+    "piccadilly"
+  ],
+  "940GZZLUSUH": [
+    "piccadilly"
+  ],
+  "940GZZLUSUT": [
+    "piccadilly"
+  ],
+  "940GZZLUTPN": [
+    "piccadilly"
+  ],
+  "940GZZLUWOG": [
+    "piccadilly"
+  ],
+  "910GBARKING": [
+    "suffragette"
+  ],
+  "910GBARKRIV": [
+    "suffragette"
+  ],
+  "910GBLCHSRD": [
+    "suffragette"
+  ],
+  "910GCROUCHH": [
+    "suffragette"
+  ],
+  "910GHRGYGL": [
+    "suffragette"
+  ],
+  "910GLEYTNMR": [
+    "suffragette"
+  ],
+  "910GLYTNSHR": [
+    "suffragette"
+  ],
+  "910GSTOTNHM": [
+    "suffragette"
+  ],
+  "910GUPRHLWY": [
+    "suffragette"
+  ],
+  "910GWDGRNPK": [
+    "suffragette"
+  ],
+  "910GWLTHQRD": [
+    "suffragette"
+  ],
+  "910GWNSTDPK": [
+    "suffragette"
+  ],
+  "9400ZZCRADD1": [
+    "tram"
+  ],
+  "9400ZZCRADD2": [
+    "tram"
+  ],
+  "9400ZZCRADV1": [
+    "tram"
+  ],
+  "9400ZZCRADV2": [
+    "tram"
+  ],
+  "9400ZZCRAMP1": [
+    "tram"
+  ],
+  "9400ZZCRAMP2": [
+    "tram"
+  ],
+  "9400ZZCRARA1": [
+    "tram"
+  ],
+  "9400ZZCRARA2": [
+    "tram"
+  ],
+  "9400ZZCRAVE1": [
+    "tram"
+  ],
+  "9400ZZCRAVE2": [
+    "tram"
+  ],
+  "9400ZZCRBED1": [
+    "tram"
+  ],
+  "9400ZZCRBED2": [
+    "tram"
+  ],
+  "9400ZZCRBEK1": [
+    "tram"
+  ],
+  "9400ZZCRBGV1": [
+    "tram"
+  ],
+  "9400ZZCRBGV2": [
+    "tram"
+  ],
+  "9400ZZCRBIR1": [
+    "tram"
+  ],
+  "9400ZZCRBLA1": [
+    "tram"
+  ],
+  "9400ZZCRBLA2": [
+    "tram"
+  ],
+  "9400ZZCRBRD1": [
+    "tram"
+  ],
+  "9400ZZCRCEN1": [
+    "tram"
+  ],
+  "9400ZZCRCHR1": [
+    "tram"
+  ],
+  "9400ZZCRCOO1": [
+    "tram"
+  ],
+  "9400ZZCRCOO2": [
+    "tram"
+  ],
+  "9400ZZCRCTR1": [
+    "tram"
+  ],
+  "9400ZZCRDDR1": [
+    "tram"
+  ],
+  "9400ZZCRDDR2": [
+    "tram"
+  ],
+  "9400ZZCRECR1": [
+    "tram"
+  ],
+  "9400ZZCRECR2": [
+    "tram"
+  ],
+  "9400ZZCRELM1": [
+    "tram"
+  ],
+  "9400ZZCRFLD1": [
+    "tram"
+  ],
+  "9400ZZCRFLD2": [
+    "tram"
+  ],
+  "9400ZZCRGRA1": [
+    "tram"
+  ],
+  "9400ZZCRGRA2": [
+    "tram"
+  ],
+  "9400ZZCRHAR1": [
+    "tram"
+  ],
+  "9400ZZCRHAR2": [
+    "tram"
+  ],
+  "9400ZZCRKGH1": [
+    "tram"
+  ],
+  "9400ZZCRKGH2": [
+    "tram"
+  ],
+  "9400ZZCRLEB1": [
+    "tram"
+  ],
+  "9400ZZCRLEB2": [
+    "tram"
+  ],
+  "9400ZZCRLOY1": [
+    "tram"
+  ],
+  "9400ZZCRLOY2": [
+    "tram"
+  ],
+  "9400ZZCRMCH1": [
+    "tram"
+  ],
+  "9400ZZCRMCH2": [
+    "tram"
+  ],
+  "9400ZZCRMDN1": [
+    "tram"
+  ],
+  "9400ZZCRMDN2": [
+    "tram"
+  ],
+  "9400ZZCRMJT1": [
+    "tram"
+  ],
+  "9400ZZCRMJT2": [
+    "tram"
+  ],
+  "9400ZZCRMTP1": [
+    "tram"
+  ],
+  "9400ZZCRMTP2": [
+    "tram"
+  ],
+  "9400ZZCRNWA1": [
+    "tram"
+  ],
+  "9400ZZCRPHI1": [
+    "tram"
+  ],
+  "9400ZZCRPHI2": [
+    "tram"
+  ],
+  "9400ZZCRRVC1": [
+    "tram"
+  ],
+  "9400ZZCRSAN1": [
+    "tram"
+  ],
+  "9400ZZCRSAN2": [
+    "tram"
+  ],
+  "9400ZZCRTPA1": [
+    "tram"
+  ],
+  "9400ZZCRTPA2": [
+    "tram"
+  ],
+  "9400ZZCRWAD1": [
+    "tram"
+  ],
+  "9400ZZCRWAD2": [
+    "tram"
+  ],
+  "9400ZZCRWAN1": [
+    "tram"
+  ],
+  "9400ZZCRWAN2": [
+    "tram"
+  ],
+  "9400ZZCRWCR1": [
+    "tram"
+  ],
+  "9400ZZCRWEL1": [
+    "tram"
+  ],
+  "9400ZZCRWMB1": [
+    "tram"
+  ],
+  "9400ZZCRWOD1": [
+    "tram"
+  ],
+  "9400ZZCRWOD2": [
+    "tram"
+  ],
+  "940GZZCRADD": [
+    "tram"
+  ],
+  "940GZZCRADV": [
+    "tram"
+  ],
+  "940GZZCRAMP": [
+    "tram"
+  ],
+  "940GZZCRARA": [
+    "tram"
+  ],
+  "940GZZCRAVE": [
+    "tram"
+  ],
+  "940GZZCRBED": [
+    "tram"
+  ],
+  "940GZZCRBEK": [
+    "tram"
+  ],
+  "940GZZCRBGV": [
+    "tram"
+  ],
+  "940GZZCRBIR": [
+    "tram"
+  ],
+  "940GZZCRBLA": [
+    "tram"
+  ],
+  "940GZZCRBRD": [
+    "tram"
+  ],
+  "940GZZCRCEN": [
+    "tram"
+  ],
+  "940GZZCRCHR": [
+    "tram"
+  ],
+  "940GZZCRCOO": [
+    "tram"
+  ],
+  "940GZZCRCTR": [
+    "tram"
+  ],
+  "940GZZCRDDR": [
+    "tram"
+  ],
+  "940GZZCRECR": [
+    "tram"
+  ],
+  "940GZZCRELM": [
+    "tram"
+  ],
+  "940GZZCRFLD": [
+    "tram"
+  ],
+  "940GZZCRGRA": [
+    "tram"
+  ],
+  "940GZZCRHAR": [
+    "tram"
+  ],
+  "940GZZCRKGH": [
+    "tram"
+  ],
+  "940GZZCRLEB": [
+    "tram"
+  ],
+  "940GZZCRLOY": [
+    "tram"
+  ],
+  "940GZZCRMCH": [
+    "tram"
+  ],
+  "940GZZCRMDN": [
+    "tram"
+  ],
+  "940GZZCRMJT": [
+    "tram"
+  ],
+  "940GZZCRMTP": [
+    "tram"
+  ],
+  "940GZZCRNWA": [
+    "tram"
+  ],
+  "940GZZCRPHI": [
+    "tram"
+  ],
+  "940GZZCRRVC": [
+    "tram"
+  ],
+  "940GZZCRSAN": [
+    "tram"
+  ],
+  "940GZZCRTPA": [
+    "tram"
+  ],
+  "940GZZCRWAD": [
+    "tram"
+  ],
+  "940GZZCRWAN": [
+    "tram"
+  ],
+  "940GZZCRWCR": [
+    "tram"
+  ],
+  "940GZZCRWEL": [
+    "tram"
+  ],
+  "940GZZCRWMB": [
+    "tram"
+  ],
+  "940GZZCRWOD": [
+    "tram"
+  ],
+  "940GZZLUBLR": [
+    "victoria"
+  ],
+  "940GZZLUBXN": [
+    "victoria"
+  ],
+  "940GZZLUHAI": [
+    "victoria"
+  ],
+  "940GZZLUPCO": [
+    "victoria"
+  ],
+  "940GZZLUSVS": [
+    "victoria"
+  ],
+  "940GZZLUTMH": [
+    "victoria"
+  ],
+  "940GZZLUVXL": [
+    "victoria"
+  ],
+  "940GZZLUWWL": [
+    "victoria"
+  ],
+  "910GBHILLPK": [
+    "weaver"
+  ],
+  "910GBRUCGRV": [
+    "weaver"
+  ],
+  "910GBTHNLGR": [
+    "weaver"
+  ],
+  "910GCAMHTH": [
+    "weaver"
+  ],
+  "910GCHESHNT": [
+    "weaver"
+  ],
+  "910GCHINGFD": [
+    "weaver"
+  ],
+  "910GCLAPTON": [
+    "weaver"
+  ],
+  "910GEDMNGRN": [
+    "weaver"
+  ],
+  "910GENFLDTN": [
+    "weaver"
+  ],
+  "910GHAKNYNM": [
+    "weaver"
+  ],
+  "910GHGHMSPK": [
+    "weaver"
+  ],
+  "910GLONFLDS": [
+    "weaver"
+  ],
+  "910GRCTRYRD": [
+    "weaver"
+  ],
+  "910GSBURY": [
+    "weaver"
+  ],
+  "910GSEVNSIS": [
+    "weaver"
+  ],
+  "910GSIVRST": [
+    "weaver"
+  ],
+  "910GSTJMSST": [
+    "weaver"
+  ],
+  "910GSTKNWNG": [
+    "weaver"
+  ],
+  "910GSTMFDHL": [
+    "weaver"
+  ],
+  "910GTHBLDSG": [
+    "weaver"
+  ],
+  "910GTURKYST": [
+    "weaver"
+  ],
+  "910GWDST": [
+    "weaver"
+  ],
+  "910GWHHRTLA": [
+    "weaver"
+  ],
+  "910GWLTWCEN": [
+    "weaver"
+  ],
+  "910GANERLEY": [
+    "windrush"
+  ],
+  "910GBROCKLY": [
+    "windrush"
+  ],
+  "910GCLPHHS": [
+    "windrush"
+  ],
+  "910GCNDAW": [
+    "windrush"
+  ],
+  "910GCRYSTLP": [
+    "windrush"
+  ],
+  "910GDALS": [
+    "windrush"
+  ],
+  "910GDENMRKH": [
+    "windrush"
+  ],
+  "910GFORESTH": [
+    "windrush"
+  ],
+  "910GHAGGERS": [
+    "windrush"
+  ],
+  "910GHONROPK": [
+    "windrush"
+  ],
+  "910GHOXTON": [
+    "windrush"
+  ],
+  "910GNEWXGTE": [
+    "windrush"
+  ],
+  "910GNORWDJ": [
+    "windrush"
+  ],
+  "910GNWCRELL": [
+    "windrush"
+  ],
+  "910GPCKHMQD": [
+    "windrush"
+  ],
+  "910GPCKHMRY": [
+    "windrush"
+  ],
+  "910GPENEW": [
+    "windrush"
+  ],
+  "910GRTHERHI": [
+    "windrush"
+  ],
+  "910GSHADWEL": [
+    "windrush"
+  ],
+  "910GSHRDHST": [
+    "windrush"
+  ],
+  "910GSURREYQ": [
+    "windrush"
+  ],
+  "910GSYDENHM": [
+    "windrush"
+  ],
+  "910GWAPPING": [
+    "windrush"
+  ],
+  "910GWCHAPEL": [
+    "windrush"
+  ],
+  "910GWCROYDN": [
+    "windrush"
+  ],
+  "910GWNDSWRD": [
+    "windrush"
+  ]
+}

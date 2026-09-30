@@ -1,32 +1,39 @@
 {
   "line_id": "liberty",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "liberty",
+  "station_order": [
+    "910GEMRSPKH",
+    "910GROMFORD",
+    "910GUPMNSTR"
+  ],
+  "stations": [
     {
-      "naptanId": "910GEMRSPKH",
+      "station_id": "910GEMRSPKH",
+      "naptan_id": "910GEMRSPKH",
+      "ics_code": "1001098",
+      "common_name": "Emerson Park Rail Station",
       "modes": [
         "overground"
       ],
-      "icsCode": "1001098",
       "lines": [
         {
           "id": "liberty",
           "name": "Liberty"
         }
       ],
-      "id": "910GEMRSPKH",
-      "commonName": "Emerson Park Rail Station",
       "lat": 51.568642,
       "lon": 0.220113
     },
     {
-      "naptanId": "910GROMFORD",
+      "station_id": "910GROMFORD",
+      "naptan_id": "910GROMFORD",
+      "ics_code": "1001243",
+      "common_name": "Romford Rail Station",
       "modes": [
         "elizabeth-line",
         "national-rail",
         "overground"
       ],
-      "icsCode": "1001243",
       "lines": [
         {
           "id": "elizabeth",
@@ -41,18 +48,18 @@
           "name": "Liberty"
         }
       ],
-      "id": "910GROMFORD",
-      "commonName": "Romford Rail Station",
       "lat": 51.574829,
       "lon": 0.183237
     },
     {
-      "naptanId": "910GUPMNSTR",
+      "station_id": "910GUPMNSTR",
+      "naptan_id": "910GUPMNSTR",
+      "ics_code": "1000242",
+      "common_name": "Upminster Rail Station",
       "modes": [
         "national-rail",
         "overground"
       ],
-      "icsCode": "1000242",
       "lines": [
         {
           "id": "c2c",
@@ -63,152 +70,8 @@
           "name": "Liberty"
         }
       ],
-      "id": "910GUPMNSTR",
-      "commonName": "Upminster Rail Station",
       "lat": 51.559018,
       "lon": 0.25088
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "910GEMRSPKH",
-      "modes": [
-        "overground"
-      ],
-      "icsCode": "1001098",
-      "lines": [
-        {
-          "id": "liberty",
-          "name": "Liberty"
-        }
-      ],
-      "id": "910GEMRSPKH",
-      "commonName": "Emerson Park Rail Station",
-      "lat": 51.568642,
-      "lon": 0.220113
-    },
-    {
-      "naptanId": "910GROMFORD",
-      "modes": [
-        "elizabeth-line",
-        "national-rail",
-        "overground"
-      ],
-      "icsCode": "1001243",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "greater-anglia",
-          "name": "Greater Anglia"
-        },
-        {
-          "id": "liberty",
-          "name": "Liberty"
-        }
-      ],
-      "id": "910GROMFORD",
-      "commonName": "Romford Rail Station",
-      "lat": 51.574829,
-      "lon": 0.183237
-    },
-    {
-      "naptanId": "HUBUPM",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000242",
-      "lines": [
-        {
-          "id": "248",
-          "name": "248"
-        },
-        {
-          "id": "346",
-          "name": "346"
-        },
-        {
-          "id": "370",
-          "name": "370"
-        },
-        {
-          "id": "646",
-          "name": "646"
-        },
-        {
-          "id": "652",
-          "name": "652"
-        },
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "liberty",
-          "name": "Liberty"
-        }
-      ],
-      "id": "HUBUPM",
-      "commonName": "Upminster",
-      "lat": 51.558659,
-      "lon": 0.250855
-    },
-    {
-      "naptanId": "HUBUPM",
-      "modes": [
-        "bus",
-        "national-rail",
-        "overground",
-        "tube"
-      ],
-      "icsCode": "1000242",
-      "lines": [
-        {
-          "id": "248",
-          "name": "248"
-        },
-        {
-          "id": "346",
-          "name": "346"
-        },
-        {
-          "id": "370",
-          "name": "370"
-        },
-        {
-          "id": "646",
-          "name": "646"
-        },
-        {
-          "id": "652",
-          "name": "652"
-        },
-        {
-          "id": "c2c",
-          "name": "c2c"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "liberty",
-          "name": "Liberty"
-        }
-      ],
-      "id": "HUBUPM",
-      "commonName": "Upminster",
-      "lat": 51.558659,
-      "lon": 0.250855
     }
   ]
 }

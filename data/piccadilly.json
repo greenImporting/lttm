@@ -1,13 +1,70 @@
 {
   "line_id": "piccadilly",
-  "line_name": "",
-  "stop_points": [
+  "line_name": "piccadilly",
+  "station_order": [
+    "940GZZLUACT",
+    "940GZZLUALP",
+    "940GZZLUASG",
+    "940GZZLUASL",
+    "940GZZLUBDS",
+    "940GZZLUBOS",
+    "940GZZLUBSC",
+    "940GZZLUCAR",
+    "940GZZLUCGN",
+    "940GZZLUCKS",
+    "940GZZLUEAE",
+    "940GZZLUECM",
+    "940GZZLUECT",
+    "940GZZLUFPK",
+    "940GZZLUGPK",
+    "940GZZLUGTR",
+    "940GZZLUHBN",
+    "940GZZLUHGD",
+    "940GZZLUHNX",
+    "940GZZLUHPC",
+    "940GZZLUHR4",
+    "940GZZLUHR5",
+    "940GZZLUHRC",
+    "940GZZLUHSD",
+    "940GZZLUHWC",
+    "940GZZLUHWE",
+    "940GZZLUHWT",
+    "940GZZLUHWY",
+    "940GZZLUICK",
+    "940GZZLUKNB",
+    "940GZZLUKSX",
+    "940GZZLULSQ",
+    "940GZZLUMRH",
+    "940GZZLUNEN",
+    "940GZZLUNFD",
+    "940GZZLUOAK",
+    "940GZZLUOSY",
+    "940GZZLUPCC",
+    "940GZZLUPKR",
+    "940GZZLURSM",
+    "940GZZLURSP",
+    "940GZZLURSQ",
+    "940GZZLURYL",
+    "940GZZLUSEA",
+    "940GZZLUSGT",
+    "940GZZLUSHH",
+    "940GZZLUSKS",
+    "940GZZLUSUH",
+    "940GZZLUSUT",
+    "940GZZLUTNG",
+    "940GZZLUTPN",
+    "940GZZLUUXB",
+    "940GZZLUWOG"
+  ],
+  "stations": [
     {
-      "naptanId": "940GZZLUACT",
+      "station_id": "940GZZLUACT",
+      "naptan_id": "940GZZLUACT",
+      "ics_code": "1000002",
+      "common_name": "Acton Town Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000002",
       "lines": [
         {
           "id": "district",
@@ -18,102 +75,102 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUACT",
-      "commonName": "Acton Town Underground Station",
       "lat": 51.503057,
       "lon": -0.280462
     },
     {
-      "naptanId": "940GZZLUALP",
+      "station_id": "940GZZLUALP",
+      "naptan_id": "940GZZLUALP",
+      "ics_code": "1000005",
+      "common_name": "Alperton Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000005",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUALP",
-      "commonName": "Alperton Underground Station",
       "lat": 51.540627,
       "lon": -0.29961
     },
     {
-      "naptanId": "940GZZLUASG",
+      "station_id": "940GZZLUASG",
+      "naptan_id": "940GZZLUASG",
+      "ics_code": "1000009",
+      "common_name": "Arnos Grove Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000009",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUASG",
-      "commonName": "Arnos Grove Underground Station",
       "lat": 51.616446,
       "lon": -0.133062
     },
     {
-      "naptanId": "940GZZLUASL",
+      "station_id": "940GZZLUASL",
+      "naptan_id": "940GZZLUASL",
+      "ics_code": "1000010",
+      "common_name": "Arsenal Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000010",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUASL",
-      "commonName": "Arsenal Underground Station",
       "lat": 51.558655,
       "lon": -0.107457
     },
     {
-      "naptanId": "940GZZLUBDS",
+      "station_id": "940GZZLUBDS",
+      "naptan_id": "940GZZLUBDS",
+      "ics_code": "1000028",
+      "common_name": "Bounds Green Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000028",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUBDS",
-      "commonName": "Bounds Green Underground Station",
       "lat": 51.607034,
       "lon": -0.124235
     },
     {
-      "naptanId": "940GZZLUBOS",
+      "station_id": "940GZZLUBOS",
+      "naptan_id": "940GZZLUBOS",
+      "ics_code": "1000027",
+      "common_name": "Boston Manor Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000027",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUBOS",
-      "commonName": "Boston Manor Underground Station",
       "lat": 51.495635,
       "lon": -0.324939
     },
     {
-      "naptanId": "940GZZLUBSC",
+      "station_id": "940GZZLUBSC",
+      "naptan_id": "940GZZLUBSC",
+      "ics_code": "1000017",
+      "common_name": "Barons Court Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000017",
       "lines": [
         {
           "id": "district",
@@ -124,68 +181,68 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUBSC",
-      "commonName": "Barons Court Underground Station",
       "lat": 51.490311,
       "lon": -0.213427
     },
     {
-      "naptanId": "940GZZLUCAR",
+      "station_id": "940GZZLUCAR",
+      "naptan_id": "940GZZLUCAR",
+      "ics_code": "1000035",
+      "common_name": "Caledonian Road Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000035",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUCAR",
-      "commonName": "Caledonian Road Underground Station",
       "lat": 51.548519,
       "lon": -0.118493
     },
     {
-      "naptanId": "940GZZLUCGN",
+      "station_id": "940GZZLUCGN",
+      "naptan_id": "940GZZLUCGN",
+      "ics_code": "1000056",
+      "common_name": "Covent Garden Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000056",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUCGN",
-      "commonName": "Covent Garden Underground Station",
       "lat": 51.513093,
       "lon": -0.124436
     },
     {
-      "naptanId": "940GZZLUCKS",
+      "station_id": "940GZZLUCKS",
+      "naptan_id": "940GZZLUCKS",
+      "ics_code": "1000053",
+      "common_name": "Cockfosters Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000053",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUCKS",
-      "commonName": "Cockfosters Underground Station",
       "lat": 51.65152,
       "lon": -0.149171
     },
     {
-      "naptanId": "940GZZLUEAE",
+      "station_id": "940GZZLUEAE",
+      "naptan_id": "940GZZLUEAE",
+      "ics_code": "1000066",
+      "common_name": "Eastcote Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000066",
       "lines": [
         {
           "id": "metropolitan",
@@ -196,17 +253,17 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUEAE",
-      "commonName": "Eastcote Underground Station",
       "lat": 51.576506,
       "lon": -0.397373
     },
     {
-      "naptanId": "940GZZLUECM",
+      "station_id": "940GZZLUECM",
+      "naptan_id": "940GZZLUECM",
+      "ics_code": "1000063",
+      "common_name": "Ealing Common Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000063",
       "lines": [
         {
           "id": "district",
@@ -217,17 +274,17 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUECM",
-      "commonName": "Ealing Common Underground Station",
       "lat": 51.51014,
       "lon": -0.288265
     },
     {
-      "naptanId": "940GZZLUECT",
+      "station_id": "940GZZLUECT",
+      "naptan_id": "940GZZLUECT",
+      "ics_code": "1000064",
+      "common_name": "Earl's Court Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000064",
       "lines": [
         {
           "id": "district",
@@ -238,17 +295,17 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUECT",
-      "commonName": "Earl's Court Underground Station",
       "lat": 51.492063,
       "lon": -0.193378
     },
     {
-      "naptanId": "940GZZLUFPK",
+      "station_id": "940GZZLUFPK",
+      "naptan_id": "940GZZLUFPK",
+      "ics_code": "1000083",
+      "common_name": "Finsbury Park Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000083",
       "lines": [
         {
           "id": "piccadilly",
@@ -259,17 +316,17 @@
           "name": "Victoria"
         }
       ],
-      "id": "940GZZLUFPK",
-      "commonName": "Finsbury Park Underground Station",
       "lat": 51.564158,
       "lon": -0.106825
     },
     {
-      "naptanId": "940GZZLUGPK",
+      "station_id": "940GZZLUGPK",
+      "naptan_id": "940GZZLUGPK",
+      "ics_code": "1000093",
+      "common_name": "Green Park Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000093",
       "lines": [
         {
           "id": "jubilee",
@@ -284,17 +341,17 @@
           "name": "Victoria"
         }
       ],
-      "id": "940GZZLUGPK",
-      "commonName": "Green Park Underground Station",
       "lat": 51.506947,
       "lon": -0.142787
     },
     {
-      "naptanId": "940GZZLUGTR",
+      "station_id": "940GZZLUGTR",
+      "naptan_id": "940GZZLUGTR",
+      "ics_code": "1000086",
+      "common_name": "Gloucester Road Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000086",
       "lines": [
         {
           "id": "circle",
@@ -309,17 +366,17 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUGTR",
-      "commonName": "Gloucester Road Underground Station",
       "lat": 51.494316,
       "lon": -0.182658
     },
     {
-      "naptanId": "940GZZLUHBN",
+      "station_id": "940GZZLUHBN",
+      "naptan_id": "940GZZLUHBN",
+      "ics_code": "1000112",
+      "common_name": "Holborn Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000112",
       "lines": [
         {
           "id": "central",
@@ -330,17 +387,17 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHBN",
-      "commonName": "Holborn Underground Station",
       "lat": 51.51758,
       "lon": -0.120475
     },
     {
-      "naptanId": "940GZZLUHGD",
+      "station_id": "940GZZLUHGD",
+      "naptan_id": "940GZZLUHGD",
+      "ics_code": "1000111",
+      "common_name": "Hillingdon Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000111",
       "lines": [
         {
           "id": "metropolitan",
@@ -351,102 +408,102 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHGD",
-      "commonName": "Hillingdon Underground Station",
       "lat": 51.553715,
       "lon": -0.449828
     },
     {
-      "naptanId": "940GZZLUHNX",
+      "station_id": "940GZZLUHNX",
+      "naptan_id": "940GZZLUHNX",
+      "ics_code": "1000103",
+      "common_name": "Hatton Cross Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000103",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHNX",
-      "commonName": "Hatton Cross Underground Station",
       "lat": 51.466747,
       "lon": -0.423191
     },
     {
-      "naptanId": "940GZZLUHPC",
+      "station_id": "940GZZLUHPC",
+      "naptan_id": "940GZZLUHPC",
+      "ics_code": "1000119",
+      "common_name": "Hyde Park Corner Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000119",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHPC",
-      "commonName": "Hyde Park Corner Underground Station",
       "lat": 51.503035,
       "lon": -0.152441
     },
     {
-      "naptanId": "940GZZLUHR4",
+      "station_id": "940GZZLUHR4",
+      "naptan_id": "940GZZLUHR4",
+      "ics_code": "1000104",
+      "common_name": "Heathrow Terminal 4 Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000104",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHR4",
-      "commonName": "Heathrow Terminal 4 Underground Station",
       "lat": 51.458524,
       "lon": -0.445771
     },
     {
-      "naptanId": "940GZZLUHR5",
+      "station_id": "940GZZLUHR5",
+      "naptan_id": "940GZZLUHR5",
+      "ics_code": "1016430",
+      "common_name": "Heathrow Terminal 5 Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1016430",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHR5",
-      "commonName": "Heathrow Terminal 5 Underground Station",
       "lat": 51.470052,
       "lon": -0.49056
     },
     {
-      "naptanId": "940GZZLUHRC",
+      "station_id": "940GZZLUHRC",
+      "naptan_id": "940GZZLUHRC",
+      "ics_code": "1000105",
+      "common_name": "Heathrow Terminals 2 & 3 Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000105",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHRC",
-      "commonName": "Heathrow Terminals 2 & 3 Underground Station",
       "lat": 51.471235,
       "lon": -0.452265
     },
     {
-      "naptanId": "940GZZLUHSD",
+      "station_id": "940GZZLUHSD",
+      "naptan_id": "940GZZLUHSD",
+      "ics_code": "1000096",
+      "common_name": "Hammersmith (Dist&Picc Line) Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000096",
       "lines": [
         {
           "id": "district",
@@ -457,85 +514,85 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHSD",
-      "commonName": "Hammersmith (Dist&Picc Line) Underground Station",
       "lat": 51.4923,
       "lon": -0.22362
     },
     {
-      "naptanId": "940GZZLUHWC",
+      "station_id": "940GZZLUHWC",
+      "naptan_id": "940GZZLUHWC",
+      "ics_code": "1000116",
+      "common_name": "Hounslow Central Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000116",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHWC",
-      "commonName": "Hounslow Central Underground Station",
       "lat": 51.471295,
       "lon": -0.366578
     },
     {
-      "naptanId": "940GZZLUHWE",
+      "station_id": "940GZZLUHWE",
+      "naptan_id": "940GZZLUHWE",
+      "ics_code": "1000117",
+      "common_name": "Hounslow East Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000117",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHWE",
-      "commonName": "Hounslow East Underground Station",
       "lat": 51.473213,
       "lon": -0.356474
     },
     {
-      "naptanId": "940GZZLUHWT",
+      "station_id": "940GZZLUHWT",
+      "naptan_id": "940GZZLUHWT",
+      "ics_code": "1000118",
+      "common_name": "Hounslow West Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000118",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHWT",
-      "commonName": "Hounslow West Underground Station",
       "lat": 51.473469,
       "lon": -0.386544
     },
     {
-      "naptanId": "940GZZLUHWY",
+      "station_id": "940GZZLUHWY",
+      "naptan_id": "940GZZLUHWY",
+      "ics_code": "1000114",
+      "common_name": "Holloway Road Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000114",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUHWY",
-      "commonName": "Holloway Road Underground Station",
       "lat": 51.552697,
       "lon": -0.113244
     },
     {
-      "naptanId": "940GZZLUICK",
+      "station_id": "940GZZLUICK",
+      "naptan_id": "940GZZLUICK",
+      "ics_code": "1000120",
+      "common_name": "Ickenham Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000120",
       "lines": [
         {
           "id": "metropolitan",
@@ -546,18 +603,18 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUICK",
-      "commonName": "Ickenham Underground Station",
       "lat": 51.56177,
       "lon": -0.442225
     },
     {
-      "naptanId": "940GZZLUKNB",
+      "station_id": "940GZZLUKNB",
+      "naptan_id": "940GZZLUKNB",
+      "ics_code": "1000130",
+      "common_name": "Knightsbridge Underground Station",
       "modes": [
         "bus",
         "tube"
       ],
-      "icsCode": "1000130",
       "lines": [
         {
           "id": "137",
@@ -596,17 +653,17 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUKNB",
-      "commonName": "Knightsbridge Underground Station",
       "lat": 51.501669,
       "lon": -0.160508
     },
     {
-      "naptanId": "940GZZLUKSX",
+      "station_id": "940GZZLUKSX",
+      "naptan_id": "940GZZLUKSX",
+      "ics_code": "1000129",
+      "common_name": "King's Cross St. Pancras Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000129",
       "lines": [
         {
           "id": "circle",
@@ -633,17 +690,17 @@
           "name": "Victoria"
         }
       ],
-      "id": "940GZZLUKSX",
-      "commonName": "King's Cross St. Pancras Underground Station",
       "lat": 51.530663,
       "lon": -0.123194
     },
     {
-      "naptanId": "940GZZLULSQ",
+      "station_id": "940GZZLULSQ",
+      "naptan_id": "940GZZLULSQ",
+      "ics_code": "1000135",
+      "common_name": "Leicester Square Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000135",
       "lines": [
         {
           "id": "northern",
@@ -654,102 +711,102 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLULSQ",
-      "commonName": "Leicester Square Underground Station",
       "lat": 51.511386,
       "lon": -0.128426
     },
     {
-      "naptanId": "940GZZLUMRH",
+      "station_id": "940GZZLUMRH",
+      "naptan_id": "940GZZLUMRH",
+      "ics_code": "1000142",
+      "common_name": "Manor House Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000142",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUMRH",
-      "commonName": "Manor House Underground Station",
       "lat": 51.570738,
       "lon": -0.096118
     },
     {
-      "naptanId": "940GZZLUNEN",
+      "station_id": "940GZZLUNEN",
+      "naptan_id": "940GZZLUNEN",
+      "ics_code": "1000158",
+      "common_name": "North Ealing Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000158",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUNEN",
-      "commonName": "North Ealing Underground Station",
       "lat": 51.517505,
       "lon": -0.288868
     },
     {
-      "naptanId": "940GZZLUNFD",
+      "station_id": "940GZZLUNFD",
+      "naptan_id": "940GZZLUNFD",
+      "ics_code": "1000159",
+      "common_name": "Northfields Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000159",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUNFD",
-      "commonName": "Northfields Underground Station",
       "lat": 51.499319,
       "lon": -0.314719
     },
     {
-      "naptanId": "940GZZLUOAK",
+      "station_id": "940GZZLUOAK",
+      "naptan_id": "940GZZLUOAK",
+      "ics_code": "1000168",
+      "common_name": "Oakwood Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000168",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUOAK",
-      "commonName": "Oakwood Underground Station",
       "lat": 51.647726,
       "lon": -0.132182
     },
     {
-      "naptanId": "940GZZLUOSY",
+      "station_id": "940GZZLUOSY",
+      "naptan_id": "940GZZLUOSY",
+      "ics_code": "1000171",
+      "common_name": "Osterley Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000171",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUOSY",
-      "commonName": "Osterley Underground Station",
       "lat": 51.481274,
       "lon": -0.352224
     },
     {
-      "naptanId": "940GZZLUPCC",
+      "station_id": "940GZZLUPCC",
+      "naptan_id": "940GZZLUPCC",
+      "ics_code": "1000179",
+      "common_name": "Piccadilly Circus Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000179",
       "lines": [
         {
           "id": "bakerloo",
@@ -760,34 +817,34 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUPCC",
-      "commonName": "Piccadilly Circus Underground Station",
       "lat": 51.51005,
       "lon": -0.133798
     },
     {
-      "naptanId": "940GZZLUPKR",
+      "station_id": "940GZZLUPKR",
+      "naptan_id": "940GZZLUPKR",
+      "ics_code": "1000176",
+      "common_name": "Park Royal Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000176",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUPKR",
-      "commonName": "Park Royal Underground Station",
       "lat": 51.527123,
       "lon": -0.284341
     },
     {
-      "naptanId": "940GZZLURSM",
+      "station_id": "940GZZLURSM",
+      "naptan_id": "940GZZLURSM",
+      "ics_code": "1000199",
+      "common_name": "Ruislip Manor Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000199",
       "lines": [
         {
           "id": "metropolitan",
@@ -798,17 +855,17 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLURSM",
-      "commonName": "Ruislip Manor Underground Station",
       "lat": 51.573202,
       "lon": -0.412973
     },
     {
-      "naptanId": "940GZZLURSP",
+      "station_id": "940GZZLURSP",
+      "naptan_id": "940GZZLURSP",
+      "ics_code": "1000197",
+      "common_name": "Ruislip Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000197",
       "lines": [
         {
           "id": "metropolitan",
@@ -819,34 +876,34 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLURSP",
-      "commonName": "Ruislip Underground Station",
       "lat": 51.571354,
       "lon": -0.421898
     },
     {
-      "naptanId": "940GZZLURSQ",
+      "station_id": "940GZZLURSQ",
+      "naptan_id": "940GZZLURSQ",
+      "ics_code": "1000200",
+      "common_name": "Russell Square Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000200",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLURSQ",
-      "commonName": "Russell Square Underground Station",
       "lat": 51.523073,
       "lon": -0.124285
     },
     {
-      "naptanId": "940GZZLURYL",
+      "station_id": "940GZZLURYL",
+      "naptan_id": "940GZZLURYL",
+      "ics_code": "1000189",
+      "common_name": "Rayners Lane Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000189",
       "lines": [
         {
           "id": "metropolitan",
@@ -857,68 +914,68 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLURYL",
-      "commonName": "Rayners Lane Underground Station",
       "lat": 51.575147,
       "lon": -0.371127
     },
     {
-      "naptanId": "940GZZLUSEA",
+      "station_id": "940GZZLUSEA",
+      "naptan_id": "940GZZLUSEA",
+      "ics_code": "1000208",
+      "common_name": "South Ealing Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000208",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUSEA",
-      "commonName": "South Ealing Underground Station",
       "lat": 51.501003,
       "lon": -0.307424
     },
     {
-      "naptanId": "940GZZLUSGT",
+      "station_id": "940GZZLUSGT",
+      "naptan_id": "940GZZLUSGT",
+      "ics_code": "1000210",
+      "common_name": "Southgate Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000210",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUSGT",
-      "commonName": "Southgate Underground Station",
       "lat": 51.632315,
       "lon": -0.127816
     },
     {
-      "naptanId": "940GZZLUSHH",
+      "station_id": "940GZZLUSHH",
+      "naptan_id": "940GZZLUSHH",
+      "ics_code": "1000211",
+      "common_name": "South Harrow Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000211",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUSHH",
-      "commonName": "South Harrow Underground Station",
       "lat": 51.564888,
       "lon": -0.352492
     },
     {
-      "naptanId": "940GZZLUSKS",
+      "station_id": "940GZZLUSKS",
+      "naptan_id": "940GZZLUSKS",
+      "ics_code": "1000212",
+      "common_name": "South Kensington Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000212",
       "lines": [
         {
           "id": "circle",
@@ -933,51 +990,51 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUSKS",
-      "commonName": "South Kensington Underground Station",
       "lat": 51.494094,
       "lon": -0.174138
     },
     {
-      "naptanId": "940GZZLUSUH",
+      "station_id": "940GZZLUSUH",
+      "naptan_id": "940GZZLUSUH",
+      "ics_code": "1000227",
+      "common_name": "Sudbury Hill Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000227",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUSUH",
-      "commonName": "Sudbury Hill Underground Station",
       "lat": 51.556946,
       "lon": -0.336435
     },
     {
-      "naptanId": "940GZZLUSUT",
+      "station_id": "940GZZLUSUT",
+      "naptan_id": "940GZZLUSUT",
+      "ics_code": "1000228",
+      "common_name": "Sudbury Town Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000228",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUSUT",
-      "commonName": "Sudbury Town Underground Station",
       "lat": 51.550815,
       "lon": -0.315745
     },
     {
-      "naptanId": "940GZZLUTNG",
+      "station_id": "940GZZLUTNG",
+      "naptan_id": "940GZZLUTNG",
+      "ics_code": "1000240",
+      "common_name": "Turnham Green Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000240",
       "lines": [
         {
           "id": "district",
@@ -988,34 +1045,34 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUTNG",
-      "commonName": "Turnham Green Underground Station",
       "lat": 51.495148,
       "lon": -0.254555
     },
     {
-      "naptanId": "940GZZLUTPN",
+      "station_id": "940GZZLUTPN",
+      "naptan_id": "940GZZLUTPN",
+      "ics_code": "1000241",
+      "common_name": "Turnpike Lane Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000241",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUTPN",
-      "commonName": "Turnpike Lane Underground Station",
       "lat": 51.590272,
       "lon": -0.102953
     },
     {
-      "naptanId": "940GZZLUUXB",
+      "station_id": "940GZZLUUXB",
+      "naptan_id": "940GZZLUUXB",
+      "ics_code": "1000246",
+      "common_name": "Uxbridge Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000246",
       "lines": [
         {
           "id": "metropolitan",
@@ -1026,1664 +1083,23 @@
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUUXB",
-      "commonName": "Uxbridge Underground Station",
       "lat": 51.546565,
       "lon": -0.477949
     },
     {
-      "naptanId": "940GZZLUWOG",
+      "station_id": "940GZZLUWOG",
+      "naptan_id": "940GZZLUWOG",
+      "ics_code": "1000275",
+      "common_name": "Wood Green Underground Station",
       "modes": [
         "tube"
       ],
-      "icsCode": "1000275",
       "lines": [
         {
           "id": "piccadilly",
           "name": "Piccadilly"
         }
       ],
-      "id": "940GZZLUWOG",
-      "commonName": "Wood Green Underground Station",
-      "lat": 51.597479,
-      "lon": -0.109886
-    }
-  ],
-  "stoppoints": [
-    {
-      "naptanId": "HUBH13",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "plane",
-        "tube"
-      ],
-      "icsCode": "1000105",
-      "lines": [
-        {
-          "id": "105",
-          "name": "105"
-        },
-        {
-          "id": "111",
-          "name": "111"
-        },
-        {
-          "id": "278",
-          "name": "278"
-        },
-        {
-          "id": "285",
-          "name": "285"
-        },
-        {
-          "id": "a10",
-          "name": "A10"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n140",
-          "name": "N140"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "sl9",
-          "name": "SL9"
-        },
-        {
-          "id": "u3",
-          "name": "U3"
-        }
-      ],
-      "id": "HUBH13",
-      "commonName": "Heathrow Terminals 2 & 3",
-      "lat": 51.471618,
-      "lon": -0.454037
-    },
-    {
-      "naptanId": "HUBHX4",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "plane",
-        "tube"
-      ],
-      "icsCode": "1000104",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHX4",
-      "commonName": "Heathrow Airport Terminal 4",
-      "lat": 51.458837,
-      "lon": -0.446419
-    },
-    {
-      "naptanId": "HUBHX5",
-      "modes": [
-        "bus",
-        "national-rail",
-        "plane",
-        "tube",
-        "elizabeth-line"
-      ],
-      "icsCode": "1016430",
-      "lines": [
-        {
-          "id": "350",
-          "name": "350"
-        },
-        {
-          "id": "423",
-          "name": "423"
-        },
-        {
-          "id": "482",
-          "name": "482"
-        },
-        {
-          "id": "490",
-          "name": "490"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHX5",
-      "commonName": "Heathrow Airport Terminal 5",
-      "lat": 51.471569,
-      "lon": -0.489556
-    },
-    {
-      "naptanId": "940GZZLUACT",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000002",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUACT",
-      "commonName": "Acton Town Underground Station",
-      "lat": 51.503057,
-      "lon": -0.280462
-    },
-    {
-      "naptanId": "940GZZLUALP",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000005",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUALP",
-      "commonName": "Alperton Underground Station",
-      "lat": 51.540627,
-      "lon": -0.29961
-    },
-    {
-      "naptanId": "940GZZLUASG",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000009",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUASG",
-      "commonName": "Arnos Grove Underground Station",
-      "lat": 51.616446,
-      "lon": -0.133062
-    },
-    {
-      "naptanId": "940GZZLUASL",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000010",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUASL",
-      "commonName": "Arsenal Underground Station",
-      "lat": 51.558655,
-      "lon": -0.107457
-    },
-    {
-      "naptanId": "940GZZLUBDS",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000028",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUBDS",
-      "commonName": "Bounds Green Underground Station",
-      "lat": 51.607034,
-      "lon": -0.124235
-    },
-    {
-      "naptanId": "940GZZLUBOS",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000027",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUBOS",
-      "commonName": "Boston Manor Underground Station",
-      "lat": 51.495635,
-      "lon": -0.324939
-    },
-    {
-      "naptanId": "940GZZLUBSC",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000017",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUBSC",
-      "commonName": "Barons Court Underground Station",
-      "lat": 51.490311,
-      "lon": -0.213427
-    },
-    {
-      "naptanId": "940GZZLUCAR",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000035",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUCAR",
-      "commonName": "Caledonian Road Underground Station",
-      "lat": 51.548519,
-      "lon": -0.118493
-    },
-    {
-      "naptanId": "940GZZLUCGN",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000056",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUCGN",
-      "commonName": "Covent Garden Underground Station",
-      "lat": 51.513093,
-      "lon": -0.124436
-    },
-    {
-      "naptanId": "940GZZLUCKS",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000053",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUCKS",
-      "commonName": "Cockfosters Underground Station",
-      "lat": 51.65152,
-      "lon": -0.149171
-    },
-    {
-      "naptanId": "940GZZLUEAE",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000066",
-      "lines": [
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUEAE",
-      "commonName": "Eastcote Underground Station",
-      "lat": 51.576506,
-      "lon": -0.397373
-    },
-    {
-      "naptanId": "940GZZLUECM",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000063",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUECM",
-      "commonName": "Ealing Common Underground Station",
-      "lat": 51.51014,
-      "lon": -0.288265
-    },
-    {
-      "naptanId": "940GZZLUECT",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000064",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUECT",
-      "commonName": "Earl's Court Underground Station",
-      "lat": 51.492063,
-      "lon": -0.193378
-    },
-    {
-      "naptanId": "HUBFPK",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000083",
-      "lines": [
-        {
-          "id": "106",
-          "name": "106"
-        },
-        {
-          "id": "153",
-          "name": "153"
-        },
-        {
-          "id": "19",
-          "name": "19"
-        },
-        {
-          "id": "236",
-          "name": "236"
-        },
-        {
-          "id": "253",
-          "name": "253"
-        },
-        {
-          "id": "254",
-          "name": "254"
-        },
-        {
-          "id": "259",
-          "name": "259"
-        },
-        {
-          "id": "29",
-          "name": "29"
-        },
-        {
-          "id": "310",
-          "name": "310"
-        },
-        {
-          "id": "4",
-          "name": "4"
-        },
-        {
-          "id": "great-northern",
-          "name": "Great Northern"
-        },
-        {
-          "id": "n19",
-          "name": "N19"
-        },
-        {
-          "id": "n253",
-          "name": "N253"
-        },
-        {
-          "id": "n279",
-          "name": "N279"
-        },
-        {
-          "id": "n29",
-          "name": "N29"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        }
-      ],
-      "id": "HUBFPK",
-      "commonName": "Finsbury Park",
-      "lat": 51.564778,
-      "lon": -0.105876
-    },
-    {
-      "naptanId": "940GZZLUGPK",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000093",
-      "lines": [
-        {
-          "id": "jubilee",
-          "name": "Jubilee"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        }
-      ],
-      "id": "940GZZLUGPK",
-      "commonName": "Green Park Underground Station",
-      "lat": 51.506947,
-      "lon": -0.142787
-    },
-    {
-      "naptanId": "940GZZLUGTR",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000086",
-      "lines": [
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUGTR",
-      "commonName": "Gloucester Road Underground Station",
-      "lat": 51.494316,
-      "lon": -0.182658
-    },
-    {
-      "naptanId": "940GZZLUHBN",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000112",
-      "lines": [
-        {
-          "id": "central",
-          "name": "Central"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUHBN",
-      "commonName": "Holborn Underground Station",
-      "lat": 51.51758,
-      "lon": -0.120475
-    },
-    {
-      "naptanId": "940GZZLUHGD",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000111",
-      "lines": [
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUHGD",
-      "commonName": "Hillingdon Underground Station",
-      "lat": 51.553715,
-      "lon": -0.449828
-    },
-    {
-      "naptanId": "940GZZLUHNX",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000103",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUHNX",
-      "commonName": "Hatton Cross Underground Station",
-      "lat": 51.466747,
-      "lon": -0.423191
-    },
-    {
-      "naptanId": "940GZZLUHPC",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000119",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUHPC",
-      "commonName": "Hyde Park Corner Underground Station",
-      "lat": 51.503035,
-      "lon": -0.152441
-    },
-    {
-      "naptanId": "HUBHX4",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "plane",
-        "tube"
-      ],
-      "icsCode": "1000104",
-      "lines": [
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHX4",
-      "commonName": "Heathrow Airport Terminal 4",
-      "lat": 51.458837,
-      "lon": -0.446419
-    },
-    {
-      "naptanId": "HUBHX5",
-      "modes": [
-        "bus",
-        "national-rail",
-        "plane",
-        "tube",
-        "elizabeth-line"
-      ],
-      "icsCode": "1016430",
-      "lines": [
-        {
-          "id": "350",
-          "name": "350"
-        },
-        {
-          "id": "423",
-          "name": "423"
-        },
-        {
-          "id": "482",
-          "name": "482"
-        },
-        {
-          "id": "490",
-          "name": "490"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHX5",
-      "commonName": "Heathrow Airport Terminal 5",
-      "lat": 51.471569,
-      "lon": -0.489556
-    },
-    {
-      "naptanId": "HUBH13",
-      "modes": [
-        "bus",
-        "elizabeth-line",
-        "national-rail",
-        "plane",
-        "tube"
-      ],
-      "icsCode": "1000105",
-      "lines": [
-        {
-          "id": "105",
-          "name": "105"
-        },
-        {
-          "id": "111",
-          "name": "111"
-        },
-        {
-          "id": "278",
-          "name": "278"
-        },
-        {
-          "id": "285",
-          "name": "285"
-        },
-        {
-          "id": "a10",
-          "name": "A10"
-        },
-        {
-          "id": "elizabeth",
-          "name": "Elizabeth line"
-        },
-        {
-          "id": "heathrow-express",
-          "name": "Heathrow Express"
-        },
-        {
-          "id": "n140",
-          "name": "N140"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        },
-        {
-          "id": "sl7",
-          "name": "SL7"
-        },
-        {
-          "id": "sl9",
-          "name": "SL9"
-        },
-        {
-          "id": "u3",
-          "name": "U3"
-        }
-      ],
-      "id": "HUBH13",
-      "commonName": "Heathrow Terminals 2 & 3",
-      "lat": 51.471618,
-      "lon": -0.454037
-    },
-    {
-      "naptanId": "HUBHMS",
-      "modes": [
-        "bus",
-        "tube"
-      ],
-      "icsCode": "1000096",
-      "lines": [
-        {
-          "id": "110",
-          "name": "110"
-        },
-        {
-          "id": "190",
-          "name": "190"
-        },
-        {
-          "id": "209",
-          "name": "209"
-        },
-        {
-          "id": "211",
-          "name": "211"
-        },
-        {
-          "id": "218",
-          "name": "218"
-        },
-        {
-          "id": "220",
-          "name": "220"
-        },
-        {
-          "id": "267",
-          "name": "267"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "295",
-          "name": "295"
-        },
-        {
-          "id": "306",
-          "name": "306"
-        },
-        {
-          "id": "72",
-          "name": "72"
-        },
-        {
-          "id": "9",
-          "name": "9"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "h91",
-          "name": "H91"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "n11",
-          "name": "N11"
-        },
-        {
-          "id": "n266",
-          "name": "N266"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n33",
-          "name": "N33"
-        },
-        {
-          "id": "n72",
-          "name": "N72"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "n97",
-          "name": "N97"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHMS",
-      "commonName": "Hammersmith",
-      "lat": 51.492304,
-      "lon": -0.223619
-    },
-    {
-      "naptanId": "HUBHMS",
-      "modes": [
-        "bus",
-        "tube"
-      ],
-      "icsCode": "1000096",
-      "lines": [
-        {
-          "id": "110",
-          "name": "110"
-        },
-        {
-          "id": "190",
-          "name": "190"
-        },
-        {
-          "id": "209",
-          "name": "209"
-        },
-        {
-          "id": "211",
-          "name": "211"
-        },
-        {
-          "id": "218",
-          "name": "218"
-        },
-        {
-          "id": "220",
-          "name": "220"
-        },
-        {
-          "id": "267",
-          "name": "267"
-        },
-        {
-          "id": "27",
-          "name": "27"
-        },
-        {
-          "id": "295",
-          "name": "295"
-        },
-        {
-          "id": "306",
-          "name": "306"
-        },
-        {
-          "id": "72",
-          "name": "72"
-        },
-        {
-          "id": "9",
-          "name": "9"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "h91",
-          "name": "H91"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "n11",
-          "name": "N11"
-        },
-        {
-          "id": "n266",
-          "name": "N266"
-        },
-        {
-          "id": "n27",
-          "name": "N27"
-        },
-        {
-          "id": "n33",
-          "name": "N33"
-        },
-        {
-          "id": "n72",
-          "name": "N72"
-        },
-        {
-          "id": "n9",
-          "name": "N9"
-        },
-        {
-          "id": "n97",
-          "name": "N97"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "HUBHMS",
-      "commonName": "Hammersmith",
-      "lat": 51.492304,
-      "lon": -0.223619
-    },
-    {
-      "naptanId": "940GZZLUHWC",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000116",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUHWC",
-      "commonName": "Hounslow Central Underground Station",
-      "lat": 51.471295,
-      "lon": -0.366578
-    },
-    {
-      "naptanId": "940GZZLUHWE",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000117",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUHWE",
-      "commonName": "Hounslow East Underground Station",
-      "lat": 51.473213,
-      "lon": -0.356474
-    },
-    {
-      "naptanId": "940GZZLUHWT",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000118",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUHWT",
-      "commonName": "Hounslow West Underground Station",
-      "lat": 51.473469,
-      "lon": -0.386544
-    },
-    {
-      "naptanId": "940GZZLUHWY",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000114",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUHWY",
-      "commonName": "Holloway Road Underground Station",
-      "lat": 51.552697,
-      "lon": -0.113244
-    },
-    {
-      "naptanId": "940GZZLUICK",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000120",
-      "lines": [
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUICK",
-      "commonName": "Ickenham Underground Station",
-      "lat": 51.56177,
-      "lon": -0.442225
-    },
-    {
-      "naptanId": "940GZZLUKNB",
-      "modes": [
-        "bus",
-        "tube"
-      ],
-      "icsCode": "1000130",
-      "lines": [
-        {
-          "id": "137",
-          "name": "137"
-        },
-        {
-          "id": "19",
-          "name": "19"
-        },
-        {
-          "id": "22",
-          "name": "22"
-        },
-        {
-          "id": "452",
-          "name": "452"
-        },
-        {
-          "id": "c1",
-          "name": "C1"
-        },
-        {
-          "id": "n137",
-          "name": "N137"
-        },
-        {
-          "id": "n19",
-          "name": "N19"
-        },
-        {
-          "id": "n22",
-          "name": "N22"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUKNB",
-      "commonName": "Knightsbridge Underground Station",
-      "lat": 51.501669,
-      "lon": -0.160508
-    },
-    {
-      "naptanId": "HUBKGX",
-      "modes": [
-        "bus",
-        "international-rail",
-        "national-rail",
-        "tube"
-      ],
-      "icsCode": "1000129",
-      "lines": [
-        {
-          "id": "17",
-          "name": "17"
-        },
-        {
-          "id": "205",
-          "name": "205"
-        },
-        {
-          "id": "214",
-          "name": "214"
-        },
-        {
-          "id": "30",
-          "name": "30"
-        },
-        {
-          "id": "390",
-          "name": "390"
-        },
-        {
-          "id": "46",
-          "name": "46"
-        },
-        {
-          "id": "476",
-          "name": "476"
-        },
-        {
-          "id": "63",
-          "name": "63"
-        },
-        {
-          "id": "73",
-          "name": "73"
-        },
-        {
-          "id": "91",
-          "name": "91"
-        },
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "east-midlands-railway",
-          "name": "East Midlands Railway"
-        },
-        {
-          "id": "grand-central",
-          "name": "Grand Central"
-        },
-        {
-          "id": "great-northern",
-          "name": "Great Northern"
-        },
-        {
-          "id": "hammersmith-city",
-          "name": "Hammersmith & City"
-        },
-        {
-          "id": "hull-trains",
-          "name": "Hull Trains"
-        },
-        {
-          "id": "london-north-eastern-railway",
-          "name": "London North Eastern Railway"
-        },
-        {
-          "id": "lumo",
-          "name": "Lumo"
-        },
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "n205",
-          "name": "N205"
-        },
-        {
-          "id": "n63",
-          "name": "N63"
-        },
-        {
-          "id": "n73",
-          "name": "N73"
-        },
-        {
-          "id": "n91",
-          "name": "N91"
-        },
-        {
-          "id": "northern",
-          "name": "Northern"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        },
-        {
-          "id": "southeastern",
-          "name": "Southeastern"
-        },
-        {
-          "id": "thameslink",
-          "name": "Thameslink"
-        },
-        {
-          "id": "victoria",
-          "name": "Victoria"
-        }
-      ],
-      "id": "HUBKGX",
-      "commonName": "King's Cross & St Pancras International",
-      "lat": 51.531683,
-      "lon": -0.123538
-    },
-    {
-      "naptanId": "940GZZLULSQ",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000135",
-      "lines": [
-        {
-          "id": "northern",
-          "name": "Northern"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLULSQ",
-      "commonName": "Leicester Square Underground Station",
-      "lat": 51.511386,
-      "lon": -0.128426
-    },
-    {
-      "naptanId": "940GZZLUMRH",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000142",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUMRH",
-      "commonName": "Manor House Underground Station",
-      "lat": 51.570738,
-      "lon": -0.096118
-    },
-    {
-      "naptanId": "940GZZLUNEN",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000158",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUNEN",
-      "commonName": "North Ealing Underground Station",
-      "lat": 51.517505,
-      "lon": -0.288868
-    },
-    {
-      "naptanId": "940GZZLUNFD",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000159",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUNFD",
-      "commonName": "Northfields Underground Station",
-      "lat": 51.499319,
-      "lon": -0.314719
-    },
-    {
-      "naptanId": "940GZZLUOAK",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000168",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUOAK",
-      "commonName": "Oakwood Underground Station",
-      "lat": 51.647726,
-      "lon": -0.132182
-    },
-    {
-      "naptanId": "940GZZLUOSY",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000171",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUOSY",
-      "commonName": "Osterley Underground Station",
-      "lat": 51.481274,
-      "lon": -0.352224
-    },
-    {
-      "naptanId": "940GZZLUPCC",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000179",
-      "lines": [
-        {
-          "id": "bakerloo",
-          "name": "Bakerloo"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUPCC",
-      "commonName": "Piccadilly Circus Underground Station",
-      "lat": 51.51005,
-      "lon": -0.133798
-    },
-    {
-      "naptanId": "940GZZLUPKR",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000176",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUPKR",
-      "commonName": "Park Royal Underground Station",
-      "lat": 51.527123,
-      "lon": -0.284341
-    },
-    {
-      "naptanId": "940GZZLURSM",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000199",
-      "lines": [
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLURSM",
-      "commonName": "Ruislip Manor Underground Station",
-      "lat": 51.573202,
-      "lon": -0.412973
-    },
-    {
-      "naptanId": "940GZZLURSP",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000197",
-      "lines": [
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLURSP",
-      "commonName": "Ruislip Underground Station",
-      "lat": 51.571354,
-      "lon": -0.421898
-    },
-    {
-      "naptanId": "940GZZLURSQ",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000200",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLURSQ",
-      "commonName": "Russell Square Underground Station",
-      "lat": 51.523073,
-      "lon": -0.124285
-    },
-    {
-      "naptanId": "940GZZLURYL",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000189",
-      "lines": [
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLURYL",
-      "commonName": "Rayners Lane Underground Station",
-      "lat": 51.575147,
-      "lon": -0.371127
-    },
-    {
-      "naptanId": "940GZZLUSEA",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000208",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUSEA",
-      "commonName": "South Ealing Underground Station",
-      "lat": 51.501003,
-      "lon": -0.307424
-    },
-    {
-      "naptanId": "940GZZLUSGT",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000210",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUSGT",
-      "commonName": "Southgate Underground Station",
-      "lat": 51.632315,
-      "lon": -0.127816
-    },
-    {
-      "naptanId": "940GZZLUSHH",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000211",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUSHH",
-      "commonName": "South Harrow Underground Station",
-      "lat": 51.564888,
-      "lon": -0.352492
-    },
-    {
-      "naptanId": "940GZZLUSKS",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000212",
-      "lines": [
-        {
-          "id": "circle",
-          "name": "Circle"
-        },
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUSKS",
-      "commonName": "South Kensington Underground Station",
-      "lat": 51.494094,
-      "lon": -0.174138
-    },
-    {
-      "naptanId": "940GZZLUSUH",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000227",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUSUH",
-      "commonName": "Sudbury Hill Underground Station",
-      "lat": 51.556946,
-      "lon": -0.336435
-    },
-    {
-      "naptanId": "940GZZLUSUT",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000228",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUSUT",
-      "commonName": "Sudbury Town Underground Station",
-      "lat": 51.550815,
-      "lon": -0.315745
-    },
-    {
-      "naptanId": "940GZZLUTNG",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000240",
-      "lines": [
-        {
-          "id": "district",
-          "name": "District"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUTNG",
-      "commonName": "Turnham Green Underground Station",
-      "lat": 51.495148,
-      "lon": -0.254555
-    },
-    {
-      "naptanId": "940GZZLUTPN",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000241",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUTPN",
-      "commonName": "Turnpike Lane Underground Station",
-      "lat": 51.590272,
-      "lon": -0.102953
-    },
-    {
-      "naptanId": "940GZZLUUXB",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000246",
-      "lines": [
-        {
-          "id": "metropolitan",
-          "name": "Metropolitan"
-        },
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUUXB",
-      "commonName": "Uxbridge Underground Station",
-      "lat": 51.546565,
-      "lon": -0.477949
-    },
-    {
-      "naptanId": "940GZZLUWOG",
-      "modes": [
-        "tube"
-      ],
-      "icsCode": "1000275",
-      "lines": [
-        {
-          "id": "piccadilly",
-          "name": "Piccadilly"
-        }
-      ],
-      "id": "940GZZLUWOG",
-      "commonName": "Wood Green Underground Station",
       "lat": 51.597479,
       "lon": -0.109886
     }
