@@ -6,13 +6,16 @@ deal with it 🤣!!!!
 """
 import os
 import requests
+import logging
 import json
 from pathlib import Path
 from dotenv import load_dotenv
 
-DP = Path("data/") # datapath
-
 load_dotenv()
+
+logging.getLogger(__name__)
+
+DP = Path("data/") # datapath
 
 lines = json.loads((DP / "_lines.json").read_text())
 stations = json.loads((DP / "_stations.json").read_text())
@@ -32,7 +35,8 @@ _key_idx = 0
 BASE = "https://api.tfl.gov.uk"
 
 modes = ["tube", "dlr", "elizabeth-line", "overground", "tram"]
-status_EP = f"{BASE}Line/Mode/{modes}/Status"
+modes_str = ",".join(modes)
+status_EP = f"{BASE}/Line/Mode/{modes_str}/Status"
 distruption_EP = f"{BASE}/StopPoint/{{stationId}}/Disruption"
 # notes: status of whole line and each station within line. mass api + update
 
@@ -43,12 +47,17 @@ def switch_keys():
     global _key_idx
     _key_idx = (_key_idx + 1) % len(KEYS) # even=prim, odd=sec
 
-def call(endpoint, **params): # w key value pairs (just learnt about them)
-    url = endpoint.format(**params) 
-    r = requests.get(url, params={"app_key": current_key()})
-    if r.status_code == 429:
+def call(endpoint, **params):
+    url = endpoint.format(**params)
+    for attempt in range(len(KEYS)): # only loop through twice bc of 2 keys
+        r = requests.get(url, params={"app_key": current_key()}, timeout=5)
+        if r.status_code != 429:
+            return r
+        retry_after_h = r.headers.get("Retry-After")
+        if retry_after_h and retry_after_h.isdigit(): # if header returns a retry header w/ a number
+            time.sleep(int(retry_after_h))
         swap_key()
-        r = requests.get(url, params={"app_key": current_key()})
+    print(f"gave up after {len(KEYS)} attempts")
     return r 
 
 def group_call(endpoint, ids, id_name):
@@ -58,16 +67,10 @@ def group_call(endpoint, ids, id_name):
         responses[i] = meow.json()
     return
 
-#TODO: check for 429 codes, switch to sec. key if applicable. 
-# do not let user use without api key. bother until change
-# (can be used without but i dont wanna :( )
-
-
 def show_all_goodies():
 
-    r = call("line", "status", lineId="windrush")
+    r = call(status_EP)
     print(r.json())
-    print("done")
 
 show_all_goodies()
-print("doendone")
+print("done")
