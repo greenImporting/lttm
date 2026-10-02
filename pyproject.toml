@@ -1,0 +1,7 @@
+[project]
+name = "lttm"
+version = "2.10.2026"
+dependencies = [
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]

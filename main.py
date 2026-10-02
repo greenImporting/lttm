@@ -11,6 +11,6 @@ log = logging.getLogger(__name__)
 
 if __name__ == "__main__":
 
-    show_all_goodies()
+    print(show_all_goodies())
     check_files()
     print("willkommen")

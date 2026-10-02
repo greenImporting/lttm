@@ -36,8 +36,9 @@ BASE = "https://api.tfl.gov.uk"
 
 modes = ["tube", "dlr", "elizabeth-line", "overground", "tram"]
 modes_str = ",".join(modes)
+
 status_EP = f"{BASE}/Line/Mode/{modes_str}/Status"
-distruption_EP = f"{BASE}/StopPoint/{{stationId}}/Disruption"
+disruption_EP = f"{BASE}/StopPoint/{{stationId}}/Disruption"
 # notes: status of whole line and each station within line. mass api + update
 
 def current_key():
@@ -51,12 +52,12 @@ def call(endpoint, **params):
     url = endpoint.format(**params)
     for attempt in range(len(KEYS)): # only loop through twice bc of 2 keys
         r = requests.get(url, params={"app_key": current_key()}, timeout=5)
-        if r.status_code != 429:
+        if r.status_code != 429: #TODO: better exception handling
             return r
         retry_after_h = r.headers.get("Retry-After")
         if retry_after_h and retry_after_h.isdigit(): # if header returns a retry header w/ a number
             time.sleep(int(retry_after_h))
-        swap_key()
+        switch_keys()
     print(f"gave up after {len(KEYS)} attempts")
     return r 
 
@@ -67,10 +68,26 @@ def group_call(endpoint, ids, id_name):
         responses[i] = meow.json()
     return
 
-def show_all_goodies():
+def clean(line):
+    return {
+        "id": line.get("id"),
+        "lineStatuses": [
+            {
+                "statusSeverity": stati.get("statusSeverity"),
+                "statusSeverityDescription": stati.get("statusSeverityDescription"),
+                **({"reason": stati["reason"]} if stati.get("reason") else {}) # adds reason if reason is present, else return nish
+            }
+            for stati in line.get("lineStatuses", [])
+        ]
+    }
 
+def pamper_all_statuses():
     r = call(status_EP)
-    print(r.json())
+    return [clean(me) for me in r.json()] #LOL, builds and returns the whole list of line statuses
+
+
+def show_all_goodies():
+    return json.dumps(pamper_all_statuses(), indent=2)
 
 show_all_goodies()
 print("done")
