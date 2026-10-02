@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 
 DP = Path("data/") # datapath
 
@@ -55,20 +55,22 @@ def call(endpoint, **params):
         if r.status_code != 429: #TODO: better exception handling
             return r
         retry_after_h = r.headers.get("Retry-After")
-        if retry_after_h and retry_after_h.isdigit(): # if header returns a retry header w/ a number
-            time.sleep(int(retry_after_h))
+        if retry_after_h and retry_after_h.isdigit():# if header returns a retry header w/ a number
+            ra = int(retry_after_h)
+            logger.info(f"retrying after {ra}") 
+            time.sleep(ra)
         switch_keys()
     print(f"gave up after {len(KEYS)} attempts")
     return r 
 
-def group_call(endpoint, ids, id_name):
+def disruption_calls(endpoint, ids):
     responses = {}
     for i in ids:
-        meow = call(endpoint, **{id_name: i})
-        responses[i] = meow.json()
-    return
+        r = call(endpoint, stationId=i)
+        responses[i] = r.json()
+    return responses
 
-def clean(line):
+def status_clean(line):
     return {
         "id": line.get("id"),
         "lineStatuses": [
@@ -83,11 +85,12 @@ def clean(line):
 
 def pamper_all_statuses():
     r = call(status_EP)
-    return [clean(me) for me in r.json()] #LOL, builds and returns the whole list of line statuses
+    return [status_clean(i) for i in r.json()] #LOL, builds and returns the whole list of line statuses
 
 
 def show_all_goodies():
-    return json.dumps(pamper_all_statuses(), indent=2)
+    # return json.dumps(pamper_all_statuses(), indent=2)
+    return disruption_calls(disruption_EP, station_ids)
 
-show_all_goodies()
-print("done")
+
+logger.info("loaded tfl")

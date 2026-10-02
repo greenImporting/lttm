@@ -3,10 +3,10 @@ from api import show_all_goodies
 from bootstrap import check_files
 
 
-logging.basicConfig( level=logging.WARNING,
+logging.basicConfig( level=logging.INFO,
                     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",)
 
-log = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 
 
 if __name__ == "__main__":
