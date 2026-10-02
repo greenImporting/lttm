@@ -8,6 +8,7 @@ import os
 import requests
 import logging
 import json
+import time
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -37,8 +38,8 @@ BASE = "https://api.tfl.gov.uk"
 modes = ["tube", "dlr", "elizabeth-line", "overground", "tram"]
 modes_str = ",".join(modes)
 
-status_EP = f"{BASE}/Line/Mode/{modes_str}/Status"
-disruption_EP = f"{BASE}/StopPoint/{{stationId}}/Disruption"
+STATUS_EP = f"{BASE}/Line/Mode/{modes_str}/Status"
+BULK_EP = f"{BASE}/StopPoint/{{stationId}}/Disruption"
 # notes: status of whole line and each station within line. mass api + update
 
 def current_key():
@@ -51,25 +52,30 @@ def switch_keys():
 def call(endpoint, **params):
     url = endpoint.format(**params)
     for attempt in range(len(KEYS)): # only loop through twice bc of 2 keys
-        r = requests.get(url, params={"app_key": current_key()}, timeout=5)
-        if r.status_code != 429: #TODO: better exception handling
-            return r
-        retry_after_h = r.headers.get("Retry-After")
-        if retry_after_h and retry_after_h.isdigit():# if header returns a retry header w/ a number
-            ra = int(retry_after_h)
-            logger.info(f"retrying after {ra}") 
-            time.sleep(ra)
-        switch_keys()
+        try:
+            r = requests.get(url, params={"app_key": current_key()}, timeout=5)
+            if r.status_code != 429: #TODO: better exception handling
+                return r
+            retry_after_h = r.headers.get("Retry-After")
+            if retry_after_h and retry_after_h.isdigit():# if header returns a retry header w/ a number
+                ra = int(retry_after_h)
+                logger.info(f"retrying after {ra}") 
+                time.sleep(ra)
+            switch_keys()
+        except requests.RequestException as e:
+            logger.warning("request failed: %s", e, exc_info=True)
     print(f"gave up after {len(KEYS)} attempts")
     return r 
 
-def disruption_calls(endpoint, ids):
-    responses = {}
-    for i in ids:
-        r = call(endpoint, stationId=i)
-        responses[i] = r.json()
-    return responses
-
+def bulk_call(ids, chunk=20):
+    response = []
+    for i in range(0, len(ids), chunk):
+        batch = ids[i:i+ chunk] # slice me up. i up to (notincluding) i+chunk. takes 20 ids at a time, so ~550 calls to ~30 calls
+        r = call(BULK_EP, stationId=",".join(batch)) 
+        if r.status_code == 200 and r.json():
+            response.extend(r.json())
+    return response
+    
 def status_clean(line):
     return {
         "id": line.get("id"),
@@ -85,12 +91,14 @@ def status_clean(line):
 
 def pamper_all_statuses():
     r = call(status_EP)
-    return [status_clean(i) for i in r.json()] #LOL, builds and returns the whole list of line statuses
+    return [status_clean(i) for i in r.json()] #builds and returns the whole list of line stati
 
 
 def show_all_goodies():
     # return json.dumps(pamper_all_statuses(), indent=2)
-    return disruption_calls(disruption_EP, station_ids)
+    return 
 
 
 logger.info("loaded tfl")
+
+print(bulk_call(station_ids))
