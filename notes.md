@@ -14,7 +14,11 @@ filter and format data,  store for calling later
 there are x amount of parts that are necessary ( and are updated )
 status of line (general overview, i think nice to have)
 status of each station
-status of next stop of each train on each line.
+~~status of next stop of each train on each line.~~ issue with this is that the best way i can get all prediction data is call api every 1-5 mins that gives me a file of 10mb. how is this viable??? 
+
+
+
+lets first just station, map and status updates.
 
 will most likely work like this:
 everything will be updated at once, like a sweep of the board (think split-flap display?)

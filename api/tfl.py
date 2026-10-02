@@ -6,43 +6,68 @@ deal with it 🤣!!!!
 """
 import os
 import requests
+import json
+from pathlib import Path
 from dotenv import load_dotenv
 
-PRIM_KEY = os.getenv("PRIMARY_API_KEY")
-SECOND_KEY = os.getenv("SECONDARY_API_KEY")
+DP = Path("data/") # datapath
+
+load_dotenv()
+
+lines = json.loads((DP / "_lines.json").read_text())
+stations = json.loads((DP / "_stations.json").read_text())
+s2l = json.loads((DP / "_station_lines.json").read_text())
+
+station_ids= list(stations.keys())
+# _stations is already deduped. if aint broke dont fix 
+
+
+# stations["910GEMRSPKH"]["common_name"]      # "Emerson Park Rail Station"
+# lines["weaver"]["station_order"]            # ordered station ids
+# s2l["910GEMRSPKH"]                          # ["liberty"]
+
+KEYS = [os.getenv("PRIMARY_API_KEY"), os.getenv("SECONDARY_API_KEY")]
+_key_idx = 0
+# prim and secdry key
 BASE = "https://api.tfl.gov.uk"
 
-endpoints = {
-    "line": {
-        "route_sequence_inbound":  f"{BASE}/Line/{{lineId}}/Route/Sequence/inbound",
-        "route_sequence_outbound": f"{BASE}/Line/{{lineId}}/Route/Sequence/outbound",
-        "stop_points":             f"{BASE}/Line/{{lineId}}/StopPoints",
-        "arrivals":                f"{BASE}/Line/{{lineId}}/Arrivals/{{stationId}}",
-        "timetable":               f"{BASE}/Line/{{lineId}}/Timetable/{{fromStationId}}/to/{{toStationId}}",
-    },
-    "stoppoint": {
-        "by_id":                   f"{BASE}/StopPoint/{{stationId}}",
-        "arrivals":                f"{BASE}/StopPoint/{{stationId}}/Arrivals",
-    },
-}
+modes = ["tube", "dlr", "elizabeth-line", "overground", "tram"]
+status_EP = f"{BASE}Line/Mode/{modes}/Status"
+distruption_EP = f"{BASE}/StopPoint/{{stationId}}/Disruption"
+# notes: status of whole line and each station within line. mass api + update
 
+def current_key():
+    return KEYS[_key_idx]
 
-def call(group, name, **params):
-    url = endpoints[group][name].format(**params)
-    return requests.get(url, params={"app_key": PRIM_KEY})
+def switch_keys():
+    global _key_idx
+    _key_idx = (_key_idx + 1) % len(KEYS) # even=prim, odd=sec
 
+def call(endpoint, **params): # w key value pairs (just learnt about them)
+    url = endpoint.format(**params) 
+    r = requests.get(url, params={"app_key": current_key()})
+    if r.status_code == 429:
+        swap_key()
+        r = requests.get(url, params={"app_key": current_key()})
+    return r 
 
-#TODO: make sure to check for codes. 429 is too many requests.
-# if no api key: throw warning that youre rate limited, recommended to get api key
-# if api key: check other key. if works: continue, if doesnt: wait 30s and try both keys again
-# dont switch between if one works.
+def group_call(endpoint, ids, id_name):
+    responses = {}
+    for i in ids:
+        meow = call(endpoint, **{id_name: i})
+        responses[i] = meow.json()
+    return
+
+#TODO: check for 429 codes, switch to sec. key if applicable. 
+# do not let user use without api key. bother until change
+# (can be used without but i dont wanna :( )
+
 
 def show_all_goodies():
-    load_dotenv()
 
+    r = call("line", "status", lineId="windrush")
+    print(r.json())
     print("done")
 
 show_all_goodies()
-r = call("meta", "severity")
-print(r.json())
 print("doendone")
