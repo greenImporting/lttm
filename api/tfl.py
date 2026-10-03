@@ -62,6 +62,7 @@ def call(endpoint, **params):
                 logger.info(f"retrying after {ra}") 
                 time.sleep(ra)
             switch_keys()
+            logger.info("keys switched.")
         except requests.RequestException as e:
             logger.warning("request failed: %s", e, exc_info=True)
     print(f"gave up after {len(KEYS)} attempts")
@@ -89,16 +90,25 @@ def status_clean(line):
         ]
     }
 
+# def bulk_clean(bulk_input):
+#     return
+
 def pamper_all_statuses():
     r = call(status_EP)
     return [status_clean(i) for i in r.json()] #builds and returns the whole list of line stati
 
+# def combine_goodies():
+#     return
 
 def show_all_goodies():
-    # return json.dumps(pamper_all_statuses(), indent=2)
+    return json.dumps(pamper_all_statuses(), indent=2)
     return 
 
 
 logger.info("loaded tfl")
 
-print(bulk_call(station_ids))
+# print(bulk_call(station_ids))
+
+
+# TODO: combine outputs to line: {overall status, station specific status{ station{status: good}}}
+# if returned empty list, assume good service
