@@ -3,5 +3,6 @@ name = "lttm"
 version = "2.10.2026"
 dependencies = [
     "python-dotenv>=1.2.4",
+    "readchar>=4.2.2",
     "requests>=2.34.2",
 ]

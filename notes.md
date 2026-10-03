@@ -1,8 +1,14 @@
 lttm can be split up into x amount of parts.
 
 ## UI
-draw map with curses (stdscr object will expose util)
+threading ui using readchar to await arrow skyes to move map.
 very simple map, maybe initially not accurate to london, maybe in future we add movement across an underground0styled map.
+
+key listener probably will be a daemon thread that puts events into a queue
+for main to deal w/.
+arrow keys only for now, maybe more keybinds later for settings etc.
+
+
 
 
 ## application
