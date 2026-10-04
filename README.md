@@ -26,4 +26,4 @@ currently covers areas such as the tube lines, liz line, overground, dlr and tra
 [ ] add more things in milestones 
 
 ### ai usage disclosures
-deepseek ai (~ 4/10/26) was used to aid map production (specifically testing zooming in/tooltips)
+deepseek ai (~ 4/10/26) was used to aid map production (specifically testing zooming in/tooltips (zooming in is so annoying))
