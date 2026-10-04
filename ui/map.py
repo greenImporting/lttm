@@ -95,7 +95,7 @@ murp.start()
 try:
     while True:
         try:
-            keyi = murp._keys.get(timeout=0.5)
+            keyi = murp._keys.get(timeout=0.5) 
         except queue.Empty:
             keyi = None
 
@@ -110,7 +110,7 @@ try:
             murp.move_cam(1, 0)
 
         murp.render_map()
-        time.sleep(0.01)
+        time.sleep(0.1) #TODO: dirty flag (refrender only when needed)
 finally:
     murp.stop()
 

@@ -8,8 +8,13 @@ key listener probably will be a daemon thread that puts events into a queue
 for main to deal w/.
 arrow keys only for now, maybe more keybinds later for settings etc.
 
+### settings
 
+- UPDOWNLEFTRIGHT+-
 
+hihglight stations?
+
+please dont make me zoom.
 
 ## application
 ~~grab info from apis about lines and stations~~
