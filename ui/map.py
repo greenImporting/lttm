@@ -6,8 +6,13 @@ import readchar
 import threading
 import queue
 
-#TODO: queue causes a backlog of arrow presses, so like an input buffer. fix by clearing queue faster/
-
+#TODO LIST:
+# - queue causes a backlog of arrow presses, so like an input buffer. fix by clearing queue faster
+# - add text wrapping function
+# - differentiate between heading
+# - actually just fix formatting overall
+# - assume that all hell breaks loose once one too many things are in objects. must plan ahead
+# - zoom in zoom out features dude :/ . imagine trying to get from left to right of london with a station the the width of 30chars
 class Map:
     def __init__(self):
         tsize = shutil.get_terminal_size(fallback=(80,30)) #
@@ -46,12 +51,12 @@ class Map:
         for i in range(w):
             # example: 1002018:t:4 = [(5+4),6, "─" ]
             # 1002018:b:4 = [(5+4),(6+3 - 1), "─" ] (last row)
-            self.add_object(f"{station_id_ics}:t:{i}", xpos+i, ypos, "─")
-            self.add_object(f"{station_id_ics}:t:{i}", xpos+i, ypos + h - 1, "─")
+            self.add_object(f"{station_id_ics}:t:{i}", xpos + i, ypos, "─")
+            self.add_object(f"{station_id_ics}:b:{i}", xpos + i, ypos + h - 1, "─")
         
         for j in range(h):
-            self.add_object(f"{station_id_ics}:t:{i}", xpos, ypos+ j, "│")
-            self.add_object(f"{station_id_ics}:t:{i}", xpos+w - 1, ypos + j, "│")
+            self.add_object(f"{station_id_ics}:l:{j}", xpos, ypos+ j, "│")
+            self.add_object(f"{station_id_ics}:r:{j}", xpos + w - 1, ypos + j, "│")
 
         self.add_object(f"{station_id_ics}:tl", xpos, ypos, "┌")
         self.add_object(f"{station_id_ics}:tr", xpos + w - 1, ypos, "┐")
@@ -77,19 +82,23 @@ class Map:
         x, y = tlx, tly
         for ics, entry in ics_data.items():
             rows = []
+            stations = entry.get("stations", {})
+            first_station = next(iter(stations.values()), {}) #iterate over first stations
+            title = entry.get("name") or first_station.get("common_name", "")
             for station_id, stati in entry.get("stations", {}).items():
-                rows.append(stati.get("common_name", "")) # can switch to using lookup table for common names (less reliance)
+                if len(stations) > 1:
+                    rows.append(stati.get("common_name", "")) # can switch to using lookup table for common names (less reliance)
                 rows.append("lines: "+",".join(stati.get("lines", [])))
                 rows.append("modes: "+",".join(stati.get("modes", [])))
                 rows.append("status: " + stati.get("status", "?")) # placeholder for now. awaiting real data from api
                 rows.append("desc: " + stati.get("desc", "?"))
             
-            self.draw_station(ics, x, y, station_w, station_h, ics, rows)
+            self.draw_station(ics, x, y, station_w, station_h, title, rows)
 
-        x += station_w + padding
-        if x + padding > self.w:
-            x = tlx
-            y += station_h + padding
+            x += station_w + padding
+            if x + padding > self.w:
+                x = tlx
+                y += station_h + padding
     
     def move_cam(self, dx, dy):
         self.cam_xpos += dx
