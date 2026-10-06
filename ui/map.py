@@ -6,8 +6,7 @@ import readchar
 import threading
 import queue
 
-#NOTE: ics_code to be used to draw stations, then fetch all stations/lines relating
-# to that ics code for expanded tooltips.
+#TODO: queue causes a backlog of arrow presses, so like an input buffer. fix by clearing queue faster/
 
 class Map:
     def __init__(self):
@@ -16,6 +15,7 @@ class Map:
         self.h = tsize.lines
 
         self.object = {} #([name] = [xpos, ypos, sprite])
+        # i wonder if i could cull these?
 
         self.cam_xpos = 0
         self.cam_ypos = 0
@@ -40,7 +40,7 @@ class Map:
         inner_w = w - 2
         inner_h = h - 2
 
-        if inner_w <=0 or inner_h <= 0:
+        if inner_w <= 0 or inner_h <= 0:
             return 
         
         for i in range(w):
@@ -53,18 +53,17 @@ class Map:
             self.add_object(f"{station_id_ics}:t:{i}", xpos, ypos+ j, "│")
             self.add_object(f"{station_id_ics}:t:{i}", xpos+w - 1, ypos + j, "│")
 
-        self.add_thing(f"{station_id_ics}:tl", xpos, ypos, "┌")
-        self.add_thing(f"{station_id_ics}:tr", xpos + w - 1, ypos, "┐")
-        self.add_thing(f"{station_id_ics}:bl", xpos, ypos + h - 1, "└")
-        self.add_thing(f"{station_id_ics}:br", xpos + w - 1, ypos + h - 1, "┘")
+        self.add_object(f"{station_id_ics}:tl", xpos, ypos, "┌")
+        self.add_object(f"{station_id_ics}:tr", xpos + w - 1, ypos, "┐")
+        self.add_object(f"{station_id_ics}:bl", xpos, ypos + h - 1, "└")
+        self.add_object(f"{station_id_ics}:br", xpos + w - 1, ypos + h - 1, "┘")
 
         station_text = []
         if title and len(title) <= inner_w:
             station_text.append(title)
-        text.extend(rows)
+        station_text.extend(rows)
 
         # text truncation. assisted here
-        # note4self, [:inner_h] takes only what you can handle (stop at inner height)
         for row, line in enumerate(station_text[:inner_h]):
             truncd = str(line)[:inner_w]
             for col, ch in enumerate(truncd):
@@ -73,18 +72,31 @@ class Map:
                     xpos + 1 + col, ypos + 1 + row, ch 
                 )
 
-    def draw_ics_stations(self):
-        # params: ics data, top left x and y, box dimensions, padding?
-        #loop over data, append data to some rows thjen build w/ 
-        # draw station
-        return
+    def draw_ics_stations(self, ics_data, tlx=1, tly=1, station_w=40, station_h=12, padding=1):
+        # tl* = top left x/y, such as x0 or y0
+        x, y = tlx, tly
+        for ics, entry in ics_data.items():
+            rows = []
+            for station_id, stati in entry.get("stations", {}).items():
+                rows.append(stati.get("common_name", "")) # can switch to using lookup table for common names (less reliance)
+                rows.append("lines: "+",".join(stati.get("lines", [])))
+                rows.append("modes: "+",".join(stati.get("modes", [])))
+                rows.append("status: " + stati.get("status", "?")) # placeholder for now. awaiting real data from api
+                rows.append("desc: " + stati.get("desc", "?"))
+            
+            self.draw_station(ics, x, y, station_w, station_h, ics, rows)
+
+        x += station_w + padding
+        if x + padding > self.w:
+            x = tlx
+            y += station_h + padding
     
     def move_cam(self, dx, dy):
         self.cam_xpos += dx
         self.cam_ypos += dy
     
     def render_map(self):
-        # im all for one liners but i prefer readability sometimes
+        # meow
         grid = []
         for _ in range(self.h - 2):
             # -2 for borders
@@ -137,16 +149,22 @@ class Map:
 
 murp = Map()
 
-# lveolyt test box to show that it works 
-murp.add_object("squareT", 10, 9, "─" )
-murp.add_object("squareTL", 9, 9, "┌" )
-murp.add_object("squareTR", 11, 9, "┐" )
+# dummy data because i want to know it works  ˶ᵔᵕᵔ˶
+ics_dummy_data_pls_delete_soon_thanks = {
+    "1142069": {
+        "stations": {
+            "940GZZLUWLO": {
+                "common_name": "I Forgot Station",
+                "lines": ["bakerloo", "jubilee", "northern", "waterloo-city"],
+                "modes": ["tube"],
+                "status": "probably",
+                "desc": "hello i am a description and i am used to describe things about this topic",
+            }
+        }
+    }
+}
 
-
-murp.add_object("squareB", 10, 10, "─" )
-murp.add_object("squareBL", 9, 10, "└" )
-murp.add_object("squareBR", 11, 10, "┘" )
-
+murp.draw_ics_stations(ics_dummy_data_pls_delete_soon_thanks)
 
 murp.start()
 try:
