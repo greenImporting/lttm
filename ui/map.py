@@ -7,17 +7,19 @@ import threading
 import queue
 
 #TODO LIST:
-# - queue causes a backlog of arrow presses, so like an input buffer. fix by clearing queue faster
 # - add text wrapping function
-# - differentiate between heading
 # - actually just fix formatting overall
 # - assume that all hell breaks loose once one too many things are in objects. must plan ahead
 # - zoom in zoom out features dude :/ . imagine trying to get from left to right of london with a station the the width of 30chars
+# - update maps according to object names
 class Map:
     def __init__(self):
         tsize = shutil.get_terminal_size(fallback=(80,30)) #
         self.w = tsize.columns
         self.h = tsize.lines
+
+        self._lock = threading.Lock()
+        self._dirty = True
 
         self.object = {} #([name] = [xpos, ypos, sprite])
         # i wonder if i could cull these?
@@ -26,10 +28,14 @@ class Map:
         self.cam_ypos = 0
 
     def add_object(self, name , xpos, ypos, charactr: str):
-        self.object[name] = [xpos,ypos,charactr]
-    
+        with self._lock:
+            self.object[name] = [xpos,ypos,charactr]
+            self._dirty = True 
+
     def eviscerate_object(self, name):
-        self.object.pop(name, None)
+        with self._lock:
+            self.object.pop(name, None)
+            self._dirty = True
 
     def draw_station(self, station_id_ics, xpos, ypos, w, h, title="", rows=None):
         rows = rows or []
@@ -101,35 +107,47 @@ class Map:
                 y += station_h + padding
     
     def move_cam(self, dx, dy):
-        self.cam_xpos += dx
-        self.cam_ypos += dy
+        with self._lock:
+            self.cam_xpos += dx
+            self.cam_ypos += dy
+            self._dirty = True
+
     
     def render_map(self):
-        # meow
-        grid = []
-        for _ in range(self.h - 2):
-            # -2 for borders
-            grid.append([' '] * (self.w - 2))
         
-        # add thingys
-        for xpos, ypos, thing in self.object.values():
-            sx = xpos - self.cam_xpos
-            sy = ypos - self.cam_ypos
-            # sx/sy = screen xpos/screen ypos
+        # mutated when updated, and iterated through by renderer
+        # prevent runtimeerrors by setting inside
+        with self._lock:
+            if not self._dirty:
+                return
+            self._dirty = False
+            cam_x, cam_y = self.cam_xpos, self.cam_ypos
+            objects = list(self.object.values())
 
-            if 0 <= sx < self.w -2 and 0 <= sy < self.h - 2: 
-                grid[sy][sx] = thing
-                # sxsy will allow the "camera" to move.
-        
-        top = "┼" + "─" * (self.w - 2) + "┼"
-        #TODO: add little help module at bottom 
-        # f"arrows to pan | {time.strftime("%H:%M:%S")}"
-        rows = []
-        for row in grid:
-            rows.append("│" + "".join(row) + "│")
-        map_l = [top] + rows + [top] # stackl em
-        sys.stdout.write("\x1b[H"+ "\n".join(map_l)) #ansi escape code
-        sys.stdout.flush()
+            grid = []
+            for _ in range(self.h - 2):
+                # -2 for borders
+                grid.append([' '] * (self.w - 2))
+            
+            # add thingys
+            for xpos, ypos, sprite in objects:
+                sx = xpos - cam_x
+                sy = ypos - cam_y
+                # sx/sy = screen xpos/screen ypos
+
+                if 0 <= sx < self.w -2 and 0 <= sy < self.h - 2: 
+                    grid[sy][sx] = sprite
+                    # sxsy will allow the "camera" to move.
+            
+            top = "┼" + "─" * (self.w - 2) + "┼"
+            #TODO: add little help module at bottom 
+            # f"arrows to pan | {time.strftime("%H:%M:%S")}"
+            rows = []
+            for row in grid:
+                rows.append("│" + "".join(row) + "│")
+            map_l = [top] + rows + [top] # stackl em
+            sys.stdout.write("\x1b[H"+ "\n".join(map_l)) #ansi escape code
+            sys.stdout.flush()
 
     def start(self):
         #check linjuxw/window
@@ -177,24 +195,26 @@ murp.draw_ics_stations(ics_dummy_data_pls_delete_soon_thanks)
 
 murp.start()
 try:
+# caches all but queue to gaurantee murp stops
     while True:
+    # main loop that runs forevre till interruption 
         try:
-            keyi = murp._keys.get(timeout=0.5) 
+            while True:
+            # drains every pending key ( no more backlog)
+                keyi = murp._keys.get_nowait()
+                if keyi == readchar.key.UP:
+                    murp.move_cam(0, -1)
+                elif keyi == readchar.key.DOWN:
+                    murp.move_cam(0, 1)
+                elif keyi == readchar.key.LEFT:
+                    murp.move_cam(-1, 0)
+                elif keyi == readchar.key.RIGHT:
+                    murp.move_cam(1, 0)
         except queue.Empty:
-            keyi = None
-
-        # l x-=1, r x+=1, u y-=1, d y+=1
-        if keyi == readchar.key.UP:
-            murp.move_cam(0, -1)
-        elif keyi == readchar.key.DOWN:
-            murp.move_cam(0, 1)
-        elif keyi == readchar.key.LEFT:
-            murp.move_cam(-1, 0)
-        elif keyi == readchar.key.RIGHT:
-            murp.move_cam(1, 0)
+            pass
 
         murp.render_map()
-        time.sleep(0.1) #TODO: dirty flag (refrender only when needed)
+        time.sleep(0.05)
 finally:
     murp.stop()
 
