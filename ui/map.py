@@ -37,6 +37,38 @@ class Map:
             self.object.pop(name, None)
             self._dirty = True
 
+    def _wrap(self, text: str, width):
+        # wrap text where text needs wrapped. assisted here
+
+        if width <= 0:
+            return []
+        #
+        words = str(text).split()
+
+        if not words:
+            return [""]
+        
+        current = ""
+        lines = []
+
+        for word in words:
+            if not current:
+                while len(word) > width:
+                    lines.append(word[width:])
+                    word = word[width:]
+                current = word
+            elif len(current) + 1 + len(word) <= width:
+                current += " " + word
+            else:
+                lines.append(current)
+                while len(word) > width:
+                    lines.append(word[width:])
+                    word = word[width:]
+                current = word
+        if current:
+            lines.append(current)
+        return lines
+
     def draw_station(self, station_id_ics, xpos, ypos, w, h, title="", rows=None):
         rows = rows or []
 
@@ -74,10 +106,11 @@ class Map:
             station_text.append(title)
         station_text.extend(rows)
 
-        # text truncation. assisted here
-        for row, line in enumerate(station_text[:inner_h]):
-            truncd = str(line)[:inner_w]
-            for col, ch in enumerate(truncd):
+        wrappedt = []
+        for line in station_text:
+            wrappedt.extend(self._wrap(line, inner_w))
+        for row, line in enumerate(wrappedt[:inner_h]):
+            for col, ch in enumerate(line[:inner_w]):
                 self.add_object(
                     f"{station_id_ics}:txt:{row}:{col}",
                     xpos + 1 + col, ypos + 1 + row, ch 
@@ -94,7 +127,7 @@ class Map:
             for station_id, stati in entry.get("stations", {}).items():
                 if len(stations) > 1:
                     rows.append(stati.get("common_name", "")) # can switch to using lookup table for common names (less reliance)
-                rows.append("lines: "+",".join(stati.get("lines", [])))
+                rows.append("lines: "+ ",".join(stati.get("lines", [])))
                 rows.append("modes: "+",".join(stati.get("modes", [])))
                 rows.append("status: " + stati.get("status", "?")) # placeholder for now. awaiting real data from api
                 rows.append("desc: " + stati.get("desc", "?"))
