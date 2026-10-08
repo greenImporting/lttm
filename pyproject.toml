@@ -6,3 +6,8 @@ dependencies = [
     "readchar>=4.2.2",
     "requests>=2.34.2",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

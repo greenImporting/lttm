@@ -7,7 +7,7 @@ rewritten"""
 import time
 import requests
 import json
-import config as cfg
+from . import config as cfg
 
 _key_idx = 0 # key index
 SESSION = requests.Session()
@@ -70,3 +70,5 @@ def line_statuses():
 def station_statuses():
     r = bulk_station_distruptions(cfg.station_ids)
     return json.dumps(r, indent=2)
+
+print(line_statuses())

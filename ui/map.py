@@ -207,7 +207,6 @@ class Map:
         self._stop.set()
         sys.stdout.write("\x1b[?25h\n")# shows cursor
 
-murp = Map()
 
 # dummy data because i want to know it works  ˶ᵔᵕᵔ˶
 ics_dummy_data_pls_delete_soon_thanks = {
@@ -217,15 +216,15 @@ ics_dummy_data_pls_delete_soon_thanks = {
                 "common_name": "I Forgot Station",
                 "lines": ["bakerloo", "jubilee", "northern", "waterloo-city"],
                 "modes": ["tube"],
-                "status": "probably",
+                "status": "10",
                 "desc": "hello i am a description and i am used to describe things about this topic",
             }
         }
     }
 }
 
+murp = Map()
 murp.draw_ics_stations(ics_dummy_data_pls_delete_soon_thanks)
-
 murp.start()
 try:
 # caches all but queue to gaurantee murp stops
