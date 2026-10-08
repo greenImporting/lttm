@@ -7,11 +7,11 @@ import threading
 import queue
 
 #TODO LIST:
-# - add text wrapping function
 # - actually just fix formatting overall
 # - assume that all hell breaks loose once one too many things are in objects. must plan ahead
 # - zoom in zoom out features dude :/ . imagine trying to get from left to right of london with a station the the width of 30chars
 # - update maps according to object names
+# - fix quitting (shouldnt have to ctrl c twice )
 class Map:
     def __init__(self):
         tsize = shutil.get_terminal_size(fallback=(80,30)) #
@@ -42,7 +42,7 @@ class Map:
 
         if width <= 0:
             return []
-        #
+        
         words = str(text).split()
 
         if not words:
@@ -54,16 +54,16 @@ class Map:
         for word in words:
             if not current:
                 while len(word) > width:
-                    lines.append(word[width:])
-                    word = word[width:]
+                    lines.append(word[:width])
+                    word = word[:width]
                 current = word
             elif len(current) + 1 + len(word) <= width:
                 current += " " + word
             else:
                 lines.append(current)
                 while len(word) > width:
-                    lines.append(word[width:])
-                    word = word[width:]
+                    lines.append(word[:width])
+                    word = word[:width]
                 current = word
         if current:
             lines.append(current)
@@ -127,8 +127,8 @@ class Map:
             for station_id, stati in entry.get("stations", {}).items():
                 if len(stations) > 1:
                     rows.append(stati.get("common_name", "")) # can switch to using lookup table for common names (less reliance)
-                rows.append("lines: "+ ",".join(stati.get("lines", [])))
-                rows.append("modes: "+",".join(stati.get("modes", [])))
+                rows.append("lines: "+ ", ".join(stati.get("lines", [])))
+                rows.append("modes: "+", ".join(stati.get("modes", [])))
                 rows.append("status: " + stati.get("status", "?")) # placeholder for now. awaiting real data from api
                 rows.append("desc: " + stati.get("desc", "?"))
             
