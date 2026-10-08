@@ -70,5 +70,3 @@ def line_statuses():
 def station_statuses():
     r = bulk_station_distruptions(cfg.station_ids)
     return json.dumps(r, indent=2)
-
-print(line_statuses())

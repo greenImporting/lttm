@@ -9,20 +9,15 @@ dirty flags and locks to prevent change during reads
 zoom
 
 ## application
-~~grab info from apis about lines and stations~~
-^ grab status updates about lines and stations from api. persistent data already set up.
-filter and format data, exposes func. for map to use, draw and update
+hello ignore below
 
-there are 3 parts that are necessary ( and are updated )
-status of line (general overview, i think nice to have)
-status of each station
-~~status of next stop of each train on each line.~~ to be handled later. calling in chunks of 20 + built in compression by browsers should use less bandw. potential stickings
+to update, we need to be able to refresh all data.
+that means one thread running the map, then another thread
+to get new info every minute, then a middleman to update map. dirty flag and separate thread locking already implemented in map for usage.
 
+i think maybe at this current point i just want to be able to draw everything and get it to 'work'
 
 
-lets first just station, map and status updates.
-
-will most likely work like this:
 everything will be updated at once, like a sweep of the board (think split-flap display?)
 every 45-60s, queue mass update. iterate through all lines, get status of whole line, each station ( busy or not), and next stop 
 once we have a 200 from all, refresh UI (who knows how ill implement the ui) by returning one big dictionary!

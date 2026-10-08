@@ -19,13 +19,23 @@ class Map:
         self.h = tsize.lines
 
         self._lock = threading.Lock()
+        self._stop = threading.Event()
         self._dirty = True
 
         self.object = {} #([name] = [xpos, ypos, sprite])
-        # i wonder if i could cull these?
+        self._station_keys = {} # station key index (seto'objectnames)
 
         self.cam_xpos = 0
         self.cam_ypos = 0
+
+        # preallocating render buffers
+        # when resize logic comes round ( later icba now,)
+        # reallocate grid, blank row, col rows etc inside render_map when 
+        # shutils terminal size changes 
+        self._cols = self.w - 2
+        self._rows = self.h - 2
+        self._grid = [[''] * self._cols for _ in range(self._rows)]
+        self._blank_row = [' '] * self._cols
 
     def add_object(self, name , xpos, ypos, charactr: str):
         with self._lock:
@@ -72,11 +82,6 @@ class Map:
     def draw_station(self, station_id_ics, xpos, ypos, w, h, title="", rows=None):
         rows = rows or []
 
-        # clean previosuly drawn cells 
-        for obj in list(self.object):
-            if obj.startswith(station_id_ics+ ":"):
-                self.eviscerate_object(obj)
-
         if w < 2 or h < 2:
             return #refuse service
         
@@ -86,21 +91,22 @@ class Map:
         if inner_w <= 0 or inner_h <= 0:
             return 
         
+        items = [] 
         for i in range(w):
             # example: 1002018:t:4 = [(5+4),6, "─" ]
             # 1002018:b:4 = [(5+4),(6+3 - 1), "─" ] (last row)
-            self.add_object(f"{station_id_ics}:t:{i}", xpos + i, ypos, "─")
-            self.add_object(f"{station_id_ics}:b:{i}", xpos + i, ypos + h - 1, "─")
+            items.append((f"{station_id_ics}:t:{i}", xpos + i, ypos, "─"))
+            items.append((f"{station_id_ics}:b:{i}", xpos + i, ypos + h - 1, "─"))
         
         for j in range(h):
-            self.add_object(f"{station_id_ics}:l:{j}", xpos, ypos+ j, "│")
-            self.add_object(f"{station_id_ics}:r:{j}", xpos + w - 1, ypos + j, "│")
-
-        self.add_object(f"{station_id_ics}:tl", xpos, ypos, "┌")
-        self.add_object(f"{station_id_ics}:tr", xpos + w - 1, ypos, "┐")
-        self.add_object(f"{station_id_ics}:bl", xpos, ypos + h - 1, "└")
-        self.add_object(f"{station_id_ics}:br", xpos + w - 1, ypos + h - 1, "┘")
-
+            items.append((f"{station_id_ics}:l:{j}", xpos, ypos+ j, "│"))
+            items.append((f"{station_id_ics}:r:{j}", xpos + w - 1, ypos + j, "│"))
+        items += [ # learnt this trick from a plumber
+            (f"{station_id_ics}:tl", xpos, ypos, "┌"),
+            (f"{station_id_ics}:tr", xpos + w - 1, ypos, "┐"),
+            (f"{station_id_ics}:bl", xpos, ypos + h - 1, "└"),
+            (f"{station_id_ics}:br", xpos + w - 1, ypos + h - 1, "┘")
+        ]
         station_text = []
         if title and len(title) <= inner_w:
             station_text.append(title)
@@ -111,10 +117,24 @@ class Map:
             wrappedt.extend(self._wrap(line, inner_w))
         for row, line in enumerate(wrappedt[:inner_h]):
             for col, ch in enumerate(line[:inner_w]):
-                self.add_object(
+                items.append((
                     f"{station_id_ics}:txt:{row}:{col}",
                     xpos + 1 + col, ypos + 1 + row, ch 
-                )
+                ))
+
+        with self._lock:
+            old = self._station_keys.pop(station_id_ics, None)
+            if old:
+                for o in old:
+                    self.object.pop(o, None)
+
+            new_keys = set()
+            obj = self.object
+            for name, ox, oy, ch in items: # objectxm,objecty, character
+                obj[name] = [ox, oy, ch]
+                new_keys.add(name)
+            self._station_keys[station_id_ics] = new_keys
+            self._dirty = True
 
     def draw_ics_stations(self, ics_data, tlx=1, tly=1, station_w=40, station_h=12, padding=1):
         # tl* = top left x/y, such as x0 or y0
@@ -148,8 +168,7 @@ class Map:
     
     def render_map(self):
         
-        # mutated when updated, and iterated through by renderer
-        # prevent runtimeerrors by setting inside
+        # reuse grid and clea via slice assign
         with self._lock:
             if not self._dirty:
                 return
@@ -157,29 +176,32 @@ class Map:
             cam_x, cam_y = self.cam_xpos, self.cam_ypos
             objects = list(self.object.values())
 
-            grid = []
-            for _ in range(self.h - 2):
-                # -2 for borders
-                grid.append([' '] * (self.w - 2))
+            grid = self._grid
+            cols = self._cols
+            rowns_n = self._rows
             
+            for row in grid:
+                row[:] = self._blank_row
+                # copied template list contents (no per row allocation)
+
             # add thingys
             for xpos, ypos, sprite in objects:
                 sx = xpos - cam_x
                 sy = ypos - cam_y
                 # sx/sy = screen xpos/screen ypos
 
-                if 0 <= sx < self.w -2 and 0 <= sy < self.h - 2: 
+                if 0 <= sx < cols  and 0 <= sy < rowns_n: 
                     grid[sy][sx] = sprite
                     # sxsy will allow the "camera" to move.
             
-            top = "┼" + "─" * (self.w - 2) + "┼"
+            top = "┼" + "─" * cols + "┼"
             #TODO: add little help module at bottom 
             # f"arrows to pan | {time.strftime("%H:%M:%S")}"
-            rows = []
+            ouptut = [top]
             for row in grid:
-                rows.append("│" + "".join(row) + "│")
-            map_l = [top] + rows + [top] # stackl em
-            sys.stdout.write("\x1b[H"+ "\n".join(map_l)) #ansi escape code
+                ouptut.append("│" + "".join(row) + "│")
+            ouptut.append(top)
+            sys.stdout.write("\x1b[H"+ "\n".join(ouptut)) #ansi escape code
             sys.stdout.flush()
 
     def start(self):
@@ -187,7 +209,6 @@ class Map:
         os.system('cls' if os.name == 'nt' else 'clear')
         sys.stdout.write("\x1b[?25l") # hides cursor
 
-        self._stop = threading.Event() #sharedflag
         self._keys = queue.Queue() #Q4KEYS
         self._thread = threading.Thread(target=self._listen, args=(self._keys, self._stop), daemon=True)
         self._thread.start()
@@ -199,12 +220,16 @@ class Map:
                 readchar.key.UP,
                 readchar.key.DOWN,
                 readchar.key.LEFT,
-                readchar.key.RIGHT
+                readchar.key.RIGHT,
             ):
                 q.put(key)
-        
+            elif key.lower() == "q":
+                stop.set()
+                q.put("q")
+
     def stop(self):
         self._stop.set()
+        sys.stdout.write("\x1b[H")
         sys.stdout.write("\x1b[?25h\n")# shows cursor
 
 
@@ -222,31 +247,35 @@ ics_dummy_data_pls_delete_soon_thanks = {
         }
     }
 }
+def start_map():
+    murp = Map()
+    murp.draw_ics_stations(ics_dummy_data_pls_delete_soon_thanks)
+    murp.start()
+    try:
+    # caches all but queue to gaurantee murp stops
+        while not murp._stop.is_set():
+        # main loop that runs forevre till interruption 
+            try:
+                while True:
+                # drains every pending key ( no more backlog)
+                    keyi = murp._keys.get_nowait()
+                    if keyi == "q":
+                        murp._stop.set()
+                        break
+                    if keyi == readchar.key.UP:
+                        murp.move_cam(0, -1)
+                    elif keyi == readchar.key.DOWN:
+                        murp.move_cam(0, 1)
+                    elif keyi == readchar.key.LEFT:
+                        murp.move_cam(-1, 0)
+                    elif keyi == readchar.key.RIGHT:
+                        murp.move_cam(1, 0)
+            except queue.Empty:
+                pass
 
-murp = Map()
-murp.draw_ics_stations(ics_dummy_data_pls_delete_soon_thanks)
-murp.start()
-try:
-# caches all but queue to gaurantee murp stops
-    while True:
-    # main loop that runs forevre till interruption 
-        try:
-            while True:
-            # drains every pending key ( no more backlog)
-                keyi = murp._keys.get_nowait()
-                if keyi == readchar.key.UP:
-                    murp.move_cam(0, -1)
-                elif keyi == readchar.key.DOWN:
-                    murp.move_cam(0, 1)
-                elif keyi == readchar.key.LEFT:
-                    murp.move_cam(-1, 0)
-                elif keyi == readchar.key.RIGHT:
-                    murp.move_cam(1, 0)
-        except queue.Empty:
-            pass
+            murp.render_map()
+            time.sleep(0.05)
+    finally:
+        murp.stop()
 
-        murp.render_map()
-        time.sleep(0.05)
-finally:
-    murp.stop()
-
+start_map()
