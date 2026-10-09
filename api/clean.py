@@ -6,6 +6,7 @@ from . import config as cfg
 
 def clean_statuses(data):
     result = []
+    print(type(data))
     for d in data:
         result.append({
             "id": d.get("id"),

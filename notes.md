@@ -31,3 +31,9 @@ zoom of map (mayb), accent colors, map update, request rate, api keys??a
 
 ## api info for self. 
 less data
+
+
+around 467 ics codes, which means plot about 467 dots when zoomed out,
+(must add tooltips aswell to see what station it is), 
+
+can plot one ics station as a bulk object?

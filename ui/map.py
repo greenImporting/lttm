@@ -8,10 +8,8 @@ import queue
 
 #TODO LIST:
 # - actually just fix formatting overall
-# - assume that all hell breaks loose once one too many things are in objects. must plan ahead
-# - zoom in zoom out features dude :/ . imagine trying to get from left to right of london with a station the the width of 30chars
-# - update maps according to object names
-# - fix quitting (shouldnt have to ctrl c twice )
+# - test and measure performance for large amount of objects
+# - zooming logic (1 -> 16x~ only)
 class Map:
     def __init__(self):
         tsize = shutil.get_terminal_size(fallback=(80,30)) #
@@ -213,6 +211,8 @@ class Map:
         self._thread = threading.Thread(target=self._listen, args=(self._keys, self._stop), daemon=True)
         self._thread.start()
 
+    def _update():
+        pass
     def _listen(self, q, stop):
         while not stop.is_set():
             key = readchar.readkey()
@@ -247,9 +247,9 @@ ics_dummy_data_pls_delete_soon_thanks = {
         }
     }
 }
-def start_map():
+def start_map(ics_station_statuses, line_statuses):
     murp = Map()
-    murp.draw_ics_stations(ics_dummy_data_pls_delete_soon_thanks)
+    murp.draw_ics_stations(ics_station_statuses)
     murp.start()
     try:
     # caches all but queue to gaurantee murp stops
@@ -277,5 +277,3 @@ def start_map():
             time.sleep(0.05)
     finally:
         murp.stop()
-
-start_map()

@@ -8,6 +8,7 @@ load_dotenv()
 
 DP = Path("data/")
 
+
 logger = logging.getLogger(__name__)
 lines = json.loads((DP / "_lines.json").read_text())
 stations = json.loads((DP / "_stations.json").read_text())

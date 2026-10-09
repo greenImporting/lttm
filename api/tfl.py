@@ -65,8 +65,7 @@ def bulk_station_distruptions(ids, chunk=20):
 
 def line_statuses():
     r = call(cfg.LINE_STATUS_EP)
-    return json.dumps(r.json(), indent=2)
+    return r.json()
 
 def station_statuses():
-    r = bulk_station_distruptions(cfg.station_ids)
-    return json.dumps(r, indent=2)
+    return bulk_station_distruptions(cfg.station_ids)

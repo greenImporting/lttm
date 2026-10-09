@@ -1,0 +1,1 @@
+from .map import start_map
