@@ -5,11 +5,24 @@ import time
 import readchar
 import threading
 import queue
+from dataclasses import dataclass
 
 #TODO LIST:
 # - actually just fix formatting overall
 # - test and measure performance for large amount of objects
 # - zooming logic (1 -> 16x~ only)
+
+@dataclass
+# note4self:
+# @dataclass is a decorator that auto generates init, repr and eq from calss level type
+# annotated attributes.
+# learnt this trick from a plumber
+class Station:
+    x: int
+    y: int
+    w: int
+    h: int
+    station_sprite: list[list[str]]
 class Map:
     def __init__(self):
         tsize = shutil.get_terminal_size(fallback=(80,30)) #
@@ -21,7 +34,7 @@ class Map:
         self._dirty = True
 
         self.object = {} #([name] = [xpos, ypos, sprite])
-        self._station_keys = {} # station key index (seto'objectnames)
+        self.stations = {} #station_id-> Station
 
         self.cam_xpos = 0
         self.cam_ypos = 0
@@ -76,8 +89,7 @@ class Map:
         if current:
             lines.append(current)
         return lines
-
-    def draw_station(self, station_id_ics, xpos, ypos, w, h, title="", rows=None):
+    def build_station(self, w, h, title="", rows=None):
         rows = rows or []
 
         if w < 2 or h < 2:
@@ -87,51 +99,44 @@ class Map:
         inner_h = h - 2
 
         if inner_w <= 0 or inner_h <= 0:
-            return 
+            return
         
-        items = [] 
+        station_sprite = [[" "] * w for _ in range(h)]
         for i in range(w):
-            # example: 1002018:t:4 = [(5+4),6, "─" ]
-            # 1002018:b:4 = [(5+4),(6+3 - 1), "─" ] (last row)
-            items.append((f"{station_id_ics}:t:{i}", xpos + i, ypos, "─"))
-            items.append((f"{station_id_ics}:b:{i}", xpos + i, ypos + h - 1, "─"))
-        
+            station_sprite[0][i] = "─"
+            station_sprite[h-1][i] = "─"
         for j in range(h):
-            items.append((f"{station_id_ics}:l:{j}", xpos, ypos+ j, "│"))
-            items.append((f"{station_id_ics}:r:{j}", xpos + w - 1, ypos + j, "│"))
-        items += [ # learnt this trick from a plumber
-            (f"{station_id_ics}:tl", xpos, ypos, "┌"),
-            (f"{station_id_ics}:tr", xpos + w - 1, ypos, "┐"),
-            (f"{station_id_ics}:bl", xpos, ypos + h - 1, "└"),
-            (f"{station_id_ics}:br", xpos + w - 1, ypos + h - 1, "┘")
-        ]
+            station_sprite[j][0] = "│"
+            station_sprite[j][w-1] = "│"
+        
+        station_sprite[0][0] = "┌"
+        station_sprite[0][w - 1] = "┐"
+        station_sprite[h - 1][0] = "└"
+        station_sprite[h - 1][w - 1] = "┘"
+
         station_text = []
         if title and len(title) <= inner_w:
             station_text.append(title)
         station_text.extend(rows)
-
+        
         wrappedt = []
         for line in station_text:
             wrappedt.extend(self._wrap(line, inner_w))
+
         for row, line in enumerate(wrappedt[:inner_h]):
             for col, ch in enumerate(line[:inner_w]):
-                items.append((
-                    f"{station_id_ics}:txt:{row}:{col}",
-                    xpos + 1 + col, ypos + 1 + row, ch 
-                ))
+                station_sprite[row + 1][col + 1] = ch #+1 to skip bordr
+
+        return station_sprite
+
+    def draw_station(self, station_id_ics, xpos, ypos, w, h, title="", rows=None):
+
+        station_sprite = self.build_station(w, h, title, rows)
+        if station_sprite is None:
+            return
 
         with self._lock:
-            old = self._station_keys.pop(station_id_ics, None)
-            if old:
-                for o in old:
-                    self.object.pop(o, None)
-
-            new_keys = set()
-            obj = self.object
-            for name, ox, oy, ch in items: # objectxm,objecty, character
-                obj[name] = [ox, oy, ch]
-                new_keys.add(name)
-            self._station_keys[station_id_ics] = new_keys
+            self.stations[station_id_ics] = Station(xpos,ypos,w,h,station_sprite)
             self._dirty = True
 
     def draw_ics_stations(self, ics_data, tlx=1, tly=1, station_w=40, station_h=12, padding=1):
@@ -157,13 +162,6 @@ class Map:
                 x = tlx
                 y += station_h + padding
     
-    def move_cam(self, dx, dy):
-        with self._lock:
-            self.cam_xpos += dx
-            self.cam_ypos += dy
-            self._dirty = True
-
-    
     def render_map(self):
         
         # reuse grid and clea via slice assign
@@ -172,7 +170,7 @@ class Map:
                 return
             self._dirty = False
             cam_x, cam_y = self.cam_xpos, self.cam_ypos
-            objects = list(self.object.values())
+            stations = list(self.stations.values())
 
             grid = self._grid
             cols = self._cols
@@ -182,16 +180,25 @@ class Map:
                 row[:] = self._blank_row
                 # copied template list contents (no per row allocation)
 
-            # add thingys
-            for xpos, ypos, sprite in objects:
-                sx = xpos - cam_x
-                sy = ypos - cam_y
+            for station in stations:
+                sx = station.x - cam_x
+                sy = station.y - cam_y
                 # sx/sy = screen xpos/screen ypos
 
-                if 0 <= sx < cols  and 0 <= sy < rowns_n: 
-                    grid[sy][sx] = sprite
-                    # sxsy will allow the "camera" to move.
+                if sx >= cols or sy >= rowns_n or sx+station.w <= 0 or sy + station.h <= 0:
+                    continue # cull if fully off screen
             
+                x0 = max(0,-sy)
+                y0 = max(0,-sx)
+                x1 = min(station.w, cols - sx)
+                y1 = min(station.h, rowns_n - sy)
+
+                for row_y in range(y0, y1): #walk visible rows of sspirets
+                    grid_y = sy + row_y
+                    row = station.station_sprite[row_y]
+                    for row_x in range(x0,x1):
+                        grid[grid_y][sx+ row_x] = row[row_x] # screen col, rx = sprite col
+
             top = "┼" + "─" * cols + "┼"
             #TODO: add little help module at bottom 
             # f"arrows to pan | {time.strftime("%H:%M:%S")}"
@@ -202,6 +209,13 @@ class Map:
             sys.stdout.write("\x1b[H"+ "\n".join(ouptut)) #ansi escape code
             sys.stdout.flush()
 
+    def move_cam(self, dx, dy):
+        with self._lock:
+            self.cam_xpos += dx
+            self.cam_ypos += dy
+            self._dirty = True
+
+    
     def start(self):
         #check linjuxw/window
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -211,8 +225,15 @@ class Map:
         self._thread = threading.Thread(target=self._listen, args=(self._keys, self._stop), daemon=True)
         self._thread.start()
 
-    def _update():
-        pass
+    def update_station(self, station_id, xpos, ypos, w, h, title="", rows=None):
+        station_sprite = self.build_station(w,h,title,rows)
+        if station_sprite is None:
+            return
+        with self._lock:
+            self.stations[station_id] = Station(xpos,ypos,w,h,station_sprite)
+            self._dirty = True
+        
+
     def _listen(self, q, stop):
         while not stop.is_set():
             key = readchar.readkey()
@@ -277,3 +298,5 @@ def start_map(ics_station_statuses, line_statuses):
             time.sleep(0.05)
     finally:
         murp.stop()
+
+start_map(ics_dummy_data_pls_delete_soon_thanks, None)
