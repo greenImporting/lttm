@@ -5,10 +5,12 @@ import time
 import readchar
 import threading
 import queue
+import math
 from dataclasses import dataclass
 
 #TODO LIST:
 # - actually just fix formatting overall
+#   ^ 3+ stations break it, formatting for station names is TERRIBLE!!
 # - test and measure performance for large amount of objects
 # - zooming logic (1 -> 16x~ only)
 
@@ -33,7 +35,6 @@ class Map:
         self._stop = threading.Event()
         self._dirty = True
 
-        self.object = {} #([name] = [xpos, ypos, sprite])
         self.stations = {} #station_id-> Station
 
         self.cam_xpos = 0
@@ -48,15 +49,6 @@ class Map:
         self._grid = [[''] * self._cols for _ in range(self._rows)]
         self._blank_row = [' '] * self._cols
 
-    def add_object(self, name , xpos, ypos, charactr: str):
-        with self._lock:
-            self.object[name] = [xpos,ypos,charactr]
-            self._dirty = True 
-
-    def eviscerate_object(self, name):
-        with self._lock:
-            self.object.pop(name, None)
-            self._dirty = True
 
     def _wrap(self, text: str, width):
         # wrap text where text needs wrapped. assisted here
@@ -75,20 +67,51 @@ class Map:
         for word in words:
             if not current:
                 while len(word) > width:
-                    lines.append(word[:width])
-                    word = word[:width]
+                    #lines.append(word[:width])
+                    lines.append(word[width:])
+                    word = word[width:]
                 current = word
             elif len(current) + 1 + len(word) <= width:
                 current += " " + word
             else:
                 lines.append(current)
                 while len(word) > width:
-                    lines.append(word[:width])
-                    word = word[:width]
+                    lines.append(word[width:])
+                    word = word[width:]
                 current = word
         if current:
             lines.append(current)
         return lines
+
+    def _compute_geo_bounds(self, ics_data):
+        lats, lons = [], []
+        for entry in ics_data.values():
+            for stn in entry["stations"].values():
+                lats.append(stn["lat"])
+                lons.append(stn["lon"])
+        return min(lats), max(lats), min(lons), max(lons)
+        # TODO: check for no lat/lon
+    
+    def _project(self, lat,lon, bounds, cols, rows):
+        lat_min, lat_max, lon_min, lon_max = bounds
+        lon_span = lon_max- lon_min
+        lat_span = lat_max - lat_min
+        x = (lon - lon_min) / lon_span * cols if lon_span else cols / 2
+        y = (lat_max - lat) / lat_span * rows if lat_span else rows / 2
+
+        #guard against zero span bounds
+        return int(x), int(y * 0.5) # terminal makes it funky when not *0.5
+
+    def _ics_centroids(self, ics_data):
+        # means the lat and lon of each ics station (average centre if multiple staions)
+        out = {}
+        for ics, entry in ics_data.items():
+            stations = list(entry["stations"].values())
+            out[ics] = (
+                sum(stn["lat"] for stn in stations) / len(stations),
+                sum(stn["lon"] for stn in stations) / len(stations)
+            )
+        return out
     def build_station(self, w, h, title="", rows=None):
         rows = rows or []
 
@@ -115,7 +138,7 @@ class Map:
         station_sprite[h - 1][w - 1] = "┘"
 
         station_text = []
-        if title and len(title) <= inner_w:
+        if title:
             station_text.append(title)
         station_text.extend(rows)
         
@@ -140,22 +163,36 @@ class Map:
             self._dirty = True
 
     def draw_ics_stations(self, ics_data, tlx=1, tly=1, station_w=40, station_h=12, padding=1):
-        # tl* = top left x/y, such as x0 or y0
-        x, y = tlx, tly
-        for ics, entry in ics_data.items():
-            rows = []
-            stations = entry.get("stations", {})
-            first_station = next(iter(stations.values()), {}) #iterate over first stations
-            title = entry.get("name") or first_station.get("common_name", "")
-            for station_id, stati in entry.get("stations", {}).items():
-                if len(stations) > 1:
-                    rows.append(stati.get("common_name", "")) # can switch to using lookup table for common names (less reliance)
-                rows.append("lines: "+ ", ".join(stati.get("lines", [])))
-                rows.append("modes: "+", ".join(stati.get("modes", [])))
-                rows.append("status: " + stati.get("status", "?")) # placeholder for now. awaiting real data from api
-                rows.append("desc: " + stati.get("desc", "?"))
+        cols = self.w - 2
+        rows = (self.h -2) * 2 # * 2 bc y was halved
+        bounds = self._compute_geo_bounds(ics_data)
+        centroids = self._ics_centroids(ics_data)
+
+        for ics, (lat,lon) in centroids.items():
+            cx,cy = self._project(lat,lon,bounds, cols, rows) #centre x and y
+            # now anchor box at its centre
+            x = cx - station_w // 2
+            y = cy - station_h // 2
             
-            self.draw_station(ics, x, y, station_w, station_h, title, rows)
+            stn_rows = []
+            ics_entry = ics_data[ics]
+            stations_dict = ics_entry["stations"]
+            stations_list = list(stations_dict.values())
+            if not stations_list:
+                continue #nextiteration
+
+
+            title = stations_list[0].get("common_name", "")
+
+            for stati in stations_list:
+                if len(stations_list) > 1:
+                    stn_rows.append(stati.get("common_name", "")) # can switch to using lookup table for common names (less reliance)
+                stn_rows.append("lines: "+ ", ".join(stati.get("lines", [])))
+                stn_rows.append("modes: "+", ".join(stati.get("modes", [])))
+                stn_rows.append("status: " + stati.get("status", "?")) # placeholder for now. awaiting real data from api
+                stn_rows.append("desc: " + stati.get("desc", "?"))
+            
+            self.draw_station(ics, x, y, station_w, station_h, title, stn_rows)
 
             x += station_w + padding
             if x + padding > self.w:
@@ -188,8 +225,8 @@ class Map:
                 if sx >= cols or sy >= rowns_n or sx+station.w <= 0 or sy + station.h <= 0:
                     continue # cull if fully off screen
             
-                x0 = max(0,-sy)
-                y0 = max(0,-sx)
+                x0 = max(0,-sx)
+                y0 = max(0,-sy)
                 x1 = min(station.w, cols - sx)
                 y1 = min(station.h, rowns_n - sy)
 
@@ -259,15 +296,66 @@ ics_dummy_data_pls_delete_soon_thanks = {
     "1142069": {
         "stations": {
             "940GZZLUWLO": {
+                "lat": 51.5074,
+                "lon": -0.1278,
                 "common_name": "I Forgot Station",
                 "lines": ["bakerloo", "jubilee", "northern", "waterloo-city"],
                 "modes": ["tube"],
                 "status": "10",
                 "desc": "hello i am a description and i am used to describe things about this topic",
-            }
+            },
+            "940GZZLUKSX": {
+                "lat": 51.5308,
+                "lon": -0.1238,
+                "common_name": "Definitely Not King's Cross",
+                "lines": [
+                    "circle",
+                    "hammersmith-city",
+                    "metropolitan",
+                    "northern",
+                    "piccadilly",
+                    "victoria",
+                ],
+                "modes": ["tube"],
+                "status": "10",
+                "desc": "this is another completely legitimate dummy station for testing purposes",
+            },
+            "940GZZLUTST": {
+                "lat": 51.4995,
+                "lon": -0.1248,
+                "common_name": "Testy McTestface",
+                "lines": ["district", "circle"],
+                "modes": ["tube"],
+                "status": "10",
+                "desc": "a fictional test station added to the 1142069 dataset",
+            },
         }
-    }
+    },
+    "1001738": {
+        "stations": {
+            "940GZZLUFAK": {
+                "lat": 51.5234,
+                "lon": -0.1571,
+                "common_name": "Definitely A Real Station",
+                "lines": ["metropolitan", "circle", "hammersmith-city"],
+                "modes": ["tube"],
+                "status": "10",
+                "desc": "another dummy station entry for testing purposes; nothing suspicious here",
+            },
+            "940GZZLULOL": {
+                "lat": 51.5155,
+                "lon": -0.1419,
+                "common_name": "Totally Legit Station",
+                "lines": ["central", "victoria"],
+                "modes": ["tube"],
+                "status": "10",
+                "desc": "a fourth fictional station added for testing multiple stations under one ICS number",
+            },
+        }
+    },
 }
+
+
 def start_map(ics_station_statuses, line_statuses):
     murp = Map()
     murp.draw_ics_stations(ics_station_statuses)
