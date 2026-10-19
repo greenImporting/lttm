@@ -6,7 +6,6 @@ from . import config as cfg
 
 def clean_statuses(data):
     result = []
-    print(type(data))
     for d in data:
         result.append({
             "id": d.get("id"),
@@ -35,6 +34,8 @@ def format_to_ics(cleaned_station_data):
 
         outputer[ics_code]["stations"][station_id] = {
             "common_name": current_station.get("common_name"),
+            "lat": current_station.get("lat"),
+            "lon": current_station.get("lon"),
             "lines": [line.get("id") for line in current_station.get("lines", [])],
             "modes": current_station.get("modes", []),
             "status": station.get("statusSeverity"),

@@ -6,6 +6,7 @@ import readchar
 import threading
 import queue
 import math
+import logging
 from dataclasses import dataclass
 
 #TODO LIST:
@@ -13,6 +14,7 @@ from dataclasses import dataclass
 #   ^ 3+ stations break it, formatting for station names is TERRIBLE!!
 # - test and measure performance for large amount of objects
 # - zooming logic (1 -> 16x~ only)
+logger = logging.getLogger(__name__)
 
 @dataclass
 # note4self:
@@ -27,7 +29,7 @@ class Station:
     station_sprite: list[list[str]]
 class Map:
     def __init__(self):
-        tsize = shutil.get_terminal_size(fallback=(80,30)) #
+        tsize = shutil.get_terminal_size(fallback=(80,30))
         self.w = tsize.columns
         self.h = tsize.lines
 
@@ -87,11 +89,18 @@ class Map:
         lats, lons = [], []
         for entry in ics_data.values():
             for stn in entry["stations"].values():
-                lats.append(stn["lat"])
-                lons.append(stn["lon"])
+                lat, lon = stn.get("lat"), stn.get("lon")
+                if lat is None or lon is None:
+                    continue
+                lats.append(lat)
+                lons.append(lon)
+        if not lats:
+            # no lats = no lons aswel
+            logger.warn(f"returning default vAlues")
+            return 0.0,1.0,0.0,1.0 
         return min(lats), max(lats), min(lons), max(lons)
-        # TODO: check for no lat/lon
-    
+
+
     def _project(self, lat,lon, bounds, cols, rows):
         lat_min, lat_max, lon_min, lon_max = bounds
         lon_span = lon_max- lon_min
@@ -194,10 +203,6 @@ class Map:
             
             self.draw_station(ics, x, y, station_w, station_h, title, stn_rows)
 
-            x += station_w + padding
-            if x + padding > self.w:
-                x = tlx
-                y += station_h + padding
     
     def render_map(self):
         
@@ -291,71 +296,6 @@ class Map:
         sys.stdout.write("\x1b[?25h\n")# shows cursor
 
 
-# dummy data because i want to know it works  ˶ᵔᵕᵔ˶
-ics_dummy_data_pls_delete_soon_thanks = {
-    "1142069": {
-        "stations": {
-            "940GZZLUWLO": {
-                "lat": 51.5074,
-                "lon": -0.1278,
-                "common_name": "I Forgot Station",
-                "lines": ["bakerloo", "jubilee", "northern", "waterloo-city"],
-                "modes": ["tube"],
-                "status": "10",
-                "desc": "hello i am a description and i am used to describe things about this topic",
-            },
-            "940GZZLUKSX": {
-                "lat": 51.5308,
-                "lon": -0.1238,
-                "common_name": "Definitely Not King's Cross",
-                "lines": [
-                    "circle",
-                    "hammersmith-city",
-                    "metropolitan",
-                    "northern",
-                    "piccadilly",
-                    "victoria",
-                ],
-                "modes": ["tube"],
-                "status": "10",
-                "desc": "this is another completely legitimate dummy station for testing purposes",
-            },
-            "940GZZLUTST": {
-                "lat": 51.4995,
-                "lon": -0.1248,
-                "common_name": "Testy McTestface",
-                "lines": ["district", "circle"],
-                "modes": ["tube"],
-                "status": "10",
-                "desc": "a fictional test station added to the 1142069 dataset",
-            },
-        }
-    },
-    "1001738": {
-        "stations": {
-            "940GZZLUFAK": {
-                "lat": 51.5234,
-                "lon": -0.1571,
-                "common_name": "Definitely A Real Station",
-                "lines": ["metropolitan", "circle", "hammersmith-city"],
-                "modes": ["tube"],
-                "status": "10",
-                "desc": "another dummy station entry for testing purposes; nothing suspicious here",
-            },
-            "940GZZLULOL": {
-                "lat": 51.5155,
-                "lon": -0.1419,
-                "common_name": "Totally Legit Station",
-                "lines": ["central", "victoria"],
-                "modes": ["tube"],
-                "status": "10",
-                "desc": "a fourth fictional station added for testing multiple stations under one ICS number",
-            },
-        }
-    },
-}
-
-
 def start_map(ics_station_statuses, line_statuses):
     murp = Map()
     murp.draw_ics_stations(ics_station_statuses)
@@ -386,5 +326,3 @@ def start_map(ics_station_statuses, line_statuses):
             time.sleep(0.05)
     finally:
         murp.stop()
-
-start_map(ics_dummy_data_pls_delete_soon_thanks, None)
