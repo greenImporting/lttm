@@ -70,7 +70,7 @@ class Map:
             if not current:
                 while len(word) > width:
                     #lines.append(word[:width])
-                    lines.append(word[width:])
+                    lines.append(word[:width])
                     word = word[width:]
                 current = word
             elif len(current) + 1 + len(word) <= width:
@@ -96,7 +96,7 @@ class Map:
                 lons.append(lon)
         if not lats:
             # no lats = no lons aswel
-            logger.warn(f"returning default vAlues")
+            logger.warning(f"returning default vAlues")
             return 0.0,1.0,0.0,1.0 
         return min(lats), max(lats), min(lons), max(lons)
 
@@ -115,12 +115,23 @@ class Map:
         # means the lat and lon of each ics station (average centre if multiple staions)
         out = {}
         for ics, entry in ics_data.items():
-            stations = list(entry["stations"].values())
-            out[ics] = (
-                sum(stn["lat"] for stn in stations) / len(stations),
-                sum(stn["lon"] for stn in stations) / len(stations)
-            )
+            lats = []
+            longs = []
+
+            for station in entry["stations"].values():
+                lat = station.get("lat")
+                lon = station.get("lon")
+                if lat is not None and lon is not None:
+                    lats.append(lat)
+                    longs.append(lon)
+            
+            if lats: # if no lon then no lat
+                out[ics] = (
+                    sum(lats) / len(lats),
+                    sum(longs) / len(longs)
+                )
         return out
+
     def build_station(self, w, h, title="", rows=None):
         rows = rows or []
 
@@ -165,17 +176,24 @@ class Map:
 
         station_sprite = self.build_station(w, h, title, rows)
         if station_sprite is None:
+            logger.warning(f"build_station returned None for {station_id_ics}, ({w}x{h})")
             return
 
         with self._lock:
             self.stations[station_id_ics] = Station(xpos,ypos,w,h,station_sprite)
             self._dirty = True
+        
+        logger.info(f"stored station {station_id_ics}, total={len(self.stations)}")
 
     def draw_ics_stations(self, ics_data, tlx=1, tly=1, station_w=40, station_h=12, padding=1):
+        logger.info(f"draw_ics_stations: received {len(ics_data)} ICS entries")
+
         cols = self.w - 2
         rows = (self.h -2) * 2 # * 2 bc y was halved
         bounds = self._compute_geo_bounds(ics_data)
         centroids = self._ics_centroids(ics_data)
+
+        logger.info(f"draw_ics_stations: bounds={bounds}, centroids={len(centroids)}")
 
         for ics, (lat,lon) in centroids.items():
             cx,cy = self._project(lat,lon,bounds, cols, rows) #centre x and y
@@ -198,15 +216,19 @@ class Map:
                     stn_rows.append(stati.get("common_name", "")) # can switch to using lookup table for common names (less reliance)
                 stn_rows.append("lines: "+ ", ".join(stati.get("lines", [])))
                 stn_rows.append("modes: "+", ".join(stati.get("modes", [])))
-                stn_rows.append("status: " + stati.get("status", "?")) # placeholder for now. awaiting real data from api
-                stn_rows.append("desc: " + stati.get("desc", "?"))
+                stn_rows.append(f"status: {stati.get('status') or '?'}")
+                stn_rows.append(f"desc: {stati.get('desc') or '?'}")
             
+            logger.info(f"drawing {ics} at ({x},{y}), with size {station_w}x{station_h} ")
             self.draw_station(ics, x, y, station_w, station_h, title, stn_rows)
+        
+        logger.info(f"draw_ics_stations: built {len(self.stations)} station boxes")
 
     
     def render_map(self):
+        # logger.info(f"render_map: dirty={self._dirty}, stations={len(self.stations)}, grid={self._cols}x{self._rows}")
         
-        # reuse grid and clea via slice assign
+        # # reuse grid and clea via slice assign
         with self._lock:
             if not self._dirty:
                 return
