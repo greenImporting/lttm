@@ -1,31 +1,48 @@
 """ usage:
-line cleanup: call clean_statuses(data)
-station cleanup & format ( for map ): get_station_formatted_ics(data)
-"""
+- clean_line_statuses(data) - clean line status api data
+- get_station_formatted_ics(data) - format station status data (for map)"""
 from . import config as cfg
 
 def clean_line_statuses(data):
+    """get first status of each line"""
     result = []
-    for d in data:
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        # got told this is good practise to do
+
+        statuses = item.get("lineStatuses") or []
+        status = statuses[0] if statuses and isinstance(statuses[0], dict) else {}
         result.append({
-            "id": d.get("id"),
-            "statusSeverity": (d.get("lineStatuses") or [{}])[0].get("statusSeverity"),
-            "statusSeverityDescription": (d.get("lineStatuses") or [{}])[0].get("statusSeverityDescription"),
+            "id": item.get("id"),
+            "statusSeverity": status.get("statusSeverity"),
+            "statusSeverityDescription": status.get("statusSeverityDescription"),
         })
     return result
 
+def clean_station_statuses(data):
+    """get first status of each station"""
+    result = []
+    for item in data:
+        if not isinstance(item, dict):
+            cfg.logger.warning(f"{item} is not a dict")
+            continue
 
-def clean_distruption_statuses(data):
-    return
+        result.append({
+                "id": item.get("stationAtcoCode") or item.get("atcoCode"),
+                "statusSeverity": item.get("type"),
+                "statusSeverityDescription": item.get("description"),
+            })
+    return result
+
+
 
 def format_to_ics(cleaned_station_data):
     """
-    get all cleaned station data (id,status,desc),
-    get common name and ics code from cfg.stations,
-    wrap up into a nice package
+    group cleaned statsion data by ics code
     """
     outputer = {}
-    for station in cleaned_station_data:
+    for station in cleaned_station_data or []: # ^^
         station_id = station.get("id")
         current_station = cfg.stations.get(station_id)
 
@@ -33,9 +50,11 @@ def format_to_ics(cleaned_station_data):
             continue
 
         ics_code = current_station.get("ics_code")
-        #set ics as default cuz i wanna
-        outputer.setdefault(ics_code, {"stations": {}}) 
+        if not ics_code:
+            continue
 
+        outputer.setdefault(ics_code, {"stations": {}}) 
+        cfg.logger.info(f"{station}'s current_station={current_station}, ics_code={ics_code}")
         outputer[ics_code]["stations"][station_id] = {
             "common_name": current_station.get("common_name"),
             "lat": current_station.get("lat"),
@@ -48,38 +67,4 @@ def format_to_ics(cleaned_station_data):
     return outputer
 
 def get_station_formatted_ics(data):
-    return format_to_ics(clean_statuses(data))
-def clean_distruption_statuses(data):
-    return
-
-def format_to_ics(cleaned_station_data):
-    """
-    get all cleaned station data (id,status,desc),
-    get common name and ics code from cfg.stations,
-    wrap up into a nice package
-    """
-    outputer = {}
-    for station in cleaned_station_data:
-        station_id = station.get("id")
-        current_station = cfg.stations.get(station_id)
-
-        if not current_station:
-            continue
-
-        ics_code = current_station.get("ics_code")
-        #set ics as default cuz i wanna
-        outputer.setdefault(ics_code, {"stations": {}}) 
-
-        outputer[ics_code]["stations"][station_id] = {
-            "common_name": current_station.get("common_name"),
-            "lat": current_station.get("lat"),
-            "lon": current_station.get("lon"),
-            "lines": [line.get("id") for line in current_station.get("lines", [])],
-            "modes": current_station.get("modes", []),
-            "status": station.get("statusSeverity"),
-            "desc": station.get("statusSeverityDescription")
-        }
-    return outputer
-
-def get_station_formatted_ics(data):
-    return format_to_ics(clean_statuses(data))
+    return format_to_ics(clean_station_statuses(data))
