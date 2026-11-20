@@ -14,16 +14,20 @@ currently covers areas such as the tube lines, liz line, overground, dlr and tra
 
 ## milestones
 
-[~] ability to pull data from open apis <- i don't like distruption api so ill do it later
+[x] ability to pull data from open apis
 
 
 [x] show map
 
-[ ] sync data to map
+[x] sync data to map
 
-[ ] consistent map updates
+[ ] optional map updates (update w/ button press, on next map update, w/ 1+ min debounce)
 
-[ ] add more things in milestones 
+[ ] zoom function
+
+[ ] cleanup and be user friendly
+
+[ ] fix usage and publish
 
 ### ai usage disclosures
-deepseek ai (~ 4/10/26) was used to aid map production (specifically testing zooming in/tooltips (zooming in is so annoying))
+deepseek ai (~ 4/10/26) was used to aid map production

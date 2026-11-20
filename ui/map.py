@@ -41,6 +41,8 @@ class Map:
 
         self.cam_xpos = 0
         self.cam_ypos = 0
+        self.zoomed = False
+
 
         # preallocating render buffers
         # when resize logic comes round ( later icba now,)
@@ -311,6 +313,8 @@ class Map:
             elif key.lower() == "q":
                 stop.set()
                 q.put("q")
+            elif key.lower() == "z":
+                q.put("z")
 
     def stop(self):
         self._stop.set()
@@ -333,6 +337,11 @@ def start_map(ics_station_statuses, line_statuses):
                     if keyi == "q":
                         murp._stop.set()
                         break
+                    if keyi == "z":
+                        murp.zoomed = not murp.zoomed
+                        murp._dirty = True
+                        # zoom feature
+                        pass
                     if keyi == readchar.key.UP:
                         murp.move_cam(0, -1)
                     elif keyi == readchar.key.DOWN:
